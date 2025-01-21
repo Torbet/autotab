@@ -87,15 +87,15 @@ class ResidualAttentionBlock(nn.Module):
 
 
 class AudioEncoder(nn.Module):
-  def __init__(self, n_mels: int, n_ctx: int, n_state: int, n_head: int, n_layer: int):
+  def __init__(self, n_mels: int, n_audio_ctx: int, n_audio_state: int, n_audio_head: int, n_audio_layer: int, **kwargs):
     super().__init__()
-    self.conv1 = nn.Conv1d(n_mels, n_state, kernel_size=3, padding=1)
-    self.conv2 = nn.Conv1d(n_state, n_state, kernel_size=3, stride=2, padding=1)
-    self.register_buffer('positional_embedding', sinusoids(n_ctx, n_state))
+    self.conv1 = nn.Conv1d(n_mels, n_audio_state, kernel_size=3, padding=1)
+    self.conv2 = nn.Conv1d(n_audio_state, n_audio_state, kernel_size=3, stride=2, padding=1)
+    self.register_buffer('positional_embedding', sinusoids(n_audio_ctx, n_audio_state))
 
-    self.blocks = nn.Sequential(*[ResidualAttentionBlock(n_state, n_head) for _ in range(n_layer)])
+    self.blocks = nn.Sequential(*[ResidualAttentionBlock(n_audio_state, n_audio_head) for _ in range(n_audio_layer)])
 
-    self.ln_post = nn.LayerNorm(n_state)
+    self.ln_post = nn.LayerNorm(n_audio_state)
 
   def forward(self):
     x = F.gelu(self.conv1(x))
@@ -109,14 +109,14 @@ class AudioEncoder(nn.Module):
 
 
 class TextDecoder(nn.Module):
-  def __init__(self, n_vocab: int, n_ctx: int, n_state: int, n_head: int, n_layer: int):
+  def __init__(self, n_vocab: int, n_text_ctx: int, n_text_state: int, n_text_head: int, n_text_layer: int, **kwargs):
     super().__init__()
-    self.token_embedding = nn.Embedding(n_vocab, n_state)
-    self.positional_embedding = nn.Parameter(torch.empty(n_ctx, n_state))
+    self.token_embedding = nn.Embedding(n_vocab, n_text_state)
+    self.positional_embedding = nn.Parameter(torch.empty(n_text_ctx, n_text_state))
 
-    self.blocks = nn.Sequential(*[ResidualAttentionBlock(n_state, n_head, cross_attention=True) for _ in range(n_layer)])
-    self.ln = nn.LayerNorm(n_state)
-    mask = torch.empty(n_ctx, n_ctx).fill_(-np.inf).triu(1)
+    self.blocks = nn.Sequential(*[ResidualAttentionBlock(n_text_state, n_text_head, cross_attention=True) for _ in range(n_text_layer)])
+    self.ln = nn.LayerNorm(n_text_state)
+    mask = torch.empty(n_text_ctx, n_text_ctx).fill_(-np.inf).triu(1)
     self.register_buffer('mask', mask, persistent=False)
 
   def forward(self, x: Tensor, xa: Tensor, kv_cache: Optional[Dict] = None):
@@ -131,9 +131,8 @@ class TextDecoder(nn.Module):
 class Model(nn.Module):
   def __init__(self, dims: ModelDimensions):
     super().__init__()
-    self.dims = dims
-    self.encoder = AudioEncoder(dims.n_mels, dims.n_audio_ctx, dims.n_audio_state, dims.n_audio_head, dims.n_audio_layer)
-    self.decoder = TextDecoder(dims.n_vocab, dims.n_text_ctx, dims.n_text_state, dims.n_text_head, dims.n_text_layer)
+    self.encoder = AudioEncoder(**dims)
+    self.decoder = TextDecoder(**dims)
 
   def forward(self):
     pass
