@@ -6,19 +6,6 @@ import torch.nn.functional as F
 from typing import Optional, Dict, Iterable
 
 
-class ModelDimensions:
-  n_mels: int
-  n_audio_ctx: int
-  n_audio_state: int
-  n_audio_head: int
-  n_audio_layer: int
-  n_vocab: int
-  n_text_ctx: int
-  n_text_state: int
-  n_text_head: int
-  n_text_layer: int
-
-
 def sinusoids(length, channels, max_timescale=10000):
   assert channels % 2 == 0
   log_timescale_increment = np.log(max_timescale) / (channels // 2 - 1)
@@ -129,7 +116,7 @@ class TextDecoder(nn.Module):
 
 
 class Model(nn.Module):
-  def __init__(self, dims: ModelDimensions):
+  def __init__(self, dims):
     super().__init__()
     self.encoder = AudioEncoder(**dims)
     self.decoder = TextDecoder(**dims)
