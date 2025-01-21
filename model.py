@@ -66,7 +66,7 @@ class MultiHeadAttention(nn.Module):
     return out, qk
 
 
-class ResidualAttentionBlock(nn.module):
+class ResidualAttentionBlock(nn.Module):
   def __init__(self, n_state: int, n_head: int, cross_attention: bool = False):
     super().__init__()
     self.attn = MultiHeadAttention(n_state, n_head)
