@@ -1,7 +1,11 @@
 import torch
+import torch.nn.functional as F
+import tiktoken
 import requests
-import librosa
+import base64
+import itertools
 from model import Model
+from audio import load_audio
 
 MODEL_URLS = {
   'tiny.en': 'https://openaipublic.azureedge.net/main/whisper/models/d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03/tiny.en.pt',
@@ -17,13 +21,186 @@ MODEL_URLS = {
   'large': 'https://openaipublic.azureedge.net/main/whisper/models/81f7c96c852ee8fc832187b0132e569d6c3065a3252ed18e56effd0b6a73e524/large-v2.pt',
 }
 
+LANGUAGES = {
+  'en': 'english',
+  'zh': 'chinese',
+  'de': 'german',
+  'es': 'spanish',
+  'ru': 'russian',
+  'ko': 'korean',
+  'fr': 'french',
+  'ja': 'japanese',
+  'pt': 'portuguese',
+  'tr': 'turkish',
+  'pl': 'polish',
+  'ca': 'catalan',
+  'nl': 'dutch',
+  'ar': 'arabic',
+  'sv': 'swedish',
+  'it': 'italian',
+  'id': 'indonesian',
+  'hi': 'hindi',
+  'fi': 'finnish',
+  'vi': 'vietnamese',
+  'he': 'hebrew',
+  'uk': 'ukrainian',
+  'el': 'greek',
+  'ms': 'malay',
+  'cs': 'czech',
+  'ro': 'romanian',
+  'da': 'danish',
+  'hu': 'hungarian',
+  'ta': 'tamil',
+  'no': 'norwegian',
+  'th': 'thai',
+  'ur': 'urdu',
+  'hr': 'croatian',
+  'bg': 'bulgarian',
+  'lt': 'lithuanian',
+  'la': 'latin',
+  'mi': 'maori',
+  'ml': 'malayalam',
+  'cy': 'welsh',
+  'sk': 'slovak',
+  'te': 'telugu',
+  'fa': 'persian',
+  'lv': 'latvian',
+  'bn': 'bengali',
+  'sr': 'serbian',
+  'az': 'azerbaijani',
+  'sl': 'slovenian',
+  'kn': 'kannada',
+  'et': 'estonian',
+  'mk': 'macedonian',
+  'br': 'breton',
+  'eu': 'basque',
+  'is': 'icelandic',
+  'hy': 'armenian',
+  'ne': 'nepali',
+  'mn': 'mongolian',
+  'bs': 'bosnian',
+  'kk': 'kazakh',
+  'sq': 'albanian',
+  'sw': 'swahili',
+  'gl': 'galician',
+  'mr': 'marathi',
+  'pa': 'punjabi',
+  'si': 'sinhala',
+  'km': 'khmer',
+  'sn': 'shona',
+  'yo': 'yoruba',
+  'so': 'somali',
+  'af': 'afrikaans',
+  'oc': 'occitan',
+  'ka': 'georgian',
+  'be': 'belarusian',
+  'tg': 'tajik',
+  'sd': 'sindhi',
+  'gu': 'gujarati',
+  'am': 'amharic',
+  'yi': 'yiddish',
+  'lo': 'lao',
+  'uz': 'uzbek',
+  'fo': 'faroese',
+  'ht': 'haitian creole',
+  'ps': 'pashto',
+  'tk': 'turkmen',
+  'nn': 'nynorsk',
+  'mt': 'maltese',
+  'sa': 'sanskrit',
+  'lb': 'luxembourgish',
+  'my': 'myanmar',
+  'bo': 'tibetan',
+  'tl': 'tagalog',
+  'mg': 'malagasy',
+  'as': 'assamese',
+  'tt': 'tatar',
+  'haw': 'hawaiian',
+  'ln': 'lingala',
+  'ha': 'hausa',
+  'ba': 'bashkir',
+  'jw': 'javanese',
+  'su': 'sundanese',
+}
+
 
 def load_model(model_name: str = 'tiny.en') -> Model:
   state = torch.hub.load_state_dict_from_url(MODEL_URLS[model_name])
   model = Model(state['dims'])
+  model.load_state_dict(state['model_state_dict'])
   return model
 
 
+def get_encoding(name: str):
+  url = f'https://raw.githubusercontent.com/openai/whisper/main/whisper/assets/{name}.tiktoken'
+  response = requests.get(url).text
+  ranks = {base64.b64decode(token): int(rank) for token, rank in (line.split() for line in response.splitlines())}
+  n_vocab = len(ranks)
+  specials = [
+    '<|endoftext|>',
+    '<|startoftranscript|>',
+    *[f'<|{lang}|>' for lang in LANGUAGES.keys()],
+    '<|translate|>',
+    '<|transcribe|>',
+    '<|startoflm|>',
+    '<|startofprev|>',
+    '<|nospeech|>',
+    '<|notimestamps|>',
+    *[f'<|{i * 0.02:.2f}|>' for i in range(1501)],
+  ]
+
+  special_tokens = dict(zip(specials, range(n_vocab, n_vocab + len(specials))))
+  n_vocab += len(specials)
+
+  return tiktoken.Encoding(
+    name=name,
+    explicit_n_vocab=n_vocab,
+    pat_str=r"""'s|'t|'re|'ve|'m|'ll|'d| ?\p{L}+| ?\p{N}+| ?[^\s\p{L}\p{N}]+|\s+(?!\S)|\s+""",
+    mergeable_ranks=ranks,
+    special_tokens=special_tokens,
+  )
+
+
+SAMPLE_RATE = 16000
+N_FFT = 400
+N_MELS = 80
+HOP_LENGTH = 160
+SAMPLES_PER_SEGMENT = SAMPLE_RATE * 30
+FRAMES_PER_SEGMENT = SAMPLES_PER_SEGMENT // HOP_LENGTH
+
+
+def transcribe(model, tokenizer, audio, temperature=0.0):
+  encoded_audio = model.encoder(audio.unsqueeze(0))
+  tokens = torch.tensor(
+    [[tokenizer._special_tokens['<|startoftranscript|>'], tokenizer._special_tokens['<|notimestamps|>']]], device=encoded_audio.device
+  )
+  eot = tokenizer._special_tokens['<|endoftext|>']
+
+  max_tokens = model.decoder.n_text_ctx - len(tokens[0])
+
+  for _ in range(max_tokens):
+    with torch.no_grad():
+      logits = model.decoder(tokens, encoded_audio)
+
+    probs = F.softmax(logits[:, -1] / max(0.0001, temperature), dim=-1)
+
+    if temperature <= 0:
+      next_token = torch.argmax(probs, dim=-1).unsqueeze(-1)
+    else:
+      next_token = torch.multinomial(probs, num_samples=1)
+
+    tokens = torch.cat([tokens, next_token], dim=-1)
+
+    if next_token.item() == eot:
+      break
+
+  text = tokenizer.decode(tokens[0].tolist()).strip()
+  return text
+
+
 if __name__ == '__main__':
-  model = load_model()
-  print(model)
+  model = load_model('tiny.en')
+  tokenizer = get_encoding('gpt2')
+  audio = load_audio('data/sample.wav')
+  text = transcribe(model, tokenizer, audio)
+  print(text)

@@ -3,7 +3,7 @@ import torch
 from torch import Tensor
 import torch.nn as nn
 import torch.nn.functional as F
-from typing import Optional, Dict, Iterable
+from typing import Optional, Dict, Iterable, Tuple
 
 
 def sinusoids(length, channels, max_timescale=10000):
@@ -23,34 +23,45 @@ class MultiHeadAttention(nn.Module):
     self.value = nn.Linear(n_state, n_state)
     self.out = nn.Linear(n_state, n_state)
 
-  def forward(self, x: Tensor, xa: Optional[Tensor] = None, mask: Optional[Tensor] = None, kv_cache: Optional[Dict] = None):
+  def forward(
+    self, x: torch.Tensor, xa: Optional[torch.Tensor] = None, mask: Optional[torch.Tensor] = None, kv_cache: Optional[Dict] = None
+  ) -> Tuple[torch.Tensor, torch.Tensor]:
     q = self.query(x)
 
-    if kv_cache is None or xa is None or self.key not in kv_cache:
-      k, v = self.key(x if xa is None else xa), self.value(x if xa is None else xa)
+    # Fix: Use string keys for kv_cache instead of the layer objects
+    if kv_cache is None or xa is None or 'k' not in kv_cache:
+      # Compute key and value if not cached
+      k = self.key(x if xa is None else xa)
+      v = self.value(x if xa is None else xa)
+      if kv_cache is not None:
+        kv_cache['k'] = k
+        kv_cache['v'] = v
     else:
-      k, v = kv_cache[self.key], kv_cache[self.value]
+      # Use cached key and value
+      k = kv_cache['k']
+      v = kv_cache['v']
 
     wv, qk = self.qkv_attention(q, k, v, mask)
     return self.out(wv), qk
 
-  def qkv_attention(self, q: Tensor, k: Tensor, v: Tensor, mask: Optional[Tensor] = None):
+  def qkv_attention(
+    self, q: torch.Tensor, k: torch.Tensor, v: torch.Tensor, mask: Optional[torch.Tensor] = None
+  ) -> Tuple[torch.Tensor, torch.Tensor]:
     n_batch, n_ctx, n_state = q.shape
     scale = (n_state // self.n_head) ** -0.25
     q = q.view(*q.shape[:2], self.n_head, -1).permute(0, 2, 1, 3)
     k = k.view(*k.shape[:2], self.n_head, -1).permute(0, 2, 1, 3)
     v = v.view(*v.shape[:2], self.n_head, -1).permute(0, 2, 1, 3)
 
-    qk = (q * scale) @ (k * scale).transpose(-1, -2)
+    qk = torch.matmul(q * scale, (k * scale).transpose(-1, -2))
     if mask is not None:
       qk = qk + mask[:n_ctx, :n_ctx]
     qk = qk.float()
 
     w = F.softmax(qk, dim=-1).to(q.dtype)
-    out = (w @ v).permute(0, 2, 1, 3).flatten(start_dim=2)
-    qk = qk.detach()
+    out = torch.matmul(w, v).permute(0, 2, 1, 3).flatten(start_dim=2)
 
-    return out, qk
+    return out, qk.detach()
 
 
 class ResidualAttentionBlock(nn.Module):
@@ -65,7 +76,9 @@ class ResidualAttentionBlock(nn.Module):
     self.mlp = nn.Sequential(nn.Linear(n_state, n_state * 4), nn.GELU(), nn.Linear(n_state * 4, n_state))
     self.mlp_ln = nn.LayerNorm(n_state)
 
-  def forward(self, x: Tensor, xa: Optional[Tensor] = None, mask: Optional[Tensor] = None, kv_cache: Optional[Dict] = None):
+  def forward(
+    self, x: torch.Tensor, xa: Optional[torch.Tensor] = None, mask: Optional[torch.Tensor] = None, kv_cache: Optional[Dict] = None
+  ) -> torch.Tensor:
     x = x + self.attn(self.attn_ln(x), mask=mask, kv_cache=kv_cache)[0]
     if self.cross_attn:
       x = x + self.cross_attn(self.cross_attn_ln(x), xa, kv_cache=kv_cache)[0]
@@ -84,7 +97,7 @@ class AudioEncoder(nn.Module):
 
     self.ln_post = nn.LayerNorm(n_audio_state)
 
-  def forward(self):
+  def forward(self, x: Tensor):
     x = F.gelu(self.conv1(x))
     x = F.gelu(self.conv2(x))
     x = x.permute(0, 2, 1)
@@ -98,19 +111,34 @@ class AudioEncoder(nn.Module):
 class TextDecoder(nn.Module):
   def __init__(self, n_vocab: int, n_text_ctx: int, n_text_state: int, n_text_head: int, n_text_layer: int, **kwargs):
     super().__init__()
+    self.n_text_ctx = n_text_ctx
+    self.max_tokens_to_sample = n_text_ctx // 2
     self.token_embedding = nn.Embedding(n_vocab, n_text_state)
     self.positional_embedding = nn.Parameter(torch.empty(n_text_ctx, n_text_state))
 
-    self.blocks = nn.Sequential(*[ResidualAttentionBlock(n_text_state, n_text_head, cross_attention=True) for _ in range(n_text_layer)])
+    self.blocks = nn.ModuleList([ResidualAttentionBlock(n_text_state, n_text_head, cross_attention=True) for _ in range(n_text_layer)])
     self.ln = nn.LayerNorm(n_text_state)
     mask = torch.empty(n_text_ctx, n_text_ctx).fill_(-np.inf).triu(1)
     self.register_buffer('mask', mask, persistent=False)
 
   def forward(self, x: Tensor, xa: Tensor, kv_cache: Optional[Dict] = None):
-    offset = next(iter(kv_cache.values())).shape[1] if kv_cache else 0
-    x = self.token_embedding(x) + self.positional_embedding[offset : offset + x.shape[-1]]
-    x = self.blocks(x, xa, self.mask, kv_cache=kv_cache)
+    # Ensure we don't exceed the maximum context length
+    seq_len = min(x.shape[-1], self.n_text_ctx)
+    x = x[:, :seq_len]  # Truncate if necessary
+
+    # Get embeddings
+    token_emb = self.token_embedding(x)
+    pos_emb = self.positional_embedding[:seq_len]
+
+    # Combine embeddings
+    x = token_emb + pos_emb
+
+    # Process through transformer blocks
+    for block in self.blocks:
+      x = block(x, xa, mask=self.mask[:seq_len, :seq_len], kv_cache=kv_cache)
+
     x = self.ln(x)
+    # Project back to vocabulary
     x = x @ self.token_embedding.weight.T
     return x
 
@@ -121,5 +149,5 @@ class Model(nn.Module):
     self.encoder = AudioEncoder(**dims)
     self.decoder = TextDecoder(**dims)
 
-  def forward(self):
-    pass
+  def forward(self, mel: Tensor, tokens: Tensor):
+    return self.decoder(tokens, self.encoder(mel))
