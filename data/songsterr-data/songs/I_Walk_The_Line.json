@@ -1,0 +1,245 @@
+{
+    "song_id": 306,
+    "revision_id": 807772,
+    "prev_revision_id": 807747,
+    "image": "v3-5-8-GM5U2staspPkvFN1",
+    "name": "I_Walk_The_Line",
+    "tracks": [
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 90,
+            "name": "Johnny Cash (Vocals)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "vocals_YhiGDgUA",
+            "title": "Johnny Cash (Vocals) - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 23508,
+            "name": "Johnny Cash (Lead)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_6CKXsT3V",
+            "title": "Johnny Cash (Lead) - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 329,
+            "name": "Johnny Cash (Rhythm)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_HCSvS6xp",
+            "title": "Johnny Cash (Rhythm) - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 32,
+            "instrument": "Acoustic Bass",
+            "views": 1959,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_zfXWbQ6J",
+            "title": "Acoustic Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 42,
+            "name": "",
+            "hash": "drums_ZSpciD7b",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 28,
+            "instrument": "Electric Guitar (muted)",
+            "views": 22,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_yRdkm7si",
+            "title": "Electric Guitar (muted)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 90,
+            "name": "Johnny Cash (Vocals)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "vocals_YhiGDgUA",
+            "title": "Johnny Cash (Vocals) - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 23508,
+            "name": "Johnny Cash (Lead)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_6CKXsT3V",
+            "title": "Johnny Cash (Lead) - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 329,
+            "name": "Johnny Cash (Rhythm)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_HCSvS6xp",
+            "title": "Johnny Cash (Rhythm) - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 32,
+            "instrument": "Acoustic Bass",
+            "views": 1959,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_zfXWbQ6J",
+            "title": "Acoustic Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 42,
+            "name": "",
+            "hash": "drums_ZSpciD7b",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 28,
+            "instrument": "Electric Guitar (muted)",
+            "views": 22,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_yRdkm7si",
+            "title": "Electric Guitar (muted)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5
+        }
+    ]
+}

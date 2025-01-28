@@ -1,0 +1,200 @@
+{
+    "song_id": 10779,
+    "revision_id": 1229972,
+    "prev_revision_id": 1193571,
+    "image": "v3-5-26-rHiIaoDarD_3Rl4S",
+    "name": "Breed",
+    "tracks": [
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 10,
+            "name": "Kurt Cobain | Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_YlAW66gv",
+            "title": "Kurt Cobain | Vocals - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 46,
+            "name": "Krist Novoselic | Bass Effects",
+            "tuning": [
+                64,
+                59,
+                43,
+                38,
+                33,
+                28
+            ],
+            "difficulty": 3,
+            "hash": "guitar_XSEUNiVS",
+            "title": "Krist Novoselic | Bass Effects - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3699,
+            "name": "Kurt Cobain | Guitar | Dist.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_fcw2fQt3",
+            "title": "Kurt Cobain | Guitar | Dist. - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 706,
+            "name": "Krist Novoselic | Fuzz Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "guitar_XG88TOge",
+            "title": "Krist Novoselic | Fuzz Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 382,
+            "name": "Dave Grohl | Drums",
+            "hash": "drums_c7A3FSFV",
+            "title": "Dave Grohl | Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 10,
+            "name": "Kurt Cobain | Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_YlAW66gv",
+            "title": "Kurt Cobain | Vocals - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 46,
+            "name": "Krist Novoselic | Bass Effects",
+            "tuning": [
+                64,
+                59,
+                43,
+                38,
+                33,
+                28
+            ],
+            "difficulty": 3,
+            "hash": "guitar_XSEUNiVS",
+            "title": "Krist Novoselic | Bass Effects - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3699,
+            "name": "Kurt Cobain | Guitar | Dist.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_fcw2fQt3",
+            "title": "Kurt Cobain | Guitar | Dist. - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 706,
+            "name": "Krist Novoselic | Fuzz Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "guitar_XG88TOge",
+            "title": "Krist Novoselic | Fuzz Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 382,
+            "name": "Dave Grohl | Drums",
+            "hash": "drums_c7A3FSFV",
+            "title": "Dave Grohl | Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

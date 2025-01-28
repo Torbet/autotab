@@ -1,0 +1,200 @@
+{
+    "song_id": 4573,
+    "revision_id": 39870,
+    "prev_revision_id": null,
+    "image": "kS7kVhkDiMAIKCqQMewn7",
+    "name": "Surunmurhaaja",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2,
+            "name": "Kitara 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_S51yZ0pW",
+            "title": "Kitara 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2,
+            "name": "Kitara 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_y3WV7Ipj",
+            "title": "Kitara 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 47,
+            "name": "Basso",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_GM2kkGCc",
+            "title": "Basso - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 50,
+            "instrument": "SynthStrings 1",
+            "views": 0,
+            "name": "Syntikka",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_rEkTxnoT",
+            "title": "Syntikka - SynthStrings 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Rummut",
+            "hash": "drums_nqqjZY4P",
+            "title": "Rummut - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2,
+            "name": "Kitara 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_S51yZ0pW",
+            "title": "Kitara 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2,
+            "name": "Kitara 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_y3WV7Ipj",
+            "title": "Kitara 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 47,
+            "name": "Basso",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_GM2kkGCc",
+            "title": "Basso - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 50,
+            "instrument": "SynthStrings 1",
+            "views": 0,
+            "name": "Syntikka",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_rEkTxnoT",
+            "title": "Syntikka - SynthStrings 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Rummut",
+            "hash": "drums_nqqjZY4P",
+            "title": "Rummut - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

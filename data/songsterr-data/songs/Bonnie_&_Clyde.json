@@ -1,0 +1,202 @@
+{
+    "song_id": 6460,
+    "revision_id": 26582,
+    "prev_revision_id": null,
+    "image": "_Ba4580pIdfIolb_YrMnf",
+    "name": "Bonnie_&_Clyde",
+    "tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 18,
+            "name": "Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_5V2ElbJ6",
+            "title": "Vocal - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 154,
+            "name": "Leadguitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_FFHboPiV",
+            "title": "Leadguitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 19,
+            "name": "Rhythemguitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_rBsrrRru",
+            "title": "Rhythemguitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 32,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_CQ9tGPzo",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 24,
+            "name": "",
+            "hash": "drums_LB2kHWse",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 18,
+            "name": "Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_5V2ElbJ6",
+            "title": "Vocal - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 154,
+            "name": "Leadguitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_FFHboPiV",
+            "title": "Leadguitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 19,
+            "name": "Rhythemguitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_rBsrrRru",
+            "title": "Rhythemguitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 32,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_CQ9tGPzo",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 24,
+            "name": "",
+            "hash": "drums_LB2kHWse",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

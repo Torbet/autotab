@@ -1,0 +1,243 @@
+{
+    "song_id": 6137,
+    "revision_id": 351503,
+    "prev_revision_id": null,
+    "image": "_f3EelOPHx7ueLh_-9Ez3",
+    "name": "Zarouba",
+    "tracks": [
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_VOh9NNEZ",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_Lgaou2M7",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_dHzcapNi",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 4,
+            "hash": "guitar_kGXy9PdT",
+            "title": "Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 0,
+            "name": "Add Guitar / Delay",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 4,
+            "hash": "guitar_5NyAxTK1",
+            "title": "Add Guitar / Delay - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 89,
+            "instrument": "Pad 2 (warm)",
+            "views": 0,
+            "name": "Samples",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_byvZhF9d",
+            "title": "Samples - Pad 2 (warm)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_VOh9NNEZ",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_Lgaou2M7",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_dHzcapNi",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 4,
+            "hash": "guitar_kGXy9PdT",
+            "title": "Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 0,
+            "name": "Add Guitar / Delay",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 4,
+            "hash": "guitar_5NyAxTK1",
+            "title": "Add Guitar / Delay - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 89,
+            "instrument": "Pad 2 (warm)",
+            "views": 0,
+            "name": "Samples",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_byvZhF9d",
+            "title": "Samples - Pad 2 (warm)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

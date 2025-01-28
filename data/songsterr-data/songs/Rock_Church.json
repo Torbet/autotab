@@ -1,0 +1,241 @@
+{
+    "song_id": 5700,
+    "revision_id": 8960,
+    "prev_revision_id": null,
+    "image": "lhJio36pbaXn18688dg7b",
+    "name": "Rock_Church",
+    "tracks": [
+        {
+            "instrumentId": 19,
+            "instrument": "Church Organ",
+            "views": 0,
+            "name": "Raita 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_c1k2UtcR",
+            "title": "Raita 1 - Church Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Ly\u00f6m\u00e4soitin",
+            "hash": "drums_cYVnIOT5",
+            "title": "Ly\u00f6m\u00e4soitin - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Raita 3",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_sMZKbmln",
+            "title": "Raita 3 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Raita 4",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_dZ7P92tM",
+            "title": "Raita 4 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "Raita 5",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_BI4DDpWo",
+            "title": "Raita 5 - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 0,
+            "name": "Raita 6",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_BEuQfId8",
+            "title": "Raita 6 - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 19,
+            "instrument": "Church Organ",
+            "views": 0,
+            "name": "Raita 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_c1k2UtcR",
+            "title": "Raita 1 - Church Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Ly\u00f6m\u00e4soitin",
+            "hash": "drums_cYVnIOT5",
+            "title": "Ly\u00f6m\u00e4soitin - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Raita 3",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_sMZKbmln",
+            "title": "Raita 3 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Raita 4",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_dZ7P92tM",
+            "title": "Raita 4 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "Raita 5",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_BI4DDpWo",
+            "title": "Raita 5 - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 0,
+            "name": "Raita 6",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_BEuQfId8",
+            "title": "Raita 6 - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

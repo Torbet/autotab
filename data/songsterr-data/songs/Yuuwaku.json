@@ -1,0 +1,302 @@
+{
+    "song_id": 8418,
+    "revision_id": 781189,
+    "prev_revision_id": 40156,
+    "image": "v3-5-2-LB_Sk7r52YaCgKsf",
+    "name": "Yuuwaku",
+    "tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 4644,
+            "name": "Guitar I",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_y69oC2ij",
+            "title": "Guitar I - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1735,
+            "name": "Guitar II",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_xBNdWXyR",
+            "title": "Guitar II - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 8,
+            "name": "Guitar III",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_DDkguDyn",
+            "title": "Guitar III - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 65,
+            "name": "Guitar IV",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_w2X7jT1w",
+            "title": "Guitar IV - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 51,
+            "instrument": "SynthStrings 2",
+            "views": 5,
+            "name": "Keyboard",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_jtQVC38C",
+            "title": "Keyboard - SynthStrings 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 17,
+            "name": "Keyboard",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_BaxJUbs3",
+            "title": "Keyboard - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 1627,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_l9keeeYH",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 4644,
+            "name": "Guitar I",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_y69oC2ij",
+            "title": "Guitar I - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1735,
+            "name": "Guitar II",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_xBNdWXyR",
+            "title": "Guitar II - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 8,
+            "name": "Guitar III",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_DDkguDyn",
+            "title": "Guitar III - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 65,
+            "name": "Guitar IV",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_w2X7jT1w",
+            "title": "Guitar IV - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 51,
+            "instrument": "SynthStrings 2",
+            "views": 5,
+            "name": "Keyboard",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_jtQVC38C",
+            "title": "Keyboard - SynthStrings 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 17,
+            "name": "Keyboard",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_BaxJUbs3",
+            "title": "Keyboard - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 1627,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_l9keeeYH",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

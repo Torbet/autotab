@@ -1,0 +1,282 @@
+{
+    "song_id": 6331,
+    "revision_id": 8496,
+    "prev_revision_id": null,
+    "image": "LX1LmXrqpJYHhSKed18ao",
+    "name": "Lily_Of_Da_Valley",
+    "tracks": [
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 0,
+            "name": "Vo",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_VzL7Xd1a",
+            "title": "Vo - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 21,
+            "name": "Gt",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Ay1RcTd9",
+            "title": "Gt - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2,
+            "name": "Gt 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_dKxGolKq",
+            "title": "Gt 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 0,
+            "name": "Kb",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_EkfNrzWF",
+            "title": "Kb - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 2,
+            "instrument": "Electric Grand Piano",
+            "views": 0,
+            "name": "Kb 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_61A6aaPr",
+            "title": "Kb 2 - Electric Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_V1OfVc2C",
+            "title": "Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_gaOHWi9G",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 0,
+            "name": "Vo",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_VzL7Xd1a",
+            "title": "Vo - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 21,
+            "name": "Gt",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Ay1RcTd9",
+            "title": "Gt - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2,
+            "name": "Gt 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_dKxGolKq",
+            "title": "Gt 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 0,
+            "name": "Kb",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_EkfNrzWF",
+            "title": "Kb - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 2,
+            "instrument": "Electric Grand Piano",
+            "views": 0,
+            "name": "Kb 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_61A6aaPr",
+            "title": "Kb 2 - Electric Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_V1OfVc2C",
+            "title": "Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_gaOHWi9G",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

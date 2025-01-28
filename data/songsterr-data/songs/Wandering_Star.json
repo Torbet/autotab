@@ -1,0 +1,134 @@
+{
+    "song_id": 10152,
+    "revision_id": 12825,
+    "prev_revision_id": null,
+    "image": "hZF8QrjmTVvlJ4WT1RUni",
+    "name": "Wandering_Star",
+    "tracks": [
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 191,
+            "name": "Guitar1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_gkdwxuGA",
+            "title": "Guitar1 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 19,
+            "name": "Guitar2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Hg6KBQ9z",
+            "title": "Guitar2 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 1500,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_AKNWoglo",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 191,
+            "name": "Guitar1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_gkdwxuGA",
+            "title": "Guitar1 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 19,
+            "name": "Guitar2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Hg6KBQ9z",
+            "title": "Guitar2 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 1500,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_AKNWoglo",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

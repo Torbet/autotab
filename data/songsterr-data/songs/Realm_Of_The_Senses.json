@@ -1,0 +1,325 @@
+{
+    "song_id": 7923,
+    "revision_id": 295664,
+    "prev_revision_id": null,
+    "image": "Y5FO8-dkBOS7-q_xwwzKL",
+    "name": "Realm_Of_The_Senses",
+    "tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 674,
+            "name": "Lead",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_2UEzTMI8",
+            "title": "Lead - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 1,
+            "name": "K1",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_FcSTPY27",
+            "title": "K1 - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 107,
+            "instrument": "Koto",
+            "views": 0,
+            "name": "K2",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "hash": "other_lmDLAfzT",
+            "title": "K2 - Koto",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 46,
+            "instrument": "Orchestral Harp",
+            "views": 0,
+            "name": "K3",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_BUkuqaGr",
+            "title": "K3 - Orchestral Harp",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 42,
+            "name": "K4",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_eg4uSNSy",
+            "title": "K4 - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 1,
+            "name": "K5",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_kEDTU635",
+            "title": "K5 - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 39,
+            "instrument": "Synth Bass 2",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                21
+            ],
+            "hash": "bass_kLcoJ5iD",
+            "title": "Synth Bass 2",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percuss\u00e3o",
+            "hash": "drums_5Da9d0BH",
+            "title": "Percuss\u00e3o - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 674,
+            "name": "Lead",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_2UEzTMI8",
+            "title": "Lead - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 1,
+            "name": "K1",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_FcSTPY27",
+            "title": "K1 - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 107,
+            "instrument": "Koto",
+            "views": 0,
+            "name": "K2",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "hash": "other_lmDLAfzT",
+            "title": "K2 - Koto",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 46,
+            "instrument": "Orchestral Harp",
+            "views": 0,
+            "name": "K3",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_BUkuqaGr",
+            "title": "K3 - Orchestral Harp",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 42,
+            "name": "K4",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_eg4uSNSy",
+            "title": "K4 - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 1,
+            "name": "K5",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_kEDTU635",
+            "title": "K5 - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 39,
+            "instrument": "Synth Bass 2",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                21
+            ],
+            "hash": "bass_kLcoJ5iD",
+            "title": "Synth Bass 2",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percuss\u00e3o",
+            "hash": "drums_5Da9d0BH",
+            "title": "Percuss\u00e3o - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

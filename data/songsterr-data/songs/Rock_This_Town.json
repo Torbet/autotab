@@ -1,0 +1,116 @@
+{
+    "song_id": 1370,
+    "revision_id": 680883,
+    "prev_revision_id": 627792,
+    "image": "v3-4-4-u80kpYcRV3l2CReH",
+    "name": "Rock_This_Town",
+    "tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 10300,
+            "name": "Brians Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_QwIvmpwg",
+            "title": "Brians Guitar - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 32,
+            "instrument": "Acoustic Bass",
+            "views": 4986,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_NDzUstGW",
+            "title": "Acoustic Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 978,
+            "name": "Percussions",
+            "hash": "drums_iuE7OmCa",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 10300,
+            "name": "Brians Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_QwIvmpwg",
+            "title": "Brians Guitar - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 32,
+            "instrument": "Acoustic Bass",
+            "views": 4986,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_NDzUstGW",
+            "title": "Acoustic Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 978,
+            "name": "Percussions",
+            "hash": "drums_iuE7OmCa",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "song_id": 12093,
+    "revision_id": 16448,
+    "prev_revision_id": null,
+    "image": "SMBkPyOI4TzSNnMj3nPVZ",
+    "name": "Gyors",
+    "tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 0,
+            "name": "Boz\u00f3ki Marci - Ritmus Git\u00e1r",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_h2cOzlqM",
+            "title": "Boz\u00f3ki Marci - Ritmus Git\u00e1r - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "Bermann P\u00e9ter - Basszus",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_26DFwGAE",
+            "title": "Bermann P\u00e9ter - Basszus - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Dob",
+            "hash": "drums_QZbs0Ml8",
+            "title": "Dob - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 0,
+            "name": "Boz\u00f3ki Marci - Ritmus Git\u00e1r",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_h2cOzlqM",
+            "title": "Boz\u00f3ki Marci - Ritmus Git\u00e1r - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "Bermann P\u00e9ter - Basszus",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_26DFwGAE",
+            "title": "Bermann P\u00e9ter - Basszus - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Dob",
+            "hash": "drums_QZbs0Ml8",
+            "title": "Dob - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

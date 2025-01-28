@@ -1,0 +1,241 @@
+{
+    "song_id": 7715,
+    "revision_id": 1007501,
+    "prev_revision_id": 26911,
+    "image": "v3-5-24-_NcQdGdcP0zIhqyR",
+    "name": "Every_New_Day",
+    "tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "guitar1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_D178P1Jl",
+            "title": "guitar1 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "guitar2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_MnEOCOiq",
+            "title": "guitar2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 5,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_6hGmc34N",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_t1fS3TXM",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_GABpkle6",
+            "title": "Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 56,
+            "instrument": "Trumpet",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Knw1xlRZ",
+            "title": "Trumpet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "guitar1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_D178P1Jl",
+            "title": "guitar1 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "guitar2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_MnEOCOiq",
+            "title": "guitar2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 5,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_6hGmc34N",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_t1fS3TXM",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_GABpkle6",
+            "title": "Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 56,
+            "instrument": "Trumpet",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Knw1xlRZ",
+            "title": "Trumpet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

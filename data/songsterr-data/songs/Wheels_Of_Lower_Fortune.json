@@ -1,0 +1,291 @@
+{
+    "song_id": 6160,
+    "revision_id": 7617,
+    "prev_revision_id": null,
+    "image": "LSp33MbZ4z5iwp--QSJB2",
+    "name": "Wheels_Of_Lower_Fortune",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Rythmus-Gitarre",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_ZuRsuWUt",
+            "title": "Rythmus-Gitarre - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Lead-Gitarre",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_WMfa75hY",
+            "title": "Lead-Gitarre - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_2r2QzSDx",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussion",
+            "hash": "drums_vk2yDLaA",
+            "title": "Percussion - Drums 1",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Programming",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_IAMvDGS0",
+            "title": "Programming - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Bass-Drum",
+            "hash": "drums_yDG6qcwr",
+            "title": "Bass-Drum - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussion",
+            "hash": "drums_N40f5fJq",
+            "title": "Percussion - Drums 2",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 0,
+            "name": "Spur 8",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_YFTlfxZg",
+            "title": "Spur 8 - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Rythmus-Gitarre",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_ZuRsuWUt",
+            "title": "Rythmus-Gitarre - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Lead-Gitarre",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_WMfa75hY",
+            "title": "Lead-Gitarre - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_2r2QzSDx",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussion",
+            "hash": "drums_vk2yDLaA",
+            "title": "Percussion - Drums 1",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Programming",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_IAMvDGS0",
+            "title": "Programming - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Bass-Drum",
+            "hash": "drums_yDG6qcwr",
+            "title": "Bass-Drum - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussion",
+            "hash": "drums_N40f5fJq",
+            "title": "Percussion - Drums 2",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 0,
+            "name": "Spur 8",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_YFTlfxZg",
+            "title": "Spur 8 - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

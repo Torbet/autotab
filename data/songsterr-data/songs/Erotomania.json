@@ -1,0 +1,254 @@
+{
+    "song_id": 5793,
+    "revision_id": 861951,
+    "prev_revision_id": 858785,
+    "image": "v3-5-20-CDgo-lwhITFF0MJ6",
+    "name": "Erotomania",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 35608,
+            "name": "John Petrucci (Guitar 1)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_i4ElONpu",
+            "title": "John Petrucci (Guitar 1) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 558,
+            "name": "John Petrucci (Guitar 2)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_9zfDxJGE",
+            "title": "John Petrucci (Guitar 2) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 152,
+            "name": "Kevin Moore (Keyboard)",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                50
+            ],
+            "hash": "other_T1q0gVwf",
+            "title": "Kevin Moore (Keyboard) - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 5562,
+            "name": "John Myung (Bass)",
+            "tuning": [
+                48,
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_WL5GASLp",
+            "title": "John Myung (Bass) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Tambourine",
+            "hash": "drums_evJU9Gqs",
+            "title": "Tambourine - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Bell Tree",
+            "hash": "drums_o5wMJNoZ",
+            "title": "Bell Tree - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 536,
+            "name": "",
+            "hash": "drums_6XAki0XW",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 35608,
+            "name": "John Petrucci (Guitar 1)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_i4ElONpu",
+            "title": "John Petrucci (Guitar 1) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 558,
+            "name": "John Petrucci (Guitar 2)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_9zfDxJGE",
+            "title": "John Petrucci (Guitar 2) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 152,
+            "name": "Kevin Moore (Keyboard)",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                50
+            ],
+            "hash": "other_T1q0gVwf",
+            "title": "Kevin Moore (Keyboard) - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 5562,
+            "name": "John Myung (Bass)",
+            "tuning": [
+                48,
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_WL5GASLp",
+            "title": "John Myung (Bass) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Tambourine",
+            "hash": "drums_evJU9Gqs",
+            "title": "Tambourine - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Bell Tree",
+            "hash": "drums_o5wMJNoZ",
+            "title": "Bell Tree - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 536,
+            "name": "",
+            "hash": "drums_6XAki0XW",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

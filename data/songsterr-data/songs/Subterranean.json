@@ -1,0 +1,202 @@
+{
+    "song_id": 9983,
+    "revision_id": 1139633,
+    "prev_revision_id": 766002,
+    "image": "v3-5-26-T1wNAR9MwJcGQC7A",
+    "name": "Subterranean",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 45,
+            "name": "Glenn (Right Guitar)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_9k0UAy20",
+            "title": "Glenn (Right Guitar) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 22,
+            "name": "Jesper (Left Guitar)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_zN93px5Z",
+            "title": "Jesper (Left Guitar) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 10,
+            "name": "Additional Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_bedvQaJQ",
+            "title": "Additional Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 6,
+            "name": "Johann",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_agDqoV9Y",
+            "title": "Johann - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Bjorn ",
+            "hash": "drums_6vFCZOtV",
+            "title": "Bjorn  - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 45,
+            "name": "Glenn (Right Guitar)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_9k0UAy20",
+            "title": "Glenn (Right Guitar) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 22,
+            "name": "Jesper (Left Guitar)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_zN93px5Z",
+            "title": "Jesper (Left Guitar) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 10,
+            "name": "Additional Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_bedvQaJQ",
+            "title": "Additional Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 6,
+            "name": "Johann",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_agDqoV9Y",
+            "title": "Johann - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Bjorn ",
+            "hash": "drums_6vFCZOtV",
+            "title": "Bjorn  - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

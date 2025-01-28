@@ -1,0 +1,241 @@
+{
+    "song_id": 11336,
+    "revision_id": 1175761,
+    "prev_revision_id": 27730,
+    "image": "v3-5-26-K_eI1VrV1bahMJy8",
+    "name": "\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0439_\u0424\u043b\u043e\u0442",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 514,
+            "name": "\u0420\u0435\u043d\u0435\u0433\u0430\u0442 [Guitar I]",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_e9CdjXGh",
+            "title": "\u0420\u0435\u043d\u0435\u0433\u0430\u0442 [Guitar I] - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 65,
+            "name": "\u042f\u0448\u0430 [Guitar II]",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_6ZHmbLcI",
+            "title": "\u042f\u0448\u0430 [Guitar II] - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 162,
+            "name": "\u0411\u0430\u043b\u0443 [Bass]",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_reN0xbcP",
+            "title": "\u0411\u0430\u043b\u0443 [Bass] - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 6,
+            "name": "\u041a\u043d\u044f\u0437\u044c [Lyrics I]",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_qbgyqZG8",
+            "title": "\u041a\u043d\u044f\u0437\u044c [Lyrics I] - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 0,
+            "name": "\u0413\u043e\u0440\u0448\u043e\u043a [Lyrics II]",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_JrIVQYKq",
+            "title": "\u0413\u043e\u0440\u0448\u043e\u043a [Lyrics II] - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 70,
+            "name": "\u041f\u043e\u0440\u0443\u0447\u0438\u043a [Drums]",
+            "hash": "drums_IrVsOtBX",
+            "title": "\u041f\u043e\u0440\u0443\u0447\u0438\u043a [Drums] - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 514,
+            "name": "\u0420\u0435\u043d\u0435\u0433\u0430\u0442 [Guitar I]",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_e9CdjXGh",
+            "title": "\u0420\u0435\u043d\u0435\u0433\u0430\u0442 [Guitar I] - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 65,
+            "name": "\u042f\u0448\u0430 [Guitar II]",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_6ZHmbLcI",
+            "title": "\u042f\u0448\u0430 [Guitar II] - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 162,
+            "name": "\u0411\u0430\u043b\u0443 [Bass]",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_reN0xbcP",
+            "title": "\u0411\u0430\u043b\u0443 [Bass] - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 6,
+            "name": "\u041a\u043d\u044f\u0437\u044c [Lyrics I]",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_qbgyqZG8",
+            "title": "\u041a\u043d\u044f\u0437\u044c [Lyrics I] - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 0,
+            "name": "\u0413\u043e\u0440\u0448\u043e\u043a [Lyrics II]",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_JrIVQYKq",
+            "title": "\u0413\u043e\u0440\u0448\u043e\u043a [Lyrics II] - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 70,
+            "name": "\u041f\u043e\u0440\u0443\u0447\u0438\u043a [Drums]",
+            "hash": "drums_IrVsOtBX",
+            "title": "\u041f\u043e\u0440\u0443\u0447\u0438\u043a [Drums] - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

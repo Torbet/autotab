@@ -1,0 +1,181 @@
+{
+    "song_id": 11320,
+    "revision_id": 40385,
+    "prev_revision_id": null,
+    "image": "ZXHcUgr7YHlZVdzImLq6k",
+    "name": "Devil_Baby",
+    "tracks": [
+        {
+            "instrumentId": 21,
+            "instrument": "Accordion",
+            "views": 1,
+            "name": "Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_T5mTtJCl",
+            "title": "Vocals - Accordion",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 183,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_bUYHzksS",
+            "title": "Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 2,
+            "name": "Acoustic 2nd",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_NVWccqEC",
+            "title": "Acoustic 2nd - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 19,
+            "name": "E-Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_3CodjHqn",
+            "title": "E-Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 21,
+            "instrument": "Accordion",
+            "views": 1,
+            "name": "Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_T5mTtJCl",
+            "title": "Vocals - Accordion",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 183,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_bUYHzksS",
+            "title": "Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 2,
+            "name": "Acoustic 2nd",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_NVWccqEC",
+            "title": "Acoustic 2nd - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 19,
+            "name": "E-Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_3CodjHqn",
+            "title": "E-Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        }
+    ]
+}

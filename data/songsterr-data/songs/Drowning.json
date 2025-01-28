@@ -1,0 +1,159 @@
+{
+    "song_id": 4165,
+    "revision_id": 1061121,
+    "prev_revision_id": 263091,
+    "image": "v3-5-24-Cz79tzpxp3SUy4vb",
+    "name": "Drowning",
+    "tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 42,
+            "name": "Track 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Do47rGwM",
+            "title": "Track 1 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 2,
+            "name": "Track 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_U7qELQWU",
+            "title": "Track 2 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 32,
+            "instrument": "Acoustic Bass",
+            "views": 11,
+            "name": "Track 3",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_bhVNOISY",
+            "title": "Track 3 - Acoustic Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "\u041f\u0435\u0440\u043a\u0443\u0441\u0438\u0439",
+            "hash": "drums_SrXRXxft",
+            "title": "\u041f\u0435\u0440\u043a\u0443\u0441\u0438\u0439 - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 42,
+            "name": "Track 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Do47rGwM",
+            "title": "Track 1 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 2,
+            "name": "Track 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_U7qELQWU",
+            "title": "Track 2 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 32,
+            "instrument": "Acoustic Bass",
+            "views": 11,
+            "name": "Track 3",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_bhVNOISY",
+            "title": "Track 3 - Acoustic Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "\u041f\u0435\u0440\u043a\u0443\u0441\u0438\u0439",
+            "hash": "drums_SrXRXxft",
+            "title": "\u041f\u0435\u0440\u043a\u0443\u0441\u0438\u0439 - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

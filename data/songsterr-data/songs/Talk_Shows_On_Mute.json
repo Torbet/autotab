@@ -1,0 +1,116 @@
+{
+    "song_id": 9749,
+    "revision_id": 1028774,
+    "prev_revision_id": 12349,
+    "image": "v3-5-24-g6DFY5bLNoVtVaaE",
+    "name": "Talk_Shows_On_Mute",
+    "tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 391,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_k4Rbu8Zo",
+            "title": "Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 140,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_EzjmyLqG",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 366,
+            "name": "",
+            "hash": "drums_DW8lP3MX",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 391,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_k4Rbu8Zo",
+            "title": "Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 140,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_EzjmyLqG",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 366,
+            "name": "",
+            "hash": "drums_DW8lP3MX",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

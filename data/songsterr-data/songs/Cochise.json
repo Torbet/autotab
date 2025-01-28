@@ -1,0 +1,325 @@
+{
+    "song_id": 2026,
+    "revision_id": 1270487,
+    "prev_revision_id": 797851,
+    "image": "v3-5-26-mLXMGBrJ91Zl3D_s",
+    "name": "Cochise",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 22,
+            "name": "Guitar - Tom Morello",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_rRsJP4DM",
+            "title": "Guitar - Tom Morello - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar Effect Delay",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_EqoSFRYl",
+            "title": "Guitar Effect Delay - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 3,
+            "name": "Bass - Tim Commerford",
+            "tuning": [
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_PFfzsGzv",
+            "title": "Bass - Tim Commerford - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 38,
+            "instrument": "Synth Bass 1",
+            "views": 0,
+            "name": "Bass Effect Wah",
+            "tuning": [
+                50,
+                45,
+                40,
+                35,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_MsL3yi6D",
+            "title": "Bass Effect Wah - Synth Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 67,
+            "instrument": "Baritone Sax",
+            "views": 0,
+            "name": "Vocals - Chris Cornell",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_YOSBqp0A",
+            "title": "Vocals - Chris Cornell - Baritone Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 0,
+            "name": "Vocals - Tim Commerford",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_NggA7JTa",
+            "title": "Vocals - Tim Commerford - Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Drums - Brad Wilk",
+            "hash": "drums_X5DFqUhW",
+            "title": "Drums - Brad Wilk - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 125,
+            "instrument": "Helicopter",
+            "views": 0,
+            "name": "Intro Effect",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_gGrqrdRZ",
+            "title": "Intro Effect - Helicopter",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 22,
+            "name": "Guitar - Tom Morello",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_rRsJP4DM",
+            "title": "Guitar - Tom Morello - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar Effect Delay",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_EqoSFRYl",
+            "title": "Guitar Effect Delay - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 3,
+            "name": "Bass - Tim Commerford",
+            "tuning": [
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_PFfzsGzv",
+            "title": "Bass - Tim Commerford - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 38,
+            "instrument": "Synth Bass 1",
+            "views": 0,
+            "name": "Bass Effect Wah",
+            "tuning": [
+                50,
+                45,
+                40,
+                35,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_MsL3yi6D",
+            "title": "Bass Effect Wah - Synth Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 67,
+            "instrument": "Baritone Sax",
+            "views": 0,
+            "name": "Vocals - Chris Cornell",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_YOSBqp0A",
+            "title": "Vocals - Chris Cornell - Baritone Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 0,
+            "name": "Vocals - Tim Commerford",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_NggA7JTa",
+            "title": "Vocals - Tim Commerford - Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Drums - Brad Wilk",
+            "hash": "drums_X5DFqUhW",
+            "title": "Drums - Brad Wilk - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 125,
+            "instrument": "Helicopter",
+            "views": 0,
+            "name": "Intro Effect",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_gGrqrdRZ",
+            "title": "Intro Effect - Helicopter",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

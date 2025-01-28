@@ -1,0 +1,331 @@
+{
+    "song_id": 8801,
+    "revision_id": 1029453,
+    "prev_revision_id": 1029414,
+    "image": "v3-5-24-nC3AfIQGKj5OYo4P",
+    "name": "Celebrity_Skin",
+    "tracks": [
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 3630,
+            "name": "Basse",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_vjhAbz4E",
+            "title": "Basse - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5732,
+            "name": "Guitare 1 (son satur\u00e9)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_q6dcqZLF",
+            "title": "Guitare 1 (son satur\u00e9) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 139,
+            "name": "guitare 2 (son satur\u00e9)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_N7WQ4Hl1",
+            "title": "guitare 2 (son satur\u00e9) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 22,
+            "name": "guitare 3 (son satur\u00e9)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_wZvxbsuw",
+            "title": "guitare 3 (son satur\u00e9) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 190,
+            "name": "guitare 1 (clean)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_ujNfRJQh",
+            "title": "guitare 1 (clean) - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 523,
+            "name": "guitare 2 (clean)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_ly8VXsIR",
+            "title": "guitare 2 (clean) - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 537,
+            "name": "Guitare 3 (accoustique)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_7eY6QsYD",
+            "title": "Guitare 3 (accoustique) - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2623,
+            "name": "",
+            "hash": "drums_6K7iMrSK",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 3630,
+            "name": "Basse",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_vjhAbz4E",
+            "title": "Basse - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5732,
+            "name": "Guitare 1 (son satur\u00e9)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_q6dcqZLF",
+            "title": "Guitare 1 (son satur\u00e9) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 139,
+            "name": "guitare 2 (son satur\u00e9)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_N7WQ4Hl1",
+            "title": "guitare 2 (son satur\u00e9) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 22,
+            "name": "guitare 3 (son satur\u00e9)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_wZvxbsuw",
+            "title": "guitare 3 (son satur\u00e9) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 190,
+            "name": "guitare 1 (clean)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_ujNfRJQh",
+            "title": "guitare 1 (clean) - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 523,
+            "name": "guitare 2 (clean)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_ly8VXsIR",
+            "title": "guitare 2 (clean) - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 537,
+            "name": "Guitare 3 (accoustique)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_7eY6QsYD",
+            "title": "Guitare 3 (accoustique) - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2623,
+            "name": "",
+            "hash": "drums_6K7iMrSK",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

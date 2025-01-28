@@ -1,0 +1,200 @@
+{
+    "song_id": 8191,
+    "revision_id": 331201,
+    "prev_revision_id": null,
+    "image": "G4div4kQMnNK6entWSzDM",
+    "name": "Kunoichi",
+    "tracks": [
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 0,
+            "name": "Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_QQgkJrPy",
+            "title": "Vocal - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 124,
+            "name": "Guitar I",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_RCaWN5XA",
+            "title": "Guitar I - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 42,
+            "name": "Guitar II",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_zF3PQ9yd",
+            "title": "Guitar II - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 525,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_YE6TJKa1",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_X2sVX1yR",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 0,
+            "name": "Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_QQgkJrPy",
+            "title": "Vocal - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 124,
+            "name": "Guitar I",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_RCaWN5XA",
+            "title": "Guitar I - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 42,
+            "name": "Guitar II",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_zF3PQ9yd",
+            "title": "Guitar II - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 525,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_YE6TJKa1",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_X2sVX1yR",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

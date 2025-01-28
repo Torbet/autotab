@@ -1,0 +1,309 @@
+{
+    "song_id": 2243,
+    "revision_id": 25751,
+    "prev_revision_id": null,
+    "image": "nqEk_pJYLK6ZP-t_2UreK",
+    "name": "Ai_No_Prisoner",
+    "tracks": [
+        {
+            "instrumentId": 64,
+            "instrument": "Soprano Sax",
+            "views": 0,
+            "name": "Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_onE178hz",
+            "title": "Vocals - Soprano Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 64,
+            "instrument": "Soprano Sax",
+            "views": 0,
+            "name": "Chorus",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_KEiC1q4Z",
+            "title": "Chorus - Soprano Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 174,
+            "name": "Guitar I",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_DvPbZ91o",
+            "title": "Guitar I - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 22,
+            "name": "Guitar II",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_PNdLCjag",
+            "title": "Guitar II - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 34,
+            "name": "Guitar III",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_0WygGzYt",
+            "title": "Guitar III - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 6,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_393wcmYY",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "",
+            "hash": "drums_BgbzJRuq",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Drums #2",
+            "hash": "drums_04wZ5P2z",
+            "title": "Drums #2 - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 64,
+            "instrument": "Soprano Sax",
+            "views": 0,
+            "name": "Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_onE178hz",
+            "title": "Vocals - Soprano Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 64,
+            "instrument": "Soprano Sax",
+            "views": 0,
+            "name": "Chorus",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_KEiC1q4Z",
+            "title": "Chorus - Soprano Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 174,
+            "name": "Guitar I",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_DvPbZ91o",
+            "title": "Guitar I - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 22,
+            "name": "Guitar II",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_PNdLCjag",
+            "title": "Guitar II - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 34,
+            "name": "Guitar III",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_0WygGzYt",
+            "title": "Guitar III - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 6,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_393wcmYY",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "",
+            "hash": "drums_BgbzJRuq",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Drums #2",
+            "hash": "drums_04wZ5P2z",
+            "title": "Drums #2 - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

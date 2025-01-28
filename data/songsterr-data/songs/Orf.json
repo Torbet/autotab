@@ -1,0 +1,202 @@
+{
+    "song_id": 3541,
+    "revision_id": 39777,
+    "prev_revision_id": null,
+    "image": "tBCfneqtmtrlV7_eTdYqe",
+    "name": "Orf",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 207,
+            "name": "gtr lead",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_k2qk7kO4",
+            "title": "gtr lead - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 9,
+            "name": "gtr clean",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_TMpkLDbu",
+            "title": "gtr clean - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 12,
+            "name": "Piste 5",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 8,
+            "hash": "guitar_JZh4btaa",
+            "title": "Piste 5 - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "basse",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_DlhfdtUy",
+            "title": "basse - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 3,
+            "name": "Batterie",
+            "hash": "drums_klgwWOov",
+            "title": "Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 207,
+            "name": "gtr lead",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_k2qk7kO4",
+            "title": "gtr lead - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 9,
+            "name": "gtr clean",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_TMpkLDbu",
+            "title": "gtr clean - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 12,
+            "name": "Piste 5",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 8,
+            "hash": "guitar_JZh4btaa",
+            "title": "Piste 5 - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "basse",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_DlhfdtUy",
+            "title": "basse - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 3,
+            "name": "Batterie",
+            "hash": "drums_klgwWOov",
+            "title": "Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

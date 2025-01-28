@@ -1,0 +1,528 @@
+{
+    "song_id": 12499,
+    "revision_id": 15174,
+    "prev_revision_id": null,
+    "image": "ZlkeKMJe8DooPtDABJE27",
+    "name": "Les_Coulisses_Du_Temps",
+    "tracks": [
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 0,
+            "name": "Keys",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_rIBfGX8f",
+            "title": "Keys - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 50,
+            "instrument": "SynthStrings 1",
+            "views": 0,
+            "name": "Keys",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_S0gHpENl",
+            "title": "Keys - SynthStrings 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 7,
+            "hash": "guitar_tlM3aaij",
+            "title": "Overdriven Guitar 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 7,
+            "hash": "guitar_0otHrhgI",
+            "title": "Overdriven Guitar 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_36hjM58P",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Skins",
+            "hash": "drums_wWjRwDok",
+            "title": "Skins - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 0,
+            "name": "Orchestra - Bassoon",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_uesK8Qx7",
+            "title": "Orchestra - Bassoon - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 56,
+            "instrument": "Trumpet",
+            "views": 0,
+            "name": "Orchestra - Trumpet",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_sWysgiq7",
+            "title": "Orchestra - Trumpet - Trumpet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Orchestra - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_CfkX7eTJ",
+            "title": "Orchestra - Strings - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        },
+        {
+            "instrumentId": 49,
+            "instrument": "String Ensemble 2",
+            "views": 0,
+            "name": "Orchestra - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_IsMxAZhz",
+            "title": "Orchestra - Strings - String Ensemble 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9,
+            "originalPartId": 9
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 0,
+            "name": "Orchestra - Choirs",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_kOxDSWbK",
+            "title": "Orchestra - Choirs - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10,
+            "originalPartId": 10
+        },
+        {
+            "instrumentId": 45,
+            "instrument": "Pizzicato Strings",
+            "views": 0,
+            "name": "Orchestra - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_bE2ZKNby",
+            "title": "Orchestra - Strings - Pizzicato Strings",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11,
+            "originalPartId": 11
+        },
+        {
+            "instrumentId": 47,
+            "instrument": "Timpani",
+            "views": 0,
+            "name": "Orchestra - Timpani",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_CLHgewoQ",
+            "title": "Orchestra - Timpani - Timpani",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 12,
+            "originalPartId": 12
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 0,
+            "name": "Keys",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_rIBfGX8f",
+            "title": "Keys - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 50,
+            "instrument": "SynthStrings 1",
+            "views": 0,
+            "name": "Keys",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_S0gHpENl",
+            "title": "Keys - SynthStrings 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 7,
+            "hash": "guitar_tlM3aaij",
+            "title": "Overdriven Guitar 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 7,
+            "hash": "guitar_0otHrhgI",
+            "title": "Overdriven Guitar 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_36hjM58P",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Skins",
+            "hash": "drums_wWjRwDok",
+            "title": "Skins - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 0,
+            "name": "Orchestra - Bassoon",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_uesK8Qx7",
+            "title": "Orchestra - Bassoon - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 56,
+            "instrument": "Trumpet",
+            "views": 0,
+            "name": "Orchestra - Trumpet",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_sWysgiq7",
+            "title": "Orchestra - Trumpet - Trumpet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Orchestra - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_CfkX7eTJ",
+            "title": "Orchestra - Strings - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        },
+        {
+            "instrumentId": 49,
+            "instrument": "String Ensemble 2",
+            "views": 0,
+            "name": "Orchestra - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_IsMxAZhz",
+            "title": "Orchestra - Strings - String Ensemble 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 0,
+            "name": "Orchestra - Choirs",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_kOxDSWbK",
+            "title": "Orchestra - Choirs - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10
+        },
+        {
+            "instrumentId": 45,
+            "instrument": "Pizzicato Strings",
+            "views": 0,
+            "name": "Orchestra - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_bE2ZKNby",
+            "title": "Orchestra - Strings - Pizzicato Strings",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11
+        },
+        {
+            "instrumentId": 47,
+            "instrument": "Timpani",
+            "views": 0,
+            "name": "Orchestra - Timpani",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_CLHgewoQ",
+            "title": "Orchestra - Timpani - Timpani",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 12
+        }
+    ]
+}

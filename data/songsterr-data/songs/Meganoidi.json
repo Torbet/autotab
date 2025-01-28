@@ -1,0 +1,323 @@
+{
+    "song_id": 12571,
+    "revision_id": 689861,
+    "prev_revision_id": 348000,
+    "image": "v3-4-5-d_QekgPEM3a6iM9u",
+    "name": "Meganoidi",
+    "tracks": [
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 349,
+            "name": "Basso",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_16rIDopD",
+            "title": "Basso - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 15,
+            "name": "Batteria",
+            "hash": "drums_tCHDWv4E",
+            "title": "Batteria - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 9,
+            "name": "Tromba",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_NqtBzbqV",
+            "title": "Tromba - Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 3,
+            "name": "Sassofono",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_umE6QPFS",
+            "title": "Sassofono - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 24,
+            "name": "Chitarra ritmica",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Gx0A35zN",
+            "title": "Chitarra ritmica - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 0,
+            "name": "Keyboard effect 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_RALyictZ",
+            "title": "Keyboard effect 1 - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keyboard effect 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_NGEQlpJw",
+            "title": "Keyboard effect 2 - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 7,
+            "name": "Chitarra solista",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_m6kBmxsB",
+            "title": "Chitarra solista - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 349,
+            "name": "Basso",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_16rIDopD",
+            "title": "Basso - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 15,
+            "name": "Batteria",
+            "hash": "drums_tCHDWv4E",
+            "title": "Batteria - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 9,
+            "name": "Tromba",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_NqtBzbqV",
+            "title": "Tromba - Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 3,
+            "name": "Sassofono",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_umE6QPFS",
+            "title": "Sassofono - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 24,
+            "name": "Chitarra ritmica",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Gx0A35zN",
+            "title": "Chitarra ritmica - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 0,
+            "name": "Keyboard effect 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_RALyictZ",
+            "title": "Keyboard effect 1 - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keyboard effect 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_NGEQlpJw",
+            "title": "Keyboard effect 2 - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 7,
+            "name": "Chitarra solista",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_m6kBmxsB",
+            "title": "Chitarra solista - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 7
+        }
+    ]
+}

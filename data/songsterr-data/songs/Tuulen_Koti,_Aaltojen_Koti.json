@@ -1,0 +1,286 @@
+{
+    "song_id": 13063,
+    "revision_id": 330864,
+    "prev_revision_id": null,
+    "image": "m5ok83BuzXCZ-1PO8-PoW",
+    "name": "Tuulen_Koti,_Aaltojen_Koti",
+    "tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 9,
+            "name": "Spur 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_fbSdGOXj",
+            "title": "Spur 1 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "Spur 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_c7jh6vyO",
+            "title": "Spur 2 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 47,
+            "name": "Spur 3",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_xkijGM4K",
+            "title": "Spur 3 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 10,
+            "name": "Spur 4",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_FhJj6hHz",
+            "title": "Spur 4 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 7,
+            "name": "Spur 5",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_wyZwetT8",
+            "title": "Spur 5 - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussion",
+            "hash": "drums_62uiiNcl",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 0,
+            "name": "Spur 7",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_FgTsPfUZ",
+            "title": "Spur 7 - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 9,
+            "name": "Spur 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_fbSdGOXj",
+            "title": "Spur 1 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "Spur 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_c7jh6vyO",
+            "title": "Spur 2 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 47,
+            "name": "Spur 3",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_xkijGM4K",
+            "title": "Spur 3 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 10,
+            "name": "Spur 4",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_FhJj6hHz",
+            "title": "Spur 4 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 7,
+            "name": "Spur 5",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_wyZwetT8",
+            "title": "Spur 5 - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussion",
+            "hash": "drums_62uiiNcl",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 0,
+            "name": "Spur 7",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_FgTsPfUZ",
+            "title": "Spur 7 - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

@@ -1,0 +1,323 @@
+{
+    "song_id": 2910,
+    "revision_id": 5057,
+    "prev_revision_id": null,
+    "image": "l-oCc_Cx0SX5uOPkYi1Nr",
+    "name": "Old_Brown_Shoe",
+    "tracks": [
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 1278,
+            "name": "Paul McCartney",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_Wz1tpy37",
+            "title": "Paul McCartney - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 1277,
+            "name": "George harrison",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_yP5MdZtN",
+            "title": "George harrison - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 47,
+            "name": "Ringo Star",
+            "hash": "drums_WwviRdPc",
+            "title": "Ringo Star - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 9,
+            "name": "Piste 4",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_9MpYhhX4",
+            "title": "Piste 4 - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 43,
+            "name": "Piste 5",
+            "tuning": [
+                64,
+                58,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_jiCdaqNz",
+            "title": "Piste 5 - Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 12,
+            "name": "Piste 6",
+            "tuning": [
+                48,
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "other_LMAqqliw",
+            "title": "Piste 6 - Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 900,
+            "name": "Piste 7",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_8mei8Vlk",
+            "title": "Piste 7 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 4,
+            "name": "Choeurs",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_12FIF7FM",
+            "title": "Choeurs - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 1278,
+            "name": "Paul McCartney",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_Wz1tpy37",
+            "title": "Paul McCartney - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 1277,
+            "name": "George harrison",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_yP5MdZtN",
+            "title": "George harrison - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 47,
+            "name": "Ringo Star",
+            "hash": "drums_WwviRdPc",
+            "title": "Ringo Star - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 9,
+            "name": "Piste 4",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_9MpYhhX4",
+            "title": "Piste 4 - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 43,
+            "name": "Piste 5",
+            "tuning": [
+                64,
+                58,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_jiCdaqNz",
+            "title": "Piste 5 - Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 12,
+            "name": "Piste 6",
+            "tuning": [
+                48,
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "other_LMAqqliw",
+            "title": "Piste 6 - Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 900,
+            "name": "Piste 7",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_8mei8Vlk",
+            "title": "Piste 7 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 4,
+            "name": "Choeurs",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_12FIF7FM",
+            "title": "Choeurs - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

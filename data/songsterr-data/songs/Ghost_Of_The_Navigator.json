@@ -1,0 +1,286 @@
+{
+    "song_id": 10087,
+    "revision_id": 750331,
+    "prev_revision_id": 373143,
+    "image": "v3-4-5-stage-6L7XYQmjDRKXxb4j",
+    "name": "Ghost_Of_The_Navigator",
+    "tracks": [
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 22,
+            "name": "Bruce Dickinson",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_iqI0UAkT",
+            "title": "Bruce Dickinson - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 1031,
+            "name": "Dave Murray",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Uu6eR3BB",
+            "title": "Dave Murray - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 456,
+            "name": "Adrian Smith",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_KPiww41C",
+            "title": "Adrian Smith - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 1853,
+            "name": "Intro Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_hHEV0VYi",
+            "title": "Intro Guitar - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3913,
+            "name": "Janick Gers",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_agw87Bxp",
+            "title": "Janick Gers - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 1044,
+            "name": "Steve Harris",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_hYqpDelF",
+            "title": "Steve Harris - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 103,
+            "name": "Nicko McBrain",
+            "hash": "drums_e6kxp4lw",
+            "title": "Nicko McBrain - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 22,
+            "name": "Bruce Dickinson",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_iqI0UAkT",
+            "title": "Bruce Dickinson - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 1031,
+            "name": "Dave Murray",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Uu6eR3BB",
+            "title": "Dave Murray - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 456,
+            "name": "Adrian Smith",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_KPiww41C",
+            "title": "Adrian Smith - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 1853,
+            "name": "Intro Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_hHEV0VYi",
+            "title": "Intro Guitar - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3913,
+            "name": "Janick Gers",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_agw87Bxp",
+            "title": "Janick Gers - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 1044,
+            "name": "Steve Harris",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_hYqpDelF",
+            "title": "Steve Harris - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 103,
+            "name": "Nicko McBrain",
+            "hash": "drums_e6kxp4lw",
+            "title": "Nicko McBrain - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

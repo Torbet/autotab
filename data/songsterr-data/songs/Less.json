@@ -1,0 +1,270 @@
+{
+    "song_id": 9214,
+    "revision_id": 12077,
+    "prev_revision_id": null,
+    "image": "5nDxanSzK0WN_6l0-y9Gb",
+    "name": "Less",
+    "tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "Guitare Clean",
+            "tuning": [
+                64,
+                59,
+                52,
+                52,
+                47,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_tkAG6ykB",
+            "title": "Guitare Clean - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 0,
+            "name": "Guitare Clean 2",
+            "tuning": [
+                64,
+                59,
+                52,
+                52,
+                47,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_7zKwdqjz",
+            "title": "Guitare Clean 2 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 29,
+            "name": "Guitare Satur\u00e9e",
+            "tuning": [
+                64,
+                59,
+                52,
+                52,
+                47,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_WcbZD9bO",
+            "title": "Guitare Satur\u00e9e - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 4,
+            "name": "Basse",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_vJ9uvsqt",
+            "title": "Basse - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussions",
+            "hash": "drums_OOq2X6fA",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Batterie",
+            "hash": "drums_7JAEO6aO",
+            "title": "Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "guitare effect",
+            "tuning": [
+                64,
+                59,
+                52,
+                52,
+                47,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_AjDe3sak",
+            "title": "guitare effect - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "Guitare Clean",
+            "tuning": [
+                64,
+                59,
+                52,
+                52,
+                47,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_tkAG6ykB",
+            "title": "Guitare Clean - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 0,
+            "name": "Guitare Clean 2",
+            "tuning": [
+                64,
+                59,
+                52,
+                52,
+                47,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_7zKwdqjz",
+            "title": "Guitare Clean 2 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 29,
+            "name": "Guitare Satur\u00e9e",
+            "tuning": [
+                64,
+                59,
+                52,
+                52,
+                47,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_WcbZD9bO",
+            "title": "Guitare Satur\u00e9e - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 4,
+            "name": "Basse",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_vJ9uvsqt",
+            "title": "Basse - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussions",
+            "hash": "drums_OOq2X6fA",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Batterie",
+            "hash": "drums_7JAEO6aO",
+            "title": "Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "guitare effect",
+            "tuning": [
+                64,
+                59,
+                52,
+                52,
+                47,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_AjDe3sak",
+            "title": "guitare effect - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6
+        }
+    ]
+}

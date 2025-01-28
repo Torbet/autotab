@@ -1,0 +1,282 @@
+{
+    "song_id": 1827,
+    "revision_id": 313135,
+    "prev_revision_id": null,
+    "image": "96HcoEsl8w3RJXFZQ5A8O",
+    "name": "Theme_For_Capricornir",
+    "tracks": [
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keys",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_GP1Qz2Lh",
+            "title": "Keys - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_kCzXFfF1",
+            "title": "Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "Basso",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_2BUOYYlJ",
+            "title": "Basso - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 0,
+            "name": "Voci",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_vcTNlOgT",
+            "title": "Voci - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussioni",
+            "hash": "drums_OYSvbDJN",
+            "title": "Percussioni - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 97,
+            "instrument": "FX 2 (soundtrack)",
+            "views": 0,
+            "name": "Effetti",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_x1mEpbZN",
+            "title": "Effetti - FX 2 (soundtrack)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                28
+            ],
+            "hash": "other_RdbLB3UV",
+            "title": "Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keys",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_GP1Qz2Lh",
+            "title": "Keys - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_kCzXFfF1",
+            "title": "Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "Basso",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_2BUOYYlJ",
+            "title": "Basso - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 0,
+            "name": "Voci",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_vcTNlOgT",
+            "title": "Voci - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussioni",
+            "hash": "drums_OYSvbDJN",
+            "title": "Percussioni - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 97,
+            "instrument": "FX 2 (soundtrack)",
+            "views": 0,
+            "name": "Effetti",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_x1mEpbZN",
+            "title": "Effetti - FX 2 (soundtrack)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                28
+            ],
+            "hash": "other_RdbLB3UV",
+            "title": "Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

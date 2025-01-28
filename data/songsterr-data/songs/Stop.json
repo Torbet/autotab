@@ -1,0 +1,280 @@
+{
+    "song_id": 2603,
+    "revision_id": 5248,
+    "prev_revision_id": null,
+    "image": "e3LiBo2E0NKCZ8wh3Qli0",
+    "name": "Stop",
+    "tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 40,
+            "name": "Peter Hayes - Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_SRBefBaj",
+            "title": "Peter Hayes - Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 7,
+            "name": "Distortion Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "difficulty": 2,
+            "hash": "guitar_CwzxIz4L",
+            "title": "Distortion Bass - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 71,
+            "name": "Robert Turner - Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_0Oum9aFI",
+            "title": "Robert Turner - Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 78,
+            "instrument": "Whistle",
+            "views": 0,
+            "name": "FX",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_Uqtk0nLh",
+            "title": "FX - Whistle",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 8,
+            "name": "Add",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_uBe1M8yP",
+            "title": "Add - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Nick Jago - Drums",
+            "hash": "drums_bU0y6XDj",
+            "title": "Nick Jago - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 1,
+            "name": "Peter Hayes - Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_XcKcfqy2",
+            "title": "Peter Hayes - Vocal - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 40,
+            "name": "Peter Hayes - Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_SRBefBaj",
+            "title": "Peter Hayes - Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 7,
+            "name": "Distortion Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "difficulty": 2,
+            "hash": "guitar_CwzxIz4L",
+            "title": "Distortion Bass - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 71,
+            "name": "Robert Turner - Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_0Oum9aFI",
+            "title": "Robert Turner - Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 78,
+            "instrument": "Whistle",
+            "views": 0,
+            "name": "FX",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_Uqtk0nLh",
+            "title": "FX - Whistle",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 8,
+            "name": "Add",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_uBe1M8yP",
+            "title": "Add - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Nick Jago - Drums",
+            "hash": "drums_bU0y6XDj",
+            "title": "Nick Jago - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 1,
+            "name": "Peter Hayes - Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_XcKcfqy2",
+            "title": "Peter Hayes - Vocal - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

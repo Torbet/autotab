@@ -1,0 +1,116 @@
+{
+    "song_id": 3556,
+    "revision_id": 313220,
+    "prev_revision_id": null,
+    "image": "s1A1R90TG_5ODRav7_MQ3",
+    "name": "Pititis,_Te_Invoco",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 318,
+            "name": "Guitarra",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_G5k4GHWY",
+            "title": "Guitarra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 5,
+            "name": "Bate",
+            "hash": "drums_t6r5DPHt",
+            "title": "Bate - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 141,
+            "name": "Bajo",
+            "tuning": [
+                41,
+                36,
+                31,
+                26
+            ],
+            "hash": "bass_T7P6A3Xb",
+            "title": "Bajo - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 318,
+            "name": "Guitarra",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_G5k4GHWY",
+            "title": "Guitarra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 5,
+            "name": "Bate",
+            "hash": "drums_t6r5DPHt",
+            "title": "Bate - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 141,
+            "name": "Bajo",
+            "tuning": [
+                41,
+                36,
+                31,
+                26
+            ],
+            "hash": "bass_T7P6A3Xb",
+            "title": "Bajo - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

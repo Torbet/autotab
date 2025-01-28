@@ -1,0 +1,229 @@
+{
+    "song_id": 11208,
+    "revision_id": 659977,
+    "prev_revision_id": 659649,
+    "image": "v3-2-6-5jqpUZBKQmbHphFI",
+    "name": "Hating",
+    "tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 142,
+            "name": "Head",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38,
+                33
+            ],
+            "difficulty": 2,
+            "hash": "guitar_3noTHrhH",
+            "title": "Head - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 124,
+            "name": "Munky",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38,
+                33
+            ],
+            "difficulty": 2,
+            "hash": "guitar_wDnrmod4",
+            "title": "Munky - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 44,
+            "name": "Fieldy",
+            "tuning": [
+                41,
+                36,
+                31,
+                26,
+                21
+            ],
+            "hash": "bass_5n6cAamG",
+            "title": "Fieldy - Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 87,
+            "instrument": "Lead 8 (bass + lead)",
+            "views": 3,
+            "name": "Basse Disto",
+            "tuning": [
+                41,
+                36,
+                31,
+                26,
+                21
+            ],
+            "hash": "other_cRHUBIgp",
+            "title": "Basse Disto - Lead 8 (bass + lead)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "David ",
+            "hash": "drums_lJDpg8pI",
+            "title": "David  - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "David",
+            "hash": "drums_UBwGqkGJ",
+            "title": "David - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 142,
+            "name": "Head",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38,
+                33
+            ],
+            "difficulty": 2,
+            "hash": "guitar_3noTHrhH",
+            "title": "Head - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 124,
+            "name": "Munky",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38,
+                33
+            ],
+            "difficulty": 2,
+            "hash": "guitar_wDnrmod4",
+            "title": "Munky - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 44,
+            "name": "Fieldy",
+            "tuning": [
+                41,
+                36,
+                31,
+                26,
+                21
+            ],
+            "hash": "bass_5n6cAamG",
+            "title": "Fieldy - Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 87,
+            "instrument": "Lead 8 (bass + lead)",
+            "views": 3,
+            "name": "Basse Disto",
+            "tuning": [
+                41,
+                36,
+                31,
+                26,
+                21
+            ],
+            "hash": "other_cRHUBIgp",
+            "title": "Basse Disto - Lead 8 (bass + lead)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "David ",
+            "hash": "drums_lJDpg8pI",
+            "title": "David  - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "David",
+            "hash": "drums_UBwGqkGJ",
+            "title": "David - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

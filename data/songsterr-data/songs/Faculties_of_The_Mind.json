@@ -1,0 +1,284 @@
+{
+    "song_id": 3451,
+    "revision_id": 348942,
+    "prev_revision_id": null,
+    "image": "4aJFO5GE6PxsWS66bA2dh",
+    "name": "Faculties_of_The_Mind",
+    "tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 270,
+            "name": "Rythm",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_tccpLGs3",
+            "title": "Rythm - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 42,
+            "name": "Solo",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_MVxfUGMx",
+            "title": "Solo - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 29,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27,
+                22
+            ],
+            "hash": "bass_MrtTIx60",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 1,
+            "name": "Violin/harmony/effect",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_b3G18RlO",
+            "title": "Violin/harmony/effect - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 12,
+            "name": "",
+            "hash": "drums_VB1MpNDk",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 2,
+            "name": "Vocal",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_yAiqMu2v",
+            "title": "Vocal - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 5,
+            "name": "Backup vocal",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_HFNL967h",
+            "title": "Backup vocal - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 270,
+            "name": "Rythm",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_tccpLGs3",
+            "title": "Rythm - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 42,
+            "name": "Solo",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_MVxfUGMx",
+            "title": "Solo - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 29,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27,
+                22
+            ],
+            "hash": "bass_MrtTIx60",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 1,
+            "name": "Violin/harmony/effect",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_b3G18RlO",
+            "title": "Violin/harmony/effect - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 12,
+            "name": "",
+            "hash": "drums_VB1MpNDk",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 2,
+            "name": "Vocal",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_yAiqMu2v",
+            "title": "Vocal - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 5,
+            "name": "Backup vocal",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_HFNL967h",
+            "title": "Backup vocal - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

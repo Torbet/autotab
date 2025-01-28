@@ -1,0 +1,157 @@
+{
+    "song_id": 1434,
+    "revision_id": 4326,
+    "prev_revision_id": null,
+    "image": "m5Lqh8O6PQkPJ7c90a5L2",
+    "name": "Astilla",
+    "tracks": [
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 0,
+            "name": "Markko's voice",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_4XpET50H",
+            "title": "Markko's voice - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 8,
+            "name": "Markko",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_UsL3TEB5",
+            "title": "Markko - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 1,
+            "name": "Micky",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_Q76a9JaO",
+            "title": "Micky - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Dan",
+            "hash": "drums_oG5oAN4k",
+            "title": "Dan - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 0,
+            "name": "Markko's voice",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_4XpET50H",
+            "title": "Markko's voice - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 8,
+            "name": "Markko",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_UsL3TEB5",
+            "title": "Markko - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 1,
+            "name": "Micky",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_Q76a9JaO",
+            "title": "Micky - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Dan",
+            "hash": "drums_oG5oAN4k",
+            "title": "Dan - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

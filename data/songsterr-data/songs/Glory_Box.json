@@ -1,0 +1,362 @@
+{
+    "song_id": 10155,
+    "revision_id": 744971,
+    "prev_revision_id": 734112,
+    "image": "v3-4-5-stage-GFGe6XOAtFvPmG3R",
+    "name": "Glory_Box",
+    "tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 1465,
+            "name": "Guitar I",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_VCer4g0D",
+            "title": "Guitar I - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 6114,
+            "name": "Guitar III",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_thrfiCXc",
+            "title": "Guitar III - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 221,
+            "name": "Strings",
+            "tuning": [
+                76,
+                69,
+                62,
+                55
+            ],
+            "hash": "other_u1oX1cFD",
+            "title": "Strings - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 4,
+            "instrument": "Electric Piano 1",
+            "views": 120,
+            "name": "Fender Rhodes",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_L3mCEP6b",
+            "title": "Fender Rhodes - Electric Piano 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 5,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_2e93CRHg",
+            "title": "Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 15,
+            "name": "Choir",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_9ssTAlqj",
+            "title": "Choir - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 5742,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_EDLfRFHo",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2851,
+            "name": "",
+            "hash": "drums_dVe242aD",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1439,
+            "name": "Guitar II",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_TLvFeb6F",
+            "title": "Guitar II - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 8,
+            "originalPartId": 8
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 1465,
+            "name": "Guitar I",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_VCer4g0D",
+            "title": "Guitar I - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 6114,
+            "name": "Guitar III",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_thrfiCXc",
+            "title": "Guitar III - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 221,
+            "name": "Strings",
+            "tuning": [
+                76,
+                69,
+                62,
+                55
+            ],
+            "hash": "other_u1oX1cFD",
+            "title": "Strings - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 4,
+            "instrument": "Electric Piano 1",
+            "views": 120,
+            "name": "Fender Rhodes",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_L3mCEP6b",
+            "title": "Fender Rhodes - Electric Piano 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 5,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_2e93CRHg",
+            "title": "Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 15,
+            "name": "Choir",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_9ssTAlqj",
+            "title": "Choir - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 5742,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_EDLfRFHo",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2851,
+            "name": "",
+            "hash": "drums_dVe242aD",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1439,
+            "name": "Guitar II",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_TLvFeb6F",
+            "title": "Guitar II - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 8
+        }
+    ]
+}

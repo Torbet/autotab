@@ -1,0 +1,343 @@
+{
+    "song_id": 1311,
+    "revision_id": 348039,
+    "prev_revision_id": null,
+    "image": "x_UEIZx_eZErvDuaqUm4z",
+    "name": "Desert_Diamond",
+    "tracks": [
+        {
+            "instrumentId": 104,
+            "instrument": "Sitar",
+            "views": 16,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_f0pJCqjA",
+            "title": "Sitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3,
+            "name": "Guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 1,
+            "hash": "guitar_0EMZ50X0",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 1,
+            "name": "Guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 1,
+            "hash": "guitar_eDaZt1e7",
+            "title": "Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Reverse Guitar Choir",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_jnoUGQpO",
+            "title": "Reverse Guitar Choir - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 41,
+            "name": "Solo Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Bb8dvjqE",
+            "title": "Solo Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keyboard 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_eTENExfT",
+            "title": "Keyboard 1 - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_9kU6DqWk",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keyboard Delay",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_QMJoEnRw",
+            "title": "Keyboard Delay - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 104,
+            "instrument": "Sitar",
+            "views": 16,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_f0pJCqjA",
+            "title": "Sitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3,
+            "name": "Guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 1,
+            "hash": "guitar_0EMZ50X0",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 1,
+            "name": "Guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 1,
+            "hash": "guitar_eDaZt1e7",
+            "title": "Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Reverse Guitar Choir",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_jnoUGQpO",
+            "title": "Reverse Guitar Choir - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 41,
+            "name": "Solo Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Bb8dvjqE",
+            "title": "Solo Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keyboard 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_eTENExfT",
+            "title": "Keyboard 1 - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_9kU6DqWk",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keyboard Delay",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_QMJoEnRw",
+            "title": "Keyboard Delay - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

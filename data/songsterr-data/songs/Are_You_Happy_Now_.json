@@ -1,0 +1,284 @@
+{
+    "song_id": 3432,
+    "revision_id": 32602,
+    "prev_revision_id": null,
+    "image": "MyIAFJNZ1x6kkGirhtS5M",
+    "name": "Are_You_Happy_Now_",
+    "tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 15,
+            "name": "Michelle Branch - Guitare Acoustique",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 3,
+            "hash": "guitar_T4YFbyOi",
+            "title": "Michelle Branch - Guitare Acoustique - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 19,
+            "name": "John Shanks - Guitare Overdrive",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 3,
+            "hash": "guitar_x3Ms9crU",
+            "title": "John Shanks - Guitare Overdrive - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 0,
+            "name": "Piano Rythme",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "hash": "other_FtV2jwSS",
+            "title": "Piano Rythme - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 24,
+            "name": "Basse",
+            "tuning": [
+                44,
+                39,
+                34,
+                29
+            ],
+            "hash": "bass_GwrCD97S",
+            "title": "Basse - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 3,
+            "name": "Piano lead",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "hash": "other_7GU5cYt9",
+            "title": "Piano lead - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 6,
+            "name": "Dave Navarro - Guitare Overdrive 2",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 4,
+            "hash": "guitar_1udjsFDS",
+            "title": "Dave Navarro - Guitare Overdrive 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 5,
+            "name": "Kenny Aronoff - Batterie",
+            "hash": "drums_ncdIFRRh",
+            "title": "Kenny Aronoff - Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 15,
+            "name": "Michelle Branch - Guitare Acoustique",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 3,
+            "hash": "guitar_T4YFbyOi",
+            "title": "Michelle Branch - Guitare Acoustique - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 19,
+            "name": "John Shanks - Guitare Overdrive",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 3,
+            "hash": "guitar_x3Ms9crU",
+            "title": "John Shanks - Guitare Overdrive - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 0,
+            "name": "Piano Rythme",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "hash": "other_FtV2jwSS",
+            "title": "Piano Rythme - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 24,
+            "name": "Basse",
+            "tuning": [
+                44,
+                39,
+                34,
+                29
+            ],
+            "hash": "bass_GwrCD97S",
+            "title": "Basse - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 3,
+            "name": "Piano lead",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "hash": "other_7GU5cYt9",
+            "title": "Piano lead - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 6,
+            "name": "Dave Navarro - Guitare Overdrive 2",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 4,
+            "hash": "guitar_1udjsFDS",
+            "title": "Dave Navarro - Guitare Overdrive 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 5,
+            "name": "Kenny Aronoff - Batterie",
+            "hash": "drums_ncdIFRRh",
+            "title": "Kenny Aronoff - Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

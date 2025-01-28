@@ -1,0 +1,561 @@
+{
+    "song_id": 5691,
+    "revision_id": 32196,
+    "prev_revision_id": null,
+    "image": "x2ErbN5nz37PlGMjUkNPj",
+    "name": "We_Gotta_Power",
+    "tracks": [
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 156,
+            "name": "Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_9GVvmeRv",
+            "title": "Vocal - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 41,
+            "name": "Vocal Overdub",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_Py7LuuW1",
+            "title": "Vocal Overdub - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 3,
+            "name": "Back Vocals / Keys",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_qc0F6ti3",
+            "title": "Back Vocals / Keys - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 796,
+            "name": "Guitarra - Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_oIqkK3ek",
+            "title": "Guitarra - Guitar - Distortion Guitar 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 82,
+            "name": "Guitarra - Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_lAi064xU",
+            "title": "Guitarra - Guitar - Distortion Guitar 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 682,
+            "name": "Baixo - Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_IAI63PYu",
+            "title": "Baixo - Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 20,
+            "name": "Bateria - Drums",
+            "hash": "drums_dwD8APPH",
+            "title": "Bateria - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 50,
+            "instrument": "SynthStrings 1",
+            "views": 8,
+            "name": "Intro - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_0ESvWQNl",
+            "title": "Intro - Strings - SynthStrings 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Intro - Strings",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_n08Xa7dF",
+            "title": "Intro - Strings - String Ensemble 1 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        },
+        {
+            "instrumentId": 61,
+            "instrument": "Brass Section",
+            "views": 20,
+            "name": "Intro - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_7a8JPQfC",
+            "title": "Intro - Strings - Brass Section",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9,
+            "originalPartId": 9
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 11,
+            "name": "Intro - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_gfxFd6WF",
+            "title": "Intro - Strings - String Ensemble 1 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10,
+            "originalPartId": 10
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 32,
+            "name": "Intro - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_oGlw4jgq",
+            "title": "Intro - Strings - String Ensemble 1 3",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11,
+            "originalPartId": 11
+        },
+        {
+            "instrumentId": 45,
+            "instrument": "Pizzicato Strings",
+            "views": 1,
+            "name": "Intro - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_3qoUi2N7",
+            "title": "Intro - Strings - Pizzicato Strings",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 12,
+            "originalPartId": 12
+        },
+        {
+            "instrumentId": 47,
+            "instrument": "Timpani",
+            "views": 0,
+            "name": "Intro - Timpani",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_6Gjjsi1m",
+            "title": "Intro - Timpani - Timpani",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 13,
+            "originalPartId": 13
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 156,
+            "name": "Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_9GVvmeRv",
+            "title": "Vocal - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 41,
+            "name": "Vocal Overdub",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_Py7LuuW1",
+            "title": "Vocal Overdub - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 3,
+            "name": "Back Vocals / Keys",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_qc0F6ti3",
+            "title": "Back Vocals / Keys - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 796,
+            "name": "Guitarra - Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_oIqkK3ek",
+            "title": "Guitarra - Guitar - Distortion Guitar 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 82,
+            "name": "Guitarra - Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_lAi064xU",
+            "title": "Guitarra - Guitar - Distortion Guitar 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 682,
+            "name": "Baixo - Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_IAI63PYu",
+            "title": "Baixo - Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 20,
+            "name": "Bateria - Drums",
+            "hash": "drums_dwD8APPH",
+            "title": "Bateria - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 50,
+            "instrument": "SynthStrings 1",
+            "views": 8,
+            "name": "Intro - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_0ESvWQNl",
+            "title": "Intro - Strings - SynthStrings 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Intro - Strings",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_n08Xa7dF",
+            "title": "Intro - Strings - String Ensemble 1 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        },
+        {
+            "instrumentId": 61,
+            "instrument": "Brass Section",
+            "views": 20,
+            "name": "Intro - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_7a8JPQfC",
+            "title": "Intro - Strings - Brass Section",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 11,
+            "name": "Intro - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_gfxFd6WF",
+            "title": "Intro - Strings - String Ensemble 1 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 32,
+            "name": "Intro - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_oGlw4jgq",
+            "title": "Intro - Strings - String Ensemble 1 3",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11
+        },
+        {
+            "instrumentId": 45,
+            "instrument": "Pizzicato Strings",
+            "views": 1,
+            "name": "Intro - Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_3qoUi2N7",
+            "title": "Intro - Strings - Pizzicato Strings",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 12
+        },
+        {
+            "instrumentId": 47,
+            "instrument": "Timpani",
+            "views": 0,
+            "name": "Intro - Timpani",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_6Gjjsi1m",
+            "title": "Intro - Timpani - Timpani",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 13
+        }
+    ]
+}

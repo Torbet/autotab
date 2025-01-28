@@ -1,0 +1,327 @@
+{
+    "song_id": 5812,
+    "revision_id": 605185,
+    "prev_revision_id": 495582,
+    "image": "v2-26-1-9m_bao9uFsm_t3DS",
+    "name": "Audience_Killer_Loop",
+    "tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 66,
+            "name": "Kaoru",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_NKOAJCHM",
+            "title": "Kaoru - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 36,
+            "name": "Kaoru (Guitar Solo)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_zYXdsqdp",
+            "title": "Kaoru (Guitar Solo) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 33,
+            "name": "Die",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_thqtJN2K",
+            "title": "Die - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Bridge Extra",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_leHXBcEK",
+            "title": "Bridge Extra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 95,
+            "instrument": "Pad 8 (sweep)",
+            "views": 2,
+            "name": "Synth.",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "other_GAgrRK0a",
+            "title": "Synth. - Pad 8 (sweep)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 25,
+            "name": "Toshiya",
+            "tuning": [
+                40,
+                35,
+                30,
+                25
+            ],
+            "hash": "bass_iIs9QnfD",
+            "title": "Toshiya - Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Shinya",
+            "hash": "drums_NlhRvYd3",
+            "title": "Shinya - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 118,
+            "instrument": "Synth Drum",
+            "views": 0,
+            "name": "Synth Drums.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_yU3b6AGN",
+            "title": "Synth Drums. - Synth Drum",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 66,
+            "name": "Kaoru",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_NKOAJCHM",
+            "title": "Kaoru - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 36,
+            "name": "Kaoru (Guitar Solo)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_zYXdsqdp",
+            "title": "Kaoru (Guitar Solo) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 33,
+            "name": "Die",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_thqtJN2K",
+            "title": "Die - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Bridge Extra",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_leHXBcEK",
+            "title": "Bridge Extra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 95,
+            "instrument": "Pad 8 (sweep)",
+            "views": 2,
+            "name": "Synth.",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "other_GAgrRK0a",
+            "title": "Synth. - Pad 8 (sweep)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 25,
+            "name": "Toshiya",
+            "tuning": [
+                40,
+                35,
+                30,
+                25
+            ],
+            "hash": "bass_iIs9QnfD",
+            "title": "Toshiya - Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Shinya",
+            "hash": "drums_NlhRvYd3",
+            "title": "Shinya - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 118,
+            "instrument": "Synth Drum",
+            "views": 0,
+            "name": "Synth Drums.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_yU3b6AGN",
+            "title": "Synth Drums. - Synth Drum",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

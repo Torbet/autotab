@@ -1,0 +1,327 @@
+{
+    "song_id": 8749,
+    "revision_id": 1196820,
+    "prev_revision_id": 314886,
+    "image": "v3-5-26-AWVsLhRwVBsfIMt1",
+    "name": "All_over_the_Nation",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 35,
+            "name": "Guitar 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_5wtv9j87",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 4,
+            "name": "Guitar 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_IVhogsk2",
+            "title": "Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 17,
+            "name": "Guitar 3",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_lXHeTW6S",
+            "title": "Guitar 3 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 8,
+            "name": "Guitar 4",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_lzQGHbQq",
+            "title": "Guitar 4 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 3,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_0SE3KA3b",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_RquzSCAr",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 0,
+            "name": "Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_96aSkPXU",
+            "title": "Vocals - Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keyboard",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_xZMwX7dc",
+            "title": "Keyboard - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 35,
+            "name": "Guitar 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_5wtv9j87",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 4,
+            "name": "Guitar 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_IVhogsk2",
+            "title": "Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 17,
+            "name": "Guitar 3",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_lXHeTW6S",
+            "title": "Guitar 3 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 8,
+            "name": "Guitar 4",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_lzQGHbQq",
+            "title": "Guitar 4 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 3,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_0SE3KA3b",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_RquzSCAr",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 0,
+            "name": "Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_96aSkPXU",
+            "title": "Vocals - Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keyboard",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_xZMwX7dc",
+            "title": "Keyboard - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

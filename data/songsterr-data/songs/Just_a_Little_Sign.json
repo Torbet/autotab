@@ -1,0 +1,327 @@
+{
+    "song_id": 9260,
+    "revision_id": 606223,
+    "prev_revision_id": 295858,
+    "image": "v2-26-1-bCVA5euEio3Citi0",
+    "name": "Just_a_Little_Sign",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5,
+            "name": "Guitar 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_1QzJxJgR",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 17,
+            "name": "Guitar 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 5,
+            "hash": "guitar_RDxFACwK",
+            "title": "Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 90,
+            "name": "Guitar 3",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 5,
+            "hash": "guitar_2OUTnsuO",
+            "title": "Guitar 3 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 9,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27,
+                22
+            ],
+            "hash": "bass_pDCCSCDw",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 3,
+            "name": "",
+            "hash": "drums_6sgwKgmP",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keyboard",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_kHgCMNXa",
+            "title": "Keyboard - String Ensemble 1 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keyboard",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_dDM8HMNz",
+            "title": "Keyboard - String Ensemble 1 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 15,
+            "instrument": "Dulcimer",
+            "views": 0,
+            "name": "Keyboard",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_7NLdiuwX",
+            "title": "Keyboard - Dulcimer",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5,
+            "name": "Guitar 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_1QzJxJgR",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 17,
+            "name": "Guitar 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 5,
+            "hash": "guitar_RDxFACwK",
+            "title": "Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 90,
+            "name": "Guitar 3",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 5,
+            "hash": "guitar_2OUTnsuO",
+            "title": "Guitar 3 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 9,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27,
+                22
+            ],
+            "hash": "bass_pDCCSCDw",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 3,
+            "name": "",
+            "hash": "drums_6sgwKgmP",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keyboard",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_kHgCMNXa",
+            "title": "Keyboard - String Ensemble 1 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keyboard",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_dDM8HMNz",
+            "title": "Keyboard - String Ensemble 1 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 15,
+            "instrument": "Dulcimer",
+            "views": 0,
+            "name": "Keyboard",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_7NLdiuwX",
+            "title": "Keyboard - Dulcimer",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

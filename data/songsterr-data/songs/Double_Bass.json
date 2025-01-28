@@ -1,0 +1,112 @@
+{
+    "song_id": 8401,
+    "revision_id": 11200,
+    "prev_revision_id": null,
+    "image": "FdO8v_O4EROi680iZdyQc",
+    "name": "Double_Bass",
+    "tracks": [
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 63,
+            "name": "Bass #1",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_u3q3YisC",
+            "title": "Bass #1 - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 6,
+            "name": "Percussion",
+            "hash": "drums_q8gUoPuo",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 27,
+            "name": "Bass #2",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_pu15JCSe",
+            "title": "Bass #2 - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 63,
+            "name": "Bass #1",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_u3q3YisC",
+            "title": "Bass #1 - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 6,
+            "name": "Percussion",
+            "hash": "drums_q8gUoPuo",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 27,
+            "name": "Bass #2",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_pu15JCSe",
+            "title": "Bass #2 - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

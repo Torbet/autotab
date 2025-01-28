@@ -1,0 +1,366 @@
+{
+    "song_id": 12769,
+    "revision_id": 16077,
+    "prev_revision_id": null,
+    "image": "5t_nA3IRfRKDHYCcmHfUb",
+    "name": "Caribbean_Sunset",
+    "tracks": [
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 0,
+            "name": "Voice",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_M5oTpcOV",
+            "title": "Voice - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Guitar Solo",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_bi2Lspo8",
+            "title": "Guitar Solo - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 0,
+            "name": "Jazz Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_g0zAPmf1",
+            "title": "Jazz Guitar - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 56,
+            "instrument": "Trumpet",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_tz7Agb4Q",
+            "title": "Trumpet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 114,
+            "instrument": "Steel Drums",
+            "views": 0,
+            "name": "Steel Drums 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_YiOfVXbc",
+            "title": "Steel Drums 1 - Steel Drums",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 114,
+            "instrument": "Steel Drums",
+            "views": 0,
+            "name": "Steel Drums 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_80gR8bxZ",
+            "title": "Steel Drums 2 - Steel Drums",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 0,
+            "name": "Clean Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_qY8aDqgT",
+            "title": "Clean Guitar - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_mKgR0Kfu",
+            "title": "Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_V88LuSlS",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 0,
+            "name": "Voice",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_M5oTpcOV",
+            "title": "Voice - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Guitar Solo",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_bi2Lspo8",
+            "title": "Guitar Solo - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 0,
+            "name": "Jazz Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_g0zAPmf1",
+            "title": "Jazz Guitar - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 56,
+            "instrument": "Trumpet",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_tz7Agb4Q",
+            "title": "Trumpet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 114,
+            "instrument": "Steel Drums",
+            "views": 0,
+            "name": "Steel Drums 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_YiOfVXbc",
+            "title": "Steel Drums 1 - Steel Drums",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 114,
+            "instrument": "Steel Drums",
+            "views": 0,
+            "name": "Steel Drums 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_80gR8bxZ",
+            "title": "Steel Drums 2 - Steel Drums",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 0,
+            "name": "Clean Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_qY8aDqgT",
+            "title": "Clean Guitar - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_mKgR0Kfu",
+            "title": "Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_V88LuSlS",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        }
+    ]
+}

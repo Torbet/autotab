@@ -1,0 +1,161 @@
+{
+    "song_id": 999,
+    "revision_id": 834697,
+    "prev_revision_id": 834690,
+    "image": "v3-5-15-mx49TFL2HKC9mhXD",
+    "name": "Find_The_Real",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 4606,
+            "name": "",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_W22h5ZM2",
+            "title": "Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1155,
+            "name": "Solo + Fill",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 5,
+            "hash": "guitar_yEWXCmtZ",
+            "title": "Solo + Fill - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 306,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                25,
+                22
+            ],
+            "hash": "bass_IuLtNJhw",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 37,
+            "name": "",
+            "hash": "drums_4TF8XMkp",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 4606,
+            "name": "",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_W22h5ZM2",
+            "title": "Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1155,
+            "name": "Solo + Fill",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 5,
+            "hash": "guitar_yEWXCmtZ",
+            "title": "Solo + Fill - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 306,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                25,
+                22
+            ],
+            "hash": "bass_IuLtNJhw",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 37,
+            "name": "",
+            "hash": "drums_4TF8XMkp",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

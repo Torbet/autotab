@@ -1,0 +1,284 @@
+{
+    "song_id": 3701,
+    "revision_id": 358607,
+    "prev_revision_id": 215494,
+    "image": "v3-3-0-r-ORFJt-wZwlIrFa",
+    "name": "Rock_And_Roll_Band",
+    "tracks": [
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 28,
+            "name": "Brad Delp - Lead Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_A4xl4kLc",
+            "title": "Brad Delp - Lead Vocals - Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 9,
+            "name": "Brad Delp - Backing Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_POkfR5M1",
+            "title": "Brad Delp - Backing Vocals - Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 8896,
+            "name": "Tom Scholz - Rhythm",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_f4RObjKP",
+            "title": "Tom Scholz - Rhythm - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 1764,
+            "name": "Tom Scholz - Lead",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_FFui06LF",
+            "title": "Tom Scholz - Lead - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 80,
+            "name": "Tom Scholz - Harmony",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_z42K6KNP",
+            "title": "Tom Scholz - Harmony - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 1793,
+            "name": "Tom Scholz",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_i4BSmbSv",
+            "title": "Tom Scholz - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 479,
+            "name": "Jim Masdea",
+            "hash": "drums_rw6GWh7U",
+            "title": "Jim Masdea - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 28,
+            "name": "Brad Delp - Lead Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_A4xl4kLc",
+            "title": "Brad Delp - Lead Vocals - Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 9,
+            "name": "Brad Delp - Backing Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_POkfR5M1",
+            "title": "Brad Delp - Backing Vocals - Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 8896,
+            "name": "Tom Scholz - Rhythm",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_f4RObjKP",
+            "title": "Tom Scholz - Rhythm - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 1764,
+            "name": "Tom Scholz - Lead",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_FFui06LF",
+            "title": "Tom Scholz - Lead - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 80,
+            "name": "Tom Scholz - Harmony",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_z42K6KNP",
+            "title": "Tom Scholz - Harmony - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 1793,
+            "name": "Tom Scholz",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_i4BSmbSv",
+            "title": "Tom Scholz - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 479,
+            "name": "Jim Masdea",
+            "hash": "drums_rw6GWh7U",
+            "title": "Jim Masdea - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

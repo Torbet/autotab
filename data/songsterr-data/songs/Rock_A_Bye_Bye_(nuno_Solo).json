@@ -1,0 +1,235 @@
+{
+    "song_id": 6904,
+    "revision_id": 295609,
+    "prev_revision_id": null,
+    "image": "gWmoW27cQNMR91AToOo1w",
+    "name": "Rock_A_Bye_Bye_(nuno_Solo)",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 718,
+            "name": "Guitar - Nuno",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_XFP8Y8Lz",
+            "title": "Guitar - Nuno - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 54,
+            "instrument": "Synth Voice",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_4S8RWZLk",
+            "title": "Synth Voice",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Synth Strings",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_yM0WpGrh",
+            "title": "Synth Strings - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Synth Strings 2",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_b3fiPKoV",
+            "title": "Synth Strings 2 - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Synth Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                24
+            ],
+            "hash": "other_1irSNFri",
+            "title": "Synth Bass - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_dfQKwuJN",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 718,
+            "name": "Guitar - Nuno",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_XFP8Y8Lz",
+            "title": "Guitar - Nuno - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 54,
+            "instrument": "Synth Voice",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_4S8RWZLk",
+            "title": "Synth Voice",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Synth Strings",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_yM0WpGrh",
+            "title": "Synth Strings - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Synth Strings 2",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_b3fiPKoV",
+            "title": "Synth Strings 2 - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Synth Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                24
+            ],
+            "hash": "other_1irSNFri",
+            "title": "Synth Bass - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_dfQKwuJN",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

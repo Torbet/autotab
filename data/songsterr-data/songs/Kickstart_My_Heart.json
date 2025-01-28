@@ -1,0 +1,286 @@
+{
+    "song_id": 12719,
+    "revision_id": 1197643,
+    "prev_revision_id": 1194484,
+    "image": "v3-5-26-VRzYsFME3e4ngV3S",
+    "name": "Kickstart_My_Heart",
+    "tracks": [
+        {
+            "instrumentId": 80,
+            "instrument": "Lead 1 (square)",
+            "views": 2,
+            "name": "Vince Neil - Vocals",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "hash": "vocals_EPjUrOJ0",
+            "title": "Vince Neil - Vocals - Lead 1 (square)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 13646,
+            "name": "Mick Mars 1 - Rhythm",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_MHoDFCXH",
+            "title": "Mick Mars 1 - Rhythm - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1412,
+            "name": "Mick Mars 2 - Lead",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 4,
+            "hash": "guitar_PxJcJpxZ",
+            "title": "Mick Mars 2 - Lead - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 90,
+            "name": "Mick Mars 3 - Interlude",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 1,
+            "hash": "other_L5r5DVH9",
+            "title": "Mick Mars 3 - Interlude - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 40,
+            "name": "Mick Mars 4 - Harmonies/Whammy/Delay",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_H5jfMjHU",
+            "title": "Mick Mars 4 - Harmonies/Whammy/Delay - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 774,
+            "name": "Nikki Sixx - Bass Guitar",
+            "tuning": [
+                41,
+                36,
+                31,
+                26
+            ],
+            "hash": "bass_k6GB5owP",
+            "title": "Nikki Sixx - Bass Guitar - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 545,
+            "name": "Tommy Lee - Drums",
+            "hash": "drums_OamKCtjN",
+            "title": "Tommy Lee - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 80,
+            "instrument": "Lead 1 (square)",
+            "views": 2,
+            "name": "Vince Neil - Vocals",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "hash": "vocals_EPjUrOJ0",
+            "title": "Vince Neil - Vocals - Lead 1 (square)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 13646,
+            "name": "Mick Mars 1 - Rhythm",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_MHoDFCXH",
+            "title": "Mick Mars 1 - Rhythm - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1412,
+            "name": "Mick Mars 2 - Lead",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 4,
+            "hash": "guitar_PxJcJpxZ",
+            "title": "Mick Mars 2 - Lead - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 90,
+            "name": "Mick Mars 3 - Interlude",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 1,
+            "hash": "other_L5r5DVH9",
+            "title": "Mick Mars 3 - Interlude - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 40,
+            "name": "Mick Mars 4 - Harmonies/Whammy/Delay",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_H5jfMjHU",
+            "title": "Mick Mars 4 - Harmonies/Whammy/Delay - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 774,
+            "name": "Nikki Sixx - Bass Guitar",
+            "tuning": [
+                41,
+                36,
+                31,
+                26
+            ],
+            "hash": "bass_k6GB5owP",
+            "title": "Nikki Sixx - Bass Guitar - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 545,
+            "name": "Tommy Lee - Drums",
+            "hash": "drums_OamKCtjN",
+            "title": "Tommy Lee - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

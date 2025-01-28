@@ -1,0 +1,280 @@
+{
+    "song_id": 6886,
+    "revision_id": 351796,
+    "prev_revision_id": null,
+    "image": "_Il8WMVdWSv8bt6YrQlcM",
+    "name": "Rise_n'_Shine",
+    "tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 532,
+            "name": "Guitare",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_ELhhPviD",
+            "title": "Guitare - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 37,
+            "name": "Basse",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_UNkiQB8x",
+            "title": "Basse - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 0,
+            "name": "Violon",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_WkYm2NHC",
+            "title": "Violon - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_WwQRXzrA",
+            "title": "Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 51,
+            "instrument": "SynthStrings 2",
+            "views": 1,
+            "name": "Effets",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_0Rjys8MG",
+            "title": "Effets - SynthStrings 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 8,
+            "instrument": "Celesta",
+            "views": 1,
+            "name": "Boite \u00e0 Musique",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_b0J5LuTJ",
+            "title": "Boite \u00e0 Musique - Celesta",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 3,
+            "name": "Batterie",
+            "hash": "drums_kjWE6jPE",
+            "title": "Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 532,
+            "name": "Guitare",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_ELhhPviD",
+            "title": "Guitare - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 37,
+            "name": "Basse",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_UNkiQB8x",
+            "title": "Basse - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 0,
+            "name": "Violon",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_WkYm2NHC",
+            "title": "Violon - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_WwQRXzrA",
+            "title": "Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 51,
+            "instrument": "SynthStrings 2",
+            "views": 1,
+            "name": "Effets",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_0Rjys8MG",
+            "title": "Effets - SynthStrings 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 8,
+            "instrument": "Celesta",
+            "views": 1,
+            "name": "Boite \u00e0 Musique",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_b0J5LuTJ",
+            "title": "Boite \u00e0 Musique - Celesta",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 3,
+            "name": "Batterie",
+            "hash": "drums_kjWE6jPE",
+            "title": "Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

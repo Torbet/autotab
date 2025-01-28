@@ -1,0 +1,159 @@
+{
+    "song_id": 7184,
+    "revision_id": 313479,
+    "prev_revision_id": null,
+    "image": "knCcx32SNWBcDAfppt0Sv",
+    "name": "Set_Me_Free",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 71,
+            "name": "Guitar1",
+            "tuning": [
+                62,
+                57,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_JhmNq5iB",
+            "title": "Guitar1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 1,
+            "name": "Guitar2",
+            "tuning": [
+                62,
+                57,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_hrfAN2J3",
+            "title": "Guitar2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 11,
+            "name": "",
+            "tuning": [
+                40,
+                35,
+                30,
+                23
+            ],
+            "hash": "bass_eVzqTmRA",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 36,
+            "name": "",
+            "hash": "drums_c4luadUK",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 71,
+            "name": "Guitar1",
+            "tuning": [
+                62,
+                57,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_JhmNq5iB",
+            "title": "Guitar1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 1,
+            "name": "Guitar2",
+            "tuning": [
+                62,
+                57,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_hrfAN2J3",
+            "title": "Guitar2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 11,
+            "name": "",
+            "tuning": [
+                40,
+                35,
+                30,
+                23
+            ],
+            "hash": "bass_eVzqTmRA",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 36,
+            "name": "",
+            "hash": "drums_c4luadUK",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

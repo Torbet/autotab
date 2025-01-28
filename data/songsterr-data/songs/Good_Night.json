@@ -1,0 +1,116 @@
+{
+    "song_id": 10601,
+    "revision_id": 13298,
+    "prev_revision_id": null,
+    "image": "36UH_IXou7vNTNexQzCxc",
+    "name": "Good_Night",
+    "tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "Piste 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_BN8GL3mL",
+            "title": "Piste 1 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "Piste 2",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_BTduLwfc",
+            "title": "Piste 2 - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussions",
+            "hash": "drums_h4csnY1s",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "Piste 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_BN8GL3mL",
+            "title": "Piste 1 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "Piste 2",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_BTduLwfc",
+            "title": "Piste 2 - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussions",
+            "hash": "drums_h4csnY1s",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

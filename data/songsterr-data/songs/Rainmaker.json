@@ -1,0 +1,327 @@
+{
+    "song_id": 10072,
+    "revision_id": 568329,
+    "prev_revision_id": 312688,
+    "image": "sT4Pu4K_kZH0Hnu4L7kzy",
+    "name": "Rainmaker",
+    "tracks": [
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 10,
+            "name": "Bruce Dickinson",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_GxLErKy1",
+            "title": "Bruce Dickinson - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 4432,
+            "name": "Dave Murray",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_FUHD4yaz",
+            "title": "Dave Murray - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1936,
+            "name": "Adrian Smith/Dave Murray",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_05KyNzhg",
+            "title": "Adrian Smith/Dave Murray - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 244,
+            "name": "Janick Gears",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Sbv8aOUb",
+            "title": "Janick Gears - Distortion Guitar 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 372,
+            "name": "Janick Gears",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_f6eY0ZDR",
+            "title": "Janick Gears - Distortion Guitar 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 3,
+            "name": "Steve Harris - Keyboard",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_HLP2Lecn",
+            "title": "Steve Harris - Keyboard - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 319,
+            "name": "Steve Harris",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_5sFUtCYZ",
+            "title": "Steve Harris - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 52,
+            "name": "Nicko McBrain",
+            "hash": "drums_pCbj4ZwI",
+            "title": "Nicko McBrain - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 10,
+            "name": "Bruce Dickinson",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_GxLErKy1",
+            "title": "Bruce Dickinson - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 4432,
+            "name": "Dave Murray",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_FUHD4yaz",
+            "title": "Dave Murray - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1936,
+            "name": "Adrian Smith/Dave Murray",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_05KyNzhg",
+            "title": "Adrian Smith/Dave Murray - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 244,
+            "name": "Janick Gears",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Sbv8aOUb",
+            "title": "Janick Gears - Distortion Guitar 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 372,
+            "name": "Janick Gears",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_f6eY0ZDR",
+            "title": "Janick Gears - Distortion Guitar 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 3,
+            "name": "Steve Harris - Keyboard",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_HLP2Lecn",
+            "title": "Steve Harris - Keyboard - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 319,
+            "name": "Steve Harris",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_5sFUtCYZ",
+            "title": "Steve Harris - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 52,
+            "name": "Nicko McBrain",
+            "hash": "drums_pCbj4ZwI",
+            "title": "Nicko McBrain - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

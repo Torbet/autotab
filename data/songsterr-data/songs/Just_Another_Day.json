@@ -1,0 +1,239 @@
+{
+    "song_id": 6932,
+    "revision_id": 9621,
+    "prev_revision_id": null,
+    "image": "xbHponUTeSkAoCpCPLFJI",
+    "name": "Just_Another_Day",
+    "tracks": [
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 12,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_MKLKdKie",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_QYRQ3PnV",
+            "title": "Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 87,
+            "instrument": "Lead 8 (bass + lead)",
+            "views": 0,
+            "name": "Synth 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_7DvUCKdW",
+            "title": "Synth 1 - Lead 8 (bass + lead)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 87,
+            "instrument": "Lead 8 (bass + lead)",
+            "views": 0,
+            "name": "Synth 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Ok6MvOSV",
+            "title": "Synth 2 - Lead 8 (bass + lead)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 108,
+            "instrument": "Kalimba",
+            "views": 0,
+            "name": "Kalimba        ",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_VdCVgoyx",
+            "title": "Kalimba         - Kalimba",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 3,
+            "name": "",
+            "hash": "drums_MXQyDkDP",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 12,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_MKLKdKie",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_QYRQ3PnV",
+            "title": "Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 87,
+            "instrument": "Lead 8 (bass + lead)",
+            "views": 0,
+            "name": "Synth 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_7DvUCKdW",
+            "title": "Synth 1 - Lead 8 (bass + lead)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 87,
+            "instrument": "Lead 8 (bass + lead)",
+            "views": 0,
+            "name": "Synth 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Ok6MvOSV",
+            "title": "Synth 2 - Lead 8 (bass + lead)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 108,
+            "instrument": "Kalimba",
+            "views": 0,
+            "name": "Kalimba        ",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_VdCVgoyx",
+            "title": "Kalimba         - Kalimba",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 3,
+            "name": "",
+            "hash": "drums_MXQyDkDP",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

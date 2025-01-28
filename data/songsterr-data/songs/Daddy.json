@@ -1,0 +1,247 @@
+{
+    "song_id": 10939,
+    "revision_id": 1017278,
+    "prev_revision_id": 1012008,
+    "image": "v3-5-24-Qqso4niOrlnTXmnG",
+    "name": "Daddy",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 736,
+            "name": "Head",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38,
+                33
+            ],
+            "difficulty": 2,
+            "hash": "guitar_qr5kWEBe",
+            "title": "Head - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1245,
+            "name": "Munky ",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38,
+                33
+            ],
+            "difficulty": 2,
+            "hash": "guitar_C4cnThT4",
+            "title": "Munky  - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 505,
+            "name": "Fieldy (Slap)",
+            "tuning": [
+                41,
+                36,
+                31,
+                26,
+                21
+            ],
+            "hash": "bass_oQQj9HAB",
+            "title": "Fieldy (Slap) - Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 90,
+            "name": "David",
+            "hash": "drums_xZGJDfTm",
+            "title": "David - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 1,
+            "name": "Munky And Head Vocals",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38,
+                33
+            ],
+            "hash": "vocals_UsO7eAdC",
+            "title": "Munky And Head Vocals - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 77,
+            "name": "Fieldy",
+            "tuning": [
+                41,
+                36,
+                31,
+                26,
+                21
+            ],
+            "hash": "bass_g2GJLKCG",
+            "title": "Fieldy - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 736,
+            "name": "Head",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38,
+                33
+            ],
+            "difficulty": 2,
+            "hash": "guitar_qr5kWEBe",
+            "title": "Head - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1245,
+            "name": "Munky ",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38,
+                33
+            ],
+            "difficulty": 2,
+            "hash": "guitar_C4cnThT4",
+            "title": "Munky  - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 505,
+            "name": "Fieldy (Slap)",
+            "tuning": [
+                41,
+                36,
+                31,
+                26,
+                21
+            ],
+            "hash": "bass_oQQj9HAB",
+            "title": "Fieldy (Slap) - Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 90,
+            "name": "David",
+            "hash": "drums_xZGJDfTm",
+            "title": "David - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 1,
+            "name": "Munky And Head Vocals",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38,
+                33
+            ],
+            "hash": "vocals_UsO7eAdC",
+            "title": "Munky And Head Vocals - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 77,
+            "name": "Fieldy",
+            "tuning": [
+                41,
+                36,
+                31,
+                26,
+                21
+            ],
+            "hash": "bass_g2GJLKCG",
+            "title": "Fieldy - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

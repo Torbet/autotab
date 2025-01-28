@@ -1,0 +1,455 @@
+{
+    "song_id": 8708,
+    "revision_id": 588264,
+    "prev_revision_id": 477936,
+    "image": "v3-3-0-oaGiG9hDPRf63mEk",
+    "name": "Tell_Me_Baby",
+    "tracks": [
+        {
+            "instrumentId": 19,
+            "instrument": "Church Organ",
+            "views": 5,
+            "name": "Synth",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_OKRVhEDf",
+            "title": "Synth - Church Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 4,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_DA45CL9C",
+            "title": "Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 29,
+            "name": "Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_P7BprMwx",
+            "title": "Vocals - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 8,
+            "name": "Back Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_FQwN8i5y",
+            "title": "Back Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 91,
+            "instrument": "Pad 4 (choir)",
+            "views": 5,
+            "name": "Back Vocals 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_645rL9MS",
+            "title": "Back Vocals 2 - Pad 4 (choir)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 11283,
+            "name": "Guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_n3Z1YRT9",
+            "title": "Guitar 1 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 38,
+            "instrument": "Synth Bass 1",
+            "views": 53,
+            "name": "Guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "bass_vyILlwdy",
+            "title": "Guitar 2 - Synth Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 762,
+            "name": "Guitar 3 (Solo)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_G3e034rD",
+            "title": "Guitar 3 (Solo) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 5161,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_BKerUAAG",
+            "title": "Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1270,
+            "name": "",
+            "hash": "drums_cced96HM",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9,
+            "originalPartId": 9
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 7,
+            "name": "Percussions",
+            "hash": "drums_0tKFetBt",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10,
+            "originalPartId": 10
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Percussions 2",
+            "hash": "drums_FK3AnRwv",
+            "title": "Percussions 2 - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11,
+            "originalPartId": 11
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 19,
+            "instrument": "Church Organ",
+            "views": 5,
+            "name": "Synth",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_OKRVhEDf",
+            "title": "Synth - Church Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 4,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_DA45CL9C",
+            "title": "Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 29,
+            "name": "Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_P7BprMwx",
+            "title": "Vocals - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 8,
+            "name": "Back Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_FQwN8i5y",
+            "title": "Back Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 91,
+            "instrument": "Pad 4 (choir)",
+            "views": 5,
+            "name": "Back Vocals 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_645rL9MS",
+            "title": "Back Vocals 2 - Pad 4 (choir)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 11283,
+            "name": "Guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_n3Z1YRT9",
+            "title": "Guitar 1 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5
+        },
+        {
+            "instrumentId": 38,
+            "instrument": "Synth Bass 1",
+            "views": 53,
+            "name": "Guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "bass_vyILlwdy",
+            "title": "Guitar 2 - Synth Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 762,
+            "name": "Guitar 3 (Solo)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_G3e034rD",
+            "title": "Guitar 3 (Solo) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 7
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 5161,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_BKerUAAG",
+            "title": "Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 8
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1270,
+            "name": "",
+            "hash": "drums_cced96HM",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 7,
+            "name": "Percussions",
+            "hash": "drums_0tKFetBt",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Percussions 2",
+            "hash": "drums_FK3AnRwv",
+            "title": "Percussions 2 - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11
+        }
+    ]
+}

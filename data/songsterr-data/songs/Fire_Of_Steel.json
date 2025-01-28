@@ -1,0 +1,491 @@
+{
+    "song_id": 8811,
+    "revision_id": 11829,
+    "prev_revision_id": null,
+    "image": "owjp8oXrzBo_MG2q_htPc",
+    "name": "Fire_Of_Steel",
+    "tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Lead 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 3,
+            "hash": "guitar_GBLVwOw3",
+            "title": "Lead 1 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Lead 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 7,
+            "hash": "guitar_PNChYn64",
+            "title": "Lead 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Guitar 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_yidZUGKo",
+            "title": "Guitar 1 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_oAtVII6r",
+            "title": "Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_ubCjOtbu",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_OOXEMghh",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_aLTFG4Z8",
+            "title": "String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 50,
+            "instrument": "SynthStrings 1",
+            "views": 0,
+            "name": "Ensemble 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_0FGCFcR8",
+            "title": "Ensemble 2 - SynthStrings 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_1KHwzJV1",
+            "title": "Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        },
+        {
+            "instrumentId": 6,
+            "instrument": "Harpsichord",
+            "views": 0,
+            "name": "Keyboard",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                35
+            ],
+            "hash": "other_9R6XELVX",
+            "title": "Keyboard - Harpsichord",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9,
+            "originalPartId": 9
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 0,
+            "name": "Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_axfaYdGL",
+            "title": "Vocals - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10,
+            "originalPartId": 10
+        },
+        {
+            "instrumentId": 95,
+            "instrument": "Pad 8 (sweep)",
+            "views": 0,
+            "name": "Delay",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_LVtVfW8I",
+            "title": "Delay - Pad 8 (sweep)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11,
+            "originalPartId": 11
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Lead 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 3,
+            "hash": "guitar_GBLVwOw3",
+            "title": "Lead 1 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Lead 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 7,
+            "hash": "guitar_PNChYn64",
+            "title": "Lead 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Guitar 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_yidZUGKo",
+            "title": "Guitar 1 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 4,
+            "hash": "guitar_oAtVII6r",
+            "title": "Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_ubCjOtbu",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_OOXEMghh",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_aLTFG4Z8",
+            "title": "String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 50,
+            "instrument": "SynthStrings 1",
+            "views": 0,
+            "name": "Ensemble 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_0FGCFcR8",
+            "title": "Ensemble 2 - SynthStrings 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_1KHwzJV1",
+            "title": "Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        },
+        {
+            "instrumentId": 6,
+            "instrument": "Harpsichord",
+            "views": 0,
+            "name": "Keyboard",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                35
+            ],
+            "hash": "other_9R6XELVX",
+            "title": "Keyboard - Harpsichord",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 0,
+            "name": "Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_axfaYdGL",
+            "title": "Vocals - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10
+        },
+        {
+            "instrumentId": 95,
+            "instrument": "Pad 8 (sweep)",
+            "views": 0,
+            "name": "Delay",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_LVtVfW8I",
+            "title": "Delay - Pad 8 (sweep)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11
+        }
+    ]
+}

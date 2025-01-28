@@ -1,0 +1,200 @@
+{
+    "song_id": 6628,
+    "revision_id": 39982,
+    "prev_revision_id": null,
+    "image": "fTj6VF3XvDhAEh4bXfJ5h",
+    "name": "Kasumi",
+    "tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 82,
+            "name": "Guitare (Melodique) - Die",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_QNc96X7N",
+            "title": "Guitare (Melodique) - Die - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 88,
+            "name": "Guitare (Rythmique) - Kaoru",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 1,
+            "hash": "guitar_8HPWVQAQ",
+            "title": "Guitare (Rythmique) - Kaoru - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 67,
+            "name": "Basse - Shinya",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_zJIauxbu",
+            "title": "Basse - Shinya - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 90,
+            "instrument": "Pad 3 (polysynth)",
+            "views": 0,
+            "name": ":: Claviers ::",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "other_t8h3wBEr",
+            "title": ":: Claviers :: - Pad 3 (polysynth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 56,
+            "name": "Batterie - Toshiya",
+            "hash": "drums_eC2uAj9M",
+            "title": "Batterie - Toshiya - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 82,
+            "name": "Guitare (Melodique) - Die",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_QNc96X7N",
+            "title": "Guitare (Melodique) - Die - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 88,
+            "name": "Guitare (Rythmique) - Kaoru",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 1,
+            "hash": "guitar_8HPWVQAQ",
+            "title": "Guitare (Rythmique) - Kaoru - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 67,
+            "name": "Basse - Shinya",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_zJIauxbu",
+            "title": "Basse - Shinya - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 90,
+            "instrument": "Pad 3 (polysynth)",
+            "views": 0,
+            "name": ":: Claviers ::",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "other_t8h3wBEr",
+            "title": ":: Claviers :: - Pad 3 (polysynth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 56,
+            "name": "Batterie - Toshiya",
+            "hash": "drums_eC2uAj9M",
+            "title": "Batterie - Toshiya - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

@@ -1,0 +1,239 @@
+{
+    "song_id": 1388,
+    "revision_id": 1221777,
+    "prev_revision_id": 1107562,
+    "image": "v3-5-26-Q9kZno96vgjL62UA",
+    "name": "Uno",
+    "tracks": [
+        {
+            "instrumentId": 79,
+            "instrument": "Ocarina",
+            "views": 3,
+            "name": "Matt Bellamy (Vocals)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_QrzmsieW",
+            "title": "Matt Bellamy (Vocals) - Ocarina",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 69,
+            "name": "Matt Bellamy",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_uh2WWKJ8",
+            "title": "Matt Bellamy - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 39,
+            "name": "Matt Bellamy",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Xlrov8ss",
+            "title": "Matt Bellamy - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 73,
+            "name": "Chris Wolstenholme (Bass)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_M91o9Dmu",
+            "title": "Chris Wolstenholme (Bass) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 4,
+            "name": "Chris Wolstenholme (Bass Effects)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "difficulty": 1,
+            "hash": "guitar_5UsS2LeM",
+            "title": "Chris Wolstenholme (Bass Effects) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 16,
+            "name": "Dominic Howard",
+            "hash": "drums_BZWmN88T",
+            "title": "Dominic Howard - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 79,
+            "instrument": "Ocarina",
+            "views": 3,
+            "name": "Matt Bellamy (Vocals)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_QrzmsieW",
+            "title": "Matt Bellamy (Vocals) - Ocarina",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 69,
+            "name": "Matt Bellamy",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_uh2WWKJ8",
+            "title": "Matt Bellamy - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 39,
+            "name": "Matt Bellamy",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Xlrov8ss",
+            "title": "Matt Bellamy - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 73,
+            "name": "Chris Wolstenholme (Bass)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_M91o9Dmu",
+            "title": "Chris Wolstenholme (Bass) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 4,
+            "name": "Chris Wolstenholme (Bass Effects)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "difficulty": 1,
+            "hash": "guitar_5UsS2LeM",
+            "title": "Chris Wolstenholme (Bass Effects) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 16,
+            "name": "Dominic Howard",
+            "hash": "drums_BZWmN88T",
+            "title": "Dominic Howard - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

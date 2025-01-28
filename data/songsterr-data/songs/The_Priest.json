@@ -1,0 +1,118 @@
+{
+    "song_id": 11514,
+    "revision_id": 293474,
+    "prev_revision_id": null,
+    "image": "0qf3cTlbGr9NTz4OVDHs8",
+    "name": "The_Priest",
+    "tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 8,
+            "name": "",
+            "hash": "drums_nOwQA36U",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 189,
+            "name": "",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_ydBmB3nr",
+            "title": "Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 109,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_iRwN1DcO",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 8,
+            "name": "",
+            "hash": "drums_nOwQA36U",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 189,
+            "name": "",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_ydBmB3nr",
+            "title": "Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 109,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_iRwN1DcO",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "song_id": 916,
+    "revision_id": 3408,
+    "prev_revision_id": null,
+    "image": "ZMoWXc9-252ZqGps03qGh",
+    "name": "Crimes",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5,
+            "name": "Guitar 1",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_USNdjrcN",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Guitar 2",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_SpE9t8oa",
+            "title": "Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                40,
+                35,
+                30,
+                25
+            ],
+            "hash": "bass_VDzLfsaM",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_r4hDYePN",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5,
+            "name": "Guitar 1",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_USNdjrcN",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Guitar 2",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_SpE9t8oa",
+            "title": "Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                40,
+                35,
+                30,
+                25
+            ],
+            "hash": "bass_VDzLfsaM",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_r4hDYePN",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

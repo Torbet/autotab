@@ -1,0 +1,159 @@
+{
+    "song_id": 11164,
+    "revision_id": 296050,
+    "prev_revision_id": null,
+    "image": "Rs5AImIcaTP5DD003-Lat",
+    "name": "Under_The_Guillotine",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 135,
+            "name": "guit.1",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_F0EVrMHX",
+            "title": "guit.1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 28,
+            "name": "guit.2",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Rj9J9caU",
+            "title": "guit.2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 32,
+            "instrument": "Acoustic Bass",
+            "views": 23,
+            "name": "",
+            "tuning": [
+                41,
+                36,
+                31,
+                26
+            ],
+            "hash": "bass_JxwyPqsq",
+            "title": "Acoustic Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "",
+            "hash": "drums_If7apyl4",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 135,
+            "name": "guit.1",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_F0EVrMHX",
+            "title": "guit.1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 28,
+            "name": "guit.2",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Rj9J9caU",
+            "title": "guit.2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 32,
+            "instrument": "Acoustic Bass",
+            "views": 23,
+            "name": "",
+            "tuning": [
+                41,
+                36,
+                31,
+                26
+            ],
+            "hash": "bass_JxwyPqsq",
+            "title": "Acoustic Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "",
+            "hash": "drums_If7apyl4",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

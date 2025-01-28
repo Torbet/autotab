@@ -1,0 +1,323 @@
+{
+    "song_id": 4746,
+    "revision_id": 675772,
+    "prev_revision_id": 674676,
+    "image": "v3-4-3-xX7iWowF-e5HqcZN",
+    "name": "I_Feel_Free",
+    "tracks": [
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 11,
+            "name": "Jack Bruce - Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_N8Xcrwtv",
+            "title": "Jack Bruce - Vocal - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 397,
+            "name": "Jack Bruce",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_JrEbSvaA",
+            "title": "Jack Bruce - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 4,
+            "name": "Jack Bruce",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_50Me7x0g",
+            "title": "Jack Bruce - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 717,
+            "name": "Eric Clapton - Lead",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_HFc2ocEl",
+            "title": "Eric Clapton - Lead - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 132,
+            "name": "Eric Clapton - Rythm",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_wUPdkZLu",
+            "title": "Eric Clapton - Rythm - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 2,
+            "name": "Eric Clapton - Backing Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_lg9sDCyr",
+            "title": "Eric Clapton - Backing Vocal - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 166,
+            "name": "Ginger Baker",
+            "hash": "drums_lAcwCR4x",
+            "title": "Ginger Baker - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 21,
+            "name": "Ginger Baker - Backing Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_hPWdIIU2",
+            "title": "Ginger Baker - Backing Vocal - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 11,
+            "name": "Jack Bruce - Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_N8Xcrwtv",
+            "title": "Jack Bruce - Vocal - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 397,
+            "name": "Jack Bruce",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_JrEbSvaA",
+            "title": "Jack Bruce - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 4,
+            "name": "Jack Bruce",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_50Me7x0g",
+            "title": "Jack Bruce - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 717,
+            "name": "Eric Clapton - Lead",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_HFc2ocEl",
+            "title": "Eric Clapton - Lead - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 132,
+            "name": "Eric Clapton - Rythm",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_wUPdkZLu",
+            "title": "Eric Clapton - Rythm - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 2,
+            "name": "Eric Clapton - Backing Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_lg9sDCyr",
+            "title": "Eric Clapton - Backing Vocal - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 166,
+            "name": "Ginger Baker",
+            "hash": "drums_lAcwCR4x",
+            "title": "Ginger Baker - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 21,
+            "name": "Ginger Baker - Backing Vocal",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_hPWdIIU2",
+            "title": "Ginger Baker - Backing Vocal - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

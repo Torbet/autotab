@@ -1,0 +1,282 @@
+{
+    "song_id": 1140,
+    "revision_id": 694462,
+    "prev_revision_id": 3582,
+    "image": "v3-4-5-QpTjhNipiOobNPbo",
+    "name": "Air_-_Cherry_Blossom_Girl",
+    "tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 565,
+            "name": "Guitare",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_bekLAPfb",
+            "title": "Guitare - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 52,
+            "name": "Basse",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_N9M2h3v8",
+            "title": "Basse - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 89,
+            "instrument": "Pad 2 (warm)",
+            "views": 2,
+            "name": "Atmosph\u00e8re 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_u7P7PHrD",
+            "title": "Atmosph\u00e8re 1 - Pad 2 (warm)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 79,
+            "instrument": "Ocarina",
+            "views": 8,
+            "name": "Atmosph\u00e8re 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Hv3u0dcn",
+            "title": "Atmosph\u00e8re 2 - Ocarina",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 21,
+            "name": "Atmosph\u00e8re 3",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_vMfqRkZp",
+            "title": "Atmosph\u00e8re 3 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 64,
+            "instrument": "Soprano Sax",
+            "views": 2,
+            "name": "Voix",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_RvoJsGoI",
+            "title": "Voix - Soprano Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Batterie",
+            "hash": "drums_MOP3AUn9",
+            "title": "Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 565,
+            "name": "Guitare",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_bekLAPfb",
+            "title": "Guitare - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 52,
+            "name": "Basse",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_N9M2h3v8",
+            "title": "Basse - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 89,
+            "instrument": "Pad 2 (warm)",
+            "views": 2,
+            "name": "Atmosph\u00e8re 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_u7P7PHrD",
+            "title": "Atmosph\u00e8re 1 - Pad 2 (warm)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 79,
+            "instrument": "Ocarina",
+            "views": 8,
+            "name": "Atmosph\u00e8re 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Hv3u0dcn",
+            "title": "Atmosph\u00e8re 2 - Ocarina",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 21,
+            "name": "Atmosph\u00e8re 3",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_vMfqRkZp",
+            "title": "Atmosph\u00e8re 3 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 64,
+            "instrument": "Soprano Sax",
+            "views": 2,
+            "name": "Voix",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_RvoJsGoI",
+            "title": "Voix - Soprano Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Batterie",
+            "hash": "drums_MOP3AUn9",
+            "title": "Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

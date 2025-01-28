@@ -1,0 +1,292 @@
+{
+    "song_id": 5855,
+    "revision_id": 962216,
+    "prev_revision_id": 874778,
+    "image": "v3-5-23-igDOaJDLs8-CUgpK",
+    "name": "Deathblow",
+    "tracks": [
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 8,
+            "name": "Vocals / Chino Moreno",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "hash": "vocals_mAcVTxca",
+            "title": "Vocals / Chino Moreno - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 671,
+            "name": "Guitar / Chino Moreno (Clean)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_DnfQN2Xg",
+            "title": "Guitar / Chino Moreno (Clean) - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 121,
+            "name": "Guitar / Stephen Carpenter",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_v1wTJWFh",
+            "title": "Guitar / Stephen Carpenter - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 47,
+            "name": "Guitar / Chino Moreno (Dist.)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37,
+                32
+            ],
+            "difficulty": 1,
+            "hash": "guitar_0QxptbWf",
+            "title": "Guitar / Chino Moreno (Dist.) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 88,
+            "name": "Bass / Chi Cheng",
+            "tuning": [
+                40,
+                35,
+                30,
+                25,
+                20
+            ],
+            "hash": "bass_ypnhqW6X",
+            "title": "Bass / Chi Cheng - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 116,
+            "name": "Drums / Abe Cunningham",
+            "hash": "drums_mMJ3jlii",
+            "title": "Drums / Abe Cunningham - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 94,
+            "instrument": "Pad 7 (halo)",
+            "views": 2,
+            "name": "Synth / Frank Delgado",
+            "tuning": [
+                58,
+                53,
+                49,
+                44,
+                39,
+                32
+            ],
+            "hash": "other_S1AN6uNY",
+            "title": "Synth / Frank Delgado - Pad 7 (halo)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 8,
+            "name": "Vocals / Chino Moreno",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "hash": "vocals_mAcVTxca",
+            "title": "Vocals / Chino Moreno - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 671,
+            "name": "Guitar / Chino Moreno (Clean)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_DnfQN2Xg",
+            "title": "Guitar / Chino Moreno (Clean) - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 121,
+            "name": "Guitar / Stephen Carpenter",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_v1wTJWFh",
+            "title": "Guitar / Stephen Carpenter - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 47,
+            "name": "Guitar / Chino Moreno (Dist.)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37,
+                32
+            ],
+            "difficulty": 1,
+            "hash": "guitar_0QxptbWf",
+            "title": "Guitar / Chino Moreno (Dist.) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 88,
+            "name": "Bass / Chi Cheng",
+            "tuning": [
+                40,
+                35,
+                30,
+                25,
+                20
+            ],
+            "hash": "bass_ypnhqW6X",
+            "title": "Bass / Chi Cheng - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 116,
+            "name": "Drums / Abe Cunningham",
+            "hash": "drums_mMJ3jlii",
+            "title": "Drums / Abe Cunningham - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 94,
+            "instrument": "Pad 7 (halo)",
+            "views": 2,
+            "name": "Synth / Frank Delgado",
+            "tuning": [
+                58,
+                53,
+                49,
+                44,
+                39,
+                32
+            ],
+            "hash": "other_S1AN6uNY",
+            "title": "Synth / Frank Delgado - Pad 7 (halo)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

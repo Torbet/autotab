@@ -1,0 +1,311 @@
+{
+    "song_id": 1510,
+    "revision_id": 313097,
+    "prev_revision_id": null,
+    "image": "aDReV05YkP7u3kYxqsBBm",
+    "name": "Kokyou_Wa_Chikyuu",
+    "tracks": [
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 0,
+            "name": "Vocal (Eizo)",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "hash": "vocals_YJVW833V",
+            "title": "Vocal (Eizo) - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 32,
+            "name": "Guitar 1 (SheJa)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 3,
+            "hash": "guitar_d9yZ4Tgd",
+            "title": "Guitar 1 (SheJa) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2,
+            "name": "Guitar 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_5Frcwrlj",
+            "title": "Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 2+ (optional)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 5,
+            "hash": "guitar_FTb8qYMT",
+            "title": "Guitar 2+ (optional) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 3",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 6,
+            "hash": "guitar_ZjAjSEMs",
+            "title": "Guitar 3 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "Bass (Masaki)",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_Ey2SwxVG",
+            "title": "Bass (Masaki) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Drums (Katsuji)",
+            "hash": "drums_f48P0a8k",
+            "title": "Drums (Katsuji) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Drums 2 (optional)",
+            "hash": "drums_Y2k6LQPN",
+            "title": "Drums 2 (optional) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 0,
+            "name": "Vocal (Eizo)",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38
+            ],
+            "hash": "vocals_YJVW833V",
+            "title": "Vocal (Eizo) - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 32,
+            "name": "Guitar 1 (SheJa)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 3,
+            "hash": "guitar_d9yZ4Tgd",
+            "title": "Guitar 1 (SheJa) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2,
+            "name": "Guitar 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_5Frcwrlj",
+            "title": "Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 2+ (optional)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 5,
+            "hash": "guitar_FTb8qYMT",
+            "title": "Guitar 2+ (optional) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 3",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 6,
+            "hash": "guitar_ZjAjSEMs",
+            "title": "Guitar 3 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "Bass (Masaki)",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_Ey2SwxVG",
+            "title": "Bass (Masaki) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Drums (Katsuji)",
+            "hash": "drums_f48P0a8k",
+            "title": "Drums (Katsuji) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Drums 2 (optional)",
+            "hash": "drums_Y2k6LQPN",
+            "title": "Drums 2 (optional) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

@@ -1,0 +1,247 @@
+{
+    "song_id": 2242,
+    "revision_id": 4600,
+    "prev_revision_id": null,
+    "image": "Qzb0lhmobJHzKjHOptU8Q",
+    "name": "5_8_Song",
+    "tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 0,
+            "name": "guitare rythmique",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_uljCQbCx",
+            "title": "guitare rythmique - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 0,
+            "name": "synth\u00e9",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_olFb7li6",
+            "title": "synth\u00e9 - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 0,
+            "name": "synth\u00e9",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                33
+            ],
+            "hash": "other_VEmXXkPs",
+            "title": "synth\u00e9 - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "batterie",
+            "hash": "drums_BKSKsyov",
+            "title": "batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "guitare soliste",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_bf6Ltbv5",
+            "title": "guitare soliste - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 0,
+            "name": "Basse",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_otgUIs04",
+            "title": "Basse - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 0,
+            "name": "guitare rythmique",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_uljCQbCx",
+            "title": "guitare rythmique - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 0,
+            "name": "synth\u00e9",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_olFb7li6",
+            "title": "synth\u00e9 - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 0,
+            "name": "synth\u00e9",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                33
+            ],
+            "hash": "other_VEmXXkPs",
+            "title": "synth\u00e9 - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "batterie",
+            "hash": "drums_BKSKsyov",
+            "title": "batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "guitare soliste",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_bf6Ltbv5",
+            "title": "guitare soliste - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 0,
+            "name": "Basse",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_otgUIs04",
+            "title": "Basse - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

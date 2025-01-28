@@ -1,0 +1,161 @@
+{
+    "song_id": 6343,
+    "revision_id": 294313,
+    "prev_revision_id": null,
+    "image": "26NNv26DCDMffUCrAA-hc",
+    "name": "Breathe",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 228,
+            "name": "Guitar 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_8jDLpeNS",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2,
+            "name": "Guitar 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 1,
+            "hash": "guitar_HeMS2mLP",
+            "title": "Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 42,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                25,
+                22
+            ],
+            "hash": "bass_AWOWalJq",
+            "title": "Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 13,
+            "name": "",
+            "hash": "drums_kFqHpc4D",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 228,
+            "name": "Guitar 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_8jDLpeNS",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2,
+            "name": "Guitar 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 1,
+            "hash": "guitar_HeMS2mLP",
+            "title": "Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 42,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                25,
+                22
+            ],
+            "hash": "bass_AWOWalJq",
+            "title": "Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 13,
+            "name": "",
+            "hash": "drums_kFqHpc4D",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

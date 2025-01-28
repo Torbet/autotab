@@ -1,0 +1,202 @@
+{
+    "song_id": 11055,
+    "revision_id": 639786,
+    "prev_revision_id": 638606,
+    "image": "v3-0-0-BKFtKH87h7S76azM",
+    "name": "Stronger_Than_Before",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 14,
+            "name": "Guitar 1",
+            "tuning": [
+                62,
+                56,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_cu7xfKie",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 6,
+            "name": "Guitar 2",
+            "tuning": [
+                62,
+                56,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_cmH6Sxo0",
+            "title": "Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 3,
+            "name": "Additional Guitar",
+            "tuning": [
+                62,
+                56,
+                52,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_SDOxuz5L",
+            "title": "Additional Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                41,
+                36,
+                31,
+                26
+            ],
+            "hash": "bass_l4Efx2nf",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "",
+            "hash": "drums_PzzBrCXK",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 14,
+            "name": "Guitar 1",
+            "tuning": [
+                62,
+                56,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_cu7xfKie",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 6,
+            "name": "Guitar 2",
+            "tuning": [
+                62,
+                56,
+                53,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_cmH6Sxo0",
+            "title": "Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 3,
+            "name": "Additional Guitar",
+            "tuning": [
+                62,
+                56,
+                52,
+                48,
+                43,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_SDOxuz5L",
+            "title": "Additional Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                41,
+                36,
+                31,
+                26
+            ],
+            "hash": "bass_l4Efx2nf",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "",
+            "hash": "drums_PzzBrCXK",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

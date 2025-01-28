@@ -1,0 +1,352 @@
+{
+    "song_id": 2849,
+    "revision_id": 710146,
+    "prev_revision_id": 710124,
+    "image": "v3-4-5-stage-fclb1mjbiGTyOtmN",
+    "name": "Children_Of_The_Grave",
+    "tracks": [
+        {
+            "instrumentId": 22,
+            "instrument": "Harmonica",
+            "views": 65,
+            "name": "Ozzy Osbourne (Vocals)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "hash": "vocals_quDkFXka",
+            "title": "Ozzy Osbourne (Vocals) - Harmonica",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 3510,
+            "name": "Tony Iommi (Clean Guitar)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 4,
+            "hash": "guitar_AycURY01",
+            "title": "Tony Iommi (Clean Guitar) - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 50871,
+            "name": "Tony Iommi (Right Guitar)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_GO42b0B1",
+            "title": "Tony Iommi (Right Guitar) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5216,
+            "name": "Tony Iommi (Left Guitar)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_juvy1GQF",
+            "title": "Tony Iommi (Left Guitar) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 346,
+            "name": "Tony Iommi (Overdubs)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 4,
+            "hash": "guitar_2Z69EtVw",
+            "title": "Tony Iommi (Overdubs) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 13176,
+            "name": "Geezer Butler (Bass)",
+            "tuning": [
+                40,
+                35,
+                30,
+                25
+            ],
+            "hash": "bass_WzoVcKnT",
+            "title": "Geezer Butler (Bass) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1421,
+            "name": "Bill Ward (Drums)",
+            "hash": "drums_dQVu4PS4",
+            "title": "Bill Ward (Drums) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 54,
+            "name": "Bill Ward (Drum Fills)",
+            "hash": "drums_c74hmgQh",
+            "title": "Bill Ward (Drum Fills) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 8,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_CqkF9hr8",
+            "title": "Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 22,
+            "instrument": "Harmonica",
+            "views": 65,
+            "name": "Ozzy Osbourne (Vocals)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "hash": "vocals_quDkFXka",
+            "title": "Ozzy Osbourne (Vocals) - Harmonica",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 3510,
+            "name": "Tony Iommi (Clean Guitar)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 4,
+            "hash": "guitar_AycURY01",
+            "title": "Tony Iommi (Clean Guitar) - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 50871,
+            "name": "Tony Iommi (Right Guitar)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_GO42b0B1",
+            "title": "Tony Iommi (Right Guitar) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5216,
+            "name": "Tony Iommi (Left Guitar)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_juvy1GQF",
+            "title": "Tony Iommi (Left Guitar) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 346,
+            "name": "Tony Iommi (Overdubs)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 4,
+            "hash": "guitar_2Z69EtVw",
+            "title": "Tony Iommi (Overdubs) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 13176,
+            "name": "Geezer Butler (Bass)",
+            "tuning": [
+                40,
+                35,
+                30,
+                25
+            ],
+            "hash": "bass_WzoVcKnT",
+            "title": "Geezer Butler (Bass) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1421,
+            "name": "Bill Ward (Drums)",
+            "hash": "drums_dQVu4PS4",
+            "title": "Bill Ward (Drums) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 54,
+            "name": "Bill Ward (Drum Fills)",
+            "hash": "drums_c74hmgQh",
+            "title": "Bill Ward (Drum Fills) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 8,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_CqkF9hr8",
+            "title": "Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        }
+    ]
+}

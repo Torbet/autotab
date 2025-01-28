@@ -1,0 +1,161 @@
+{
+    "song_id": 2517,
+    "revision_id": 5031,
+    "prev_revision_id": null,
+    "image": "x9LnMMve9vG5nxQJDVeNV",
+    "name": "Moonlight_Sonata_On_Piano_With_A_Distorted_Guitar_In_The_Background__w_Drums",
+    "tracks": [
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 9,
+            "name": "Right Hand",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_2XcqDgRG",
+            "title": "Right Hand - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 5,
+            "name": "Left Hand",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "other_MfCfeNyB",
+            "title": "Left Hand - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Percussion",
+            "hash": "drums_YxSQjCgZ",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 7,
+            "name": "Spur 4",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Xsx7uC2i",
+            "title": "Spur 4 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 9,
+            "name": "Right Hand",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_2XcqDgRG",
+            "title": "Right Hand - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 5,
+            "name": "Left Hand",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "other_MfCfeNyB",
+            "title": "Left Hand - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Percussion",
+            "hash": "drums_YxSQjCgZ",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 7,
+            "name": "Spur 4",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Xsx7uC2i",
+            "title": "Spur 4 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        }
+    ]
+}

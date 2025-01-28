@@ -1,0 +1,241 @@
+{
+    "song_id": 295,
+    "revision_id": 1134049,
+    "prev_revision_id": 1108528,
+    "image": "v3-5-26-UGiddTSvaSs7Gt8R",
+    "name": "In_Bloom",
+    "tracks": [
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 355,
+            "name": "Kurt Cobain | Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_Y5CgJyjN",
+            "title": "Kurt Cobain | Vocals - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 110,
+            "instrument": "Fiddle",
+            "views": 90,
+            "name": "Dave Grohl | Backing Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_UmbKio3T",
+            "title": "Dave Grohl | Backing Vocals - Fiddle",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 3588,
+            "name": "Kurt Cobain | Fender Comp. Mustang | Clean",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_zjs3vu35",
+            "title": "Kurt Cobain | Fender Comp. Mustang | Clean - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 9178,
+            "name": "Krist Novoselic | Gibson Ripper | Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_Jaf7CcXG",
+            "title": "Krist Novoselic | Gibson Ripper | Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 5698,
+            "name": "Dave Grohl | Tama Artstar II | Drums ",
+            "hash": "drums_zs6673CW",
+            "title": "Dave Grohl | Tama Artstar II | Drums  - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 41326,
+            "name": "Kurt Cobain | Fender Comp. Mustang | Dist.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "vocals_MgGJMVkq",
+            "title": "Kurt Cobain | Fender Comp. Mustang | Dist. - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 355,
+            "name": "Kurt Cobain | Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_Y5CgJyjN",
+            "title": "Kurt Cobain | Vocals - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 110,
+            "instrument": "Fiddle",
+            "views": 90,
+            "name": "Dave Grohl | Backing Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_UmbKio3T",
+            "title": "Dave Grohl | Backing Vocals - Fiddle",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 3588,
+            "name": "Kurt Cobain | Fender Comp. Mustang | Clean",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_zjs3vu35",
+            "title": "Kurt Cobain | Fender Comp. Mustang | Clean - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 9178,
+            "name": "Krist Novoselic | Gibson Ripper | Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_Jaf7CcXG",
+            "title": "Krist Novoselic | Gibson Ripper | Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 5698,
+            "name": "Dave Grohl | Tama Artstar II | Drums ",
+            "hash": "drums_zs6673CW",
+            "title": "Dave Grohl | Tama Artstar II | Drums  - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 41326,
+            "name": "Kurt Cobain | Fender Comp. Mustang | Dist.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "vocals_MgGJMVkq",
+            "title": "Kurt Cobain | Fender Comp. Mustang | Dist. - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5
+        }
+    ]
+}

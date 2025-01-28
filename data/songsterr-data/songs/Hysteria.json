@@ -1,0 +1,317 @@
+{
+    "song_id": 11430,
+    "revision_id": 1185065,
+    "prev_revision_id": 1174589,
+    "image": "v3-5-26-ZtMDWzVpj6wNORzW",
+    "name": "Hysteria",
+    "tracks": [
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 102,
+            "name": "Matt Bellamy  - Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_3djqKTSd",
+            "title": "Matt Bellamy  - Vocals - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 368,
+            "name": "Matt Bellamy - Guitar Overdubs",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_FPYcsV6n",
+            "title": "Matt Bellamy - Guitar Overdubs - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 26217,
+            "name": "Matt Bellamy - Main Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_mBic0tyJ",
+            "title": "Matt Bellamy - Main Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 43060,
+            "name": "Chris Wolstenholm - Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_OZbsONWw",
+            "title": "Chris Wolstenholm - Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1423,
+            "name": "Chris Wolstenholm - Bass Effects 1",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "difficulty": 4,
+            "hash": "guitar_wx3ZjOeT",
+            "title": "Chris Wolstenholm - Bass Effects 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 43,
+            "instrument": "Contrabass",
+            "views": 1236,
+            "name": "Chris Wolstenholm - Bass Effects 2",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_dc6ToXVF",
+            "title": "Chris Wolstenholm - Bass Effects 2 - Contrabass",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 127,
+            "instrument": "Gunshot",
+            "views": 7,
+            "name": "Matt Bellamy - Dead Note Sound Effect",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_HaJoF5BF",
+            "title": "Matt Bellamy - Dead Note Sound Effect - Gunshot",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 3039,
+            "name": "Dominic Howard - Drums",
+            "hash": "drums_qpSTZ5Tc",
+            "title": "Dominic Howard - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 102,
+            "name": "Matt Bellamy  - Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_3djqKTSd",
+            "title": "Matt Bellamy  - Vocals - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 368,
+            "name": "Matt Bellamy - Guitar Overdubs",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_FPYcsV6n",
+            "title": "Matt Bellamy - Guitar Overdubs - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 26217,
+            "name": "Matt Bellamy - Main Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_mBic0tyJ",
+            "title": "Matt Bellamy - Main Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 43060,
+            "name": "Chris Wolstenholm - Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_OZbsONWw",
+            "title": "Chris Wolstenholm - Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1423,
+            "name": "Chris Wolstenholm - Bass Effects 1",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "difficulty": 4,
+            "hash": "guitar_wx3ZjOeT",
+            "title": "Chris Wolstenholm - Bass Effects 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 43,
+            "instrument": "Contrabass",
+            "views": 1236,
+            "name": "Chris Wolstenholm - Bass Effects 2",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_dc6ToXVF",
+            "title": "Chris Wolstenholm - Bass Effects 2 - Contrabass",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 127,
+            "instrument": "Gunshot",
+            "views": 7,
+            "name": "Matt Bellamy - Dead Note Sound Effect",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_HaJoF5BF",
+            "title": "Matt Bellamy - Dead Note Sound Effect - Gunshot",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 3039,
+            "name": "Dominic Howard - Drums",
+            "hash": "drums_qpSTZ5Tc",
+            "title": "Dominic Howard - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

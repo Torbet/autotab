@@ -1,0 +1,321 @@
+{
+    "song_id": 11649,
+    "revision_id": 370305,
+    "prev_revision_id": 14203,
+    "image": "m16rwPpWPjHj_VT69rdu5",
+    "name": "A_Flor",
+    "tracks": [
+        {
+            "instrumentId": 80,
+            "instrument": "Lead 1 (square)",
+            "views": 14,
+            "name": "Vocals - Marcelo Camelo/Rodrigo Amarante",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_z9c3JFkd",
+            "title": "Vocals - Marcelo Camelo/Rodrigo Amarante - Lead 1 (square)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 140,
+            "name": "Guitars - Marcelo Camelo/Rodrigo Amarant",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_kPDTYnZZ",
+            "title": "Guitars - Marcelo Camelo/Rodrigo Amarant - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 54,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_bR2Ch1Cf",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 7,
+            "name": "Saxophone",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_3V6y7B0S",
+            "title": "Saxophone - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 56,
+            "instrument": "Trumpet",
+            "views": 6,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_sFqYfrg1",
+            "title": "Trumpet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_famwCI5i",
+            "title": "Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 4,
+            "instrument": "Electric Piano 1",
+            "views": 1,
+            "name": "Keys - Bruno Medina",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_vcx3Q56N",
+            "title": "Keys - Bruno Medina - Electric Piano 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 142,
+            "name": "Drums - Rodrigo Barba",
+            "hash": "drums_JUvRkbIz",
+            "title": "Drums - Rodrigo Barba - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 80,
+            "instrument": "Lead 1 (square)",
+            "views": 14,
+            "name": "Vocals - Marcelo Camelo/Rodrigo Amarante",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_z9c3JFkd",
+            "title": "Vocals - Marcelo Camelo/Rodrigo Amarante - Lead 1 (square)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 140,
+            "name": "Guitars - Marcelo Camelo/Rodrigo Amarant",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_kPDTYnZZ",
+            "title": "Guitars - Marcelo Camelo/Rodrigo Amarant - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 54,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_bR2Ch1Cf",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 7,
+            "name": "Saxophone",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_3V6y7B0S",
+            "title": "Saxophone - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 56,
+            "instrument": "Trumpet",
+            "views": 6,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_sFqYfrg1",
+            "title": "Trumpet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_famwCI5i",
+            "title": "Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 4,
+            "instrument": "Electric Piano 1",
+            "views": 1,
+            "name": "Keys - Bruno Medina",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_vcx3Q56N",
+            "title": "Keys - Bruno Medina - Electric Piano 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 142,
+            "name": "Drums - Rodrigo Barba",
+            "hash": "drums_JUvRkbIz",
+            "title": "Drums - Rodrigo Barba - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

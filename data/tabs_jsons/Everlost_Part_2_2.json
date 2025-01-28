@@ -1,0 +1,4451 @@
+{
+    "strings": 6,
+    "frets": 24,
+    "tuning": [
+        62,
+        57,
+        53,
+        48,
+        43,
+        38
+    ],
+    "name": "Solo Guitar",
+    "instrument": "Electric Guitar (jazz)",
+    "instrumentId": 26,
+    "volume": 1,
+    "balance": -0.375,
+    "measures": [
+        {
+            "index": 1,
+            "signature": [
+                4,
+                4
+            ],
+            "marker": {
+                "text": "Intro",
+                "width": 44
+            },
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 1,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "tempo": {
+                                "type": 4,
+                                "bpm": 86
+                            },
+                            "duration": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 2,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 1,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 3,
+            "marker": {
+                "text": "Verse 1",
+                "width": 59
+            },
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 1,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 4,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 1,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 5,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 1,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 6,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 1,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 7,
+            "signature": [
+                6,
+                8
+            ],
+            "marker": {
+                "text": "Bridge",
+                "width": 57
+            },
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "tempo": {
+                                "type": 4,
+                                "bpm": 110,
+                                "progressive": 16
+                            },
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 8,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 9,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 10,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 11,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 12,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 13,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 14,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 15,
+            "marker": {
+                "text": "Verse 2",
+                "width": 61
+            },
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 16,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 17,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 18,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 19,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 20,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 21,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 22,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 23,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 24,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 25,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 26,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 27,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 28,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 29,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 30,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 31,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 32,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 33,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 34,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 35,
+            "marker": {
+                "text": "Verse 3",
+                "width": 61
+            },
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 36,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 37,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 38,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 39,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 40,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 41,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 42,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 43,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 44,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 45,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 46,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 47,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 48,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 49,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 50,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 51,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 52,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 53,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 54,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 55,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 56,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 57,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 58,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 59,
+            "marker": {
+                "text": "Verse 4",
+                "width": 62
+            },
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 60,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 61,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 62,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 63,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 64,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 65,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 66,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 67,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 68,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 69,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 70,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 71,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 72,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 73,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 74,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 75,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 76,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 77,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 78,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 79,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 80,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 81,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 82,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 83,
+            "marker": {
+                "text": "Guitar Solo",
+                "width": 97
+            },
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 8,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                16
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 10,
+                                    "slide": "legato"
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": 10,
+                                    "slide": "legato"
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 12,
+                                    "slide": "legato"
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": 12,
+                                    "slide": "legato"
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 8,
+                            "dotted": true,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 10
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                16
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 10
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 0,
+                                    "tie": true
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 84,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 4,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                8
+                            ]
+                        },
+                        {
+                            "type": 4,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 10,
+                                    "grace": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                4
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 8
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 85,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 4,
+                            "vibrato": true,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 10,
+                                    "vibrato": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                4
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 86,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 4,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                8
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 0,
+                                    "fret": 10,
+                                    "slide": "below",
+                                    "staccato": true
+                                },
+                                {
+                                    "string": 2,
+                                    "fret": 10,
+                                    "slide": "below",
+                                    "staccato": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 0,
+                                    "fret": 8,
+                                    "staccato": true
+                                },
+                                {
+                                    "string": 2,
+                                    "fret": 9,
+                                    "staccato": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 87,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 4,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 12,
+                                    "slide": "above"
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": 12,
+                                    "slide": "above"
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                4
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 10
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 0,
+                                    "tie": true
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 9
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 13
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 88,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 32,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                32
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "dotted": true,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 12,
+                                    "hp": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                32
+                            ]
+                        },
+                        {
+                            "type": 32,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                32
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 12,
+                                    "bend": {
+                                        "points": [
+                                            {
+                                                "position": 0,
+                                                "tone": 0
+                                            },
+                                            {
+                                                "position": 30,
+                                                "tone": 100
+                                            },
+                                            {
+                                                "position": 60,
+                                                "tone": 0
+                                            }
+                                        ],
+                                        "tone": 100
+                                    }
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 32,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                32
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 12,
+                                    "staccato": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 89,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 8,
+                            "dotted": true,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 12,
+                                    "grace": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                16
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 8,
+                            "dotted": true,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 10,
+                                    "slide": "upwards"
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                16
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 4,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 90,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "rest": true
+        },
+        {
+            "index": 91,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 8,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                16
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 32,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                32
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 13
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 32,
+                            "notes": [
+                                {
+                                    "string": 0,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                32
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 8,
+                            "dotted": true,
+                            "notes": [
+                                {
+                                    "string": 0,
+                                    "fret": 12,
+                                    "bend": {
+                                        "points": [
+                                            {
+                                                "position": 0,
+                                                "tone": 0
+                                            },
+                                            {
+                                                "position": 60,
+                                                "tone": 50
+                                            }
+                                        ],
+                                        "tone": 50
+                                    }
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                16
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 0,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                24
+                            ],
+                            "tupletStart": true
+                        },
+                        {
+                            "type": 16,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 13
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                24
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                24
+                            ],
+                            "tupletStop": true
+                        },
+                        {
+                            "type": 32,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                48
+                            ],
+                            "tupletStart": true
+                        },
+                        {
+                            "type": 32,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 13
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                48
+                            ]
+                        },
+                        {
+                            "type": 32,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                48
+                            ],
+                            "beamStop": true,
+                            "tupletStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 92,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 32,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                48
+                            ],
+                            "beamStart": true,
+                            "tupletStart": true
+                        },
+                        {
+                            "type": 32,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 14
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                48
+                            ]
+                        },
+                        {
+                            "type": 32,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                48
+                            ],
+                            "tupletStop": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 9
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 32,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 9
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                32
+                            ]
+                        },
+                        {
+                            "type": 32,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                32
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 16,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                24
+                            ],
+                            "beamStart": true,
+                            "tupletStart": true
+                        },
+                        {
+                            "type": 16,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                24
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 9
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                24
+                            ],
+                            "tupletStop": true
+                        },
+                        {
+                            "type": 16,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                24
+                            ],
+                            "tupletStart": true
+                        },
+                        {
+                            "type": 16,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                24
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 9
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                24
+                            ],
+                            "tupletStop": true
+                        },
+                        {
+                            "type": 16,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                24
+                            ],
+                            "tupletStart": true
+                        },
+                        {
+                            "type": 16,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                24
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 8
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                24
+                            ],
+                            "beamStop": true,
+                            "tupletStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 93,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 32,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 8
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                32
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 32,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 8
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                32
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 10,
+                                    "slide": "shift"
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 94,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 12,
+                                    "bend": {
+                                        "points": [
+                                            {
+                                                "position": 0,
+                                                "tone": 0
+                                            },
+                                            {
+                                                "position": 15,
+                                                "tone": 50
+                                            },
+                                            {
+                                                "position": 30,
+                                                "tone": 0
+                                            },
+                                            {
+                                                "position": 45,
+                                                "tone": 50
+                                            },
+                                            {
+                                                "position": 60,
+                                                "tone": 0
+                                            }
+                                        ],
+                                        "tone": 50
+                                    }
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 12,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "harmonic": true,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 10,
+                                    "harmonic": "natural"
+                                },
+                                {
+                                    "string": 4,
+                                    "fret": 0,
+                                    "dead": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 9
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 0,
+                                    "tie": true
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 95,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 9,
+                                    "accentuated": true
+                                }
+                            ],
+                            "velocity": "fff",
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "velocity": "f",
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 12,
+                                    "hp": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 9,
+                                    "bend": {
+                                        "points": [
+                                            {
+                                                "position": 0,
+                                                "tone": 0
+                                            },
+                                            {
+                                                "position": 30,
+                                                "tone": 50
+                                            },
+                                            {
+                                                "position": 60,
+                                                "tone": 0
+                                            }
+                                        ],
+                                        "tone": 50
+                                    }
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 12,
+                                    "accentuated": true
+                                }
+                            ],
+                            "velocity": "fff",
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 12,
+                                    "accentuated": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 12,
+                                    "accentuated": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 96,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "velocity": "f",
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 10,
+                                    "accentuated": true
+                                }
+                            ],
+                            "velocity": "fff",
+                            "duration": [
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "velocity": "f",
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 4,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 97,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 8,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                16
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 15,
+                                    "bend": {
+                                        "points": [
+                                            {
+                                                "position": 0,
+                                                "tone": 0
+                                            },
+                                            {
+                                                "position": 60,
+                                                "tone": 100
+                                            }
+                                        ],
+                                        "tone": 100
+                                    }
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 4,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                4
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 98,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 13
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "vibrato": true,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 14,
+                                    "vibrato": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 4,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                4
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "vibrato": true,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 14,
+                                    "vibrato": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "dotted": true,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 99,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 14,
+                                    "slide": "downwards"
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 4,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                4
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 8,
+                            "dotted": true,
+                            "rest": true,
+                            "notes": [
+                                {
+                                    "rest": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                16
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 13,
+                                    "bend": {
+                                        "points": [
+                                            {
+                                                "position": 0,
+                                                "tone": 0
+                                            },
+                                            {
+                                                "position": 30,
+                                                "tone": 100
+                                            },
+                                            {
+                                                "position": 60,
+                                                "tone": 0
+                                            }
+                                        ],
+                                        "tone": 100
+                                    }
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 100,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 8,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 0,
+                                    "tie": true
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": 14
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                12
+                            ],
+                            "tupletStart": true
+                        },
+                        {
+                            "type": 8,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 1,
+                                    "fret": 13,
+                                    "tie": true
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                12
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "tuplet": 3,
+                            "notes": [
+                                {
+                                    "string": 2,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                12
+                            ],
+                            "beamStop": true,
+                            "tupletStop": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "dotted": true,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 15,
+                                    "bend": {
+                                        "points": [
+                                            {
+                                                "position": 0,
+                                                "tone": 0
+                                            },
+                                            {
+                                                "position": 30,
+                                                "tone": 50
+                                            },
+                                            {
+                                                "position": 60,
+                                                "tone": 0
+                                            }
+                                        ],
+                                        "tone": 50
+                                    }
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                32
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "dotted": true,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 15
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                32
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 101,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 3,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 15
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 4,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 4,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                4
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 102,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 16,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 10,
+                                    "hp": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                16
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 12
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStart": true
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 10
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "type": 8,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 8
+                                }
+                            ],
+                            "duration": [
+                                1,
+                                8
+                            ],
+                            "beamStop": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 103,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "vibrato": true,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 5,
+                                    "vibrato": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 104,
+            "voices": [
+                {
+                    "beats": [
+                        {
+                            "type": 2,
+                            "dotted": true,
+                            "notes": [
+                                {
+                                    "string": 5,
+                                    "fret": 0,
+                                    "tie": true
+                                }
+                            ],
+                            "duration": [
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "capo": 0,
+    "voices": 1,
+    "automations": {
+        "tempo": [
+            {
+                "measure": 1,
+                "linear": false,
+                "visible": false,
+                "position": 0,
+                "type": 4,
+                "bpm": 86
+            },
+            {
+                "measure": 7,
+                "linear": false,
+                "visible": false,
+                "position": 0,
+                "type": 4,
+                "bpm": 110,
+                "progressive": 16
+            }
+        ]
+    },
+    "version": 5,
+    "songId": 9589,
+    "partId": 2,
+    "revisionId": 293367
+}

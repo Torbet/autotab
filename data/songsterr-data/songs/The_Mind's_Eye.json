@@ -1,0 +1,243 @@
+{
+    "song_id": 5774,
+    "revision_id": 1024959,
+    "prev_revision_id": 332704,
+    "image": "v3-5-24-q0kHIcCug0RR2jl6",
+    "name": "The_Mind's_Eye",
+    "tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 946,
+            "name": "",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 1,
+            "hash": "guitar_KDY5RcEG",
+            "title": "Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 41,
+            "name": "",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "hash": "other_gjcXukmU",
+            "title": "Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Ukulele",
+            "views": 3,
+            "name": "BackGuitar",
+            "tuning": [
+                40,
+                35,
+                30,
+                25
+            ],
+            "difficulty": 1,
+            "hash": "guitar_lBQWa99X",
+            "title": "BackGuitar - Ukulele",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 2,
+            "name": "",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "hash": "other_HX9WAdeJ",
+            "title": "Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 37,
+            "name": "Solo",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Zdn0mlsm",
+            "title": "Solo - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_xesck34B",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 946,
+            "name": "",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 1,
+            "hash": "guitar_KDY5RcEG",
+            "title": "Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 41,
+            "name": "",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "hash": "other_gjcXukmU",
+            "title": "Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Ukulele",
+            "views": 3,
+            "name": "BackGuitar",
+            "tuning": [
+                40,
+                35,
+                30,
+                25
+            ],
+            "difficulty": 1,
+            "hash": "guitar_lBQWa99X",
+            "title": "BackGuitar - Ukulele",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 2,
+            "name": "",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "hash": "other_HX9WAdeJ",
+            "title": "Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 37,
+            "name": "Solo",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Zdn0mlsm",
+            "title": "Solo - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_xesck34B",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

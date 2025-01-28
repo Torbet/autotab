@@ -1,0 +1,239 @@
+{
+    "song_id": 9061,
+    "revision_id": 640514,
+    "prev_revision_id": 620416,
+    "image": "v3-1-0-FAb0kfkaGkNLaK85",
+    "name": "Chameleon",
+    "tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1174,
+            "name": "Harvey Mason (batterie)",
+            "hash": "drums_wExpLAod",
+            "title": "Harvey Mason (batterie) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 64,
+            "name": "Bennie Maupin (clarinette)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Pj92bAX4",
+            "title": "Bennie Maupin (clarinette) - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 67,
+            "instrument": "Baritone Sax",
+            "views": 816,
+            "name": "Saxophone",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_7BK4h1Np",
+            "title": "Saxophone - Baritone Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 1845,
+            "name": "Guitare + Wha",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_rUAa2jTV",
+            "title": "Guitare + Wha - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 297,
+            "name": "Herbie Hancock (clavier)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_LHhHYCoK",
+            "title": "Herbie Hancock (clavier) - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 9488,
+            "name": "Paul Jackson (basse)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_BRveTa84",
+            "title": "Paul Jackson (basse) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1174,
+            "name": "Harvey Mason (batterie)",
+            "hash": "drums_wExpLAod",
+            "title": "Harvey Mason (batterie) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 64,
+            "name": "Bennie Maupin (clarinette)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Pj92bAX4",
+            "title": "Bennie Maupin (clarinette) - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 67,
+            "instrument": "Baritone Sax",
+            "views": 816,
+            "name": "Saxophone",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_7BK4h1Np",
+            "title": "Saxophone - Baritone Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 1845,
+            "name": "Guitare + Wha",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_rUAa2jTV",
+            "title": "Guitare + Wha - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 297,
+            "name": "Herbie Hancock (clavier)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_LHhHYCoK",
+            "title": "Herbie Hancock (clavier) - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 9488,
+            "name": "Paul Jackson (basse)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_BRveTa84",
+            "title": "Paul Jackson (basse) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

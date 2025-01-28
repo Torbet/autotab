@@ -1,0 +1,247 @@
+{
+    "song_id": 11567,
+    "revision_id": 692221,
+    "prev_revision_id": 646686,
+    "image": "v3-4-5-MYB-JXC_BHxHdAC5",
+    "name": "My_Way",
+    "tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 14199,
+            "name": "Clean Guitar with Delay",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_UlC6KfDe",
+            "title": "Clean Guitar with Delay - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 321,
+            "name": "Delay FX",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_CmIkGhPO",
+            "title": "Delay FX - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 28,
+            "instrument": "Electric Guitar (muted)",
+            "views": 2855,
+            "name": "Muted Guitar",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_T9mPTeYs",
+            "title": "Muted Guitar - Electric Guitar (muted)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5831,
+            "name": "",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Op7GyfdW",
+            "title": "Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 4345,
+            "name": "",
+            "tuning": [
+                40,
+                35,
+                30,
+                25,
+                22
+            ],
+            "hash": "bass_DFg9gHoS",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 3105,
+            "name": "",
+            "hash": "drums_uWwWcuxU",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 14199,
+            "name": "Clean Guitar with Delay",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_UlC6KfDe",
+            "title": "Clean Guitar with Delay - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 321,
+            "name": "Delay FX",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_CmIkGhPO",
+            "title": "Delay FX - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 28,
+            "instrument": "Electric Guitar (muted)",
+            "views": 2855,
+            "name": "Muted Guitar",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_T9mPTeYs",
+            "title": "Muted Guitar - Electric Guitar (muted)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5831,
+            "name": "",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Op7GyfdW",
+            "title": "Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 4345,
+            "name": "",
+            "tuning": [
+                40,
+                35,
+                30,
+                25,
+                22
+            ],
+            "hash": "bass_DFg9gHoS",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 3105,
+            "name": "",
+            "hash": "drums_uWwWcuxU",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

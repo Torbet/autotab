@@ -1,0 +1,241 @@
+{
+    "song_id": 10776,
+    "revision_id": 997066,
+    "prev_revision_id": 991248,
+    "image": "v3-5-23-2RWG9pYXFpCnJ4Jn",
+    "name": "Rite_Of_Spring",
+    "tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 9,
+            "name": "Atom Williard | DW Custom Drums",
+            "hash": "drums_1WPPeJvT",
+            "title": "Atom Williard | DW Custom Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 68,
+            "name": "Tom DeLonge | Gibson ES-333 | Lead Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_iXLMnqEN",
+            "title": "Tom DeLonge | Gibson ES-333 | Lead Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 29,
+            "name": "Tom DeLonge | Gibson ES-333 | Rhythm Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_w5bxgZJk",
+            "title": "Tom DeLonge | Gibson ES-333 | Rhythm Guitar - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 6,
+            "name": "Matt Wachter | Fender Jazz Bass | Picked",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_TkJyILIR",
+            "title": "Matt Wachter | Fender Jazz Bass | Picked - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 50,
+            "instrument": "SynthStrings 1",
+            "views": 0,
+            "name": "Studio | Synth Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_SsHadxVd",
+            "title": "Studio | Synth Strings - SynthStrings 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 10,
+            "instrument": "Music Box",
+            "views": 0,
+            "name": "Studio | Childrens Piano",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_zxsvBpx1",
+            "title": "Studio | Childrens Piano - Music Box",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 9,
+            "name": "Atom Williard | DW Custom Drums",
+            "hash": "drums_1WPPeJvT",
+            "title": "Atom Williard | DW Custom Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 68,
+            "name": "Tom DeLonge | Gibson ES-333 | Lead Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_iXLMnqEN",
+            "title": "Tom DeLonge | Gibson ES-333 | Lead Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 29,
+            "name": "Tom DeLonge | Gibson ES-333 | Rhythm Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_w5bxgZJk",
+            "title": "Tom DeLonge | Gibson ES-333 | Rhythm Guitar - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 6,
+            "name": "Matt Wachter | Fender Jazz Bass | Picked",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_TkJyILIR",
+            "title": "Matt Wachter | Fender Jazz Bass | Picked - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 50,
+            "instrument": "SynthStrings 1",
+            "views": 0,
+            "name": "Studio | Synth Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_SsHadxVd",
+            "title": "Studio | Synth Strings - SynthStrings 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 10,
+            "instrument": "Music Box",
+            "views": 0,
+            "name": "Studio | Childrens Piano",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_zxsvBpx1",
+            "title": "Studio | Childrens Piano - Music Box",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

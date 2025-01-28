@@ -1,0 +1,241 @@
+{
+    "song_id": 8593,
+    "revision_id": 10875,
+    "prev_revision_id": null,
+    "image": "GHQUP3ykQPtGOMIm0Vi9V",
+    "name": "Here_Comes_The_Jam",
+    "tracks": [
+        {
+            "instrumentId": 28,
+            "instrument": "Electric Guitar (muted)",
+            "views": 0,
+            "name": "guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_KiBFY8rH",
+            "title": "guitar 1 - Electric Guitar (muted)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 0,
+            "name": "guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_PWW4BiHm",
+            "title": "guitar 2 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_smp56BPy",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_2vFgzID0",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 61,
+            "instrument": "Brass Section",
+            "views": 0,
+            "name": "keys",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_RXRXqiUa",
+            "title": "keys - Brass Section",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 18,
+            "instrument": "Rock Organ",
+            "views": 0,
+            "name": "keys",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_GIvvr9rH",
+            "title": "keys - Rock Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 28,
+            "instrument": "Electric Guitar (muted)",
+            "views": 0,
+            "name": "guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_KiBFY8rH",
+            "title": "guitar 1 - Electric Guitar (muted)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 0,
+            "name": "guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_PWW4BiHm",
+            "title": "guitar 2 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_smp56BPy",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_2vFgzID0",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 61,
+            "instrument": "Brass Section",
+            "views": 0,
+            "name": "keys",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_RXRXqiUa",
+            "title": "keys - Brass Section",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 18,
+            "instrument": "Rock Organ",
+            "views": 0,
+            "name": "keys",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_GIvvr9rH",
+            "title": "keys - Rock Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

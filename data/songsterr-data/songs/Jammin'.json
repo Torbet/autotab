@@ -1,0 +1,446 @@
+{
+    "song_id": 12709,
+    "revision_id": 682269,
+    "prev_revision_id": 28509,
+    "image": "v3-4-4-WzD6WXSda641gIzs",
+    "name": "Jammin'",
+    "tracks": [
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 1693,
+            "name": "Guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_qdKWx4Lo",
+            "title": "Guitar 1 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 69,
+            "name": "Guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Hm2nrq1b",
+            "title": "Guitar 2 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 114,
+            "instrument": "Steel Drums",
+            "views": 1,
+            "name": "Steel Drums I",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_w6DgWXyo",
+            "title": "Steel Drums I - Steel Drums",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 82,
+            "name": "Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_CzyMxbD8",
+            "title": "Vocals - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 1,
+            "name": "Back vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_fpFj1wmw",
+            "title": "Back vocals - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 2,
+            "name": "Chorus",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_if0rtbHK",
+            "title": "Chorus - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 114,
+            "instrument": "Steel Drums",
+            "views": 22,
+            "name": "Steel Drums II",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_HgIHOMC4",
+            "title": "Steel Drums II - Steel Drums",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 16,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_COAj44ML",
+            "title": "Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 19,
+            "name": "Organ 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_kmJN0I43",
+            "title": "Organ 2 - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 7165,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_mNjOTe9Z",
+            "title": "Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 9,
+            "originalPartId": 9
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 300,
+            "name": "Percussion",
+            "hash": "drums_tmLWAQQP",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10,
+            "originalPartId": 10
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 1693,
+            "name": "Guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_qdKWx4Lo",
+            "title": "Guitar 1 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 69,
+            "name": "Guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Hm2nrq1b",
+            "title": "Guitar 2 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 114,
+            "instrument": "Steel Drums",
+            "views": 1,
+            "name": "Steel Drums I",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_w6DgWXyo",
+            "title": "Steel Drums I - Steel Drums",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 82,
+            "name": "Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_CzyMxbD8",
+            "title": "Vocals - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 1,
+            "name": "Back vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_fpFj1wmw",
+            "title": "Back vocals - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 2,
+            "name": "Chorus",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_if0rtbHK",
+            "title": "Chorus - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 114,
+            "instrument": "Steel Drums",
+            "views": 22,
+            "name": "Steel Drums II",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_HgIHOMC4",
+            "title": "Steel Drums II - Steel Drums",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 16,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_COAj44ML",
+            "title": "Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 19,
+            "name": "Organ 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_kmJN0I43",
+            "title": "Organ 2 - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 7165,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_mNjOTe9Z",
+            "title": "Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 9
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 300,
+            "name": "Percussion",
+            "hash": "drums_tmLWAQQP",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10
+        }
+    ]
+}

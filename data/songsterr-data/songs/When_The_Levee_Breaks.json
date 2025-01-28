@@ -1,0 +1,284 @@
+{
+    "song_id": 11512,
+    "revision_id": 807011,
+    "prev_revision_id": 454719,
+    "image": "v3-5-8-p6ltsOgZgplxeQgN",
+    "name": "When_The_Levee_Breaks",
+    "tracks": [
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 63,
+            "name": "Robert Plant - Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_sBJpWjgs",
+            "title": "Robert Plant - Vocals - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 22,
+            "instrument": "Harmonica",
+            "views": 230,
+            "name": "Robert Plant - Harmonica ",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Huvaiosu",
+            "title": "Robert Plant - Harmonica  - Harmonica",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 13419,
+            "name": "Jimmy Page - Rhythm Guitar",
+            "tuning": [
+                60,
+                57,
+                53,
+                48,
+                41,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_4cArJlUL",
+            "title": "Jimmy Page - Rhythm Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2538,
+            "name": "Jimmy Page - Lead Guitar",
+            "tuning": [
+                60,
+                57,
+                53,
+                48,
+                41,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_pm8bWqKq",
+            "title": "Jimmy Page - Lead Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 36,
+            "name": "Jimmy Page - Overdubs",
+            "tuning": [
+                60,
+                57,
+                53,
+                48,
+                41,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_goI6wmpB",
+            "title": "Jimmy Page - Overdubs - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 7078,
+            "name": "John Paul Jones - Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_DkfIHcNq",
+            "title": "John Paul Jones - Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 15521,
+            "name": "John Bonham - Drums",
+            "hash": "drums_uvXDI0AK",
+            "title": "John Bonham - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 63,
+            "name": "Robert Plant - Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_sBJpWjgs",
+            "title": "Robert Plant - Vocals - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 22,
+            "instrument": "Harmonica",
+            "views": 230,
+            "name": "Robert Plant - Harmonica ",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Huvaiosu",
+            "title": "Robert Plant - Harmonica  - Harmonica",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 13419,
+            "name": "Jimmy Page - Rhythm Guitar",
+            "tuning": [
+                60,
+                57,
+                53,
+                48,
+                41,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_4cArJlUL",
+            "title": "Jimmy Page - Rhythm Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2538,
+            "name": "Jimmy Page - Lead Guitar",
+            "tuning": [
+                60,
+                57,
+                53,
+                48,
+                41,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_pm8bWqKq",
+            "title": "Jimmy Page - Lead Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 36,
+            "name": "Jimmy Page - Overdubs",
+            "tuning": [
+                60,
+                57,
+                53,
+                48,
+                41,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_goI6wmpB",
+            "title": "Jimmy Page - Overdubs - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 7078,
+            "name": "John Paul Jones - Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_DkfIHcNq",
+            "title": "John Paul Jones - Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 15521,
+            "name": "John Bonham - Drums",
+            "hash": "drums_uvXDI0AK",
+            "title": "John Bonham - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

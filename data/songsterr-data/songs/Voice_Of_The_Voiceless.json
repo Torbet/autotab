@@ -1,0 +1,159 @@
+{
+    "song_id": 9459,
+    "revision_id": 313635,
+    "prev_revision_id": null,
+    "image": "Y9W_2vtv0fr13iNadtHT9",
+    "name": "Voice_Of_The_Voiceless",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1329,
+            "name": "Guitar 1",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 5,
+            "hash": "guitar_klukiyu4",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 56,
+            "name": "Guitar 2",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 5,
+            "hash": "guitar_SHDod3ps",
+            "title": "Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 145,
+            "name": "",
+            "tuning": [
+                41,
+                36,
+                31,
+                24
+            ],
+            "hash": "bass_TqVNlLVz",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 24,
+            "name": "",
+            "hash": "drums_vJCyTqRa",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1329,
+            "name": "Guitar 1",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 5,
+            "hash": "guitar_klukiyu4",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 56,
+            "name": "Guitar 2",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 5,
+            "hash": "guitar_SHDod3ps",
+            "title": "Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 145,
+            "name": "",
+            "tuning": [
+                41,
+                36,
+                31,
+                24
+            ],
+            "hash": "bass_TqVNlLVz",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 24,
+            "name": "",
+            "hash": "drums_vJCyTqRa",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

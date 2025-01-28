@@ -1,0 +1,288 @@
+{
+    "song_id": 9781,
+    "revision_id": 660287,
+    "prev_revision_id": 660286,
+    "image": "v3-2-6-WIQ4mSlMoXp5C5uT",
+    "name": "The_Jester's_Dance",
+    "tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 4750,
+            "name": "Guitar 1 (Acoustic)",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_RJCHmVsx",
+            "title": "Guitar 1 (Acoustic) - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 3399,
+            "name": "",
+            "tuning": [
+                39,
+                34,
+                29,
+                24
+            ],
+            "hash": "bass_AHt8pC9X",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2965,
+            "name": "Guitar 1 (Solo)",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_PD4p9wTi",
+            "title": "Guitar 1 (Solo) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1743,
+            "name": "Guitar 2 (Solo)",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_wET4kjIu",
+            "title": "Guitar 2 (Solo) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 7393,
+            "name": "Guitar 1 (Lead)",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_XR0hiuEa",
+            "title": "Guitar 1 (Lead) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1996,
+            "name": "Guitar 2 (Lead)",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_1BXAiELP",
+            "title": "Guitar 2 (Lead) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 469,
+            "name": "Percussions",
+            "hash": "drums_1FKSxOUC",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 4750,
+            "name": "Guitar 1 (Acoustic)",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_RJCHmVsx",
+            "title": "Guitar 1 (Acoustic) - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 3399,
+            "name": "",
+            "tuning": [
+                39,
+                34,
+                29,
+                24
+            ],
+            "hash": "bass_AHt8pC9X",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2965,
+            "name": "Guitar 1 (Solo)",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_PD4p9wTi",
+            "title": "Guitar 1 (Solo) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1743,
+            "name": "Guitar 2 (Solo)",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_wET4kjIu",
+            "title": "Guitar 2 (Solo) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 7393,
+            "name": "Guitar 1 (Lead)",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_XR0hiuEa",
+            "title": "Guitar 1 (Lead) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1996,
+            "name": "Guitar 2 (Lead)",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_1BXAiELP",
+            "title": "Guitar 2 (Lead) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 469,
+            "name": "Percussions",
+            "hash": "drums_1FKSxOUC",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

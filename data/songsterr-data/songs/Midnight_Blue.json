@@ -1,0 +1,309 @@
+{
+    "song_id": 3287,
+    "revision_id": 5799,
+    "prev_revision_id": null,
+    "image": "-ifdTUFIRyCNZk8GbxeEr",
+    "name": "Midnight_Blue",
+    "tracks": [
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 6,
+            "name": "Guitare",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_reA5tZnt",
+            "title": "Guitare - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 32,
+            "instrument": "Acoustic Bass",
+            "views": 1,
+            "name": "Contrebasse",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_76vncG8U",
+            "title": "Contrebasse - Acoustic Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussions",
+            "hash": "drums_uGIzKfJc",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Batterie",
+            "hash": "drums_tIEJvdiC",
+            "title": "Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 6,
+            "instrument": "Harpsichord",
+            "views": 0,
+            "name": "....Chord \"",
+            "tuning": [
+                83,
+                82,
+                80,
+                77,
+                73,
+                68,
+                62
+            ],
+            "hash": "other_F6nNcHXQ",
+            "title": "....Chord \" - Harpsichord",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 6,
+            "instrument": "Harpsichord",
+            "views": 0,
+            "name": "\" Pyramid....",
+            "tuning": [
+                67,
+                59,
+                50,
+                40,
+                29,
+                17
+            ],
+            "hash": "other_Nce4OSqS",
+            "title": "\" Pyramid.... - Harpsichord",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 0,
+            "name": "Guitare Seule",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 5,
+            "hash": "guitar_5iGTHHzQ",
+            "title": "Guitare Seule - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 46,
+            "instrument": "Orchestral Harp",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_rskOftvP",
+            "title": "Orchestral Harp",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 6,
+            "name": "Guitare",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_reA5tZnt",
+            "title": "Guitare - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 32,
+            "instrument": "Acoustic Bass",
+            "views": 1,
+            "name": "Contrebasse",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_76vncG8U",
+            "title": "Contrebasse - Acoustic Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussions",
+            "hash": "drums_uGIzKfJc",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Batterie",
+            "hash": "drums_tIEJvdiC",
+            "title": "Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 6,
+            "instrument": "Harpsichord",
+            "views": 0,
+            "name": "....Chord \"",
+            "tuning": [
+                83,
+                82,
+                80,
+                77,
+                73,
+                68,
+                62
+            ],
+            "hash": "other_F6nNcHXQ",
+            "title": "....Chord \" - Harpsichord",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 6,
+            "instrument": "Harpsichord",
+            "views": 0,
+            "name": "\" Pyramid....",
+            "tuning": [
+                67,
+                59,
+                50,
+                40,
+                29,
+                17
+            ],
+            "hash": "other_Nce4OSqS",
+            "title": "\" Pyramid.... - Harpsichord",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 0,
+            "name": "Guitare Seule",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 5,
+            "hash": "guitar_5iGTHHzQ",
+            "title": "Guitare Seule - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6
+        },
+        {
+            "instrumentId": 46,
+            "instrument": "Orchestral Harp",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_rskOftvP",
+            "title": "Orchestral Harp",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

@@ -1,0 +1,286 @@
+{
+    "song_id": 2777,
+    "revision_id": 902767,
+    "prev_revision_id": 608628,
+    "image": "v3-5-21-K65TXmBX9IhthwlK",
+    "name": "Fixing_A_Hole",
+    "tracks": [
+        {
+            "instrumentId": 6,
+            "instrument": "Harpsichord",
+            "views": 278,
+            "name": "Pista 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_UnK1i7xY",
+            "title": "Pista 1 - Harpsichord",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 241,
+            "name": "Percusi\u00f3n",
+            "hash": "drums_pvqbAcE7",
+            "title": "Percusi\u00f3n - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 190,
+            "name": "Pista 3",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_LQDf6XmQ",
+            "title": "Pista 3 - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 230,
+            "name": "Pista 4",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_75nym6b5",
+            "title": "Pista 4 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 44,
+            "name": "Pista 5",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_mohjhqDb",
+            "title": "Pista 5 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 0,
+            "name": "Pista 6",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_vaIk1LCD",
+            "title": "Pista 6 - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 117,
+            "instrument": "Melodic Tom",
+            "views": 0,
+            "name": "Pista 7",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_W4t7pqli",
+            "title": "Pista 7 - Melodic Tom",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 6,
+            "instrument": "Harpsichord",
+            "views": 278,
+            "name": "Pista 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_UnK1i7xY",
+            "title": "Pista 1 - Harpsichord",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 241,
+            "name": "Percusi\u00f3n",
+            "hash": "drums_pvqbAcE7",
+            "title": "Percusi\u00f3n - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 190,
+            "name": "Pista 3",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_LQDf6XmQ",
+            "title": "Pista 3 - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 230,
+            "name": "Pista 4",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_75nym6b5",
+            "title": "Pista 4 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 44,
+            "name": "Pista 5",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_mohjhqDb",
+            "title": "Pista 5 - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 0,
+            "name": "Pista 6",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_vaIk1LCD",
+            "title": "Pista 6 - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 117,
+            "instrument": "Melodic Tom",
+            "views": 0,
+            "name": "Pista 7",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_W4t7pqli",
+            "title": "Pista 7 - Melodic Tom",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "song_id": 8672,
+    "revision_id": 666152,
+    "prev_revision_id": 342846,
+    "image": "v3-3-0-ggvRYFs6ITVZ7VoN",
+    "name": "Armatage_Shanks",
+    "tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 384,
+            "name": "Tr\u00e9 Cool",
+            "hash": "drums_QwF6VvFh",
+            "title": "Tr\u00e9 Cool - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 1146,
+            "name": "Mike Dirnt",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_isXtujmg",
+            "title": "Mike Dirnt - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 730,
+            "name": "Billie Joe Armstrong",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 1,
+            "hash": "guitar_HFYA0zR8",
+            "title": "Billie Joe Armstrong - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 35,
+            "name": "Voice (Billie Joe Armstrong)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "vocals_PE3lKjkN",
+            "title": "Voice (Billie Joe Armstrong) - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 384,
+            "name": "Tr\u00e9 Cool",
+            "hash": "drums_QwF6VvFh",
+            "title": "Tr\u00e9 Cool - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 1146,
+            "name": "Mike Dirnt",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_isXtujmg",
+            "title": "Mike Dirnt - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 730,
+            "name": "Billie Joe Armstrong",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 1,
+            "hash": "guitar_HFYA0zR8",
+            "title": "Billie Joe Armstrong - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 35,
+            "name": "Voice (Billie Joe Armstrong)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "vocals_PE3lKjkN",
+            "title": "Voice (Billie Joe Armstrong) - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

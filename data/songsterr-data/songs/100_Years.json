@@ -1,0 +1,239 @@
+{
+    "song_id": 7356,
+    "revision_id": 9956,
+    "prev_revision_id": null,
+    "image": "IsjTzK16nVpZy8ECimkdt",
+    "name": "100_Years",
+    "tracks": [
+        {
+            "instrumentId": 54,
+            "instrument": "Synth Voice",
+            "views": 11,
+            "name": "Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_GqcUL7Z9",
+            "title": "Vocals - Synth Voice",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 194,
+            "name": "Piano RH",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_GBsNxmqV",
+            "title": "Piano RH - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 13,
+            "name": "Piano LH",
+            "tuning": [
+                60,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_62jUhURG",
+            "title": "Piano LH - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_CCaipyWi",
+            "title": "Strings - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 26,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_hMp7fpQH",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 14,
+            "name": "Percussion",
+            "hash": "drums_JV56lCVO",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 54,
+            "instrument": "Synth Voice",
+            "views": 11,
+            "name": "Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_GqcUL7Z9",
+            "title": "Vocals - Synth Voice",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 194,
+            "name": "Piano RH",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_GBsNxmqV",
+            "title": "Piano RH - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 13,
+            "name": "Piano LH",
+            "tuning": [
+                60,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_62jUhURG",
+            "title": "Piano LH - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_CCaipyWi",
+            "title": "Strings - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 26,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_hMp7fpQH",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 14,
+            "name": "Percussion",
+            "hash": "drums_JV56lCVO",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

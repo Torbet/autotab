@@ -1,0 +1,309 @@
+{
+    "song_id": 2851,
+    "revision_id": 738500,
+    "prev_revision_id": 4993,
+    "image": "v3-4-5-stage-o6b5P9wdJ0GAyRJd",
+    "name": "The_Ballad_Of_John_And_Yoko",
+    "tracks": [
+        {
+            "instrumentId": 4,
+            "instrument": "Electric Piano 1",
+            "views": 26,
+            "name": "John Lennon/Paul McCartney - Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_cWxKeolA",
+            "title": "John Lennon/Paul McCartney - Vocals - Electric Piano 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 278,
+            "name": "John Lennon - Rhythm Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_lbd9HfuO",
+            "title": "John Lennon - Rhythm Guitar - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 2790,
+            "name": "John Lennon - Electric Guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_RHEb73Wc",
+            "title": "John Lennon - Electric Guitar 1 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 4,
+            "name": "John Lennon - Electric Guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_XScjDVQ9",
+            "title": "John Lennon - Electric Guitar 2 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 8372,
+            "name": "Paul McCartney - Bass Guitar",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_A3Ktha1A",
+            "title": "Paul McCartney - Bass Guitar - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 23,
+            "name": "Paul McCartney - Piano Treble",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_kpIPP7Xc",
+            "title": "Paul McCartney - Piano Treble - Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Paul McCartney - Maracas",
+            "hash": "drums_liFRAlKd",
+            "title": "Paul McCartney - Maracas - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 138,
+            "name": "Paul McCartney - Drums",
+            "hash": "drums_jOgya16X",
+            "title": "Paul McCartney - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 4,
+            "instrument": "Electric Piano 1",
+            "views": 26,
+            "name": "John Lennon/Paul McCartney - Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_cWxKeolA",
+            "title": "John Lennon/Paul McCartney - Vocals - Electric Piano 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 278,
+            "name": "John Lennon - Rhythm Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_lbd9HfuO",
+            "title": "John Lennon - Rhythm Guitar - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 2790,
+            "name": "John Lennon - Electric Guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_RHEb73Wc",
+            "title": "John Lennon - Electric Guitar 1 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 4,
+            "name": "John Lennon - Electric Guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_XScjDVQ9",
+            "title": "John Lennon - Electric Guitar 2 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 8372,
+            "name": "Paul McCartney - Bass Guitar",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_A3Ktha1A",
+            "title": "Paul McCartney - Bass Guitar - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 23,
+            "name": "Paul McCartney - Piano Treble",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_kpIPP7Xc",
+            "title": "Paul McCartney - Piano Treble - Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Paul McCartney - Maracas",
+            "hash": "drums_liFRAlKd",
+            "title": "Paul McCartney - Maracas - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 138,
+            "name": "Paul McCartney - Drums",
+            "hash": "drums_jOgya16X",
+            "title": "Paul McCartney - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

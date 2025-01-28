@@ -1,0 +1,116 @@
+{
+    "song_id": 11522,
+    "revision_id": 477731,
+    "prev_revision_id": 458519,
+    "image": "vvmsdBei4qLEpiw6AA4h9",
+    "name": "Poor_Tom",
+    "tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 130,
+            "name": "Guitar 1",
+            "tuning": [
+                64,
+                60,
+                55,
+                48,
+                45,
+                36
+            ],
+            "difficulty": 7,
+            "hash": "guitar_qRXzNA5v",
+            "title": "Guitar 1 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 16,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_KGTtUrOq",
+            "title": "Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 21,
+            "name": "Bateria",
+            "hash": "drums_47colMGf",
+            "title": "Bateria - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 130,
+            "name": "Guitar 1",
+            "tuning": [
+                64,
+                60,
+                55,
+                48,
+                45,
+                36
+            ],
+            "difficulty": 7,
+            "hash": "guitar_qRXzNA5v",
+            "title": "Guitar 1 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 16,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_KGTtUrOq",
+            "title": "Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 21,
+            "name": "Bateria",
+            "hash": "drums_47colMGf",
+            "title": "Bateria - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

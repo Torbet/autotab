@@ -1,0 +1,623 @@
+{
+    "song_id": 12298,
+    "revision_id": 347984,
+    "prev_revision_id": null,
+    "image": "dT9Qe-BM0msj7rvaRRKgt",
+    "name": "Winter_Wine",
+    "tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 29,
+            "name": "Acoustic Guitar (rhythm)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_GVuM7iwR",
+            "title": "Acoustic Guitar (rhythm) - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 0,
+            "name": "Acoustic Guitar (lead)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Dyc5Cyz5",
+            "title": "Acoustic Guitar (lead) - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Electric Guitar (rhythm)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_2LhVH5q8",
+            "title": "Electric Guitar (rhythm) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Electric Guitar (lead)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_5x2iz6Zr",
+            "title": "Electric Guitar (lead) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_F18keS7j",
+            "title": "Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_ipdPmSub",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussion",
+            "hash": "drums_LueFl1Me",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 0,
+            "name": "Lead Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_Fvy3wtDs",
+            "title": "Lead Vocals - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 0,
+            "name": "Backing Vocals 1/Misc.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                31
+            ],
+            "hash": "vocals_LMZNbHST",
+            "title": "Backing Vocals 1/Misc. - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 0,
+            "name": "Backing Vocals 2/Misc.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_J3zRN5mC",
+            "title": "Backing Vocals 2/Misc. - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9,
+            "originalPartId": 9
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 1,
+            "name": "Grand Piano (R. Hand)",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_g6JyDb9i",
+            "title": "Grand Piano (R. Hand) - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10,
+            "originalPartId": 10
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 0,
+            "name": "Grand Piano (L. Hand)",
+            "tuning": [
+                52,
+                47,
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "other_ouAFOSxz",
+            "title": "Grand Piano (L. Hand) - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11,
+            "originalPartId": 11
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 0,
+            "name": "Violin I",
+            "tuning": [
+                76,
+                69,
+                62,
+                55
+            ],
+            "hash": "other_L21DwrSi",
+            "title": "Violin I - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 12,
+            "originalPartId": 12
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 0,
+            "name": "Violin II",
+            "tuning": [
+                76,
+                69,
+                62,
+                55
+            ],
+            "hash": "other_nnMDt4Wv",
+            "title": "Violin II - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 13,
+            "originalPartId": 13
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                69,
+                62,
+                55,
+                48
+            ],
+            "hash": "other_rQP8k96g",
+            "title": "Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 14,
+            "originalPartId": 14
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 0,
+            "name": "Violoncello",
+            "tuning": [
+                57,
+                50,
+                43,
+                36
+            ],
+            "hash": "other_WpxTyXQX",
+            "title": "Violoncello - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 15,
+            "originalPartId": 15
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 29,
+            "name": "Acoustic Guitar (rhythm)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_GVuM7iwR",
+            "title": "Acoustic Guitar (rhythm) - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 0,
+            "name": "Acoustic Guitar (lead)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Dyc5Cyz5",
+            "title": "Acoustic Guitar (lead) - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Electric Guitar (rhythm)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_2LhVH5q8",
+            "title": "Electric Guitar (rhythm) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Electric Guitar (lead)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_5x2iz6Zr",
+            "title": "Electric Guitar (lead) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 1,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_F18keS7j",
+            "title": "Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_ipdPmSub",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussion",
+            "hash": "drums_LueFl1Me",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 0,
+            "name": "Lead Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_Fvy3wtDs",
+            "title": "Lead Vocals - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 0,
+            "name": "Backing Vocals 1/Misc.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                31
+            ],
+            "hash": "vocals_LMZNbHST",
+            "title": "Backing Vocals 1/Misc. - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 0,
+            "name": "Backing Vocals 2/Misc.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_J3zRN5mC",
+            "title": "Backing Vocals 2/Misc. - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 1,
+            "name": "Grand Piano (R. Hand)",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_g6JyDb9i",
+            "title": "Grand Piano (R. Hand) - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 0,
+            "name": "Grand Piano (L. Hand)",
+            "tuning": [
+                52,
+                47,
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "other_ouAFOSxz",
+            "title": "Grand Piano (L. Hand) - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 0,
+            "name": "Violin I",
+            "tuning": [
+                76,
+                69,
+                62,
+                55
+            ],
+            "hash": "other_L21DwrSi",
+            "title": "Violin I - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 12
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 0,
+            "name": "Violin II",
+            "tuning": [
+                76,
+                69,
+                62,
+                55
+            ],
+            "hash": "other_nnMDt4Wv",
+            "title": "Violin II - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 13
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                69,
+                62,
+                55,
+                48
+            ],
+            "hash": "other_rQP8k96g",
+            "title": "Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 14
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 0,
+            "name": "Violoncello",
+            "tuning": [
+                57,
+                50,
+                43,
+                36
+            ],
+            "hash": "other_WpxTyXQX",
+            "title": "Violoncello - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 15
+        }
+    ]
+}

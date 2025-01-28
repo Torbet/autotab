@@ -1,0 +1,159 @@
+{
+    "song_id": 1255,
+    "revision_id": 330589,
+    "prev_revision_id": null,
+    "image": "pFckS6ErK7x24yUaG-Y2o",
+    "name": "Beyond_The_Black_Gate",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "( Rhythm/Clean )",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_DAUp9FSA",
+            "title": "( Rhythm/Clean ) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "( Lead/Effects/Solo )",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_eP21ZvPA",
+            "title": "( Lead/Effects/Solo ) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "( Bass )",
+            "tuning": [
+                39,
+                34,
+                29,
+                24
+            ],
+            "hash": "bass_7Mq9aHCa",
+            "title": "( Bass ) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "( Drums/Percussion )",
+            "hash": "drums_YfYsErSp",
+            "title": "( Drums/Percussion ) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "( Rhythm/Clean )",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_DAUp9FSA",
+            "title": "( Rhythm/Clean ) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "( Lead/Effects/Solo )",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_eP21ZvPA",
+            "title": "( Lead/Effects/Solo ) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "( Bass )",
+            "tuning": [
+                39,
+                34,
+                29,
+                24
+            ],
+            "hash": "bass_7Mq9aHCa",
+            "title": "( Bass ) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "( Drums/Percussion )",
+            "hash": "drums_YfYsErSp",
+            "title": "( Drums/Percussion ) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

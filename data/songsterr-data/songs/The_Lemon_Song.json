@@ -1,0 +1,157 @@
+{
+    "song_id": 1395,
+    "revision_id": 1202340,
+    "prev_revision_id": 670345,
+    "image": "v3-5-26-xsbnbKUPMFqx15xS",
+    "name": "The_Lemon_Song",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 624,
+            "name": "Jimmy Page",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_gQrInN91",
+            "title": "Jimmy Page - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 580,
+            "name": "John Paul Jones",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_Ls01bdAk",
+            "title": "John Paul Jones - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 103,
+            "instrument": "FX 8 (sci-fi)",
+            "views": 0,
+            "name": "Robert Plant",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_yXvK7AhQ",
+            "title": "Robert Plant - FX 8 (sci-fi)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 27,
+            "name": "John Bonham",
+            "hash": "drums_s1voaxre",
+            "title": "John Bonham - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 624,
+            "name": "Jimmy Page",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_gQrInN91",
+            "title": "Jimmy Page - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 580,
+            "name": "John Paul Jones",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_Ls01bdAk",
+            "title": "John Paul Jones - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 103,
+            "instrument": "FX 8 (sci-fi)",
+            "views": 0,
+            "name": "Robert Plant",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_yXvK7AhQ",
+            "title": "Robert Plant - FX 8 (sci-fi)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 27,
+            "name": "John Bonham",
+            "hash": "drums_s1voaxre",
+            "title": "John Bonham - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

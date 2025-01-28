@@ -1,0 +1,163 @@
+{
+    "song_id": 4186,
+    "revision_id": 6795,
+    "prev_revision_id": null,
+    "image": "1L1U_cdLaLmcJ2I9f6q3a",
+    "name": "Dark_Army",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 68,
+            "name": "Gitara I",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_gvx3F7Vy",
+            "title": "Gitara I - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3,
+            "name": "Gitara II",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_VfJAmmha",
+            "title": "Gitara II - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                49,
+                44,
+                40,
+                35,
+                30,
+                25
+            ],
+            "hash": "bass_ZsVAoJBS",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Perkusja",
+            "hash": "drums_gTjUSc5x",
+            "title": "Perkusja - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 68,
+            "name": "Gitara I",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_gvx3F7Vy",
+            "title": "Gitara I - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3,
+            "name": "Gitara II",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_VfJAmmha",
+            "title": "Gitara II - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                49,
+                44,
+                40,
+                35,
+                30,
+                25
+            ],
+            "hash": "bass_ZsVAoJBS",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Perkusja",
+            "hash": "drums_gTjUSc5x",
+            "title": "Perkusja - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

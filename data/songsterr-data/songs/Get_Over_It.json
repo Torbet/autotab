@@ -1,0 +1,284 @@
+{
+    "song_id": 6899,
+    "revision_id": 329408,
+    "prev_revision_id": null,
+    "image": "7dGMJcptyHLy7pFkS6Cj0",
+    "name": "Get_Over_It",
+    "tracks": [
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 7,
+            "name": "Vocal - Henley + Frey + Schmit",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_YGeybtyW",
+            "title": "Vocal - Henley + Frey + Schmit - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3689,
+            "name": "Guitar 1 - Frey",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_edqkEoLR",
+            "title": "Guitar 1 - Frey - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 463,
+            "name": "Guitar 2 - Felder",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_3f1FUMvn",
+            "title": "Guitar 2 - Felder - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 92,
+            "name": "Guitar 3 - Walsh (Open D)",
+            "tuning": [
+                62,
+                57,
+                54,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 1,
+            "hash": "guitar_24n0kfF9",
+            "title": "Guitar 3 - Walsh (Open D) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 421,
+            "name": "Bass - Schmit",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_5OyAptHU",
+            "title": "Bass - Schmit - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 20,
+            "name": "",
+            "hash": "drums_mqZpvTGI",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 51,
+            "instrument": "SynthStrings 2",
+            "views": 66,
+            "name": "Guitar FX - reverb and delay",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Zmu6CpXP",
+            "title": "Guitar FX - reverb and delay - SynthStrings 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 7,
+            "name": "Vocal - Henley + Frey + Schmit",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_YGeybtyW",
+            "title": "Vocal - Henley + Frey + Schmit - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3689,
+            "name": "Guitar 1 - Frey",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_edqkEoLR",
+            "title": "Guitar 1 - Frey - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 463,
+            "name": "Guitar 2 - Felder",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_3f1FUMvn",
+            "title": "Guitar 2 - Felder - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 92,
+            "name": "Guitar 3 - Walsh (Open D)",
+            "tuning": [
+                62,
+                57,
+                54,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 1,
+            "hash": "guitar_24n0kfF9",
+            "title": "Guitar 3 - Walsh (Open D) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 421,
+            "name": "Bass - Schmit",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_5OyAptHU",
+            "title": "Bass - Schmit - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 20,
+            "name": "",
+            "hash": "drums_mqZpvTGI",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 51,
+            "instrument": "SynthStrings 2",
+            "views": 66,
+            "name": "Guitar FX - reverb and delay",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Zmu6CpXP",
+            "title": "Guitar FX - reverb and delay - SynthStrings 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

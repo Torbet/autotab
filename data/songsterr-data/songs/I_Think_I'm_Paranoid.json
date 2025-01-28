@@ -1,0 +1,202 @@
+{
+    "song_id": 375,
+    "revision_id": 1029279,
+    "prev_revision_id": 1026684,
+    "image": "v3-5-24-yUFc6mhfC8w5-YiY",
+    "name": "I_Think_I'm_Paranoid",
+    "tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 888,
+            "name": "Lead Guitar",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Ce9mmkxu",
+            "title": "Lead Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 23,
+            "name": "Rhythm Guitar",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_ga87ajlE",
+            "title": "Rhythm Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 19,
+            "name": "Extra Guitar",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_9SRE9gxS",
+            "title": "Extra Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 131,
+            "name": "",
+            "tuning": [
+                41,
+                36,
+                31,
+                24
+            ],
+            "hash": "bass_a4Fpt1al",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 176,
+            "name": "Percussion",
+            "hash": "drums_5m5uyjQr",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 888,
+            "name": "Lead Guitar",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Ce9mmkxu",
+            "title": "Lead Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 23,
+            "name": "Rhythm Guitar",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_ga87ajlE",
+            "title": "Rhythm Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 19,
+            "name": "Extra Guitar",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_9SRE9gxS",
+            "title": "Extra Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 131,
+            "name": "",
+            "tuning": [
+                41,
+                36,
+                31,
+                24
+            ],
+            "hash": "bass_a4Fpt1al",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 176,
+            "name": "Percussion",
+            "hash": "drums_5m5uyjQr",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

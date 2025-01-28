@@ -1,0 +1,243 @@
+{
+    "song_id": 12982,
+    "revision_id": 40497,
+    "prev_revision_id": null,
+    "image": "KSErMzSZ1uwOJHZwYEkpK",
+    "name": "Ribette's",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 126,
+            "name": "Guitare Arp\u00e8ges 1",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 4,
+            "hash": "guitar_0DTfxnHo",
+            "title": "Guitare Arp\u00e8ges 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 61,
+            "name": "Guitare Arp\u00e8ges 2",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 4,
+            "hash": "guitar_uDgk1Mt2",
+            "title": "Guitare Arp\u00e8ges 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 238,
+            "name": "Guitare 3 (rythmique) ",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 1,
+            "hash": "guitar_aDmwDFXc",
+            "title": "Guitare 3 (rythmique)  - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 42,
+            "name": "Basse",
+            "tuning": [
+                44,
+                39,
+                34,
+                29
+            ],
+            "hash": "bass_Tzyond59",
+            "title": "Basse - Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 51,
+            "name": "Percussions",
+            "hash": "drums_nmbEoPPQ",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 1,
+            "name": "Choeurs",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "hash": "other_GQc89dsA",
+            "title": "Choeurs - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 126,
+            "name": "Guitare Arp\u00e8ges 1",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 4,
+            "hash": "guitar_0DTfxnHo",
+            "title": "Guitare Arp\u00e8ges 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 61,
+            "name": "Guitare Arp\u00e8ges 2",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 4,
+            "hash": "guitar_uDgk1Mt2",
+            "title": "Guitare Arp\u00e8ges 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 238,
+            "name": "Guitare 3 (rythmique) ",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 1,
+            "hash": "guitar_aDmwDFXc",
+            "title": "Guitare 3 (rythmique)  - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 42,
+            "name": "Basse",
+            "tuning": [
+                44,
+                39,
+                34,
+                29
+            ],
+            "hash": "bass_Tzyond59",
+            "title": "Basse - Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 51,
+            "name": "Percussions",
+            "hash": "drums_nmbEoPPQ",
+            "title": "Percussions - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 1,
+            "name": "Choeurs",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "hash": "other_GQc89dsA",
+            "title": "Choeurs - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

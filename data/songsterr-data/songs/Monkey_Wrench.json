@@ -1,0 +1,288 @@
+{
+    "song_id": 7754,
+    "revision_id": 401061,
+    "prev_revision_id": 377461,
+    "image": "sWHdv4TEf8XwTEtTqvFue",
+    "name": "Monkey_Wrench",
+    "tracks": [
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 136,
+            "name": "Dave Grohl - Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "vocals_0DUeTjmA",
+            "title": "Dave Grohl - Vocals - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 8667,
+            "name": "Dave Grohl - Lead",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_rfqGfFBC",
+            "title": "Dave Grohl - Lead - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 30371,
+            "name": "Dave Grohl - Rhythm",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Ryhg51qh",
+            "title": "Dave Grohl - Rhythm - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3789,
+            "name": "Pat Smear - Rhythm",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_MVCcr5Bj",
+            "title": "Pat Smear - Rhythm - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 12025,
+            "name": "Nate Mendel - Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_NE5i1WKT",
+            "title": "Nate Mendel - Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 15,
+            "name": "Dave Grohl - Backing Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "vocals_c5Se64de",
+            "title": "Dave Grohl - Backing Vocals - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 5323,
+            "name": "Dave Grohl - Drums",
+            "hash": "drums_ZW47YdKy",
+            "title": "Dave Grohl - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 136,
+            "name": "Dave Grohl - Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "vocals_0DUeTjmA",
+            "title": "Dave Grohl - Vocals - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 8667,
+            "name": "Dave Grohl - Lead",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_rfqGfFBC",
+            "title": "Dave Grohl - Lead - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 30371,
+            "name": "Dave Grohl - Rhythm",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Ryhg51qh",
+            "title": "Dave Grohl - Rhythm - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3789,
+            "name": "Pat Smear - Rhythm",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_MVCcr5Bj",
+            "title": "Pat Smear - Rhythm - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 12025,
+            "name": "Nate Mendel - Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_NE5i1WKT",
+            "title": "Nate Mendel - Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 15,
+            "name": "Dave Grohl - Backing Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "vocals_c5Se64de",
+            "title": "Dave Grohl - Backing Vocals - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 5323,
+            "name": "Dave Grohl - Drums",
+            "hash": "drums_ZW47YdKy",
+            "title": "Dave Grohl - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

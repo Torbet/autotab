@@ -1,0 +1,327 @@
+{
+    "song_id": 349,
+    "revision_id": 665250,
+    "prev_revision_id": 333136,
+    "image": "v3-3-0-aNOl920_CN9N7otM",
+    "name": "Hanging_By_A_Moment",
+    "tracks": [
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 138,
+            "name": "Jason Wade - Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_UBkPFteH",
+            "title": "Jason Wade - Vocals - Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 67,
+            "instrument": "Baritone Sax",
+            "views": 3,
+            "name": "Jason Wade - Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_wSBNx7T7",
+            "title": "Jason Wade - Backing Vocals - Baritone Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 176,
+            "name": "Jason Wade - Lead",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 1,
+            "hash": "guitar_aX06g5Mw",
+            "title": "Jason Wade - Lead - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 1993,
+            "name": "Jason Wade - Rhythm",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 1,
+            "hash": "guitar_qOl7fPOa",
+            "title": "Jason Wade - Rhythm - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 831,
+            "name": "Jason Wade - Lead",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_XW0DuKtL",
+            "title": "Jason Wade - Lead - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 758,
+            "name": "Jason Wade - Rhythm",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_0438I8n7",
+            "title": "Jason Wade - Rhythm - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 2417,
+            "name": "Sergio Andrade",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_ZN0Z166u",
+            "title": "Sergio Andrade - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1163,
+            "name": "Jon Palmer",
+            "hash": "drums_UGFIHMTP",
+            "title": "Jon Palmer - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 138,
+            "name": "Jason Wade - Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_UBkPFteH",
+            "title": "Jason Wade - Vocals - Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 67,
+            "instrument": "Baritone Sax",
+            "views": 3,
+            "name": "Jason Wade - Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_wSBNx7T7",
+            "title": "Jason Wade - Backing Vocals - Baritone Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 176,
+            "name": "Jason Wade - Lead",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 1,
+            "hash": "guitar_aX06g5Mw",
+            "title": "Jason Wade - Lead - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 1993,
+            "name": "Jason Wade - Rhythm",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 1,
+            "hash": "guitar_qOl7fPOa",
+            "title": "Jason Wade - Rhythm - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 831,
+            "name": "Jason Wade - Lead",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_XW0DuKtL",
+            "title": "Jason Wade - Lead - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 758,
+            "name": "Jason Wade - Rhythm",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_0438I8n7",
+            "title": "Jason Wade - Rhythm - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 2417,
+            "name": "Sergio Andrade",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_ZN0Z166u",
+            "title": "Sergio Andrade - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1163,
+            "name": "Jon Palmer",
+            "hash": "drums_UGFIHMTP",
+            "title": "Jon Palmer - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

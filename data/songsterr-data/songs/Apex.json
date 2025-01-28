@@ -1,0 +1,202 @@
+{
+    "song_id": 2783,
+    "revision_id": 313166,
+    "prev_revision_id": null,
+    "image": "NWNHfRQRIQcl28YLGY0sZ",
+    "name": "Apex",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 535,
+            "name": "guitar1",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_Byp2zpdA",
+            "title": "guitar1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 74,
+            "name": "guitar2",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_bwyQGV5m",
+            "title": "guitar2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "fills",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_TQgcNXy2",
+            "title": "fills - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 11,
+            "name": "",
+            "tuning": [
+                39,
+                34,
+                29,
+                24
+            ],
+            "hash": "bass_YTQNF0Oh",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 10,
+            "name": "",
+            "hash": "drums_SEjf4yOo",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 535,
+            "name": "guitar1",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_Byp2zpdA",
+            "title": "guitar1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 74,
+            "name": "guitar2",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_bwyQGV5m",
+            "title": "guitar2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "fills",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_TQgcNXy2",
+            "title": "fills - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 11,
+            "name": "",
+            "tuning": [
+                39,
+                34,
+                29,
+                24
+            ],
+            "hash": "bass_YTQNF0Oh",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 10,
+            "name": "",
+            "hash": "drums_SEjf4yOo",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

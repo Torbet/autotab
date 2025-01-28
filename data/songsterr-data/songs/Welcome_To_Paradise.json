@@ -1,0 +1,282 @@
+{
+    "song_id": 8634,
+    "revision_id": 972869,
+    "prev_revision_id": 957137,
+    "image": "v3-5-23-xLLg52StNHgGEOxh",
+    "name": "Welcome_To_Paradise",
+    "tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2504,
+            "name": "Tre Cool - Drums",
+            "hash": "drums_5bgsVpvl",
+            "title": "Tre Cool - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 14748,
+            "name": "Mike Dirnt - Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_kOU6rojb",
+            "title": "Mike Dirnt - Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5193,
+            "name": "Billie Joe Armstrong - Rhythm 1 - Disto",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_RaTei609",
+            "title": "Billie Joe Armstrong - Rhythm 1 - Disto - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 16452,
+            "name": "Billie Joe Armstrong - Rhythm 2 - Disto",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_VqgMReXI",
+            "title": "Billie Joe Armstrong - Rhythm 2 - Disto - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 133,
+            "name": "Billie Joe Armstrong - Lead Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_U2eRjNrX",
+            "title": "Billie Joe Armstrong - Lead Vocals - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 67,
+            "instrument": "Baritone Sax",
+            "views": 31,
+            "name": "Mike Dirnt - Backing Vocals 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_ljAzmTsU",
+            "title": "Mike Dirnt - Backing Vocals 1 - Baritone Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 67,
+            "instrument": "Baritone Sax",
+            "views": 14,
+            "name": "Mike Dirnt - Backing Vocals 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_RacixCI6",
+            "title": "Mike Dirnt - Backing Vocals 2 - Baritone Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2504,
+            "name": "Tre Cool - Drums",
+            "hash": "drums_5bgsVpvl",
+            "title": "Tre Cool - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 14748,
+            "name": "Mike Dirnt - Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_kOU6rojb",
+            "title": "Mike Dirnt - Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5193,
+            "name": "Billie Joe Armstrong - Rhythm 1 - Disto",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_RaTei609",
+            "title": "Billie Joe Armstrong - Rhythm 1 - Disto - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 16452,
+            "name": "Billie Joe Armstrong - Rhythm 2 - Disto",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_VqgMReXI",
+            "title": "Billie Joe Armstrong - Rhythm 2 - Disto - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 133,
+            "name": "Billie Joe Armstrong - Lead Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_U2eRjNrX",
+            "title": "Billie Joe Armstrong - Lead Vocals - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 67,
+            "instrument": "Baritone Sax",
+            "views": 31,
+            "name": "Mike Dirnt - Backing Vocals 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_ljAzmTsU",
+            "title": "Mike Dirnt - Backing Vocals 1 - Baritone Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 67,
+            "instrument": "Baritone Sax",
+            "views": 14,
+            "name": "Mike Dirnt - Backing Vocals 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_RacixCI6",
+            "title": "Mike Dirnt - Backing Vocals 2 - Baritone Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

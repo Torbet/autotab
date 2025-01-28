@@ -1,0 +1,157 @@
+{
+    "song_id": 8681,
+    "revision_id": 1115719,
+    "prev_revision_id": 11304,
+    "image": "v3-5-25-WLJHrlXfA4XvfNWG",
+    "name": "All_The_Time",
+    "tracks": [
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 1,
+            "name": "Billie Joe Armstrong (Voice)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_s7XCc1e4",
+            "title": "Billie Joe Armstrong (Voice) - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 24,
+            "name": "Billie Joe Armstrong (Guitar)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_lXKUGNIl",
+            "title": "Billie Joe Armstrong (Guitar) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 30,
+            "name": "Mike Dirnt (Bass)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_JAVa11UG",
+            "title": "Mike Dirnt (Bass) - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Tr\u00e9 Cool (Drums)",
+            "hash": "drums_1f0jXh3C",
+            "title": "Tr\u00e9 Cool (Drums) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 1,
+            "name": "Billie Joe Armstrong (Voice)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_s7XCc1e4",
+            "title": "Billie Joe Armstrong (Voice) - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 24,
+            "name": "Billie Joe Armstrong (Guitar)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_lXKUGNIl",
+            "title": "Billie Joe Armstrong (Guitar) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 30,
+            "name": "Mike Dirnt (Bass)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_JAVa11UG",
+            "title": "Mike Dirnt (Bass) - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Tr\u00e9 Cool (Drums)",
+            "hash": "drums_1f0jXh3C",
+            "title": "Tr\u00e9 Cool (Drums) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

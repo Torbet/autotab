@@ -1,0 +1,325 @@
+{
+    "song_id": 10123,
+    "revision_id": 803749,
+    "prev_revision_id": 803734,
+    "image": "v3-5-8-714GTVNdPKyoxx7N",
+    "name": "The_World_Has_Turned_And_Left_Me_Here",
+    "tracks": [
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 198,
+            "name": "Rivers Cuomo - Lead Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_J3fc4Yqg",
+            "title": "Rivers Cuomo - Lead Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 26,
+            "name": "Brian Bell - Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_Rc96Xh1s",
+            "title": "Brian Bell - Backing Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 63,
+            "name": "Matt Sharp - Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_ypD1ucsz",
+            "title": "Matt Sharp - Backing Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5431,
+            "name": "Rivers Cuomo - Distorted Lead Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_SoGJinfP",
+            "title": "Rivers Cuomo - Distorted Lead Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 740,
+            "name": "Brian Bell - Distorted Rhythm Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_faWI55ih",
+            "title": "Brian Bell - Distorted Rhythm Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 1494,
+            "name": "Brian Bell - Acoustic Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 3,
+            "hash": "guitar_kBS7HVrQ",
+            "title": "Brian Bell - Acoustic Guitar - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 1966,
+            "name": "Matt Sharp - Picked Bass Guitar",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_Y6CFWahl",
+            "title": "Matt Sharp - Picked Bass Guitar - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 643,
+            "name": "Patrick Wilson - Drums",
+            "hash": "drums_l0fIR4NR",
+            "title": "Patrick Wilson - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 198,
+            "name": "Rivers Cuomo - Lead Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_J3fc4Yqg",
+            "title": "Rivers Cuomo - Lead Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 26,
+            "name": "Brian Bell - Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_Rc96Xh1s",
+            "title": "Brian Bell - Backing Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 63,
+            "name": "Matt Sharp - Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_ypD1ucsz",
+            "title": "Matt Sharp - Backing Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5431,
+            "name": "Rivers Cuomo - Distorted Lead Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_SoGJinfP",
+            "title": "Rivers Cuomo - Distorted Lead Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 740,
+            "name": "Brian Bell - Distorted Rhythm Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_faWI55ih",
+            "title": "Brian Bell - Distorted Rhythm Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 1494,
+            "name": "Brian Bell - Acoustic Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 3,
+            "hash": "guitar_kBS7HVrQ",
+            "title": "Brian Bell - Acoustic Guitar - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 1966,
+            "name": "Matt Sharp - Picked Bass Guitar",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_Y6CFWahl",
+            "title": "Matt Sharp - Picked Bass Guitar - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 643,
+            "name": "Patrick Wilson - Drums",
+            "hash": "drums_l0fIR4NR",
+            "title": "Patrick Wilson - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

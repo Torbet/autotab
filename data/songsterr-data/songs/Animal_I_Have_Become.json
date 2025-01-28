@@ -1,0 +1,325 @@
+{
+    "song_id": 466,
+    "revision_id": 1155533,
+    "prev_revision_id": 1043438,
+    "image": "v3-5-26-mss_5tJG5FnJy2rR",
+    "name": "Animal_I_Have_Become",
+    "tracks": [
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 82,
+            "name": "Lead Vocals - Adam Gontier",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "hash": "guitar_IdPLNXzn",
+            "title": "Lead Vocals - Adam Gontier - Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 12,
+            "name": "Backing Vocals - Barry Stock, Neil Sanderson",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "hash": "vocals_ujXAQwdg",
+            "title": "Backing Vocals - Barry Stock, Neil Sanderson - Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 29697,
+            "name": "Adam Gontier - Rhythm",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_brrXk9ro",
+            "title": "Adam Gontier - Rhythm - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1724,
+            "name": "Barry Stock - Lead",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_N6YbHJ0j",
+            "title": "Barry Stock - Lead - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 255,
+            "name": "Guitar Harmonies",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_GoEtpQcA",
+            "title": "Guitar Harmonies - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 9955,
+            "name": "Brad Walst",
+            "tuning": [
+                41,
+                36,
+                31,
+                24
+            ],
+            "hash": "other_j8ji5ImI",
+            "title": "Brad Walst - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 4306,
+            "name": "Neil Sanderson",
+            "hash": "drums_m380CONr",
+            "title": "Neil Sanderson - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 89,
+            "instrument": "Pad 2 (warm)",
+            "views": 9,
+            "name": "(Howard Benson - Keyboards)",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "hash": "other_xOgh6k6J",
+            "title": "(Howard Benson - Keyboards) - Pad 2 (warm)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 82,
+            "name": "Lead Vocals - Adam Gontier",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "hash": "guitar_IdPLNXzn",
+            "title": "Lead Vocals - Adam Gontier - Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 12,
+            "name": "Backing Vocals - Barry Stock, Neil Sanderson",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "hash": "vocals_ujXAQwdg",
+            "title": "Backing Vocals - Barry Stock, Neil Sanderson - Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 29697,
+            "name": "Adam Gontier - Rhythm",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_brrXk9ro",
+            "title": "Adam Gontier - Rhythm - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1724,
+            "name": "Barry Stock - Lead",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_N6YbHJ0j",
+            "title": "Barry Stock - Lead - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 255,
+            "name": "Guitar Harmonies",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_GoEtpQcA",
+            "title": "Guitar Harmonies - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 9955,
+            "name": "Brad Walst",
+            "tuning": [
+                41,
+                36,
+                31,
+                24
+            ],
+            "hash": "other_j8ji5ImI",
+            "title": "Brad Walst - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 4306,
+            "name": "Neil Sanderson",
+            "hash": "drums_m380CONr",
+            "title": "Neil Sanderson - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 89,
+            "instrument": "Pad 2 (warm)",
+            "views": 9,
+            "name": "(Howard Benson - Keyboards)",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "hash": "other_xOgh6k6J",
+            "title": "(Howard Benson - Keyboards) - Pad 2 (warm)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

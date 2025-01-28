@@ -1,0 +1,282 @@
+{
+    "song_id": 7100,
+    "revision_id": 362236,
+    "prev_revision_id": 26856,
+    "image": "ENEqL3sU8tJPAmsDAsKJ8",
+    "name": "\u0412\u0435\u0447\u043d\u044b\u0439_\u0412\u043e\u0438\u0442\u0435\u043b\u044c",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 117,
+            "name": "\u0413\u0438\u0442\u0430\u0440\u0430",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_XPLZks49",
+            "title": "\u0413\u0438\u0442\u0430\u0440\u0430 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 31,
+            "name": "\u0413\u0438\u0442\u0430\u0440\u0430",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_qAfvW3Tf",
+            "title": "\u0413\u0438\u0442\u0430\u0440\u0430 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 36,
+            "name": "\u0411\u0430\u0441",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_JhhZqclj",
+            "title": "\u0411\u0430\u0441 - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 8,
+            "name": "\u0423\u0434\u0430\u0440\u043d\u044b\u0435",
+            "hash": "drums_8tBq7rEy",
+            "title": "\u0423\u0434\u0430\u0440\u043d\u044b\u0435 - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 49,
+            "instrument": "String Ensemble 2",
+            "views": 0,
+            "name": "\u0421\u0438\u043d\u0442.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_dru8S1fN",
+            "title": "\u0421\u0438\u043d\u0442. - String Ensemble 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 18,
+            "instrument": "Rock Organ",
+            "views": 2,
+            "name": "\u0412\u043e\u043a\u0430\u043b",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_1GHrlSFU",
+            "title": "\u0412\u043e\u043a\u0430\u043b - Rock Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 102,
+            "instrument": "FX 7 (echoes)",
+            "views": 0,
+            "name": "\u0411\u044d\u043a-\u0432\u043e\u043a\u0430\u043b",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Sj7FDhik",
+            "title": "\u0411\u044d\u043a-\u0432\u043e\u043a\u0430\u043b - FX 7 (echoes)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 117,
+            "name": "\u0413\u0438\u0442\u0430\u0440\u0430",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_XPLZks49",
+            "title": "\u0413\u0438\u0442\u0430\u0440\u0430 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 31,
+            "name": "\u0413\u0438\u0442\u0430\u0440\u0430",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_qAfvW3Tf",
+            "title": "\u0413\u0438\u0442\u0430\u0440\u0430 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 36,
+            "name": "\u0411\u0430\u0441",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_JhhZqclj",
+            "title": "\u0411\u0430\u0441 - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 8,
+            "name": "\u0423\u0434\u0430\u0440\u043d\u044b\u0435",
+            "hash": "drums_8tBq7rEy",
+            "title": "\u0423\u0434\u0430\u0440\u043d\u044b\u0435 - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 49,
+            "instrument": "String Ensemble 2",
+            "views": 0,
+            "name": "\u0421\u0438\u043d\u0442.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_dru8S1fN",
+            "title": "\u0421\u0438\u043d\u0442. - String Ensemble 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 18,
+            "instrument": "Rock Organ",
+            "views": 2,
+            "name": "\u0412\u043e\u043a\u0430\u043b",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_1GHrlSFU",
+            "title": "\u0412\u043e\u043a\u0430\u043b - Rock Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 102,
+            "instrument": "FX 7 (echoes)",
+            "views": 0,
+            "name": "\u0411\u044d\u043a-\u0432\u043e\u043a\u0430\u043b",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Sj7FDhik",
+            "title": "\u0411\u044d\u043a-\u0432\u043e\u043a\u0430\u043b - FX 7 (echoes)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

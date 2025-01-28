@@ -1,0 +1,323 @@
+{
+    "song_id": 5465,
+    "revision_id": 506200,
+    "prev_revision_id": 505910,
+    "image": "v3-3-0-Bpf5Ec2N45u4pGbm",
+    "name": "Lazy",
+    "tracks": [
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 29,
+            "name": "Ian Gillan - Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_I6TEOtHp",
+            "title": "Ian Gillan - Vocals - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 13356,
+            "name": "Ritchie Blackmore - Lead Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_hsfkp3fN",
+            "title": "Ritchie Blackmore - Lead Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 20926,
+            "name": "Ritchie Blackmore - Rhythm Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_1pdEM7XO",
+            "title": "Ritchie Blackmore - Rhythm Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 9901,
+            "name": "Roger Glover - Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_1xzkELmX",
+            "title": "Roger Glover - Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 18,
+            "instrument": "Rock Organ",
+            "views": 526,
+            "name": "Jon Lord - Keys (Rhythm)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_68xu9oD0",
+            "title": "Jon Lord - Keys (Rhythm) - Rock Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 18,
+            "instrument": "Rock Organ",
+            "views": 282,
+            "name": "Jon Lord - Keys (Intro Bass, Solo)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_ynJiXAGW",
+            "title": "Jon Lord - Keys (Intro Bass, Solo) - Rock Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 22,
+            "instrument": "Harmonica",
+            "views": 75,
+            "name": "Ian Gillan - Harmonica",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_NU2BxkzQ",
+            "title": "Ian Gillan - Harmonica - Harmonica",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 339,
+            "name": "Ian Paice - Drums",
+            "hash": "drums_InIGpK66",
+            "title": "Ian Paice - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 29,
+            "name": "Ian Gillan - Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_I6TEOtHp",
+            "title": "Ian Gillan - Vocals - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 13356,
+            "name": "Ritchie Blackmore - Lead Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 5,
+            "hash": "guitar_hsfkp3fN",
+            "title": "Ritchie Blackmore - Lead Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 20926,
+            "name": "Ritchie Blackmore - Rhythm Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_1pdEM7XO",
+            "title": "Ritchie Blackmore - Rhythm Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 9901,
+            "name": "Roger Glover - Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_1xzkELmX",
+            "title": "Roger Glover - Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 18,
+            "instrument": "Rock Organ",
+            "views": 526,
+            "name": "Jon Lord - Keys (Rhythm)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_68xu9oD0",
+            "title": "Jon Lord - Keys (Rhythm) - Rock Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 18,
+            "instrument": "Rock Organ",
+            "views": 282,
+            "name": "Jon Lord - Keys (Intro Bass, Solo)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_ynJiXAGW",
+            "title": "Jon Lord - Keys (Intro Bass, Solo) - Rock Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 22,
+            "instrument": "Harmonica",
+            "views": 75,
+            "name": "Ian Gillan - Harmonica",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_NU2BxkzQ",
+            "title": "Ian Gillan - Harmonica - Harmonica",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 339,
+            "name": "Ian Paice - Drums",
+            "hash": "drums_InIGpK66",
+            "title": "Ian Paice - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

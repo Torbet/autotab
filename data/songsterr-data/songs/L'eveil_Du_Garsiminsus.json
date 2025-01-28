@@ -1,0 +1,362 @@
+{
+    "song_id": 7084,
+    "revision_id": 9387,
+    "prev_revision_id": null,
+    "image": "SB8ydz41SnojSuDBHK6vD",
+    "name": "L'eveil_Du_Garsiminsus",
+    "tracks": [
+        {
+            "instrumentId": 6,
+            "instrument": "Harpsichord",
+            "views": 0,
+            "name": "synth",
+            "tuning": [
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_S8yLErER",
+            "title": "synth - Harpsichord",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 101,
+            "instrument": "FX 6 (goblins)",
+            "views": 0,
+            "name": "chant (2 voix)",
+            "tuning": [
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_4LjtWxwU",
+            "title": "chant (2 voix) - FX 6 (goblins)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percu",
+            "hash": "drums_dW10H3WU",
+            "title": "Percu - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "guitare",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_V2YLYTlT",
+            "title": "guitare - Acoustic Guitar (steel) 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 31,
+            "instrument": "Guitar harmonics",
+            "views": 0,
+            "name": "effet dist",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_afSxqFLh",
+            "title": "effet dist - Guitar harmonics",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "guitare",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_wXxwraCD",
+            "title": "guitare - Acoustic Guitar (steel) 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "bass (libert\u00e9 de solo)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_jsIeO2sI",
+            "title": "bass (libert\u00e9 de solo) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "guitare",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_ElyN7izq",
+            "title": "guitare - Acoustic Guitar (steel) 3",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "effet dist",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_eOxc9RYp",
+            "title": "effet dist - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 8,
+            "originalPartId": 8
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 6,
+            "instrument": "Harpsichord",
+            "views": 0,
+            "name": "synth",
+            "tuning": [
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_S8yLErER",
+            "title": "synth - Harpsichord",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 101,
+            "instrument": "FX 6 (goblins)",
+            "views": 0,
+            "name": "chant (2 voix)",
+            "tuning": [
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "other_4LjtWxwU",
+            "title": "chant (2 voix) - FX 6 (goblins)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percu",
+            "hash": "drums_dW10H3WU",
+            "title": "Percu - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "guitare",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_V2YLYTlT",
+            "title": "guitare - Acoustic Guitar (steel) 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 31,
+            "instrument": "Guitar harmonics",
+            "views": 0,
+            "name": "effet dist",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_afSxqFLh",
+            "title": "effet dist - Guitar harmonics",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "guitare",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_wXxwraCD",
+            "title": "guitare - Acoustic Guitar (steel) 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "bass (libert\u00e9 de solo)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_jsIeO2sI",
+            "title": "bass (libert\u00e9 de solo) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "guitare",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_ElyN7izq",
+            "title": "guitare - Acoustic Guitar (steel) 3",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 7
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "effet dist",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_eOxc9RYp",
+            "title": "effet dist - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 8
+        }
+    ]
+}

@@ -1,0 +1,282 @@
+{
+    "song_id": 10088,
+    "revision_id": 990927,
+    "prev_revision_id": 851928,
+    "image": "v3-5-23-B2LAX4G03jwhOn7J",
+    "name": "Somebody_Told_Me",
+    "tracks": [
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 53,
+            "name": "Brandon Flowers - Lead Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_0xLcC7iN",
+            "title": "Brandon Flowers - Lead Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 21,
+            "name": "Dave Keuning - Backing Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_zmYBdugY",
+            "title": "Dave Keuning - Backing Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 5823,
+            "name": "Dave Keuning - Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 3,
+            "hash": "guitar_tywmQjag",
+            "title": "Dave Keuning - Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 5715,
+            "name": "Mark Stoermer - Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_ZNpitHnw",
+            "title": "Mark Stoermer - Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 962,
+            "name": "Ronnie Vannucci Jr. - Drums",
+            "hash": "drums_cVDmhSxI",
+            "title": "Ronnie Vannucci Jr. - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 86,
+            "instrument": "Lead 7 (fifths)",
+            "views": 63,
+            "name": "Brandon Flowers - Synth I",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34
+            ],
+            "hash": "other_EcSgdQqa",
+            "title": "Brandon Flowers - Synth I - Lead 7 (fifths)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 138,
+            "name": "Brandon Flowers - Synth II",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_ceoDmHyV",
+            "title": "Brandon Flowers - Synth II - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 53,
+            "name": "Brandon Flowers - Lead Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_0xLcC7iN",
+            "title": "Brandon Flowers - Lead Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 21,
+            "name": "Dave Keuning - Backing Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_zmYBdugY",
+            "title": "Dave Keuning - Backing Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 5823,
+            "name": "Dave Keuning - Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 3,
+            "hash": "guitar_tywmQjag",
+            "title": "Dave Keuning - Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 5715,
+            "name": "Mark Stoermer - Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_ZNpitHnw",
+            "title": "Mark Stoermer - Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 962,
+            "name": "Ronnie Vannucci Jr. - Drums",
+            "hash": "drums_cVDmhSxI",
+            "title": "Ronnie Vannucci Jr. - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 86,
+            "instrument": "Lead 7 (fifths)",
+            "views": 63,
+            "name": "Brandon Flowers - Synth I",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34
+            ],
+            "hash": "other_EcSgdQqa",
+            "title": "Brandon Flowers - Synth I - Lead 7 (fifths)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 138,
+            "name": "Brandon Flowers - Synth II",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_ceoDmHyV",
+            "title": "Brandon Flowers - Synth II - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

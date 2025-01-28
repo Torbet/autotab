@@ -1,0 +1,159 @@
+{
+    "song_id": 11181,
+    "revision_id": 1234454,
+    "prev_revision_id": 1195294,
+    "image": "v3-5-26-IG2_-O6yPhzCHWEy",
+    "name": "Jonny",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 24,
+            "name": "Morgan - Guitarra",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_fpqKIIUv",
+            "title": "Morgan - Guitarra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Fallon - Guitarra",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_puHuwrEa",
+            "title": "Fallon - Guitarra - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 7,
+            "name": "Talena - Baixo",
+            "tuning": [
+                41,
+                36,
+                31,
+                24
+            ],
+            "hash": "bass_clpLnmvh",
+            "title": "Talena - Baixo - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 7,
+            "name": "Mercedes - Bateria",
+            "hash": "drums_7VxgSANk",
+            "title": "Mercedes - Bateria - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 24,
+            "name": "Morgan - Guitarra",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_fpqKIIUv",
+            "title": "Morgan - Guitarra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Fallon - Guitarra",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_puHuwrEa",
+            "title": "Fallon - Guitarra - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 7,
+            "name": "Talena - Baixo",
+            "tuning": [
+                41,
+                36,
+                31,
+                24
+            ],
+            "hash": "bass_clpLnmvh",
+            "title": "Talena - Baixo - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 7,
+            "name": "Mercedes - Bateria",
+            "hash": "drums_7VxgSANk",
+            "title": "Mercedes - Bateria - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

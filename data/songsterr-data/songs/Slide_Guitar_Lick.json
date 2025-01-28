@@ -1,0 +1,116 @@
+{
+    "song_id": 10429,
+    "revision_id": 12952,
+    "prev_revision_id": null,
+    "image": "WELTH10BW3xqqCd7JNmYj",
+    "name": "Slide_Guitar_Lick",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 759,
+            "name": "Track 1",
+            "tuning": [
+                64,
+                59,
+                56,
+                52,
+                47,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_qjzI6NvR",
+            "title": "Track 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 2,
+            "name": "Track 2",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_lm7ub7VT",
+            "title": "Track 2 - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Percussion",
+            "hash": "drums_wJnguhPN",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 759,
+            "name": "Track 1",
+            "tuning": [
+                64,
+                59,
+                56,
+                52,
+                47,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_qjzI6NvR",
+            "title": "Track 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 2,
+            "name": "Track 2",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_lm7ub7VT",
+            "title": "Track 2 - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Percussion",
+            "hash": "drums_wJnguhPN",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

@@ -1,0 +1,241 @@
+{
+    "song_id": 1401,
+    "revision_id": 1228799,
+    "prev_revision_id": 1223822,
+    "image": "v3-5-26-U4SjRse4BkZl-tdL",
+    "name": "Basket_Case",
+    "tracks": [
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 35,
+            "name": "Billie Joe Armstrong | Lead Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_JPq9XxSr",
+            "title": "Billie Joe Armstrong | Lead Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 10,
+            "name": "Mike Dirnt | Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_UpSZdigp",
+            "title": "Mike Dirnt | Backing Vocals - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 7994,
+            "name": "Billie Joe Armstrong | Fernandes Stratocaster | Lead Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_eL0Ryz18",
+            "title": "Billie Joe Armstrong | Fernandes Stratocaster | Lead Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 21,
+            "name": "Billie Joe Armstrong | Fernandes Stratocaster | Overdubbed Rhythm Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_dcfyroeL",
+            "title": "Billie Joe Armstrong | Fernandes Stratocaster | Overdubbed Rhythm Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 2352,
+            "name": "Mike Dirnt | Fender Precision Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_rfjDR5xu",
+            "title": "Mike Dirnt | Fender Precision Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 919,
+            "name": "Tr\u00e9 Cool | DW Collector Series Drums",
+            "hash": "drums_BjE5c2Az",
+            "title": "Tr\u00e9 Cool | DW Collector Series Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 35,
+            "name": "Billie Joe Armstrong | Lead Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_JPq9XxSr",
+            "title": "Billie Joe Armstrong | Lead Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 10,
+            "name": "Mike Dirnt | Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_UpSZdigp",
+            "title": "Mike Dirnt | Backing Vocals - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 7994,
+            "name": "Billie Joe Armstrong | Fernandes Stratocaster | Lead Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_eL0Ryz18",
+            "title": "Billie Joe Armstrong | Fernandes Stratocaster | Lead Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 21,
+            "name": "Billie Joe Armstrong | Fernandes Stratocaster | Overdubbed Rhythm Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_dcfyroeL",
+            "title": "Billie Joe Armstrong | Fernandes Stratocaster | Overdubbed Rhythm Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 2352,
+            "name": "Mike Dirnt | Fender Precision Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_rfjDR5xu",
+            "title": "Mike Dirnt | Fender Precision Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 919,
+            "name": "Tr\u00e9 Cool | DW Collector Series Drums",
+            "hash": "drums_BjE5c2Az",
+            "title": "Tr\u00e9 Cool | DW Collector Series Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

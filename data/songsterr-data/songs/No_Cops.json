@@ -1,0 +1,284 @@
+{
+    "song_id": 5338,
+    "revision_id": 7945,
+    "prev_revision_id": null,
+    "image": "tqn9JE8LWU9sMIMh6iq-y",
+    "name": "No_Cops",
+    "tracks": [
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                41,
+                36,
+                31,
+                24
+            ],
+            "hash": "bass_sRquMKmW",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 1",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_deYELmd5",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_ZnLBvfjL",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 2",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_9tU8YMsx",
+            "title": "Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Strings",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "hash": "other_FC511x8l",
+            "title": "Strings - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 6,
+            "instrument": "Harpsichord",
+            "views": 0,
+            "name": "Keys",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "hash": "other_30kCZKbg",
+            "title": "Keys - Harpsichord",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Solo",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 7,
+            "hash": "guitar_6e7VVp8u",
+            "title": "Solo - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                41,
+                36,
+                31,
+                24
+            ],
+            "hash": "bass_sRquMKmW",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 1",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_deYELmd5",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_ZnLBvfjL",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar 2",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_9tU8YMsx",
+            "title": "Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Strings",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "hash": "other_FC511x8l",
+            "title": "Strings - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 6,
+            "instrument": "Harpsichord",
+            "views": 0,
+            "name": "Keys",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "hash": "other_30kCZKbg",
+            "title": "Keys - Harpsichord",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Solo",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 7,
+            "hash": "guitar_6e7VVp8u",
+            "title": "Solo - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6
+        }
+    ]
+}

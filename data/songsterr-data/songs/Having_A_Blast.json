@@ -1,0 +1,200 @@
+{
+    "song_id": 8649,
+    "revision_id": 756982,
+    "prev_revision_id": 683469,
+    "image": "v3-5-0-1Pd0uijtuNspcpX8",
+    "name": "Having_A_Blast",
+    "tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 533,
+            "name": "[Drums] - Tr\u00e9 Cool",
+            "hash": "drums_SsQlcZeM",
+            "title": "[Drums] - Tr\u00e9 Cool - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 1480,
+            "name": "[Picked] - Mike Dirnt",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_sBjobI4x",
+            "title": "[Picked] - Mike Dirnt - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5904,
+            "name": "[Rhythm] 1 - Billie Joe Armstrong",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_tsOwZj3f",
+            "title": "[Rhythm] 1 - Billie Joe Armstrong - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 67,
+            "name": "[Rhythm] 2 - Billie Joe Armstrong",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_wYlnMvVS",
+            "title": "[Rhythm] 2 - Billie Joe Armstrong - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 35,
+            "name": "[Vocals] - Billie Joe Armstrong",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_RWtE8jUE",
+            "title": "[Vocals] - Billie Joe Armstrong - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 533,
+            "name": "[Drums] - Tr\u00e9 Cool",
+            "hash": "drums_SsQlcZeM",
+            "title": "[Drums] - Tr\u00e9 Cool - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 1480,
+            "name": "[Picked] - Mike Dirnt",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_sBjobI4x",
+            "title": "[Picked] - Mike Dirnt - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5904,
+            "name": "[Rhythm] 1 - Billie Joe Armstrong",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_tsOwZj3f",
+            "title": "[Rhythm] 1 - Billie Joe Armstrong - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 67,
+            "name": "[Rhythm] 2 - Billie Joe Armstrong",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_wYlnMvVS",
+            "title": "[Rhythm] 2 - Billie Joe Armstrong - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 35,
+            "name": "[Vocals] - Billie Joe Armstrong",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_RWtE8jUE",
+            "title": "[Vocals] - Billie Joe Armstrong - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

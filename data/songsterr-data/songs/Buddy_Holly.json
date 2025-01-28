@@ -1,0 +1,432 @@
+{
+    "song_id": 10156,
+    "revision_id": 1200258,
+    "prev_revision_id": 1148087,
+    "image": "v3-5-26-f6Q9Z90x2vz44tsH",
+    "name": "Buddy_Holly",
+    "tracks": [
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 32,
+            "name": "Rivers Cuomo - Lead Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_Q8aSmGTL",
+            "title": "Rivers Cuomo - Lead Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 1,
+            "name": "Brian Bell - Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_HQGjJTRi",
+            "title": "Brian Bell - Backing Vocals - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 0,
+            "name": "Matt Sharp - Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_ngQusHpP",
+            "title": "Matt Sharp - Backing Vocals - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5421,
+            "name": "Rivers Cuomo - Lead Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_LVg7fegO",
+            "title": "Rivers Cuomo - Lead Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1080,
+            "name": "Brian Bell - Rhythm Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_fGca3smw",
+            "title": "Brian Bell - Rhythm Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 717,
+            "name": "Matt Sharp - Picked Bass Guitar",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_0Ebuoiu4",
+            "title": "Matt Sharp - Picked Bass Guitar - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 859,
+            "name": "Patrick Wilson - Drums",
+            "hash": "drums_pM8219xg",
+            "title": "Patrick Wilson - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 80,
+            "instrument": "Lead 1 (square)",
+            "views": 8,
+            "name": "Rivers Cuomo - Synth Keyboard",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_vzCEnHL3",
+            "title": "Rivers Cuomo - Synth Keyboard - Lead 1 (square)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 1,
+            "name": "Rivers Cuomo - Synth Organ",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_2gM5LXmJ",
+            "title": "Rivers Cuomo - Synth Organ - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Handclaps",
+            "hash": "drums_A46fdzJ6",
+            "title": "Handclaps - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9,
+            "originalPartId": 9
+        },
+        {
+            "instrumentId": 31,
+            "instrument": "Guitar harmonics",
+            "views": 5,
+            "name": "Harmonic SFX",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 1,
+            "hash": "guitar_GZD9srRN",
+            "title": "Harmonic SFX - Guitar harmonics",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 10,
+            "originalPartId": 10
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 32,
+            "name": "Rivers Cuomo - Lead Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_Q8aSmGTL",
+            "title": "Rivers Cuomo - Lead Vocals - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 1,
+            "name": "Brian Bell - Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_HQGjJTRi",
+            "title": "Brian Bell - Backing Vocals - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 0,
+            "name": "Matt Sharp - Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_ngQusHpP",
+            "title": "Matt Sharp - Backing Vocals - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 5421,
+            "name": "Rivers Cuomo - Lead Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_LVg7fegO",
+            "title": "Rivers Cuomo - Lead Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1080,
+            "name": "Brian Bell - Rhythm Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_fGca3smw",
+            "title": "Brian Bell - Rhythm Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 717,
+            "name": "Matt Sharp - Picked Bass Guitar",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_0Ebuoiu4",
+            "title": "Matt Sharp - Picked Bass Guitar - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 859,
+            "name": "Patrick Wilson - Drums",
+            "hash": "drums_pM8219xg",
+            "title": "Patrick Wilson - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 80,
+            "instrument": "Lead 1 (square)",
+            "views": 8,
+            "name": "Rivers Cuomo - Synth Keyboard",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_vzCEnHL3",
+            "title": "Rivers Cuomo - Synth Keyboard - Lead 1 (square)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 1,
+            "name": "Rivers Cuomo - Synth Organ",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_2gM5LXmJ",
+            "title": "Rivers Cuomo - Synth Organ - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Handclaps",
+            "hash": "drums_A46fdzJ6",
+            "title": "Handclaps - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9
+        },
+        {
+            "instrumentId": 31,
+            "instrument": "Guitar harmonics",
+            "views": 5,
+            "name": "Harmonic SFX",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 1,
+            "hash": "guitar_GZD9srRN",
+            "title": "Harmonic SFX - Guitar harmonics",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 10
+        }
+    ]
+}

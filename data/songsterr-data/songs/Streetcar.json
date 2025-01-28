@@ -1,0 +1,325 @@
+{
+    "song_id": 7887,
+    "revision_id": 653606,
+    "prev_revision_id": 648824,
+    "image": "v3-2-1-lQHBk4AjWuKcQZn2",
+    "name": "Streetcar",
+    "tracks": [
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 1,
+            "name": "Matt Davies-Kreye Vocal",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_w1D38Mbi",
+            "title": "Matt Davies-Kreye Vocal - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 0,
+            "name": "Matt Vocal Harmony",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_WNzikILw",
+            "title": "Matt Vocal Harmony - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 0,
+            "name": "Gareth Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_8TrSpz8S",
+            "title": "Gareth Backing Vocals - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 685,
+            "name": "Darran Smith Lead",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_jF2YqkLU",
+            "title": "Darran Smith Lead - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 275,
+            "name": "Kris Coombs-Roberts Rhythm",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_inKqO0oX",
+            "title": "Kris Coombs-Roberts Rhythm - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 55,
+            "name": "Kris Extra",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_cotiGrr7",
+            "title": "Kris Extra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 493,
+            "name": "Gareth Davies",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_JIfrQcsn",
+            "title": "Gareth Davies - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 8,
+            "name": "Ryan Richards",
+            "hash": "drums_dcwArLlr",
+            "title": "Ryan Richards - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 1,
+            "name": "Matt Davies-Kreye Vocal",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_w1D38Mbi",
+            "title": "Matt Davies-Kreye Vocal - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 0,
+            "name": "Matt Vocal Harmony",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_WNzikILw",
+            "title": "Matt Vocal Harmony - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 0,
+            "name": "Gareth Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_8TrSpz8S",
+            "title": "Gareth Backing Vocals - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 685,
+            "name": "Darran Smith Lead",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_jF2YqkLU",
+            "title": "Darran Smith Lead - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 275,
+            "name": "Kris Coombs-Roberts Rhythm",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_inKqO0oX",
+            "title": "Kris Coombs-Roberts Rhythm - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 55,
+            "name": "Kris Extra",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_cotiGrr7",
+            "title": "Kris Extra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 493,
+            "name": "Gareth Davies",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_JIfrQcsn",
+            "title": "Gareth Davies - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 8,
+            "name": "Ryan Richards",
+            "hash": "drums_dcwArLlr",
+            "title": "Ryan Richards - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

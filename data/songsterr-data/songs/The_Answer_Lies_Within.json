@@ -1,0 +1,477 @@
+{
+    "song_id": 6100,
+    "revision_id": 8957,
+    "prev_revision_id": null,
+    "image": "giwqZh2L3E13gesSiTX4u",
+    "name": "The_Answer_Lies_Within",
+    "tracks": [
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 16,
+            "name": "James LaBrie Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_XC9glAi2",
+            "title": "James LaBrie Vocals - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 60,
+            "name": "Jordan Rudess Piano",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_lO7jIkxB",
+            "title": "Jordan Rudess Piano - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 184,
+            "name": "John Petrucci Acoustic Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_ittE3KXz",
+            "title": "John Petrucci Acoustic Guitar - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 9,
+            "name": "John Petrucci Slide Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_NOJbUBPL",
+            "title": "John Petrucci Slide Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 64,
+            "name": "John Myung Bass",
+            "tuning": [
+                48,
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_WKfZHexF",
+            "title": "John Myung Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 60,
+            "name": "Elena Barere - 1st Violin",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_u5jajqYd",
+            "title": "Elena Barere - 1st Violin - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 5,
+            "name": "Carol Webb - 2nd Violin",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_5Zp7T1gj",
+            "title": "Carol Webb - 2nd Violin - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 67,
+            "name": "Vincent Lionti - Viola",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_OYtt6Wf6",
+            "title": "Vincent Lionti - Viola - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 1,
+            "name": "Richard Locker - Cello",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_YDgAvObZ",
+            "title": "Richard Locker - Cello - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 14,
+            "name": "James LaBrie Percussion",
+            "hash": "drums_TCH1HvhI",
+            "title": "James LaBrie Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9,
+            "originalPartId": 9
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 74,
+            "name": "Mike Portnoy - Drums",
+            "hash": "drums_X2H6RnZL",
+            "title": "Mike Portnoy - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10,
+            "originalPartId": 10
+        },
+        {
+            "instrumentId": 14,
+            "instrument": "Tubular Bells",
+            "views": 1,
+            "name": "Bell Sample",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_uz6eNatl",
+            "title": "Bell Sample - Tubular Bells",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11,
+            "originalPartId": 11
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 16,
+            "name": "James LaBrie Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_XC9glAi2",
+            "title": "James LaBrie Vocals - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 60,
+            "name": "Jordan Rudess Piano",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_lO7jIkxB",
+            "title": "Jordan Rudess Piano - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 184,
+            "name": "John Petrucci Acoustic Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_ittE3KXz",
+            "title": "John Petrucci Acoustic Guitar - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 9,
+            "name": "John Petrucci Slide Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_NOJbUBPL",
+            "title": "John Petrucci Slide Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 64,
+            "name": "John Myung Bass",
+            "tuning": [
+                48,
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_WKfZHexF",
+            "title": "John Myung Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 60,
+            "name": "Elena Barere - 1st Violin",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_u5jajqYd",
+            "title": "Elena Barere - 1st Violin - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 5,
+            "name": "Carol Webb - 2nd Violin",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_5Zp7T1gj",
+            "title": "Carol Webb - 2nd Violin - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 67,
+            "name": "Vincent Lionti - Viola",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_OYtt6Wf6",
+            "title": "Vincent Lionti - Viola - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 1,
+            "name": "Richard Locker - Cello",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_YDgAvObZ",
+            "title": "Richard Locker - Cello - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 14,
+            "name": "James LaBrie Percussion",
+            "hash": "drums_TCH1HvhI",
+            "title": "James LaBrie Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 74,
+            "name": "Mike Portnoy - Drums",
+            "hash": "drums_X2H6RnZL",
+            "title": "Mike Portnoy - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10
+        },
+        {
+            "instrumentId": 14,
+            "instrument": "Tubular Bells",
+            "views": 1,
+            "name": "Bell Sample",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_uz6eNatl",
+            "title": "Bell Sample - Tubular Bells",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11
+        }
+    ]
+}

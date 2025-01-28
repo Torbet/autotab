@@ -1,0 +1,315 @@
+{
+    "song_id": 11661,
+    "revision_id": 14518,
+    "prev_revision_id": null,
+    "image": "tpnXRRZEaoFLU1iF1b3CL",
+    "name": "Tomorrow",
+    "tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 49,
+            "name": "Guitar 1",
+            "tuning": [
+                66,
+                61,
+                57,
+                52,
+                47,
+                42
+            ],
+            "difficulty": 2,
+            "hash": "guitar_mMsIpMfj",
+            "title": "Guitar 1 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 6,
+            "name": "Guitar 2",
+            "tuning": [
+                66,
+                61,
+                57,
+                52,
+                47,
+                42
+            ],
+            "difficulty": 2,
+            "hash": "guitar_p2YTo5ge",
+            "title": "Guitar 2 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 2,
+            "name": "Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_jFoM6WX2",
+            "title": "Vocals - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 3,
+            "name": "Echoes",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_bH8wkmcO",
+            "title": "Echoes - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 49,
+            "instrument": "String Ensemble 2",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50
+            ],
+            "hash": "other_Hm5uuWsK",
+            "title": "String Ensemble 2 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 49,
+            "instrument": "String Ensemble 2",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_2tMl9kWP",
+            "title": "String Ensemble 2 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 32,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_PSbHcoZP",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 6,
+            "name": "Percussion",
+            "hash": "drums_MUUPHam0",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 49,
+            "name": "Guitar 1",
+            "tuning": [
+                66,
+                61,
+                57,
+                52,
+                47,
+                42
+            ],
+            "difficulty": 2,
+            "hash": "guitar_mMsIpMfj",
+            "title": "Guitar 1 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 6,
+            "name": "Guitar 2",
+            "tuning": [
+                66,
+                61,
+                57,
+                52,
+                47,
+                42
+            ],
+            "difficulty": 2,
+            "hash": "guitar_p2YTo5ge",
+            "title": "Guitar 2 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 2,
+            "name": "Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_jFoM6WX2",
+            "title": "Vocals - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 3,
+            "name": "Echoes",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_bH8wkmcO",
+            "title": "Echoes - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 49,
+            "instrument": "String Ensemble 2",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                64,
+                59,
+                55,
+                50
+            ],
+            "hash": "other_Hm5uuWsK",
+            "title": "String Ensemble 2 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 49,
+            "instrument": "String Ensemble 2",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_2tMl9kWP",
+            "title": "String Ensemble 2 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 32,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_PSbHcoZP",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 6,
+            "name": "Percussion",
+            "hash": "drums_MUUPHam0",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

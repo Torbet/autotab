@@ -1,0 +1,200 @@
+{
+    "song_id": 4344,
+    "revision_id": 26240,
+    "prev_revision_id": null,
+    "image": "2QeWMrGSyLJjeleweEsoR",
+    "name": "Blues_Before_Sunrise",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 313,
+            "name": "Eric Clapton Guitar I",
+            "tuning": [
+                62,
+                57,
+                54,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_eYQCFC3D",
+            "title": "Eric Clapton Guitar I - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 12,
+            "name": "Andy Fairweather Low Guitar II",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 1,
+            "hash": "guitar_eoVn2DmH",
+            "title": "Andy Fairweather Low Guitar II - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 37,
+            "name": "Nathan East Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_MgQfMg67",
+            "title": "Nathan East Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Steve Gadd Drums",
+            "hash": "drums_UFZHc3b3",
+            "title": "Steve Gadd Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 60,
+            "instrument": "French Horn",
+            "views": 0,
+            "name": "Eric Clapton Voice",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45
+            ],
+            "hash": "vocals_gstOUiDA",
+            "title": "Eric Clapton Voice - French Horn",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 313,
+            "name": "Eric Clapton Guitar I",
+            "tuning": [
+                62,
+                57,
+                54,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_eYQCFC3D",
+            "title": "Eric Clapton Guitar I - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 12,
+            "name": "Andy Fairweather Low Guitar II",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 1,
+            "hash": "guitar_eoVn2DmH",
+            "title": "Andy Fairweather Low Guitar II - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 37,
+            "name": "Nathan East Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_MgQfMg67",
+            "title": "Nathan East Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Steve Gadd Drums",
+            "hash": "drums_UFZHc3b3",
+            "title": "Steve Gadd Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 60,
+            "instrument": "French Horn",
+            "views": 0,
+            "name": "Eric Clapton Voice",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45
+            ],
+            "hash": "vocals_gstOUiDA",
+            "title": "Eric Clapton Voice - French Horn",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

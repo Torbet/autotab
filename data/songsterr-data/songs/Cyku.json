@@ -1,0 +1,118 @@
+{
+    "song_id": 10271,
+    "revision_id": 295992,
+    "prev_revision_id": null,
+    "image": "7vh-JjEAfbb5S6EtSpP9i",
+    "name": "Cyku",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 93,
+            "name": "",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                34
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Bxr3HtQk",
+            "title": "Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 46,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27,
+                22
+            ],
+            "hash": "bass_6f0QcTcK",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 17,
+            "name": "",
+            "hash": "drums_3K8HHm0s",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 93,
+            "name": "",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                34
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Bxr3HtQk",
+            "title": "Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 46,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27,
+                22
+            ],
+            "hash": "bass_6f0QcTcK",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 17,
+            "name": "",
+            "hash": "drums_3K8HHm0s",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+{
+    "song_id": 6161,
+    "revision_id": 314841,
+    "prev_revision_id": null,
+    "image": "vf_Zmx24XaAnuZlTW-FRn",
+    "name": "Chaos_vs_Order",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 45,
+            "name": "Christofer",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_vDDB11oz",
+            "title": "Christofer - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 6,
+            "name": "Klas",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_yLOpBCLr",
+            "title": "Klas - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Extragitarr 1 - CM",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 1,
+            "hash": "guitar_s4uLEzsv",
+            "title": "Extragitarr 1 - CM - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Extragitarr 2 - KI",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_rKj3CgaK",
+            "title": "Extragitarr 2 - KI - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 11,
+            "name": "Solo Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 7,
+            "hash": "guitar_dEAqDTcL",
+            "title": "Solo Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keys",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_okLjv303",
+            "title": "Keys - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_vM2VF3Av",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 4,
+            "name": "Wildoer",
+            "hash": "drums_UImNDJKW",
+            "title": "Wildoer - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 45,
+            "name": "Christofer",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_vDDB11oz",
+            "title": "Christofer - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 6,
+            "name": "Klas",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_yLOpBCLr",
+            "title": "Klas - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Extragitarr 1 - CM",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 1,
+            "hash": "guitar_s4uLEzsv",
+            "title": "Extragitarr 1 - CM - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Extragitarr 2 - KI",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_rKj3CgaK",
+            "title": "Extragitarr 2 - KI - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 11,
+            "name": "Solo Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 7,
+            "hash": "guitar_dEAqDTcL",
+            "title": "Solo Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Keys",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_okLjv303",
+            "title": "Keys - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_vM2VF3Av",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 4,
+            "name": "Wildoer",
+            "hash": "drums_UImNDJKW",
+            "title": "Wildoer - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

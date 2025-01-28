@@ -1,0 +1,627 @@
+{
+    "song_id": 8562,
+    "revision_id": 1166842,
+    "prev_revision_id": 1166763,
+    "image": "v3-5-26-Ydrs-MjspHKD6ZqS",
+    "name": "Clint_Eastwood",
+    "tracks": [
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 12,
+            "name": "Background and Solo Piano",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                37
+            ],
+            "hash": "other_OXtD0rIu",
+            "title": "Background and Solo Piano - Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 668,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_hGt21ze6",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 39,
+            "instrument": "Synth Bass 2",
+            "views": 49,
+            "name": "Bass Synth",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_V9ZgM1vj",
+            "title": "Bass Synth - Synth Bass 2",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 28,
+            "instrument": "Electric Guitar (muted)",
+            "views": 105,
+            "name": "",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_1K4qCHem",
+            "title": "Electric Guitar (muted)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 373,
+            "name": "Voice 2-D (Damon)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                39
+            ],
+            "hash": "vocals_3vcEaQUb",
+            "title": "Voice 2-D (Damon) - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 3,
+            "name": "Voice 2-D in A#",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_7rx0M3CJ",
+            "title": "Voice 2-D in A# - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 4,
+            "name": "Voice Del",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_jjY49gFf",
+            "title": "Voice Del - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 1,
+            "name": "Voice Del Overdubs",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_vrmwn2mI",
+            "title": "Voice Del Overdubs - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 20,
+            "instrument": "Reed Organ",
+            "views": 36,
+            "name": "Melodica",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_zKfgcWKQ",
+            "title": "Melodica - Reed Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        },
+        {
+            "instrumentId": 4,
+            "instrument": "Electric Piano 1",
+            "views": 88,
+            "name": "MIDI Piano",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_n2iB7d0O",
+            "title": "MIDI Piano - Electric Piano 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9,
+            "originalPartId": 9
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 799,
+            "name": "",
+            "hash": "drums_MeuYTohQ",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10,
+            "originalPartId": 10
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 16,
+            "name": "Accompaniment",
+            "hash": "drums_ODtaCjc9",
+            "title": "Accompaniment - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11,
+            "originalPartId": 11
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 11,
+            "name": "Keys Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_RqrXhJHa",
+            "title": "Keys Strings - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 12,
+            "originalPartId": 12
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 1,
+            "name": "Violin Scratch",
+            "tuning": [
+                48,
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_asfyDcG0",
+            "title": "Violin Scratch - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 13,
+            "originalPartId": 13
+        },
+        {
+            "instrumentId": 20,
+            "instrument": "Reed Organ",
+            "views": 4,
+            "name": "Melodica Delay 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_5ZQo9lgY",
+            "title": "Melodica Delay 1 - Reed Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 14,
+            "originalPartId": 14
+        },
+        {
+            "instrumentId": 20,
+            "instrument": "Reed Organ",
+            "views": 1,
+            "name": "Melodica Delay 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_AxzVWosc",
+            "title": "Melodica Delay 2 - Reed Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 15,
+            "originalPartId": 15
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 12,
+            "name": "Background and Solo Piano",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                37
+            ],
+            "hash": "other_OXtD0rIu",
+            "title": "Background and Solo Piano - Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 668,
+            "name": "",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_hGt21ze6",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 39,
+            "instrument": "Synth Bass 2",
+            "views": 49,
+            "name": "Bass Synth",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_V9ZgM1vj",
+            "title": "Bass Synth - Synth Bass 2",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 28,
+            "instrument": "Electric Guitar (muted)",
+            "views": 105,
+            "name": "",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_1K4qCHem",
+            "title": "Electric Guitar (muted)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 373,
+            "name": "Voice 2-D (Damon)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                39
+            ],
+            "hash": "vocals_3vcEaQUb",
+            "title": "Voice 2-D (Damon) - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 66,
+            "instrument": "Tenor Sax",
+            "views": 3,
+            "name": "Voice 2-D in A#",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_7rx0M3CJ",
+            "title": "Voice 2-D in A# - Tenor Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 4,
+            "name": "Voice Del",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_jjY49gFf",
+            "title": "Voice Del - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 1,
+            "name": "Voice Del Overdubs",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_vrmwn2mI",
+            "title": "Voice Del Overdubs - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 20,
+            "instrument": "Reed Organ",
+            "views": 36,
+            "name": "Melodica",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_zKfgcWKQ",
+            "title": "Melodica - Reed Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        },
+        {
+            "instrumentId": 4,
+            "instrument": "Electric Piano 1",
+            "views": 88,
+            "name": "MIDI Piano",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_n2iB7d0O",
+            "title": "MIDI Piano - Electric Piano 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 799,
+            "name": "",
+            "hash": "drums_MeuYTohQ",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 16,
+            "name": "Accompaniment",
+            "hash": "drums_ODtaCjc9",
+            "title": "Accompaniment - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 11,
+            "name": "Keys Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_RqrXhJHa",
+            "title": "Keys Strings - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 12
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 1,
+            "name": "Violin Scratch",
+            "tuning": [
+                48,
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_asfyDcG0",
+            "title": "Violin Scratch - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 13
+        },
+        {
+            "instrumentId": 20,
+            "instrument": "Reed Organ",
+            "views": 4,
+            "name": "Melodica Delay 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_5ZQo9lgY",
+            "title": "Melodica Delay 1 - Reed Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 14
+        },
+        {
+            "instrumentId": 20,
+            "instrument": "Reed Organ",
+            "views": 1,
+            "name": "Melodica Delay 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_AxzVWosc",
+            "title": "Melodica Delay 2 - Reed Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 15
+        }
+    ]
+}

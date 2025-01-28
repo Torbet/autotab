@@ -1,0 +1,241 @@
+{
+    "song_id": 1917,
+    "revision_id": 753089,
+    "prev_revision_id": 752120,
+    "image": "v3-4-5-stage-MqUtEWF2NWWvB29S",
+    "name": "\u041a\u0442\u043e_\u0422\u044b",
+    "tracks": [
+        {
+            "instrumentId": 2,
+            "instrument": "Electric Grand Piano",
+            "views": 28,
+            "name": "\u041a\u0438\u043f\u0435\u043b\u043e\u0432",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_G58DPzDI",
+            "title": "\u041a\u0438\u043f\u0435\u043b\u043e\u0432 - Electric Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 101,
+            "name": "\u0422\u0435\u0440\u0435\u043d\u0442\u044c\u0435\u0432",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Ak8VMGEv",
+            "title": "\u0422\u0435\u0440\u0435\u043d\u0442\u044c\u0435\u0432 - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 1829,
+            "name": "\u0425\u043e\u043b\u0441\u0442\u0438\u043d\u0438\u043d",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_L5UqrL4g",
+            "title": "\u0425\u043e\u043b\u0441\u0442\u0438\u043d\u0438\u043d - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 49,
+            "instrument": "String Ensemble 2",
+            "views": 0,
+            "name": "\u041d\u0430\u0443\u043c\u0435\u043d\u043a\u043e",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_yqeR4S2H",
+            "title": "\u041d\u0430\u0443\u043c\u0435\u043d\u043a\u043e - String Ensemble 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 35,
+            "name": "\u0414\u0443\u0431\u0438\u043d\u0438\u043d",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_CfIY29Ft",
+            "title": "\u0414\u0443\u0431\u0438\u043d\u0438\u043d - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "\u041c\u0430\u043d\u044f\u043a\u0438\u043d",
+            "hash": "drums_tKKClJND",
+            "title": "\u041c\u0430\u043d\u044f\u043a\u0438\u043d - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 2,
+            "instrument": "Electric Grand Piano",
+            "views": 28,
+            "name": "\u041a\u0438\u043f\u0435\u043b\u043e\u0432",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_G58DPzDI",
+            "title": "\u041a\u0438\u043f\u0435\u043b\u043e\u0432 - Electric Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 101,
+            "name": "\u0422\u0435\u0440\u0435\u043d\u0442\u044c\u0435\u0432",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Ak8VMGEv",
+            "title": "\u0422\u0435\u0440\u0435\u043d\u0442\u044c\u0435\u0432 - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 1829,
+            "name": "\u0425\u043e\u043b\u0441\u0442\u0438\u043d\u0438\u043d",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_L5UqrL4g",
+            "title": "\u0425\u043e\u043b\u0441\u0442\u0438\u043d\u0438\u043d - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 49,
+            "instrument": "String Ensemble 2",
+            "views": 0,
+            "name": "\u041d\u0430\u0443\u043c\u0435\u043d\u043a\u043e",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_yqeR4S2H",
+            "title": "\u041d\u0430\u0443\u043c\u0435\u043d\u043a\u043e - String Ensemble 2",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 35,
+            "name": "\u0414\u0443\u0431\u0438\u043d\u0438\u043d",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_CfIY29Ft",
+            "title": "\u0414\u0443\u0431\u0438\u043d\u0438\u043d - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "\u041c\u0430\u043d\u044f\u043a\u0438\u043d",
+            "hash": "drums_tKKClJND",
+            "title": "\u041c\u0430\u043d\u044f\u043a\u0438\u043d - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

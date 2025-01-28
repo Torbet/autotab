@@ -1,0 +1,286 @@
+{
+    "song_id": 6113,
+    "revision_id": 1034643,
+    "prev_revision_id": 964387,
+    "image": "v3-5-24-9GWkfu5Q1fTsi_gl",
+    "name": "Minerva",
+    "tracks": [
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 950,
+            "name": "Chino Moreno - 6-String (Clean)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_fspATOBc",
+            "title": "Chino Moreno - 6-String (Clean) - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1723,
+            "name": "Chino Moreno - 6-String (Dist.)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Y11RNEyR",
+            "title": "Chino Moreno - 6-String (Dist.) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 777,
+            "name": "Stephen Carpenter - 7 String (Dist.)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_fQxG9SKX",
+            "title": "Stephen Carpenter - 7 String (Dist.) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 94,
+            "instrument": "Pad 7 (halo)",
+            "views": 29,
+            "name": "Frank Delgado - Synths/Turntables 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "other_id8f3zMN",
+            "title": "Frank Delgado - Synths/Turntables 1 - Pad 7 (halo)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 12,
+            "instrument": "Marimba",
+            "views": 4,
+            "name": "Frank Delgado - Synths/Turntables 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "other_Bhp21UfL",
+            "title": "Frank Delgado - Synths/Turntables 2 - Marimba",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 292,
+            "name": "Chi Cheng - Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_vhDfLejp",
+            "title": "Chi Cheng - Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 732,
+            "name": "Abe Cunningham - Drums",
+            "hash": "drums_Cflyzbog",
+            "title": "Abe Cunningham - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 950,
+            "name": "Chino Moreno - 6-String (Clean)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_fspATOBc",
+            "title": "Chino Moreno - 6-String (Clean) - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1723,
+            "name": "Chino Moreno - 6-String (Dist.)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Y11RNEyR",
+            "title": "Chino Moreno - 6-String (Dist.) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 777,
+            "name": "Stephen Carpenter - 7 String (Dist.)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_fQxG9SKX",
+            "title": "Stephen Carpenter - 7 String (Dist.) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 94,
+            "instrument": "Pad 7 (halo)",
+            "views": 29,
+            "name": "Frank Delgado - Synths/Turntables 1",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "other_id8f3zMN",
+            "title": "Frank Delgado - Synths/Turntables 1 - Pad 7 (halo)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 12,
+            "instrument": "Marimba",
+            "views": 4,
+            "name": "Frank Delgado - Synths/Turntables 2",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "other_Bhp21UfL",
+            "title": "Frank Delgado - Synths/Turntables 2 - Marimba",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 292,
+            "name": "Chi Cheng - Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_vhDfLejp",
+            "title": "Chi Cheng - Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 732,
+            "name": "Abe Cunningham - Drums",
+            "hash": "drums_Cflyzbog",
+            "title": "Abe Cunningham - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

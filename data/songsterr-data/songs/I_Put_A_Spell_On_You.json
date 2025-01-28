@@ -1,0 +1,284 @@
+{
+    "song_id": 4807,
+    "revision_id": 1140744,
+    "prev_revision_id": 895463,
+    "image": "v3-5-26-dfrnuiJ7uxAzFH7c",
+    "name": "I_Put_A_Spell_On_You",
+    "tracks": [
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 631,
+            "name": "Lead Guitar (J. Fogerty (Who Else?))",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_EVjAEHlB",
+            "title": "Lead Guitar (J. Fogerty (Who Else?)) - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 122,
+            "name": "Rhythm Guitar (T. Fogerty)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_i1CpH0cq",
+            "title": "Rhythm Guitar (T. Fogerty) - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 13,
+            "name": "Lead Vocals (J. Fogerty (Who Else?))",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_8EeT1TLs",
+            "title": "Lead Vocals (J. Fogerty (Who Else?)) - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 588,
+            "name": "Bass (Cook)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_t0ep2JPa",
+            "title": "Bass (Cook) - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 234,
+            "name": "Drums (Clifford)",
+            "hash": "drums_7vYUeLbd",
+            "title": "Drums (Clifford) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 102,
+            "instrument": "FX 7 (echoes)",
+            "views": 0,
+            "name": "Intro / Sound Effects",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_V71TfGLR",
+            "title": "Intro / Sound Effects - FX 7 (echoes)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 9,
+            "instrument": "Glockenspiel",
+            "views": 0,
+            "name": "Intro / Sound Effects",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_KIKaPXmH",
+            "title": "Intro / Sound Effects - Glockenspiel",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 631,
+            "name": "Lead Guitar (J. Fogerty (Who Else?))",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_EVjAEHlB",
+            "title": "Lead Guitar (J. Fogerty (Who Else?)) - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 122,
+            "name": "Rhythm Guitar (T. Fogerty)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_i1CpH0cq",
+            "title": "Rhythm Guitar (T. Fogerty) - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 13,
+            "name": "Lead Vocals (J. Fogerty (Who Else?))",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_8EeT1TLs",
+            "title": "Lead Vocals (J. Fogerty (Who Else?)) - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 588,
+            "name": "Bass (Cook)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_t0ep2JPa",
+            "title": "Bass (Cook) - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 234,
+            "name": "Drums (Clifford)",
+            "hash": "drums_7vYUeLbd",
+            "title": "Drums (Clifford) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 102,
+            "instrument": "FX 7 (echoes)",
+            "views": 0,
+            "name": "Intro / Sound Effects",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "hash": "other_V71TfGLR",
+            "title": "Intro / Sound Effects - FX 7 (echoes)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 9,
+            "instrument": "Glockenspiel",
+            "views": 0,
+            "name": "Intro / Sound Effects",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_KIKaPXmH",
+            "title": "Intro / Sound Effects - Glockenspiel",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

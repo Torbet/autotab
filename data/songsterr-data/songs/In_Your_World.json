@@ -1,0 +1,200 @@
+{
+    "song_id": 12067,
+    "revision_id": 1145903,
+    "prev_revision_id": 14749,
+    "image": "v3-5-26-iTIQsNQakUNDpR3Q",
+    "name": "In_Your_World",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 76,
+            "name": "Guitar (Matthew Bellamy)",
+            "tuning": [
+                64,
+                59,
+                55,
+                52,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_X36apOnu",
+            "title": "Guitar (Matthew Bellamy) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 18,
+            "name": "Guitar Adds (Matthew Bellamy)",
+            "tuning": [
+                64,
+                59,
+                55,
+                52,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_OY4I00dL",
+            "title": "Guitar Adds (Matthew Bellamy) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 55,
+            "name": "Bass (Christopher Wolstenholme)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_XrUmdDrV",
+            "title": "Bass (Christopher Wolstenholme) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 18,
+            "name": "Piano (Matthew Bellamy)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_9wT3gFOh",
+            "title": "Piano (Matthew Bellamy) - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Drums (Dominic Howard)",
+            "hash": "drums_UjJamWOY",
+            "title": "Drums (Dominic Howard) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 76,
+            "name": "Guitar (Matthew Bellamy)",
+            "tuning": [
+                64,
+                59,
+                55,
+                52,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_X36apOnu",
+            "title": "Guitar (Matthew Bellamy) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 18,
+            "name": "Guitar Adds (Matthew Bellamy)",
+            "tuning": [
+                64,
+                59,
+                55,
+                52,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_OY4I00dL",
+            "title": "Guitar Adds (Matthew Bellamy) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 55,
+            "name": "Bass (Christopher Wolstenholme)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_XrUmdDrV",
+            "title": "Bass (Christopher Wolstenholme) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 18,
+            "name": "Piano (Matthew Bellamy)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_9wT3gFOh",
+            "title": "Piano (Matthew Bellamy) - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Drums (Dominic Howard)",
+            "hash": "drums_UjJamWOY",
+            "title": "Drums (Dominic Howard) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

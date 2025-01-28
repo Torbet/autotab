@@ -1,0 +1,307 @@
+{
+    "song_id": 509,
+    "revision_id": 374501,
+    "prev_revision_id": 347373,
+    "image": "t2Hp0VXY2u26wCfzuN_p5",
+    "name": "Extraordinary_Girl",
+    "tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 168,
+            "name": "[Drums] - Tr\u00c3\u00a8 Cool",
+            "hash": "drums_omgwQg3g",
+            "title": "[Drums] - Tr\u00c3\u00a8 Cool - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 4,
+            "name": "[Extra] - Tr\u00c3\u00a8 Cool",
+            "hash": "drums_UMlebesT",
+            "title": "[Extra] - Tr\u00c3\u00a8 Cool - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 271,
+            "name": "[Picked] - Mike Dirnt",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_lpGbSY8H",
+            "title": "[Picked] - Mike Dirnt - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 562,
+            "name": "[Steel] - Billie Joe Armstrong",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_ZeOvVBFF",
+            "title": "[Steel] - Billie Joe Armstrong - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 812,
+            "name": "[Rhythm] - Billie Joe Armstrong",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_9IRMA9Rm",
+            "title": "[Rhythm] - Billie Joe Armstrong - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 104,
+            "instrument": "Sitar",
+            "views": 230,
+            "name": "[Electric Sitar] - Billie Joe Armstrong",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_bjbNTcIV",
+            "title": "[Electric Sitar] - Billie Joe Armstrong - Sitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 24,
+            "name": "[Vocals] - Billie Joe Armstrong",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_5eKSpZwU",
+            "title": "[Vocals] - Billie Joe Armstrong - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 8,
+            "name": "[Backing Vocals] - Mike Dirnt",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_61mgxRse",
+            "title": "[Backing Vocals] - Mike Dirnt - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 168,
+            "name": "[Drums] - Tr\u00c3\u00a8 Cool",
+            "hash": "drums_omgwQg3g",
+            "title": "[Drums] - Tr\u00c3\u00a8 Cool - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 4,
+            "name": "[Extra] - Tr\u00c3\u00a8 Cool",
+            "hash": "drums_UMlebesT",
+            "title": "[Extra] - Tr\u00c3\u00a8 Cool - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 271,
+            "name": "[Picked] - Mike Dirnt",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_lpGbSY8H",
+            "title": "[Picked] - Mike Dirnt - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 562,
+            "name": "[Steel] - Billie Joe Armstrong",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_ZeOvVBFF",
+            "title": "[Steel] - Billie Joe Armstrong - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 812,
+            "name": "[Rhythm] - Billie Joe Armstrong",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_9IRMA9Rm",
+            "title": "[Rhythm] - Billie Joe Armstrong - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 104,
+            "instrument": "Sitar",
+            "views": 230,
+            "name": "[Electric Sitar] - Billie Joe Armstrong",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_bjbNTcIV",
+            "title": "[Electric Sitar] - Billie Joe Armstrong - Sitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 24,
+            "name": "[Vocals] - Billie Joe Armstrong",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_5eKSpZwU",
+            "title": "[Vocals] - Billie Joe Armstrong - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 8,
+            "name": "[Backing Vocals] - Mike Dirnt",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_61mgxRse",
+            "title": "[Backing Vocals] - Mike Dirnt - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

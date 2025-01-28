@@ -1,0 +1,73 @@
+{
+    "song_id": 2348,
+    "revision_id": 4661,
+    "prev_revision_id": null,
+    "image": "0bP9e5ApLo2ROlGs_enCh",
+    "name": "Ghost_Notes",
+    "tracks": [
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 12,
+            "name": "Basso",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_WV5uVrDa",
+            "title": "Basso - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Batteria",
+            "hash": "drums_xuY9YGhL",
+            "title": "Batteria - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 12,
+            "name": "Basso",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_WV5uVrDa",
+            "title": "Basso - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Batteria",
+            "hash": "drums_xuY9YGhL",
+            "title": "Batteria - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        }
+    ]
+}

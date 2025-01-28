@@ -1,0 +1,116 @@
+{
+    "song_id": 1339,
+    "revision_id": 25439,
+    "prev_revision_id": null,
+    "image": "F0iFlnNNMUBlDbyhEX-TF",
+    "name": "Combativo",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 61,
+            "name": "Guitarra",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_ehpGiUQ2",
+            "title": "Guitarra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 22,
+            "name": "Bajo",
+            "tuning": [
+                39,
+                34,
+                29,
+                24
+            ],
+            "hash": "bass_chLamE5p",
+            "title": "Bajo - Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Bateria",
+            "hash": "drums_19l5tAY3",
+            "title": "Bateria - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 61,
+            "name": "Guitarra",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 2,
+            "hash": "guitar_ehpGiUQ2",
+            "title": "Guitarra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 22,
+            "name": "Bajo",
+            "tuning": [
+                39,
+                34,
+                29,
+                24
+            ],
+            "hash": "bass_chLamE5p",
+            "title": "Bajo - Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2,
+            "name": "Bateria",
+            "hash": "drums_19l5tAY3",
+            "title": "Bateria - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

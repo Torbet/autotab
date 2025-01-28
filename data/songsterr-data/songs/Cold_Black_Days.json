@@ -1,0 +1,368 @@
+{
+    "song_id": 1608,
+    "revision_id": 313123,
+    "prev_revision_id": null,
+    "image": "X90urOELEoy-40iGZdT7E",
+    "name": "Cold_Black_Days",
+    "tracks": [
+        {
+            "instrumentId": 90,
+            "instrument": "Pad 3 (polysynth)",
+            "views": 0,
+            "name": "Vocals",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "vocals_HOyux9gQ",
+            "title": "Vocals - Pad 3 (polysynth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 4,
+            "instrument": "Electric Piano 1",
+            "views": 0,
+            "name": "Lead Keys",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_YasrDLLA",
+            "title": "Lead Keys - Electric Piano 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 20,
+            "name": "Rhythm Guitar 1",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_YTc1cL9Y",
+            "title": "Rhythm Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1,
+            "name": "Rhythm Guitar 2",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_nLbpptFe",
+            "title": "Rhythm Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar Harmonizer",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_kqNW6rQu",
+            "title": "Guitar Harmonizer - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_BUbiABkD",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 5,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_o87UMKCc",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 0,
+            "name": "Keyboars",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_po7tQ79G",
+            "title": "Keyboars - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 89,
+            "instrument": "Pad 2 (warm)",
+            "views": 0,
+            "name": "Keyboards (End)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_UgQyBKOS",
+            "title": "Keyboards (End) - Pad 2 (warm)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 90,
+            "instrument": "Pad 3 (polysynth)",
+            "views": 0,
+            "name": "Vocals",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "vocals_HOyux9gQ",
+            "title": "Vocals - Pad 3 (polysynth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 4,
+            "instrument": "Electric Piano 1",
+            "views": 0,
+            "name": "Lead Keys",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_YasrDLLA",
+            "title": "Lead Keys - Electric Piano 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 20,
+            "name": "Rhythm Guitar 1",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_YTc1cL9Y",
+            "title": "Rhythm Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1,
+            "name": "Rhythm Guitar 2",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_nLbpptFe",
+            "title": "Rhythm Guitar 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitar Harmonizer",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_kqNW6rQu",
+            "title": "Guitar Harmonizer - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_BUbiABkD",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 5,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_o87UMKCc",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 0,
+            "name": "Keyboars",
+            "tuning": [
+                59,
+                54,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_po7tQ79G",
+            "title": "Keyboars - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 89,
+            "instrument": "Pad 2 (warm)",
+            "views": 0,
+            "name": "Keyboards (End)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_UgQyBKOS",
+            "title": "Keyboards (End) - Pad 2 (warm)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        }
+    ]
+}

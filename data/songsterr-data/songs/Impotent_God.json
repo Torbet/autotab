@@ -1,0 +1,116 @@
+{
+    "song_id": 9151,
+    "revision_id": 295873,
+    "prev_revision_id": null,
+    "image": "wefOQcT37q2iNS9ND76Xp",
+    "name": "Impotent_God",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 212,
+            "name": "Guitarra",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_rzYdO1Jc",
+            "title": "Guitarra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 77,
+            "name": "Bajo",
+            "tuning": [
+                39,
+                34,
+                29,
+                24
+            ],
+            "hash": "bass_OHVJIWPn",
+            "title": "Bajo - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Bate",
+            "hash": "drums_HD5x1KGh",
+            "title": "Bate - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 212,
+            "name": "Guitarra",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36
+            ],
+            "difficulty": 4,
+            "hash": "guitar_rzYdO1Jc",
+            "title": "Guitarra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 77,
+            "name": "Bajo",
+            "tuning": [
+                39,
+                34,
+                29,
+                24
+            ],
+            "hash": "bass_OHVJIWPn",
+            "title": "Bajo - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Bate",
+            "hash": "drums_HD5x1KGh",
+            "title": "Bate - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

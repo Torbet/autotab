@@ -1,0 +1,116 @@
+{
+    "song_id": 8858,
+    "revision_id": 577879,
+    "prev_revision_id": 11837,
+    "image": "vzQQ7R15e2yVTm55vpKX1",
+    "name": "Fire_(Radio_One)",
+    "tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 151,
+            "name": "Jimi Hendrix",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 5,
+            "hash": "guitar_nr92zrwC",
+            "title": "Jimi Hendrix - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 50,
+            "name": "Noel Redding",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_IPPSqQn7",
+            "title": "Noel Redding - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 33,
+            "name": "Mitch Mitchell",
+            "hash": "drums_b8FklaJw",
+            "title": "Mitch Mitchell - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 151,
+            "name": "Jimi Hendrix",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 5,
+            "hash": "guitar_nr92zrwC",
+            "title": "Jimi Hendrix - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 50,
+            "name": "Noel Redding",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_IPPSqQn7",
+            "title": "Noel Redding - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 33,
+            "name": "Mitch Mitchell",
+            "hash": "drums_b8FklaJw",
+            "title": "Mitch Mitchell - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

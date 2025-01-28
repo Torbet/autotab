@@ -1,0 +1,200 @@
+{
+    "song_id": 6472,
+    "revision_id": 8136,
+    "prev_revision_id": null,
+    "image": "yazO7q0ANDO-AsQy00s9U",
+    "name": "Wild_Child",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 674,
+            "name": "Guitarra",
+            "tuning": [
+                62,
+                59,
+                55,
+                50,
+                43,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_7aS1MGQP",
+            "title": "Guitarra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 9,
+            "name": "Guitarra 2",
+            "tuning": [
+                62,
+                59,
+                55,
+                50,
+                43,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_o2SVVGyN",
+            "title": "Guitarra 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 9,
+            "name": "Bater\u00eda",
+            "hash": "drums_jMdZ79mf",
+            "title": "Bater\u00eda - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 212,
+            "name": "Bajo",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_BELKzEvM",
+            "title": "Bajo - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 0,
+            "name": "Organo",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_lFlVjWfl",
+            "title": "Organo - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 674,
+            "name": "Guitarra",
+            "tuning": [
+                62,
+                59,
+                55,
+                50,
+                43,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_7aS1MGQP",
+            "title": "Guitarra - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 9,
+            "name": "Guitarra 2",
+            "tuning": [
+                62,
+                59,
+                55,
+                50,
+                43,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_o2SVVGyN",
+            "title": "Guitarra 2 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 9,
+            "name": "Bater\u00eda",
+            "hash": "drums_jMdZ79mf",
+            "title": "Bater\u00eda - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 212,
+            "name": "Bajo",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_BELKzEvM",
+            "title": "Bajo - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 0,
+            "name": "Organo",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_lFlVjWfl",
+            "title": "Organo - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

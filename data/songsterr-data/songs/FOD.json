@@ -1,0 +1,200 @@
+{
+    "song_id": 8676,
+    "revision_id": 820704,
+    "prev_revision_id": 738120,
+    "image": "v3-5-8-vXckbTQNC5cOEosW",
+    "name": "FOD",
+    "tracks": [
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 12,
+            "name": "Vocals (Billie Joe Armstrong)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_aHQVLVr2",
+            "title": "Vocals (Billie Joe Armstrong) - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 1339,
+            "name": "Steel String Guitar (Billie Joe Armstong",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_JXoqKAaY",
+            "title": "Steel String Guitar (Billie Joe Armstong - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3648,
+            "name": "Distortion Guitar (Billie Joe Armstrong)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_3DY8Zs7d",
+            "title": "Distortion Guitar (Billie Joe Armstrong) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 253,
+            "name": "Bass Guitar (Mike Dirnt)",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_iRjEyF6o",
+            "title": "Bass Guitar (Mike Dirnt) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 82,
+            "name": "Drums (Tr\u00e8 Cool)",
+            "hash": "drums_XdV1Cduk",
+            "title": "Drums (Tr\u00e8 Cool) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 71,
+            "instrument": "Clarinet",
+            "views": 12,
+            "name": "Vocals (Billie Joe Armstrong)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_aHQVLVr2",
+            "title": "Vocals (Billie Joe Armstrong) - Clarinet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 1339,
+            "name": "Steel String Guitar (Billie Joe Armstong",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_JXoqKAaY",
+            "title": "Steel String Guitar (Billie Joe Armstong - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3648,
+            "name": "Distortion Guitar (Billie Joe Armstrong)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_3DY8Zs7d",
+            "title": "Distortion Guitar (Billie Joe Armstrong) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 253,
+            "name": "Bass Guitar (Mike Dirnt)",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_iRjEyF6o",
+            "title": "Bass Guitar (Mike Dirnt) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 82,
+            "name": "Drums (Tr\u00e8 Cool)",
+            "hash": "drums_XdV1Cduk",
+            "title": "Drums (Tr\u00e8 Cool) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "song_id": 12817,
+    "revision_id": 14822,
+    "prev_revision_id": null,
+    "image": "aV4Eioc52ErYsJTYt3U9B",
+    "name": "Lost",
+    "tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "Rhythm",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_77JRzSYI",
+            "title": "Rhythm - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 84,
+            "instrument": "Lead 5 (charang)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "hash": "other_NeRkb75Y",
+            "title": "Lead 5 (charang)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 39,
+            "instrument": "Synth Bass 2",
+            "views": 0,
+            "name": "Effect",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "hash": "bass_BoxiBsti",
+            "title": "Effect - Synth Bass 2",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussion",
+            "hash": "drums_ulcmRuz2",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "Rhythm",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_77JRzSYI",
+            "title": "Rhythm - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 84,
+            "instrument": "Lead 5 (charang)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "hash": "other_NeRkb75Y",
+            "title": "Lead 5 (charang)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 39,
+            "instrument": "Synth Bass 2",
+            "views": 0,
+            "name": "Effect",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "hash": "bass_BoxiBsti",
+            "title": "Effect - Synth Bass 2",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Percussion",
+            "hash": "drums_ulcmRuz2",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        }
+    ]
+}

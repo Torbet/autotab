@@ -1,0 +1,114 @@
+{
+    "song_id": 2130,
+    "revision_id": 598512,
+    "prev_revision_id": 4521,
+    "image": "v2-25-0-EMOFVwyTAghzTo5B",
+    "name": "Ask_For_Answers",
+    "tracks": [
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 62,
+            "name": "Stefan",
+            "tuning": [
+                44,
+                39,
+                34,
+                29
+            ],
+            "hash": "bass_3huZydVb",
+            "title": "Stefan - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 109,
+            "name": "Brian",
+            "tuning": [
+                60,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "hash": "guitar_NHK6bxdy",
+            "title": "Brian - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Steve",
+            "hash": "drums_1BUEt4fg",
+            "title": "Steve - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 62,
+            "name": "Stefan",
+            "tuning": [
+                44,
+                39,
+                34,
+                29
+            ],
+            "hash": "bass_3huZydVb",
+            "title": "Stefan - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 109,
+            "name": "Brian",
+            "tuning": [
+                60,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "hash": "guitar_NHK6bxdy",
+            "title": "Brian - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 1,
+            "name": "Steve",
+            "hash": "drums_1BUEt4fg",
+            "title": "Steve - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

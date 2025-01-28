@@ -1,0 +1,120 @@
+{
+    "song_id": 7820,
+    "revision_id": 1001904,
+    "prev_revision_id": 986475,
+    "image": "v3-5-24-su1h5DjM7iFP8et1",
+    "name": "Linchpin",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 423,
+            "name": "",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38,
+                33
+            ],
+            "difficulty": 3,
+            "hash": "guitar_HdlPNW6A",
+            "title": "Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 107,
+            "name": "",
+            "tuning": [
+                41,
+                36,
+                31,
+                26,
+                21
+            ],
+            "hash": "bass_zxmYUaq3",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 226,
+            "name": "",
+            "hash": "drums_SqCrYRXO",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 423,
+            "name": "",
+            "tuning": [
+                62,
+                57,
+                53,
+                48,
+                43,
+                38,
+                33
+            ],
+            "difficulty": 3,
+            "hash": "guitar_HdlPNW6A",
+            "title": "Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 107,
+            "name": "",
+            "tuning": [
+                41,
+                36,
+                31,
+                26,
+                21
+            ],
+            "hash": "bass_zxmYUaq3",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 226,
+            "name": "",
+            "hash": "drums_SqCrYRXO",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

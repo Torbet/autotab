@@ -1,0 +1,286 @@
+{
+    "song_id": 4704,
+    "revision_id": 1021511,
+    "prev_revision_id": 949012,
+    "image": "v3-5-24-vgHFL-NcGQOMFQEj",
+    "name": "No_Dejes_Que",
+    "tracks": [
+        {
+            "instrumentId": 54,
+            "instrument": "Synth Voice",
+            "views": 16,
+            "name": "Sa\u00fal Hern\u00e1ndez (Voz)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_PJGcypeR",
+            "title": "Sa\u00fal Hern\u00e1ndez (Voz) - Synth Voice",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 516,
+            "name": "Sa\u00fal Hern\u00e1ndez (Guitarra R\u00edtmica)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_64Xeqomq",
+            "title": "Sa\u00fal Hern\u00e1ndez (Guitarra R\u00edtmica) - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2950,
+            "name": "Alejandro Marcovich (Guitarra L\u00edder)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Qfhyd5HO",
+            "title": "Alejandro Marcovich (Guitarra L\u00edder) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 514,
+            "name": "Alejandro Marcovich (Guitarra Extra)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_7EVgEwor",
+            "title": "Alejandro Marcovich (Guitarra Extra) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 39,
+            "name": "Diego Herrera (Teclados)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_gSQ0YDJy",
+            "title": "Diego Herrera (Teclados) - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 897,
+            "name": "Sabo Romo (Bajo)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_hEVaY1He",
+            "title": "Sabo Romo (Bajo) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 162,
+            "name": "Alfonso Andr\u00e9 (Bater\u00eda)",
+            "hash": "drums_XNbJze57",
+            "title": "Alfonso Andr\u00e9 (Bater\u00eda) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 54,
+            "instrument": "Synth Voice",
+            "views": 16,
+            "name": "Sa\u00fal Hern\u00e1ndez (Voz)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_PJGcypeR",
+            "title": "Sa\u00fal Hern\u00e1ndez (Voz) - Synth Voice",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 516,
+            "name": "Sa\u00fal Hern\u00e1ndez (Guitarra R\u00edtmica)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_64Xeqomq",
+            "title": "Sa\u00fal Hern\u00e1ndez (Guitarra R\u00edtmica) - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2950,
+            "name": "Alejandro Marcovich (Guitarra L\u00edder)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Qfhyd5HO",
+            "title": "Alejandro Marcovich (Guitarra L\u00edder) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 514,
+            "name": "Alejandro Marcovich (Guitarra Extra)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_7EVgEwor",
+            "title": "Alejandro Marcovich (Guitarra Extra) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 0,
+            "instrument": "Acoustic Grand Piano",
+            "views": 39,
+            "name": "Diego Herrera (Teclados)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_gSQ0YDJy",
+            "title": "Diego Herrera (Teclados) - Acoustic Grand Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 897,
+            "name": "Sabo Romo (Bajo)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_hEVaY1He",
+            "title": "Sabo Romo (Bajo) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 162,
+            "name": "Alfonso Andr\u00e9 (Bater\u00eda)",
+            "hash": "drums_XNbJze57",
+            "title": "Alfonso Andr\u00e9 (Bater\u00eda) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

@@ -1,0 +1,319 @@
+{
+    "song_id": 8333,
+    "revision_id": 313605,
+    "prev_revision_id": null,
+    "image": "aXCmCr6jAE8vgQm5Lpjwi",
+    "name": "Saturnine",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 669,
+            "name": "R. Rutten",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_SlGOUPBW",
+            "title": "R. Rutten - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 42,
+            "name": "R. Rutten",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_xE0yKSUg",
+            "title": "R. Rutten - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 7,
+            "instrument": "Clavi",
+            "views": 21,
+            "name": "F. Boeijen",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_X19yrfEj",
+            "title": "F. Boeijen - Clavi",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 86,
+            "name": "F. Boeijen",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_cvRFPeih",
+            "title": "F. Boeijen - Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 12,
+            "name": "J. ter Bals",
+            "tuning": [
+                64,
+                57,
+                50,
+                43
+            ],
+            "hash": "other_s5qhZhCM",
+            "title": "J. ter Bals - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 44,
+            "name": "M. Kalkhoven",
+            "tuning": [
+                52,
+                45,
+                38,
+                31
+            ],
+            "hash": "other_4oV9IW4d",
+            "title": "M. Kalkhoven - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 162,
+            "name": "H. Prinsen Geerligs",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_aVz9rTOG",
+            "title": "H. Prinsen Geerligs - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 105,
+            "name": "H. Rutten",
+            "hash": "drums_u3BcRTg3",
+            "title": "H. Rutten - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 669,
+            "name": "R. Rutten",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 2,
+            "hash": "guitar_SlGOUPBW",
+            "title": "R. Rutten - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 42,
+            "name": "R. Rutten",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 1,
+            "hash": "guitar_xE0yKSUg",
+            "title": "R. Rutten - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 7,
+            "instrument": "Clavi",
+            "views": 21,
+            "name": "F. Boeijen",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_X19yrfEj",
+            "title": "F. Boeijen - Clavi",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1,
+            "instrument": "Bright Acoustic Piano",
+            "views": 86,
+            "name": "F. Boeijen",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "other_cvRFPeih",
+            "title": "F. Boeijen - Bright Acoustic Piano",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 12,
+            "name": "J. ter Bals",
+            "tuning": [
+                64,
+                57,
+                50,
+                43
+            ],
+            "hash": "other_s5qhZhCM",
+            "title": "J. ter Bals - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 44,
+            "name": "M. Kalkhoven",
+            "tuning": [
+                52,
+                45,
+                38,
+                31
+            ],
+            "hash": "other_4oV9IW4d",
+            "title": "M. Kalkhoven - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 162,
+            "name": "H. Prinsen Geerligs",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_aVz9rTOG",
+            "title": "H. Prinsen Geerligs - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 105,
+            "name": "H. Rutten",
+            "hash": "drums_u3BcRTg3",
+            "title": "H. Rutten - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

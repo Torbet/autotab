@@ -1,0 +1,198 @@
+{
+    "song_id": 9295,
+    "revision_id": 915598,
+    "prev_revision_id": 610501,
+    "image": "v3-5-21-FEYH8DL8pIY4dQM-",
+    "name": "Oh_Boy!",
+    "tracks": [
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 24,
+            "name": "Lead Vocal (Buddy Holly)",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "vocals_nHt1L5iX",
+            "title": "Lead Vocal (Buddy Holly) - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 0,
+            "name": "Backup Vocals (The Crickets)",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "vocals_OgDENx6d",
+            "title": "Backup Vocals (The Crickets) - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 108,
+            "name": "Buddy Holly (Electric Guitar)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_mGHxAmGu",
+            "title": "Buddy Holly (Electric Guitar) - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 32,
+            "instrument": "Acoustic Bass",
+            "views": 113,
+            "name": "Joe Mauldin (Double Bass)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_pWwrb1IB",
+            "title": "Joe Mauldin (Double Bass) - Acoustic Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 20,
+            "name": "Jerry Allison (Drums)",
+            "hash": "drums_R9w7hU2R",
+            "title": "Jerry Allison (Drums) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 24,
+            "name": "Lead Vocal (Buddy Holly)",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "vocals_nHt1L5iX",
+            "title": "Lead Vocal (Buddy Holly) - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 52,
+            "instrument": "Choir Aahs",
+            "views": 0,
+            "name": "Backup Vocals (The Crickets)",
+            "tuning": [
+                76,
+                71,
+                67,
+                62,
+                57,
+                52
+            ],
+            "hash": "vocals_OgDENx6d",
+            "title": "Backup Vocals (The Crickets) - Choir Aahs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 108,
+            "name": "Buddy Holly (Electric Guitar)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_mGHxAmGu",
+            "title": "Buddy Holly (Electric Guitar) - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 32,
+            "instrument": "Acoustic Bass",
+            "views": 113,
+            "name": "Joe Mauldin (Double Bass)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_pWwrb1IB",
+            "title": "Joe Mauldin (Double Bass) - Acoustic Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 20,
+            "name": "Jerry Allison (Drums)",
+            "hash": "drums_R9w7hU2R",
+            "title": "Jerry Allison (Drums) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

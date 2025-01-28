@@ -1,0 +1,280 @@
+{
+    "song_id": 7346,
+    "revision_id": 1152190,
+    "prev_revision_id": 949001,
+    "image": "v3-5-26-vavC3YzbZJL6Ytlr",
+    "name": "The_Man_Who_Sold_The_World",
+    "tracks": [
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 172,
+            "name": "Kurt Cobain - Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_NVqDOZ0z",
+            "title": "Kurt Cobain - Vocals - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 7318,
+            "name": "Kurt Cobain - Distortion",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_RaIaeI3J",
+            "title": "Kurt Cobain - Distortion - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 10327,
+            "name": "Kurt Cobain - Clean",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_embA0C1o",
+            "title": "Kurt Cobain - Clean - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 3270,
+            "name": "Pat Smear - Acoustic",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_ULlaMiio",
+            "title": "Pat Smear - Acoustic - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 4584,
+            "name": "Krist Novoselic - Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_sZJbmaGo",
+            "title": "Krist Novoselic - Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 29,
+            "name": "Lori Goldston - Cello",
+            "tuning": [
+                56,
+                49,
+                42,
+                35
+            ],
+            "hash": "other_FV3G6qDp",
+            "title": "Lori Goldston - Cello - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 584,
+            "name": "Dave Grohl - Drums",
+            "hash": "drums_KzKMFVD4",
+            "title": "Dave Grohl - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 172,
+            "name": "Kurt Cobain - Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "vocals_NVqDOZ0z",
+            "title": "Kurt Cobain - Vocals - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 7318,
+            "name": "Kurt Cobain - Distortion",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_RaIaeI3J",
+            "title": "Kurt Cobain - Distortion - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 10327,
+            "name": "Kurt Cobain - Clean",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_embA0C1o",
+            "title": "Kurt Cobain - Clean - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 3270,
+            "name": "Pat Smear - Acoustic",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_ULlaMiio",
+            "title": "Pat Smear - Acoustic - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 4584,
+            "name": "Krist Novoselic - Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_sZJbmaGo",
+            "title": "Krist Novoselic - Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 29,
+            "name": "Lori Goldston - Cello",
+            "tuning": [
+                56,
+                49,
+                42,
+                35
+            ],
+            "hash": "other_FV3G6qDp",
+            "title": "Lori Goldston - Cello - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 584,
+            "name": "Dave Grohl - Drums",
+            "hash": "drums_KzKMFVD4",
+            "title": "Dave Grohl - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

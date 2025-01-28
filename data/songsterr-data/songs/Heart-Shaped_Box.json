@@ -1,0 +1,323 @@
+{
+    "song_id": 31,
+    "revision_id": 1044504,
+    "prev_revision_id": 1016405,
+    "image": "v3-5-24-tTb_DB081rcDQDqj",
+    "name": "Heart-Shaped_Box",
+    "tracks": [
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 613,
+            "name": "Kurt Cobain | Lead Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_17GBH7Bi",
+            "title": "Kurt Cobain | Lead Vocals - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 74,
+            "name": "Dave Grohl | Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_lbFXT8ae",
+            "title": "Dave Grohl | Backing Vocals - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 74880,
+            "name": "Kurt Cobain | Clean Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_zBZMqatm",
+            "title": "Kurt Cobain | Clean Guitar - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 851,
+            "name": "Kurt Cobain | Clean Overdubs",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_9KJyQJF3",
+            "title": "Kurt Cobain | Clean Overdubs - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 29937,
+            "name": "Kurt Cobain | Distortion",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_0ewu3MCu",
+            "title": "Kurt Cobain | Distortion - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 16543,
+            "name": "Krist Novoselic | Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_s8RTnDz5",
+            "title": "Krist Novoselic | Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 74,
+            "name": "Krist Novoselic | Bass Effects",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "difficulty": 2,
+            "hash": "guitar_qCjQgAOm",
+            "title": "Krist Novoselic | Bass Effects - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 13127,
+            "name": "Dave Grohl | Drums",
+            "hash": "drums_9dk1Me28",
+            "title": "Dave Grohl | Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 613,
+            "name": "Kurt Cobain | Lead Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_17GBH7Bi",
+            "title": "Kurt Cobain | Lead Vocals - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 74,
+            "name": "Dave Grohl | Backing Vocals",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "vocals_lbFXT8ae",
+            "title": "Dave Grohl | Backing Vocals - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 74880,
+            "name": "Kurt Cobain | Clean Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_zBZMqatm",
+            "title": "Kurt Cobain | Clean Guitar - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 851,
+            "name": "Kurt Cobain | Clean Overdubs",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_9KJyQJF3",
+            "title": "Kurt Cobain | Clean Overdubs - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 29937,
+            "name": "Kurt Cobain | Distortion",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_0ewu3MCu",
+            "title": "Kurt Cobain | Distortion - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 16543,
+            "name": "Krist Novoselic | Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_s8RTnDz5",
+            "title": "Krist Novoselic | Bass - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 74,
+            "name": "Krist Novoselic | Bass Effects",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "difficulty": 2,
+            "hash": "guitar_qCjQgAOm",
+            "title": "Krist Novoselic | Bass Effects - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 13127,
+            "name": "Dave Grohl | Drums",
+            "hash": "drums_9dk1Me28",
+            "title": "Dave Grohl | Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

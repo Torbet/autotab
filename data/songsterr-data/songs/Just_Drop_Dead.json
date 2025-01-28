@@ -1,0 +1,206 @@
+{
+    "song_id": 11867,
+    "revision_id": 692764,
+    "prev_revision_id": 692323,
+    "image": "v3-4-5--IhpQ5fetCATLLaE",
+    "name": "Just_Drop_Dead",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 220,
+            "name": "Distortion Guitar1",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_M2XGbNLZ",
+            "title": "Distortion Guitar1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 28,
+            "instrument": "Electric Guitar (muted)",
+            "views": 1,
+            "name": "Distortion Guitar2",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37,
+                32
+            ],
+            "difficulty": 3,
+            "hash": "guitar_yiJbzr0J",
+            "title": "Distortion Guitar2 - Electric Guitar (muted)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 55,
+            "instrument": "Orchestra Hit",
+            "views": 1,
+            "name": "FX",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "hash": "other_PEq9E2JQ",
+            "title": "FX - Orchestra Hit",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 228,
+            "name": "",
+            "tuning": [
+                40,
+                35,
+                30,
+                25,
+                20
+            ],
+            "hash": "bass_jAcY07KQ",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2085,
+            "name": "",
+            "hash": "drums_aXlN3nM1",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 220,
+            "name": "Distortion Guitar1",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_M2XGbNLZ",
+            "title": "Distortion Guitar1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 28,
+            "instrument": "Electric Guitar (muted)",
+            "views": 1,
+            "name": "Distortion Guitar2",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37,
+                32
+            ],
+            "difficulty": 3,
+            "hash": "guitar_yiJbzr0J",
+            "title": "Distortion Guitar2 - Electric Guitar (muted)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 55,
+            "instrument": "Orchestra Hit",
+            "views": 1,
+            "name": "FX",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                37
+            ],
+            "hash": "other_PEq9E2JQ",
+            "title": "FX - Orchestra Hit",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 228,
+            "name": "",
+            "tuning": [
+                40,
+                35,
+                30,
+                25,
+                20
+            ],
+            "hash": "bass_jAcY07KQ",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 2085,
+            "name": "",
+            "hash": "drums_aXlN3nM1",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        }
+    ]
+}

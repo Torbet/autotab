@@ -1,0 +1,239 @@
+{
+    "song_id": 6741,
+    "revision_id": 1057859,
+    "prev_revision_id": 465716,
+    "image": "v3-5-24-9a3y1TEy6QSOWrF6",
+    "name": "Ashamed",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 22,
+            "name": "Guitar 1 (Matthew Bellamy)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_zh704Cpm",
+            "title": "Guitar 1 (Matthew Bellamy) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 18,
+            "name": "Guitar 2 (Matthew Bellamy)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_QA0MeDUL",
+            "title": "Guitar 2 (Matthew Bellamy) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 7,
+            "name": "Guitar 3 (Matthew Bellamy) (Low-Tuned)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                28
+            ],
+            "difficulty": 3,
+            "hash": "guitar_YKAoge5R",
+            "title": "Guitar 3 (Matthew Bellamy) (Low-Tuned) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 35,
+            "name": "Bass (Christopher Wolstenholme)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_2HotCHLh",
+            "title": "Bass (Christopher Wolstenholme) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 0,
+            "name": "Bass [Effects)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_UYZUTs5O",
+            "title": "Bass [Effects) - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Drumkit (Dominic Howard)",
+            "hash": "drums_mWNwVHqU",
+            "title": "Drumkit (Dominic Howard) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 22,
+            "name": "Guitar 1 (Matthew Bellamy)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_zh704Cpm",
+            "title": "Guitar 1 (Matthew Bellamy) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 18,
+            "name": "Guitar 2 (Matthew Bellamy)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_QA0MeDUL",
+            "title": "Guitar 2 (Matthew Bellamy) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 7,
+            "name": "Guitar 3 (Matthew Bellamy) (Low-Tuned)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                28
+            ],
+            "difficulty": 3,
+            "hash": "guitar_YKAoge5R",
+            "title": "Guitar 3 (Matthew Bellamy) (Low-Tuned) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 35,
+            "name": "Bass (Christopher Wolstenholme)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_2HotCHLh",
+            "title": "Bass (Christopher Wolstenholme) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 0,
+            "name": "Bass [Effects)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_UYZUTs5O",
+            "title": "Bass [Effects) - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Drumkit (Dominic Howard)",
+            "hash": "drums_mWNwVHqU",
+            "title": "Drumkit (Dominic Howard) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "song_id": 10321,
+    "revision_id": 655258,
+    "prev_revision_id": 431765,
+    "image": "v3-2-2-zRgA6RuETyJPsBxl",
+    "name": "Zebra",
+    "tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 594,
+            "name": "12 string acoustic",
+            "tuning": [
+                62,
+                59,
+                54,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_5lt7X32B",
+            "title": "12 string acoustic - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 1215,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_uzR5rOK5",
+            "title": "Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 24,
+            "instrument": "Acoustic Guitar (nylon)",
+            "views": 594,
+            "name": "12 string acoustic",
+            "tuning": [
+                62,
+                59,
+                54,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_5lt7X32B",
+            "title": "12 string acoustic - Acoustic Guitar (nylon)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 1215,
+            "name": "",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_uzR5rOK5",
+            "title": "Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        }
+    ]
+}

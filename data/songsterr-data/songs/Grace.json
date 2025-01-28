@@ -1,0 +1,557 @@
+{
+    "song_id": 3129,
+    "revision_id": 1134558,
+    "prev_revision_id": 1074057,
+    "image": "v3-5-26-S52HxYj7tjs2wYC0",
+    "name": "Grace",
+    "tracks": [
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 872,
+            "name": "Jeff Buckley | 12 Str. Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 4,
+            "hash": "guitar_6JC1vC3c",
+            "title": "Jeff Buckley | 12 Str. Guitar - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 5280,
+            "name": "Jeff Buckley | Rhythm Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Yj5TrMKg",
+            "title": "Jeff Buckley | Rhythm Guitar - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 476,
+            "name": "Jeff Buckley | Acoustic Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_mwmPByjl",
+            "title": "Jeff Buckley | Acoustic Guitar - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 2,
+            "name": "Jeff Buckley | Acoustic Overdub",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 1,
+            "hash": "other_NFh4TzLb",
+            "title": "Jeff Buckley | Acoustic Overdub - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 3,
+            "name": "Gary Lucas | Magical Guitarness | Clean",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Jakfu8eo",
+            "title": "Gary Lucas | Magical Guitarness | Clean - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 38,
+            "name": "Gary Lucas | Magical Guitarness | Dist.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 5,
+            "hash": "guitar_TSlxG1lI",
+            "title": "Gary Lucas | Magical Guitarness | Dist. - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 757,
+            "name": "Mick Gr\u00f8ndahl | Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_eZH9V2CA",
+            "title": "Mick Gr\u00f8ndahl | Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 197,
+            "name": "Matt Johnson | Drums",
+            "hash": "drums_JMdtPpQ1",
+            "title": "Matt Johnson | Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 5,
+            "name": "Karl Berger | Violin 1",
+            "tuning": [
+                76,
+                69,
+                62,
+                55
+            ],
+            "hash": "other_OdyMFOHL",
+            "title": "Karl Berger | Violin 1 - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 0,
+            "name": "Karl Berger | Violin 2",
+            "tuning": [
+                76,
+                69,
+                62,
+                55
+            ],
+            "hash": "other_sUalczf3",
+            "title": "Karl Berger | Violin 2 - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9,
+            "originalPartId": 9
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 0,
+            "name": "Karl Berger | Viola 1",
+            "tuning": [
+                69,
+                62,
+                55,
+                48
+            ],
+            "hash": "other_DnN3ZAYp",
+            "title": "Karl Berger | Viola 1 - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10,
+            "originalPartId": 10
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 0,
+            "name": "Karl Berger | Cello 1",
+            "tuning": [
+                57,
+                50,
+                43,
+                36
+            ],
+            "hash": "other_YTlUcerA",
+            "title": "Karl Berger | Cello 1 - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11,
+            "originalPartId": 11
+        },
+        {
+            "instrumentId": 43,
+            "instrument": "Contrabass",
+            "views": 0,
+            "name": "Karl Berger | Double Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_tEoT1u3c",
+            "title": "Karl Berger | Double Bass - Contrabass",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 12,
+            "originalPartId": 12
+        },
+        {
+            "instrumentId": 45,
+            "instrument": "Pizzicato Strings",
+            "views": 3,
+            "name": "Karl Berger | Pizzicato Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_jJ8hCrEo",
+            "title": "Karl Berger | Pizzicato Strings - Pizzicato Strings",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 13,
+            "originalPartId": 13
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 872,
+            "name": "Jeff Buckley | 12 Str. Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 4,
+            "hash": "guitar_6JC1vC3c",
+            "title": "Jeff Buckley | 12 Str. Guitar - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 5280,
+            "name": "Jeff Buckley | Rhythm Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Yj5TrMKg",
+            "title": "Jeff Buckley | Rhythm Guitar - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 476,
+            "name": "Jeff Buckley | Acoustic Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_mwmPByjl",
+            "title": "Jeff Buckley | Acoustic Guitar - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 2,
+            "name": "Jeff Buckley | Acoustic Overdub",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 1,
+            "hash": "other_NFh4TzLb",
+            "title": "Jeff Buckley | Acoustic Overdub - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 3,
+            "name": "Gary Lucas | Magical Guitarness | Clean",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Jakfu8eo",
+            "title": "Gary Lucas | Magical Guitarness | Clean - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 38,
+            "name": "Gary Lucas | Magical Guitarness | Dist.",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                38
+            ],
+            "difficulty": 5,
+            "hash": "guitar_TSlxG1lI",
+            "title": "Gary Lucas | Magical Guitarness | Dist. - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 757,
+            "name": "Mick Gr\u00f8ndahl | Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                26
+            ],
+            "hash": "bass_eZH9V2CA",
+            "title": "Mick Gr\u00f8ndahl | Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 197,
+            "name": "Matt Johnson | Drums",
+            "hash": "drums_JMdtPpQ1",
+            "title": "Matt Johnson | Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 5,
+            "name": "Karl Berger | Violin 1",
+            "tuning": [
+                76,
+                69,
+                62,
+                55
+            ],
+            "hash": "other_OdyMFOHL",
+            "title": "Karl Berger | Violin 1 - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 0,
+            "name": "Karl Berger | Violin 2",
+            "tuning": [
+                76,
+                69,
+                62,
+                55
+            ],
+            "hash": "other_sUalczf3",
+            "title": "Karl Berger | Violin 2 - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 0,
+            "name": "Karl Berger | Viola 1",
+            "tuning": [
+                69,
+                62,
+                55,
+                48
+            ],
+            "hash": "other_DnN3ZAYp",
+            "title": "Karl Berger | Viola 1 - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 0,
+            "name": "Karl Berger | Cello 1",
+            "tuning": [
+                57,
+                50,
+                43,
+                36
+            ],
+            "hash": "other_YTlUcerA",
+            "title": "Karl Berger | Cello 1 - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11
+        },
+        {
+            "instrumentId": 43,
+            "instrument": "Contrabass",
+            "views": 0,
+            "name": "Karl Berger | Double Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_tEoT1u3c",
+            "title": "Karl Berger | Double Bass - Contrabass",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 12
+        },
+        {
+            "instrumentId": 45,
+            "instrument": "Pizzicato Strings",
+            "views": 3,
+            "name": "Karl Berger | Pizzicato Strings",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_jJ8hCrEo",
+            "title": "Karl Berger | Pizzicato Strings - Pizzicato Strings",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 13
+        }
+    ]
+}

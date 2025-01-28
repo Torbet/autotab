@@ -1,0 +1,391 @@
+{
+    "song_id": 11845,
+    "revision_id": 228975,
+    "prev_revision_id": null,
+    "image": "y55VKcjohIySMFBjZui1r",
+    "name": "Phenomenon",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 242,
+            "name": "Guitar (Mike)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_dkhDobWq",
+            "title": "Guitar (Mike) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 13,
+            "name": "Guitar Effect1",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_pKN8eUiP",
+            "title": "Guitar Effect1 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 0,
+            "name": "Guitar Effect2",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_pLb2lbdq",
+            "title": "Guitar Effect2 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 54,
+            "instrument": "Synth Voice",
+            "views": 0,
+            "name": "Vocal (Fred)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_3oNkUmnJ",
+            "title": "Vocal (Fred) - Synth Voice",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 18,
+            "name": "Bass (Sam)",
+            "tuning": [
+                40,
+                35,
+                30,
+                25
+            ],
+            "hash": "bass_7ySJ6UMQ",
+            "title": "Bass (Sam) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 4,
+            "name": "Drums (John)",
+            "hash": "drums_sNR5Oli6",
+            "title": "Drums (John) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Sample Drums(Lethal)",
+            "hash": "drums_oS8Jteel",
+            "title": "Sample Drums(Lethal) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 99,
+            "instrument": "FX 4 (atmosphere)",
+            "views": 0,
+            "name": "Sample1 (Lethal)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Ev1JDwVN",
+            "title": "Sample1 (Lethal) - FX 4 (atmosphere)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 2,
+            "name": "Sample2 (Lethal)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_satAbwYE",
+            "title": "Sample2 (Lethal) - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 0,
+            "name": "Sample3 (Lethal)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_I3Xz41yh",
+            "title": "Sample3 (Lethal) - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9,
+            "originalPartId": 9
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 242,
+            "name": "Guitar (Mike)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_dkhDobWq",
+            "title": "Guitar (Mike) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 13,
+            "name": "Guitar Effect1",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_pKN8eUiP",
+            "title": "Guitar Effect1 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 26,
+            "instrument": "Electric Guitar (jazz)",
+            "views": 0,
+            "name": "Guitar Effect2",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_pLb2lbdq",
+            "title": "Guitar Effect2 - Electric Guitar (jazz)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 54,
+            "instrument": "Synth Voice",
+            "views": 0,
+            "name": "Vocal (Fred)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_3oNkUmnJ",
+            "title": "Vocal (Fred) - Synth Voice",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 18,
+            "name": "Bass (Sam)",
+            "tuning": [
+                40,
+                35,
+                30,
+                25
+            ],
+            "hash": "bass_7ySJ6UMQ",
+            "title": "Bass (Sam) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 4,
+            "name": "Drums (John)",
+            "hash": "drums_sNR5Oli6",
+            "title": "Drums (John) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Sample Drums(Lethal)",
+            "hash": "drums_oS8Jteel",
+            "title": "Sample Drums(Lethal) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 99,
+            "instrument": "FX 4 (atmosphere)",
+            "views": 0,
+            "name": "Sample1 (Lethal)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Ev1JDwVN",
+            "title": "Sample1 (Lethal) - FX 4 (atmosphere)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 53,
+            "instrument": "Voice Oohs",
+            "views": 2,
+            "name": "Sample2 (Lethal)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_satAbwYE",
+            "title": "Sample2 (Lethal) - Voice Oohs",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        },
+        {
+            "instrumentId": 16,
+            "instrument": "Drawbar Organ",
+            "views": 0,
+            "name": "Sample3 (Lethal)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_I3Xz41yh",
+            "title": "Sample3 (Lethal) - Drawbar Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "song_id": 12015,
+    "revision_id": 745648,
+    "prev_revision_id": 293503,
+    "image": "v3-4-5-stage-Rp6slxAzrf6Zbyyk",
+    "name": "Gimme_The_Mic",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1847,
+            "name": "Guitar (Mike Smith)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_xIFgTSiP",
+            "title": "Guitar (Mike Smith) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 58,
+            "name": "Bass (Sam Rivers)",
+            "tuning": [
+                40,
+                35,
+                30,
+                23,
+                22
+            ],
+            "hash": "bass_qgTjyPnN",
+            "title": "Bass (Sam Rivers) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 107,
+            "name": "Drums (John Otto)",
+            "hash": "drums_nlCBqehD",
+            "title": "Drums (John Otto) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1847,
+            "name": "Guitar (Mike Smith)",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 3,
+            "hash": "guitar_xIFgTSiP",
+            "title": "Guitar (Mike Smith) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 58,
+            "name": "Bass (Sam Rivers)",
+            "tuning": [
+                40,
+                35,
+                30,
+                23,
+                22
+            ],
+            "hash": "bass_qgTjyPnN",
+            "title": "Bass (Sam Rivers) - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 107,
+            "name": "Drums (John Otto)",
+            "hash": "drums_nlCBqehD",
+            "title": "Drums (John Otto) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        }
+    ]
+}

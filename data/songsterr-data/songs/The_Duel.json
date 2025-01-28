@@ -1,0 +1,339 @@
+{
+    "song_id": 4525,
+    "revision_id": 314812,
+    "prev_revision_id": null,
+    "image": "i-b6LnBNY8G2-A4id2P2n",
+    "name": "The_Duel",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 41,
+            "name": "Rusty",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34
+            ],
+            "difficulty": 7,
+            "hash": "guitar_bi80Qsfa",
+            "title": "Rusty - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2,
+            "name": "Rhythm (R)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34
+            ],
+            "difficulty": 3,
+            "hash": "guitar_veUM5ryd",
+            "title": "Rhythm (R) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 62,
+            "name": "Rhythm (L)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34
+            ],
+            "difficulty": 3,
+            "hash": "guitar_R9z93kmV",
+            "title": "Rhythm (L) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "melody",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34
+            ],
+            "difficulty": 3,
+            "hash": "guitar_S1BWGCZz",
+            "title": "melody - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 0,
+            "name": "Bobby",
+            "tuning": [
+                71,
+                66,
+                62,
+                57,
+                52,
+                47,
+                42
+            ],
+            "hash": "other_4vPBsFUw",
+            "title": "Bobby - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 0,
+            "name": "Bobby 2",
+            "tuning": [
+                71,
+                66,
+                62,
+                57,
+                52,
+                47,
+                42
+            ],
+            "hash": "other_KNAAn8Bi",
+            "title": "Bobby 2 - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                40,
+                35,
+                30,
+                25
+            ],
+            "hash": "bass_B1A9gHk0",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_lAdYUYFR",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 41,
+            "name": "Rusty",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34
+            ],
+            "difficulty": 7,
+            "hash": "guitar_bi80Qsfa",
+            "title": "Rusty - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 2,
+            "name": "Rhythm (R)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34
+            ],
+            "difficulty": 3,
+            "hash": "guitar_veUM5ryd",
+            "title": "Rhythm (R) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 62,
+            "name": "Rhythm (L)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34
+            ],
+            "difficulty": 3,
+            "hash": "guitar_R9z93kmV",
+            "title": "Rhythm (L) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "melody",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34
+            ],
+            "difficulty": 3,
+            "hash": "guitar_S1BWGCZz",
+            "title": "melody - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 0,
+            "name": "Bobby",
+            "tuning": [
+                71,
+                66,
+                62,
+                57,
+                52,
+                47,
+                42
+            ],
+            "hash": "other_4vPBsFUw",
+            "title": "Bobby - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 81,
+            "instrument": "Lead 2 (sawtooth)",
+            "views": 0,
+            "name": "Bobby 2",
+            "tuning": [
+                71,
+                66,
+                62,
+                57,
+                52,
+                47,
+                42
+            ],
+            "hash": "other_KNAAn8Bi",
+            "title": "Bobby 2 - Lead 2 (sawtooth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                40,
+                35,
+                30,
+                25
+            ],
+            "hash": "bass_B1A9gHk0",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_lAdYUYFR",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

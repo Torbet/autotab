@@ -1,0 +1,241 @@
+{
+    "song_id": 2954,
+    "revision_id": 640790,
+    "prev_revision_id": 640787,
+    "image": "v3-1-0-rCk-0BFI5l24hwNg",
+    "name": "\u0417\u0430\u043a\u0430\u0442",
+    "tracks": [
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 294,
+            "name": "\u041a\u0438\u043f\u0435\u043b\u043e\u0432",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_b8fRnuzz",
+            "title": "\u041a\u0438\u043f\u0435\u043b\u043e\u0432 - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 2608,
+            "name": "\u0425\u043e\u043b\u0441\u0442\u0438\u043d\u0438\u043d",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_65zSXOyx",
+            "title": "\u0425\u043e\u043b\u0441\u0442\u0438\u043d\u0438\u043d - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 403,
+            "name": "\u0422\u0435\u0440\u0435\u043d\u0442\u044c\u0435\u0432",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_YDJRkSSX",
+            "title": "\u0422\u0435\u0440\u0435\u043d\u0442\u044c\u0435\u0432 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 334,
+            "name": "\u0414\u0443\u0431\u0438\u043d\u0438\u043d",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_FtN5bHHk",
+            "title": "\u0414\u0443\u0431\u0438\u043d\u0438\u043d - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 50,
+            "instrument": "SynthStrings 1",
+            "views": 82,
+            "name": "\u041a\u043b\u0430\u0432\u0438\u0448\u0438",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_hvpaaGZN",
+            "title": "\u041a\u043b\u0430\u0432\u0438\u0448\u0438 - SynthStrings 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 61,
+            "name": "\u041c\u0430\u043d\u044f\u043a\u0438\u043d",
+            "hash": "drums_nS4c0cpu",
+            "title": "\u041c\u0430\u043d\u044f\u043a\u0438\u043d - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 294,
+            "name": "\u041a\u0438\u043f\u0435\u043b\u043e\u0432",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_b8fRnuzz",
+            "title": "\u041a\u0438\u043f\u0435\u043b\u043e\u0432 - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 2608,
+            "name": "\u0425\u043e\u043b\u0441\u0442\u0438\u043d\u0438\u043d",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 3,
+            "hash": "guitar_65zSXOyx",
+            "title": "\u0425\u043e\u043b\u0441\u0442\u0438\u043d\u0438\u043d - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 403,
+            "name": "\u0422\u0435\u0440\u0435\u043d\u0442\u044c\u0435\u0432",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_YDJRkSSX",
+            "title": "\u0422\u0435\u0440\u0435\u043d\u0442\u044c\u0435\u0432 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 334,
+            "name": "\u0414\u0443\u0431\u0438\u043d\u0438\u043d",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_FtN5bHHk",
+            "title": "\u0414\u0443\u0431\u0438\u043d\u0438\u043d - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 50,
+            "instrument": "SynthStrings 1",
+            "views": 82,
+            "name": "\u041a\u043b\u0430\u0432\u0438\u0448\u0438",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_hvpaaGZN",
+            "title": "\u041a\u043b\u0430\u0432\u0438\u0448\u0438 - SynthStrings 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 61,
+            "name": "\u041c\u0430\u043d\u044f\u043a\u0438\u043d",
+            "hash": "drums_nS4c0cpu",
+            "title": "\u041c\u0430\u043d\u044f\u043a\u0438\u043d - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        }
+    ]
+}

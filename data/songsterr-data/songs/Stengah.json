@@ -1,0 +1,298 @@
+{
+    "song_id": 12661,
+    "revision_id": 1241529,
+    "prev_revision_id": 1213920,
+    "image": "v3-5-26-CLPLPi69OpS8LTH-",
+    "name": "Stengah",
+    "tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 72,
+            "name": "GUITAR 1 (Fredrik Thordendal)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34,
+                28
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Znuhd2ju",
+            "title": "GUITAR 1 (Fredrik Thordendal) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3,
+            "name": "GUITAR 2 (M\u00e5rten Hagstr\u00f6m)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34,
+                28
+            ],
+            "difficulty": 3,
+            "hash": "guitar_VQWxkc6w",
+            "title": "GUITAR 2 (M\u00e5rten Hagstr\u00f6m) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 5,
+            "name": "SOLO (Fredrik Thordendal)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34,
+                28
+            ],
+            "difficulty": 8,
+            "hash": "guitar_fyxOwwrf",
+            "title": "SOLO (Fredrik Thordendal) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 4,
+            "name": "BASS (Fredrik/M\u00e5rten)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_zV0wOVOM",
+            "title": "BASS (Fredrik/M\u00e5rten) - Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 44,
+            "name": "DRUMS (Tomas Haake)",
+            "hash": "drums_hUXYFhBV",
+            "title": "DRUMS (Tomas Haake) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 3,
+            "name": "(bass tone)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_mww9kciX",
+            "title": "(bass tone) - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 80,
+            "instrument": "Lead 1 (square)",
+            "views": 0,
+            "name": "FX",
+            "tuning": [
+                58,
+                53,
+                49,
+                44,
+                39,
+                34,
+                29
+            ],
+            "hash": "other_cmzCaXvj",
+            "title": "FX - Lead 1 (square)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 72,
+            "name": "GUITAR 1 (Fredrik Thordendal)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34,
+                28
+            ],
+            "difficulty": 3,
+            "hash": "guitar_Znuhd2ju",
+            "title": "GUITAR 1 (Fredrik Thordendal) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3,
+            "name": "GUITAR 2 (M\u00e5rten Hagstr\u00f6m)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34,
+                28
+            ],
+            "difficulty": 3,
+            "hash": "guitar_VQWxkc6w",
+            "title": "GUITAR 2 (M\u00e5rten Hagstr\u00f6m) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 5,
+            "name": "SOLO (Fredrik Thordendal)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39,
+                34,
+                28
+            ],
+            "difficulty": 8,
+            "hash": "guitar_fyxOwwrf",
+            "title": "SOLO (Fredrik Thordendal) - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 36,
+            "instrument": "Slap Bass 1",
+            "views": 4,
+            "name": "BASS (Fredrik/M\u00e5rten)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_zV0wOVOM",
+            "title": "BASS (Fredrik/M\u00e5rten) - Slap Bass 1",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 44,
+            "name": "DRUMS (Tomas Haake)",
+            "hash": "drums_hUXYFhBV",
+            "title": "DRUMS (Tomas Haake) - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 3,
+            "name": "(bass tone)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "bass_mww9kciX",
+            "title": "(bass tone) - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 80,
+            "instrument": "Lead 1 (square)",
+            "views": 0,
+            "name": "FX",
+            "tuning": [
+                58,
+                53,
+                49,
+                44,
+                39,
+                34,
+                29
+            ],
+            "hash": "other_cmzCaXvj",
+            "title": "FX - Lead 1 (square)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

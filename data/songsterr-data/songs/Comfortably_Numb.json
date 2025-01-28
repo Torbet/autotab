@@ -1,0 +1,971 @@
+{
+    "song_id": 271,
+    "revision_id": 1101747,
+    "prev_revision_id": 1101000,
+    "image": "v3-5-25-2e3Jz-5TSzQ9-pnk",
+    "name": "Comfortably_Numb",
+    "tracks": [
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 297,
+            "name": "David Gilmour | Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_rVVraIHU",
+            "title": "David Gilmour | Vocals - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 179087,
+            "name": "David Gilmour | Lead Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_aWNwpRwe",
+            "title": "David Gilmour | Lead Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1265,
+            "name": "David Gilmour | Rhythm Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_fyYQvuTm",
+            "title": "David Gilmour | Rhythm Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 16361,
+            "name": "Roger Waters, David Gilmour | Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_VJ6zJzuT",
+            "title": "Roger Waters, David Gilmour | Bass - Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 89,
+            "instrument": "Pad 2 (warm)",
+            "views": 56,
+            "name": "David Gilmour | Prophet-5 Synthesiser (RH)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_TFaZaZHv",
+            "title": "David Gilmour | Prophet-5 Synthesiser (RH) - Pad 2 (warm)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 89,
+            "instrument": "Pad 2 (warm)",
+            "views": 39,
+            "name": "David Gilmour | Prophet-5 Synthesiser (LH)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_u4a2sMgl",
+            "title": "David Gilmour | Prophet-5 Synthesiser (LH) - Pad 2 (warm)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 4818,
+            "name": "Lee Ritenour, David Gilmour | High String Guitar",
+            "tuning": [
+                64,
+                59,
+                67,
+                62,
+                57,
+                64
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Tfupaua9",
+            "title": "Lee Ritenour, David Gilmour | High String Guitar - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 170,
+            "name": "Roger Waters | Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_tXOvnV9I",
+            "title": "Roger Waters | Vocals - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 18,
+            "instrument": "Rock Organ",
+            "views": 33,
+            "name": "Richard Wright | Hammond Organ (RH)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_0kErUreA",
+            "title": "Richard Wright | Hammond Organ (RH) - Rock Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        },
+        {
+            "instrumentId": 18,
+            "instrument": "Rock Organ",
+            "views": 17,
+            "name": "Richard Wright | Hammond Organ (LH)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "other_W031ESCU",
+            "title": "Richard Wright | Hammond Organ (LH) - Rock Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9,
+            "originalPartId": 9
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 16904,
+            "name": "Nick Mason | Drums",
+            "hash": "drums_qqOGiR7S",
+            "title": "Nick Mason | Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10,
+            "originalPartId": 10
+        },
+        {
+            "instrumentId": 60,
+            "instrument": "French Horn",
+            "views": 51,
+            "name": "Michael Kamen | 1st Horn in F",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_07GGQTzH",
+            "title": "Michael Kamen | 1st Horn in F - French Horn",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11,
+            "originalPartId": 11
+        },
+        {
+            "instrumentId": 60,
+            "instrument": "French Horn",
+            "views": 13,
+            "name": "Michael Kamen | 2nd Horns in F",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_8fmB34XX",
+            "title": "Michael Kamen | 2nd Horns in F - French Horn",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 12,
+            "originalPartId": 12
+        },
+        {
+            "instrumentId": 56,
+            "instrument": "Trumpet",
+            "views": 32,
+            "name": "Michael Kamen | 1st Trumpets",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_lgHBnHwl",
+            "title": "Michael Kamen | 1st Trumpets - Trumpet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 13,
+            "originalPartId": 13
+        },
+        {
+            "instrumentId": 56,
+            "instrument": "Trumpet",
+            "views": 17,
+            "name": "Michael Kamen | 2nd Trumpets",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_zLOw3eHD",
+            "title": "Michael Kamen | 2nd Trumpets - Trumpet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 14,
+            "originalPartId": 14
+        },
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 20,
+            "name": "Michael Kamen | Trombones",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_P9TSRbOC",
+            "title": "Michael Kamen | Trombones - Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 15,
+            "originalPartId": 15
+        },
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 6,
+            "name": "Michael Kamen | Bass Trombone",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_uj5gzGpY",
+            "title": "Michael Kamen | Bass Trombone - Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 16,
+            "originalPartId": 16
+        },
+        {
+            "instrumentId": 9,
+            "instrument": "Glockenspiel",
+            "views": 24,
+            "name": "Michael Kamen | Glockenspiel",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_1pW3o3CU",
+            "title": "Michael Kamen | Glockenspiel - Glockenspiel",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 17,
+            "originalPartId": 17
+        },
+        {
+            "instrumentId": 58,
+            "instrument": "Tuba",
+            "views": 20,
+            "name": "Michael Kamen | Tubas",
+            "tuning": [
+                48,
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "other_FFwEDqsP",
+            "title": "Michael Kamen | Tubas - Tuba",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 18,
+            "originalPartId": 18
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 213,
+            "name": "Michael Kamen | Violins 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_pmAdDw0k",
+            "title": "Michael Kamen | Violins 1 - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 19,
+            "originalPartId": 19
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 156,
+            "name": "Michael Kamen | Violins 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_OOz9Skty",
+            "title": "Michael Kamen | Violins 2 - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 20,
+            "originalPartId": 20
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 242,
+            "name": "Michael Kamen | Violas",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Gy4ngref",
+            "title": "Michael Kamen | Violas - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 21,
+            "originalPartId": 21
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 21,
+            "name": "Michael Kamen | Cellos",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_8z9YBTbO",
+            "title": "Michael Kamen | Cellos - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 22,
+            "originalPartId": 22
+        },
+        {
+            "instrumentId": 43,
+            "instrument": "Contrabass",
+            "views": 52,
+            "name": "Michael Kamen | Contrabass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_ymsmBvoo",
+            "title": "Michael Kamen | Contrabass - Contrabass",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 23,
+            "originalPartId": 23
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 85,
+            "instrument": "Lead 6 (voice)",
+            "views": 297,
+            "name": "David Gilmour | Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_rVVraIHU",
+            "title": "David Gilmour | Vocals - Lead 6 (voice)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 179087,
+            "name": "David Gilmour | Lead Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 4,
+            "hash": "guitar_aWNwpRwe",
+            "title": "David Gilmour | Lead Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1265,
+            "name": "David Gilmour | Rhythm Guitar",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_fyYQvuTm",
+            "title": "David Gilmour | Rhythm Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 35,
+            "instrument": "Fretless Bass",
+            "views": 16361,
+            "name": "Roger Waters, David Gilmour | Bass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "bass_VJ6zJzuT",
+            "title": "Roger Waters, David Gilmour | Bass - Fretless Bass",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 89,
+            "instrument": "Pad 2 (warm)",
+            "views": 56,
+            "name": "David Gilmour | Prophet-5 Synthesiser (RH)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_TFaZaZHv",
+            "title": "David Gilmour | Prophet-5 Synthesiser (RH) - Pad 2 (warm)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 89,
+            "instrument": "Pad 2 (warm)",
+            "views": 39,
+            "name": "David Gilmour | Prophet-5 Synthesiser (LH)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_u4a2sMgl",
+            "title": "David Gilmour | Prophet-5 Synthesiser (LH) - Pad 2 (warm)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 4818,
+            "name": "Lee Ritenour, David Gilmour | High String Guitar",
+            "tuning": [
+                64,
+                59,
+                67,
+                62,
+                57,
+                64
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Tfupaua9",
+            "title": "Lee Ritenour, David Gilmour | High String Guitar - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 170,
+            "name": "Roger Waters | Vocals",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_tXOvnV9I",
+            "title": "Roger Waters | Vocals - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        },
+        {
+            "instrumentId": 18,
+            "instrument": "Rock Organ",
+            "views": 33,
+            "name": "Richard Wright | Hammond Organ (RH)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_0kErUreA",
+            "title": "Richard Wright | Hammond Organ (RH) - Rock Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        },
+        {
+            "instrumentId": 18,
+            "instrument": "Rock Organ",
+            "views": 17,
+            "name": "Richard Wright | Hammond Organ (LH)",
+            "tuning": [
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "other_W031ESCU",
+            "title": "Richard Wright | Hammond Organ (LH) - Rock Organ",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 9
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 16904,
+            "name": "Nick Mason | Drums",
+            "hash": "drums_qqOGiR7S",
+            "title": "Nick Mason | Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 10
+        },
+        {
+            "instrumentId": 60,
+            "instrument": "French Horn",
+            "views": 51,
+            "name": "Michael Kamen | 1st Horn in F",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_07GGQTzH",
+            "title": "Michael Kamen | 1st Horn in F - French Horn",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 11
+        },
+        {
+            "instrumentId": 60,
+            "instrument": "French Horn",
+            "views": 13,
+            "name": "Michael Kamen | 2nd Horns in F",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_8fmB34XX",
+            "title": "Michael Kamen | 2nd Horns in F - French Horn",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 12
+        },
+        {
+            "instrumentId": 56,
+            "instrument": "Trumpet",
+            "views": 32,
+            "name": "Michael Kamen | 1st Trumpets",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_lgHBnHwl",
+            "title": "Michael Kamen | 1st Trumpets - Trumpet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 13
+        },
+        {
+            "instrumentId": 56,
+            "instrument": "Trumpet",
+            "views": 17,
+            "name": "Michael Kamen | 2nd Trumpets",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_zLOw3eHD",
+            "title": "Michael Kamen | 2nd Trumpets - Trumpet",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 14
+        },
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 20,
+            "name": "Michael Kamen | Trombones",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_P9TSRbOC",
+            "title": "Michael Kamen | Trombones - Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 15
+        },
+        {
+            "instrumentId": 57,
+            "instrument": "Trombone",
+            "views": 6,
+            "name": "Michael Kamen | Bass Trombone",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_uj5gzGpY",
+            "title": "Michael Kamen | Bass Trombone - Trombone",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 16
+        },
+        {
+            "instrumentId": 9,
+            "instrument": "Glockenspiel",
+            "views": 24,
+            "name": "Michael Kamen | Glockenspiel",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_1pW3o3CU",
+            "title": "Michael Kamen | Glockenspiel - Glockenspiel",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 17
+        },
+        {
+            "instrumentId": 58,
+            "instrument": "Tuba",
+            "views": 20,
+            "name": "Michael Kamen | Tubas",
+            "tuning": [
+                48,
+                43,
+                38,
+                33,
+                28,
+                23
+            ],
+            "hash": "other_FFwEDqsP",
+            "title": "Michael Kamen | Tubas - Tuba",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 18
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 213,
+            "name": "Michael Kamen | Violins 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_pmAdDw0k",
+            "title": "Michael Kamen | Violins 1 - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 19
+        },
+        {
+            "instrumentId": 40,
+            "instrument": "Violin",
+            "views": 156,
+            "name": "Michael Kamen | Violins 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_OOz9Skty",
+            "title": "Michael Kamen | Violins 2 - Violin",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 20
+        },
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 242,
+            "name": "Michael Kamen | Violas",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_Gy4ngref",
+            "title": "Michael Kamen | Violas - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 21
+        },
+        {
+            "instrumentId": 42,
+            "instrument": "Cello",
+            "views": 21,
+            "name": "Michael Kamen | Cellos",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_8z9YBTbO",
+            "title": "Michael Kamen | Cellos - Cello",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 22
+        },
+        {
+            "instrumentId": 43,
+            "instrument": "Contrabass",
+            "views": 52,
+            "name": "Michael Kamen | Contrabass",
+            "tuning": [
+                43,
+                38,
+                33,
+                28
+            ],
+            "hash": "other_ymsmBvoo",
+            "title": "Michael Kamen | Contrabass - Contrabass",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 23
+        }
+    ]
+}

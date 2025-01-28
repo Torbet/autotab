@@ -1,0 +1,491 @@
+{
+    "song_id": 12890,
+    "revision_id": 1133800,
+    "prev_revision_id": 862988,
+    "image": "v3-5-26-QUOsDgAOC-Bvw7s_",
+    "name": "No_Leaf_Clover",
+    "tracks": [
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 6,
+            "name": "Viola (section)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_foKi9MQM",
+            "title": "Viola (section) - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 61,
+            "instrument": "Brass Section",
+            "views": 1,
+            "name": "Brass (section)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_9PCoC5mH",
+            "title": "Brass (section) - Brass Section",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 8,
+            "name": "Violin (section)",
+            "tuning": [
+                75,
+                70,
+                66,
+                61,
+                56,
+                51
+            ],
+            "hash": "other_UER96EwQ",
+            "title": "Violin (section) - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 15,
+            "name": "Oboe / Muted Trumpet",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_L14MpPr5",
+            "title": "Oboe / Muted Trumpet - Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 22,
+            "name": "Flute / Cymbal",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_DDOt4UX9",
+            "title": "Flute / Cymbal - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 45,
+            "instrument": "Pizzicato Strings",
+            "views": 3,
+            "name": "Pizzacato / Timpani",
+            "tuning": [
+                51,
+                46,
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "other_FTY5tPbN",
+            "title": "Pizzacato / Timpani - Pizzicato Strings",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 900,
+            "name": "James Hetfield (clean)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_g0aXq6bW",
+            "title": "James Hetfield (clean) - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1067,
+            "name": "James Hetfield (distortion)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_NIpchKF0",
+            "title": "James Hetfield (distortion) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 7,
+            "originalPartId": 7
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 228,
+            "name": "Lars Ulrich",
+            "hash": "drums_PonTnBUp",
+            "title": "Lars Ulrich - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8,
+            "originalPartId": 8
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 36,
+            "name": "Voices",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Gl0qyeXm",
+            "title": "Voices - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 9,
+            "originalPartId": 9
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 260,
+            "name": "Jason Newsted",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_HoDybW7e",
+            "title": "Jason Newsted - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 10,
+            "originalPartId": 10
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3001,
+            "name": "Kirk Hammett (Lead)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 3,
+            "hash": "guitar_jzs3oCuV",
+            "title": "Kirk Hammett (Lead) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 11,
+            "originalPartId": 11
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 41,
+            "instrument": "Viola",
+            "views": 6,
+            "name": "Viola (section)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_foKi9MQM",
+            "title": "Viola (section) - Viola",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 61,
+            "instrument": "Brass Section",
+            "views": 1,
+            "name": "Brass (section)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_9PCoC5mH",
+            "title": "Brass (section) - Brass Section",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 8,
+            "name": "Violin (section)",
+            "tuning": [
+                75,
+                70,
+                66,
+                61,
+                56,
+                51
+            ],
+            "hash": "other_UER96EwQ",
+            "title": "Violin (section) - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 68,
+            "instrument": "Oboe",
+            "views": 15,
+            "name": "Oboe / Muted Trumpet",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_L14MpPr5",
+            "title": "Oboe / Muted Trumpet - Oboe",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 73,
+            "instrument": "Flute",
+            "views": 22,
+            "name": "Flute / Cymbal",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "hash": "other_DDOt4UX9",
+            "title": "Flute / Cymbal - Flute",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 45,
+            "instrument": "Pizzicato Strings",
+            "views": 3,
+            "name": "Pizzacato / Timpani",
+            "tuning": [
+                51,
+                46,
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "other_FTY5tPbN",
+            "title": "Pizzacato / Timpani - Pizzicato Strings",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 900,
+            "name": "James Hetfield (clean)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_g0aXq6bW",
+            "title": "James Hetfield (clean) - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 6
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1067,
+            "name": "James Hetfield (distortion)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_NIpchKF0",
+            "title": "James Hetfield (distortion) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 7
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 228,
+            "name": "Lars Ulrich",
+            "hash": "drums_PonTnBUp",
+            "title": "Lars Ulrich - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 8
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 36,
+            "name": "Voices",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_Gl0qyeXm",
+            "title": "Voices - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 9
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 260,
+            "name": "Jason Newsted",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_HoDybW7e",
+            "title": "Jason Newsted - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 10
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3001,
+            "name": "Kirk Hammett (Lead)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 3,
+            "hash": "guitar_jzs3oCuV",
+            "title": "Kirk Hammett (Lead) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 11
+        }
+    ]
+}

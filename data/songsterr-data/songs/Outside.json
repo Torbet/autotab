@@ -1,0 +1,327 @@
+{
+    "song_id": 5195,
+    "revision_id": 931973,
+    "prev_revision_id": 651383,
+    "image": "v3-5-22-XFf1YGPw3h1DXd1B",
+    "name": "Outside",
+    "tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 1135,
+            "name": "Mike Clean",
+            "tuning": [
+                58,
+                54,
+                49,
+                46,
+                39,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_tu30BHGz",
+            "title": "Mike Clean - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 7276,
+            "name": "Aaron Lewis",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_vBiJBIXH",
+            "title": "Aaron Lewis - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1261,
+            "name": "Fill",
+            "tuning": [
+                58,
+                54,
+                49,
+                46,
+                39,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_U9likxvw",
+            "title": "Fill - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 870,
+            "name": "Mike Distortion",
+            "tuning": [
+                58,
+                54,
+                49,
+                46,
+                39,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_iXrlUGAX",
+            "title": "Mike Distortion - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 388,
+            "name": "Jon Wysocki",
+            "hash": "drums_aFGwmBg1",
+            "title": "Jon Wysocki - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 734,
+            "name": "Johnny April",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_7x6bFDUq",
+            "title": "Johnny April - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 35,
+            "name": "Vocals - Aaron Lewis",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_h8POIvnA",
+            "title": "Vocals - Aaron Lewis - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 20,
+            "name": "Backing Vocals - Johnny April",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_4ri7PahP",
+            "title": "Backing Vocals - Johnny April - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 1135,
+            "name": "Mike Clean",
+            "tuning": [
+                58,
+                54,
+                49,
+                46,
+                39,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_tu30BHGz",
+            "title": "Mike Clean - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 7276,
+            "name": "Aaron Lewis",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                39
+            ],
+            "difficulty": 2,
+            "hash": "guitar_vBiJBIXH",
+            "title": "Aaron Lewis - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1261,
+            "name": "Fill",
+            "tuning": [
+                58,
+                54,
+                49,
+                46,
+                39,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_U9likxvw",
+            "title": "Fill - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 870,
+            "name": "Mike Distortion",
+            "tuning": [
+                58,
+                54,
+                49,
+                46,
+                39,
+                32
+            ],
+            "difficulty": 2,
+            "hash": "guitar_iXrlUGAX",
+            "title": "Mike Distortion - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 388,
+            "name": "Jon Wysocki",
+            "hash": "drums_aFGwmBg1",
+            "title": "Jon Wysocki - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 734,
+            "name": "Johnny April",
+            "tuning": [
+                42,
+                37,
+                32,
+                27
+            ],
+            "hash": "bass_7x6bFDUq",
+            "title": "Johnny April - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 35,
+            "name": "Vocals - Aaron Lewis",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_h8POIvnA",
+            "title": "Vocals - Aaron Lewis - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 70,
+            "instrument": "Bassoon",
+            "views": 20,
+            "name": "Backing Vocals - Johnny April",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "vocals_4ri7PahP",
+            "title": "Backing Vocals - Johnny April - Bassoon",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

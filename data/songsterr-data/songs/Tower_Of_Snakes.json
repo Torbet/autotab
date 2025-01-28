@@ -1,0 +1,282 @@
+{
+    "song_id": 6951,
+    "revision_id": 770705,
+    "prev_revision_id": 618172,
+    "image": "v3-5-0-9Pnx4unZUbcDWtjf",
+    "name": "Tower_Of_Snakes",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 64,
+            "name": "Track 1",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_VmFXYHv3",
+            "title": "Track 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 13,
+            "name": "Percussion",
+            "hash": "drums_Cde3dxXl",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 830,
+            "name": "Track 3",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_B6wGemeb",
+            "title": "Track 3 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 30,
+            "name": "Track 4",
+            "tuning": [
+                40,
+                35,
+                30,
+                23
+            ],
+            "hash": "bass_d87oePKJ",
+            "title": "Track 4 - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 119,
+            "instrument": "Reverse Cymbal",
+            "views": 0,
+            "name": "Track 5",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "hash": "other_e0ABcrWS",
+            "title": "Track 5 - Reverse Cymbal",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 96,
+            "instrument": "FX 1 (rain)",
+            "views": 0,
+            "name": "Track 6",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "hash": "other_BLjOY8YD",
+            "title": "Track 6 - FX 1 (rain)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 119,
+            "instrument": "Reverse Cymbal",
+            "views": 0,
+            "name": "Track 7",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "hash": "other_ptJEDaFv",
+            "title": "Track 7 - Reverse Cymbal",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 64,
+            "name": "Track 1",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_VmFXYHv3",
+            "title": "Track 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 13,
+            "name": "Percussion",
+            "hash": "drums_Cde3dxXl",
+            "title": "Percussion - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 830,
+            "name": "Track 3",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "difficulty": 2,
+            "hash": "guitar_B6wGemeb",
+            "title": "Track 3 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 30,
+            "name": "Track 4",
+            "tuning": [
+                40,
+                35,
+                30,
+                23
+            ],
+            "hash": "bass_d87oePKJ",
+            "title": "Track 4 - Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 119,
+            "instrument": "Reverse Cymbal",
+            "views": 0,
+            "name": "Track 5",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "hash": "other_e0ABcrWS",
+            "title": "Track 5 - Reverse Cymbal",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 96,
+            "instrument": "FX 1 (rain)",
+            "views": 0,
+            "name": "Track 6",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "hash": "other_BLjOY8YD",
+            "title": "Track 6 - FX 1 (rain)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 119,
+            "instrument": "Reverse Cymbal",
+            "views": 0,
+            "name": "Track 7",
+            "tuning": [
+                61,
+                56,
+                52,
+                47,
+                42,
+                35
+            ],
+            "hash": "other_ptJEDaFv",
+            "title": "Track 7 - Reverse Cymbal",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

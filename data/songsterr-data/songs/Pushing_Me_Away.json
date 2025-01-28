@@ -1,0 +1,284 @@
+{
+    "song_id": 11605,
+    "revision_id": 1101300,
+    "prev_revision_id": 842649,
+    "image": "v3-5-25-CJ0eUJ7gaKJpjO05",
+    "name": "Pushing_Me_Away",
+    "tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 527,
+            "name": "Brad Delson - Lead Guitar (Clean)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_SjhCXyWJ",
+            "title": "Brad Delson - Lead Guitar (Clean) - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 308,
+            "name": "Brad Delson - Lead Guitar (Distortion)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_2QYL6ndM",
+            "title": "Brad Delson - Lead Guitar (Distortion) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1065,
+            "name": "Mike Shinoda - Rythm Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_CxLyFUjZ",
+            "title": "Mike Shinoda - Rythm Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 379,
+            "name": "Dave \"Phoenix\" Farrell - Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_mFag6xE7",
+            "title": "Dave \"Phoenix\" Farrell - Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 9,
+            "name": "Joe Hahn - Synth",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "other_90TZ8RXb",
+            "title": "Joe Hahn - Synth - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 93,
+            "instrument": "Pad 6 (metallic)",
+            "views": 4,
+            "name": "Joe Hahn - Backing Synth",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "other_KDnXFhPG",
+            "title": "Joe Hahn - Backing Synth - Pad 6 (metallic)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 115,
+            "name": "Rob Bourdon - Drums",
+            "hash": "drums_3W8nxh1j",
+            "title": "Rob Bourdon - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 27,
+            "instrument": "Electric Guitar (clean)",
+            "views": 527,
+            "name": "Brad Delson - Lead Guitar (Clean)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 3,
+            "hash": "guitar_SjhCXyWJ",
+            "title": "Brad Delson - Lead Guitar (Clean) - Electric Guitar (clean)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 308,
+            "name": "Brad Delson - Lead Guitar (Distortion)",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_2QYL6ndM",
+            "title": "Brad Delson - Lead Guitar (Distortion) - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1065,
+            "name": "Mike Shinoda - Rythm Guitar",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "difficulty": 2,
+            "hash": "guitar_CxLyFUjZ",
+            "title": "Mike Shinoda - Rythm Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 379,
+            "name": "Dave \"Phoenix\" Farrell - Bass",
+            "tuning": [
+                42,
+                37,
+                32,
+                25
+            ],
+            "hash": "bass_mFag6xE7",
+            "title": "Dave \"Phoenix\" Farrell - Bass - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 65,
+            "instrument": "Alto Sax",
+            "views": 9,
+            "name": "Joe Hahn - Synth",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "other_90TZ8RXb",
+            "title": "Joe Hahn - Synth - Alto Sax",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 93,
+            "instrument": "Pad 6 (metallic)",
+            "views": 4,
+            "name": "Joe Hahn - Backing Synth",
+            "tuning": [
+                63,
+                58,
+                54,
+                49,
+                44,
+                37
+            ],
+            "hash": "other_KDnXFhPG",
+            "title": "Joe Hahn - Backing Synth - Pad 6 (metallic)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 115,
+            "name": "Rob Bourdon - Drums",
+            "hash": "drums_3W8nxh1j",
+            "title": "Rob Bourdon - Drums - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

@@ -1,0 +1,327 @@
+{
+    "song_id": 3856,
+    "revision_id": 26167,
+    "prev_revision_id": null,
+    "image": "8xf7QZTIebLn7eYtY_bMH",
+    "name": "Miss_Suicide",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitare 1",
+            "tuning": [
+                63,
+                60,
+                55,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_SUae4pJM",
+            "title": "Guitare 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Guitare 2",
+            "tuning": [
+                63,
+                60,
+                55,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_m1TLCiA7",
+            "title": "Guitare 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "Guitare 3",
+            "tuning": [
+                63,
+                60,
+                55,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_ydNs5sae",
+            "title": "Guitare 3 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitare 4",
+            "tuning": [
+                63,
+                60,
+                55,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_l29h3MB2",
+            "title": "Guitare 4 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "Basse",
+            "tuning": [
+                42,
+                37,
+                30,
+                25
+            ],
+            "hash": "bass_0J7ujkJn",
+            "title": "Basse - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Batterie",
+            "hash": "drums_8z5EEBHA",
+            "title": "Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 90,
+            "instrument": "Pad 3 (polysynth)",
+            "views": 0,
+            "name": "Sample 1",
+            "tuning": [
+                64,
+                60,
+                55,
+                48,
+                43,
+                36
+            ],
+            "hash": "other_9zV5iCoC",
+            "title": "Sample 1 - Pad 3 (polysynth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        },
+        {
+            "instrumentId": 80,
+            "instrument": "Lead 1 (square)",
+            "views": 0,
+            "name": "Sample 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_y5mJXwMv",
+            "title": "Sample 2 - Lead 1 (square)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7,
+            "originalPartId": 7
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitare 1",
+            "tuning": [
+                63,
+                60,
+                55,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_SUae4pJM",
+            "title": "Guitare 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Guitare 2",
+            "tuning": [
+                63,
+                60,
+                55,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_m1TLCiA7",
+            "title": "Guitare 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 25,
+            "instrument": "Acoustic Guitar (steel)",
+            "views": 0,
+            "name": "Guitare 3",
+            "tuning": [
+                63,
+                60,
+                55,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_ydNs5sae",
+            "title": "Guitare 3 - Acoustic Guitar (steel)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 0,
+            "name": "Guitare 4",
+            "tuning": [
+                63,
+                60,
+                55,
+                48,
+                43,
+                36
+            ],
+            "difficulty": 3,
+            "hash": "guitar_l29h3MB2",
+            "title": "Guitare 4 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 3
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 0,
+            "name": "Basse",
+            "tuning": [
+                42,
+                37,
+                30,
+                25
+            ],
+            "hash": "bass_0J7ujkJn",
+            "title": "Basse - Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Batterie",
+            "hash": "drums_8z5EEBHA",
+            "title": "Batterie - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 90,
+            "instrument": "Pad 3 (polysynth)",
+            "views": 0,
+            "name": "Sample 1",
+            "tuning": [
+                64,
+                60,
+                55,
+                48,
+                43,
+                36
+            ],
+            "hash": "other_9zV5iCoC",
+            "title": "Sample 1 - Pad 3 (polysynth)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        },
+        {
+            "instrumentId": 80,
+            "instrument": "Lead 1 (square)",
+            "views": 0,
+            "name": "Sample 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "hash": "other_y5mJXwMv",
+            "title": "Sample 2 - Lead 1 (square)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 7
+        }
+    ]
+}

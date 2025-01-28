@@ -1,0 +1,288 @@
+{
+    "song_id": 12039,
+    "revision_id": 203194,
+    "prev_revision_id": null,
+    "image": "iJFSWff4fVSnxLujlzg4m",
+    "name": "Nobody's_Home",
+    "tracks": [
+        {
+            "instrumentId": 86,
+            "instrument": "Lead 7 (fifths)",
+            "views": 682,
+            "name": "Vocals (Staff 1)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "vocals_C2KRkhtw",
+            "title": "Vocals (Staff 1) - Lead 7 (fifths)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1616,
+            "name": "Jazz Guitar",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 3,
+            "hash": "guitar_09rRuZ51",
+            "title": "Jazz Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 284,
+            "name": "Steel Guitar",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 2,
+            "hash": "guitar_8ghp3Kqh",
+            "title": "Steel Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 653,
+            "name": "",
+            "tuning": [
+                44,
+                39,
+                34,
+                29
+            ],
+            "hash": "bass_8nWnpyDF",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 89,
+            "name": "Electric Guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_sf7jVljG",
+            "title": "Electric Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 97,
+            "name": "Electric Guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_UiEeQ8TZ",
+            "title": "Electric Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 187,
+            "name": "",
+            "hash": "drums_ok0VEO7V",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 86,
+            "instrument": "Lead 7 (fifths)",
+            "views": 682,
+            "name": "Vocals (Staff 1)",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40,
+                35
+            ],
+            "hash": "vocals_C2KRkhtw",
+            "title": "Vocals (Staff 1) - Lead 7 (fifths)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 0
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 1616,
+            "name": "Jazz Guitar",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 3,
+            "hash": "guitar_09rRuZ51",
+            "title": "Jazz Guitar - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 284,
+            "name": "Steel Guitar",
+            "tuning": [
+                65,
+                60,
+                56,
+                51,
+                46,
+                41
+            ],
+            "difficulty": 2,
+            "hash": "guitar_8ghp3Kqh",
+            "title": "Steel Guitar - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 2
+        },
+        {
+            "instrumentId": 33,
+            "instrument": "Electric Bass (finger)",
+            "views": 653,
+            "name": "",
+            "tuning": [
+                44,
+                39,
+                34,
+                29
+            ],
+            "hash": "bass_8nWnpyDF",
+            "title": "Electric Bass (finger)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 89,
+            "name": "Electric Guitar 1",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_sf7jVljG",
+            "title": "Electric Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 4
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 97,
+            "name": "Electric Guitar 2",
+            "tuning": [
+                64,
+                59,
+                55,
+                50,
+                45,
+                40
+            ],
+            "difficulty": 2,
+            "hash": "guitar_UiEeQ8TZ",
+            "title": "Electric Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 5
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 187,
+            "name": "",
+            "hash": "drums_ok0VEO7V",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}

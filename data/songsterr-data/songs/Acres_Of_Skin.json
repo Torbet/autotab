@@ -1,0 +1,272 @@
+{
+    "song_id": 7427,
+    "revision_id": 1079904,
+    "prev_revision_id": 313490,
+    "image": "v3-5-25-xGhQIC1OmyLCQCig",
+    "name": "Acres_Of_Skin",
+    "tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3,
+            "name": "Guitar 1",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36,
+                31
+            ],
+            "difficulty": 3,
+            "hash": "guitar_XLp6SXdM",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0,
+            "originalPartId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Guitar 2",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36,
+                31
+            ],
+            "difficulty": 4,
+            "hash": "guitar_FXzTS4Ke",
+            "title": "Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1,
+            "originalPartId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                39,
+                34,
+                29,
+                24,
+                19
+            ],
+            "hash": "bass_qTeb6BMQ",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2,
+            "originalPartId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_QODTNiqn",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3,
+            "originalPartId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Bass Drum Pattern",
+            "hash": "drums_qOl17wW2",
+            "title": "Bass Drum Pattern - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4,
+            "originalPartId": 4
+        },
+        {
+            "instrumentId": 95,
+            "instrument": "Pad 8 (sweep)",
+            "views": 0,
+            "name": "Keyboard",
+            "tuning": [
+                58,
+                53,
+                49,
+                44,
+                39,
+                34
+            ],
+            "hash": "other_y3kphMYr",
+            "title": "Keyboard - Pad 8 (sweep)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5,
+            "originalPartId": 5
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Vocals",
+            "tuning": [
+                58,
+                53,
+                49,
+                44,
+                39,
+                34
+            ],
+            "hash": "vocals_cP2KlnnJ",
+            "title": "Vocals - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6,
+            "originalPartId": 6
+        }
+    ],
+    "original_tracks": [
+        {
+            "instrumentId": 30,
+            "instrument": "Distortion Guitar",
+            "views": 3,
+            "name": "Guitar 1",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36,
+                31
+            ],
+            "difficulty": 3,
+            "hash": "guitar_XLp6SXdM",
+            "title": "Guitar 1 - Distortion Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 0
+        },
+        {
+            "instrumentId": 29,
+            "instrument": "Overdriven Guitar",
+            "views": 0,
+            "name": "Guitar 2",
+            "tuning": [
+                60,
+                55,
+                51,
+                46,
+                41,
+                36,
+                31
+            ],
+            "difficulty": 4,
+            "hash": "guitar_FXzTS4Ke",
+            "title": "Guitar 2 - Overdriven Guitar",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": true,
+            "partId": 1
+        },
+        {
+            "instrumentId": 34,
+            "instrument": "Electric Bass (pick)",
+            "views": 0,
+            "name": "",
+            "tuning": [
+                39,
+                34,
+                29,
+                24,
+                19
+            ],
+            "hash": "bass_qTeb6BMQ",
+            "title": "Electric Bass (pick)",
+            "isDrums": false,
+            "isBassGuitar": true,
+            "isGuitar": false,
+            "partId": 2
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "",
+            "hash": "drums_QODTNiqn",
+            "title": "Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 3
+        },
+        {
+            "instrumentId": 1024,
+            "instrument": "Drums",
+            "views": 0,
+            "name": "Bass Drum Pattern",
+            "hash": "drums_qOl17wW2",
+            "title": "Bass Drum Pattern - Drums",
+            "isDrums": true,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 4
+        },
+        {
+            "instrumentId": 95,
+            "instrument": "Pad 8 (sweep)",
+            "views": 0,
+            "name": "Keyboard",
+            "tuning": [
+                58,
+                53,
+                49,
+                44,
+                39,
+                34
+            ],
+            "hash": "other_y3kphMYr",
+            "title": "Keyboard - Pad 8 (sweep)",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 5
+        },
+        {
+            "instrumentId": 48,
+            "instrument": "String Ensemble 1",
+            "views": 0,
+            "name": "Vocals",
+            "tuning": [
+                58,
+                53,
+                49,
+                44,
+                39,
+                34
+            ],
+            "hash": "vocals_cP2KlnnJ",
+            "title": "Vocals - String Ensemble 1",
+            "isDrums": false,
+            "isBassGuitar": false,
+            "isGuitar": false,
+            "partId": 6
+        }
+    ]
+}
