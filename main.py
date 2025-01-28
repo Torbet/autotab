@@ -6,6 +6,7 @@ import base64
 import itertools
 from model import Model
 from audio import load_audio
+from tokenizer import create_tab_tokenizer
 
 MODEL_URLS = {
   'tiny.en': 'https://openaipublic.azureedge.net/main/whisper/models/d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03/tiny.en.pt',
@@ -125,10 +126,12 @@ LANGUAGES = {
 
 
 def load_model(model_name: str = 'tiny.en') -> Model:
+  # tokenizer = create_tab_tokenizer()
+  tokenizer = get_encoding('gpt2')
   state = torch.hub.load_state_dict_from_url(MODEL_URLS[model_name])
+  state['dims']['n_vocab'] = tokenizer.n_vocab
   model = Model(state['dims'])
   model.load_state_dict(state['model_state_dict'])
-  tokenizer = get_encoding('gpt2')
   return model, tokenizer
 
 
@@ -171,9 +174,7 @@ FRAMES_PER_SEGMENT = SAMPLES_PER_SEGMENT // HOP_LENGTH
 
 def transcribe(model, tokenizer, audio, temperature=0.0):
   encoded_audio = model.encoder(audio.unsqueeze(0))
-  tokens = torch.tensor(
-    [[tokenizer._special_tokens['<|startoftranscript|>'], tokenizer._special_tokens['<|notimestamps|>']]], device=encoded_audio.device
-  )
+  tokens = torch.tensor([[tokenizer._special_tokens['<|startoftranscript|>']]], device=encoded_audio.device)
   eot = tokenizer._special_tokens['<|endoftext|>']
 
   max_tokens = model.decoder.n_text_ctx - len(tokens[0])
