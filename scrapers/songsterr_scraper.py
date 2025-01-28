@@ -4,8 +4,9 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import re
-from pytubefix import YouTube
 import csv
+import yt_dlp
+
 
 class SongsterrScraper:
     def __init__(self):
@@ -14,7 +15,6 @@ class SongsterrScraper:
         self.session.headers.update({
             "User-Agent": "Mediapartners-Google*",  # Pretend to be Googlebot
         })
-        self.session.get("https://youtube.com")
 
         # Dir to store model data
         self.data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
@@ -31,6 +31,7 @@ class SongsterrScraper:
         if self.urls_exist:
             with open(self.url_file, 'r') as file:
                 self.song_urls = [line.strip() for line in file]
+                self.all_song_ids_set = set([re.search(r"s(\d+)(?=t|\b)", url).group(1) for url in self.song_urls])
 
         # get the song dicts if they exist
         self.song_data_dir = os.path.join(self.scraping_data_dir, "songs")
@@ -43,6 +44,8 @@ class SongsterrScraper:
                         self.songs.append(json.load(f))
         else:
             os.makedirs(self.song_data_dir, exist_ok=True)
+
+        self.scraped_song_ids_set = set(str(song['song_id']) for song in self.songs)
 
         # Dir to store audio mp3s files
         self.audio_dir = os.path.join(self.data_dir, "audio")
@@ -67,7 +70,10 @@ class SongsterrScraper:
                     "video_points",
                     "audio_tab_filename"
                 ])
- 
+        with open(self.track_data_file, 'r', newline='', encoding='utf-8') as csvfile:
+            reader = csv.reader(csvfile)
+            self.audio_video_scraped_song_ids_set = set(row[1] for row in reader)
+        
 
     def _safe_get(self, data, keys, default=None):
         """Safely get a nested value from a dictionary."""
@@ -116,7 +122,7 @@ class SongsterrScraper:
         print(f"{len(self.song_urls)} song URLs saved to '{self.url_file}'.")
 
 
-    def get_song_data(self, force=False):
+    def get_song_data(self, start_from_start=False):
         """
         Scrape key data for each song 
         """
@@ -124,12 +130,16 @@ class SongsterrScraper:
             print("No song URLs found. Run get_urls() first.")
             return
         
-        if self.songs_exist or not force:
+        if self.songs_exist and not start_from_start:
             print(f"Song data already exists in '{self.song_data_dir}'")
             return
+        
 
-        ids = set()
         for url in self.song_urls:
+            song_id = re.search(r"s(\d+)(?=t|\b)", url).group(1)
+            if song_id in self.scraped_song_ids_set and not start_from_start:
+                continue 
+
             # Get the big json object from the page
             try:
                 response = self.session.get(url.strip())
@@ -162,7 +172,8 @@ class SongsterrScraper:
 
             print(f"Scraped {url}")
 
-    def get_audio_and_tab(self):
+    def get_audio_and_tab(self, start_from_start=False):
+        video_ids = set()
 
         def get_json(url):
             try:
@@ -176,14 +187,25 @@ class SongsterrScraper:
         def download_youtube_audio(video_id, name):
             """Download YouTube audio as an MP3 file."""
             output_path = os.path.join(self.audio_dir, f"{name}.mp3")
+            ydl_opts = {
+                'format': 'bestaudio/best',
+                'outtmpl': str(output_path),
+                'postprocessors': [{
+                    'key': 'FFmpegExtractAudio',
+                    'preferredcodec': 'mp3',
+                    'preferredquality': '192',
+                }],
+                'quiet': True,
+                'no_warnings': True,
+            }
+    
             try:
-                # Download the YouTube video
-                yt = YouTube(f"https://www.youtube.com/watch?v={video_id}")
-                
-                video_stream = yt.streams.filter(abr="160kbps", progressive=False).first().download(output_path)
-                print(f"Downloaded {video_id} audio for {name}")
-            except Exception as e:
-                print(f"Failed to download audio for video {video_id}: {e}")
+                with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                    url = f"https://www.youtube.com/watch?v={video_id}"
+                    ydl.download([url])
+                print(f"Downloaded {name}.mp3 from {url}")
+                return str(output_path)
+            except: 
                 return None
         
         with open(self.track_data_file, 'w', newline='', encoding='utf-8') as csvfile:
@@ -199,11 +221,26 @@ class SongsterrScraper:
                 or the one that doesn't have feature: "alternative" or maybe just needs
                 "feature": null,
                 """
+                if song['song_id'] in self.audio_video_scraped_song_ids_set and not start_from_start:
+                    continue
+
                 try:
-                    guitar_tracks = [track for track in song['tracks'] if track['hash'].startswith('guitar')]
+                    tracks = self._safe_get(song, ['tracks'])
+                    if not tracks:
+                        print(f"No tracks found for {song['name']}")
+                        continue
+
+                    guitar_tracks = [track for track in tracks if track['hash'].startswith('guitar')]
+                    if not guitar_tracks:
+                        print(f"No guitar tracks found for {song['name']}")
+                        continue
 
                     video_list_url = f"https://www.songsterr.com/api/video-points/{song['song_id']}/{song['revision_id']}/list"
                     video_dicts = get_json(video_list_url)
+
+                    if not video_dicts:
+                        print(f"No video data found for {song['name']} at {video_list_url}")
+                        continue
                         
                     # Assume default video is the first one to not have `feature: "alternative"`
                     default_video, default_points = next(
@@ -212,21 +249,33 @@ class SongsterrScraper:
                     )
 
                     # Check case where there are no hashes
-                    video_dict_hashes_exist = [video['trackHashes'] for video in video_dicts if video['trackHashes'] not in [None, []]]
+                    video_dict_hashes_exist = [
+                        video['trackHashes'] for video in video_dicts 
+                        if video.get('trackHashes') not in [None, []]
+                    ]
 
                     for track in guitar_tracks:
                         # Determine the video ID and points
                         if video_dict_hashes_exist:
                             track_video_id, track_points = next(
-                                ((video['videoId'], video['points']) for video in video_dicts if track['hash'] in video['trackHashes']),
+                                ((video['videoId'], video['points']) 
+                                    for video in video_dicts 
+                                    if isinstance(video.get('trackHashes'), list) and track['hash'] in video['trackHashes']
+                                ),
                                 (default_video, default_points)
                             )
                         else:
                             track_video_id, track_points = default_video, default_points
-
-                        download_youtube_audio(track_video_id, f"{song['name']}_{track['partId']}")
+                        if not track_video_id in video_ids:
+                            success = download_youtube_audio(track_video_id, f"{song['name']}_{track['partId']}")
+                            video_ids.add(track_video_id)
+                            if not success:
+                                continue
                     
                         # Save tab data
+                        if not song['image']:
+                            print(f"No image found for {song['name']}")
+                            continue
                         tab_url = (
                             f"https://dqsljvtekg760.cloudfront.net/{song['song_id']}/"
                             f"{song['revision_id']}/{song['image']}/{track['partId']}.json"
@@ -237,7 +286,7 @@ class SongsterrScraper:
                             print(f"Downloaded {song['name']}_{track['partId']} tab data")
 
                         writer.writerow([
-                            song['name'],
+                            f"{song['name']}_{track['partId']}",
                             song['song_id'],
                             song['revision_id'],
                             track['hash'],
