@@ -5,11 +5,7 @@ from bs4 import BeautifulSoup
 import json
 import re
 from pytubefix import YouTube
-from pydub import AudioSegment
 import csv
-import pafy
-from moviepy.video.io.VideoFileClip import VideoFileClip
-
 
 class SongsterrScraper:
     def __init__(self):
@@ -19,7 +15,6 @@ class SongsterrScraper:
             "User-Agent": "Mediapartners-Google*",  # Pretend to be Googlebot
         })
         self.session.get("https://youtube.com")
-
 
         # Dir to store model data
         self.data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
@@ -32,14 +27,16 @@ class SongsterrScraper:
         # get the urls if they exist
         self.url_file = os.path.join(self.scraping_data_dir, "song_urls.txt")
         self.song_urls = []
-        if os.path.exists(self.url_file):
+        self.urls_exist = os.path.exists(self.url_file) 
+        if self.urls_exist:
             with open(self.url_file, 'r') as file:
                 self.song_urls = [line.strip() for line in file]
 
         # get the song dicts if they exist
         self.song_data_dir = os.path.join(self.scraping_data_dir, "songs")
         self.songs = []
-        if os.path.exists(self.song_data_dir):
+        self.songs_exist = os.path.exists(self.song_data_dir)
+        if self.songs_exist:
             for filename in os.listdir(self.song_data_dir):
                 if filename.endswith('.json'):  
                     with open(os.path.join(self.song_data_dir, filename), 'r') as f:
@@ -86,6 +83,9 @@ class SongsterrScraper:
         """
         Read through paginated sitemaps to get all song URLs
         """
+        if self.urls_exist:
+            print(f"Song URLs already exist in '{self.url_file}'")
+            return
 
         main_sitemap_url = "https://www.songsterr.com/sitemap-tabs.xml"
         
@@ -116,12 +116,16 @@ class SongsterrScraper:
         print(f"{len(self.song_urls)} song URLs saved to '{self.url_file}'.")
 
 
-    def get_song_data(self):
+    def get_song_data(self, force=False):
         """
         Scrape key data for each song 
         """
         if not self.song_urls:
             print("No song URLs found. Run get_urls() first.")
+            return
+        
+        if self.songs_exist or not force:
+            print(f"Song data already exists in '{self.song_data_dir}'")
             return
 
         ids = set()
@@ -174,7 +178,6 @@ class SongsterrScraper:
             output_path = os.path.join(self.audio_dir, f"{name}.mp3")
             try:
                 # Download the YouTube video
-                sleep(2)
                 yt = YouTube(f"https://www.youtube.com/watch?v={video_id}")
                 
                 video_stream = yt.streams.filter(abr="160kbps", progressive=False).first().download(output_path)
