@@ -128,37 +128,37 @@ def load_model(model_name: str = 'tiny.en') -> Model:
   state = torch.hub.load_state_dict_from_url(MODEL_URLS[model_name])
   model = Model(state['dims'])
   model.load_state_dict(state['model_state_dict'])
-  return model
+  tokenizer = get_encoding('gpt2')
+  return model, tokenizer
 
 
 def get_encoding(name: str):
-  url = f'https://raw.githubusercontent.com/openai/whisper/main/whisper/assets/{name}.tiktoken'
-  response = requests.get(url).text
-  ranks = {base64.b64decode(token): int(rank) for token, rank in (line.split() for line in response.splitlines())}
-  n_vocab = len(ranks)
-  specials = [
-    '<|endoftext|>',
-    '<|startoftranscript|>',
-    *[f'<|{lang}|>' for lang in LANGUAGES.keys()],
-    '<|translate|>',
-    '<|transcribe|>',
-    '<|startoflm|>',
-    '<|startofprev|>',
-    '<|nospeech|>',
-    '<|notimestamps|>',
-    *[f'<|{i * 0.02:.2f}|>' for i in range(1501)],
-  ]
+  with open('data/gpt2.tiktoken', 'rb') as f:
+    ranks = {base64.b64decode(token): int(rank) for token, rank in (line.split() for line in f.read().splitlines())}
+    n_vocab = len(ranks)
+    specials = [
+      '<|endoftext|>',
+      '<|startoftranscript|>',
+      *[f'<|{lang}|>' for lang in LANGUAGES.keys()],
+      '<|translate|>',
+      '<|transcribe|>',
+      '<|startoflm|>',
+      '<|startofprev|>',
+      '<|nospeech|>',
+      '<|notimestamps|>',
+      *[f'<|{i * 0.02:.2f}|>' for i in range(1501)],
+    ]
 
-  special_tokens = dict(zip(specials, range(n_vocab, n_vocab + len(specials))))
-  n_vocab += len(specials)
+    special_tokens = dict(zip(specials, range(n_vocab, n_vocab + len(specials))))
+    n_vocab += len(specials)
 
-  return tiktoken.Encoding(
-    name=name,
-    explicit_n_vocab=n_vocab,
-    pat_str=r"""'s|'t|'re|'ve|'m|'ll|'d| ?\p{L}+| ?\p{N}+| ?[^\s\p{L}\p{N}]+|\s+(?!\S)|\s+""",
-    mergeable_ranks=ranks,
-    special_tokens=special_tokens,
-  )
+    return tiktoken.Encoding(
+      name=name,
+      explicit_n_vocab=n_vocab,
+      pat_str=r"""'s|'t|'re|'ve|'m|'ll|'d| ?\p{L}+| ?\p{N}+| ?[^\s\p{L}\p{N}]+|\s+(?!\S)|\s+""",
+      mergeable_ranks=ranks,
+      special_tokens=special_tokens,
+    )
 
 
 SAMPLE_RATE = 16000
@@ -199,8 +199,7 @@ def transcribe(model, tokenizer, audio, temperature=0.0):
 
 
 if __name__ == '__main__':
-  model = load_model('tiny.en')
-  tokenizer = get_encoding('gpt2')
+  model, tokenizer = load_model('tiny.en')
   audio = load_audio('data/sample.wav')
   text = transcribe(model, tokenizer, audio)
   print(text)
