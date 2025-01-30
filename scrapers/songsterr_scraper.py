@@ -72,7 +72,8 @@ class SongsterrScraper:
                 ])
         with open(self.track_data_file, 'r', newline='', encoding='utf-8') as csvfile:
             reader = csv.reader(csvfile)
-            self.audio_video_scraped_song_ids_set = set(row[1] for row in reader)
+            self.audio_video_scraped_song_ids_set = set(int(row[1]) for row in reader)
+        
         
 
     def _safe_get(self, data, keys, default=None):
@@ -186,7 +187,7 @@ class SongsterrScraper:
 
         def download_youtube_audio(video_id, name):
             """Download YouTube audio as an MP3 file."""
-            output_path = os.path.join(self.audio_dir, f"{name}.mp3")
+            output_path = os.path.join(self.audio_dir, f"{name}")
             ydl_opts = {
                 'format': 'bestaudio/best',
                 'outtmpl': str(output_path),
@@ -208,7 +209,7 @@ class SongsterrScraper:
             except: 
                 return None
         
-        with open(self.track_data_file, 'w', newline='', encoding='utf-8') as csvfile:
+        with open(self.track_data_file, 'a', newline='', encoding='utf-8') as csvfile:
             writer = csv.writer(csvfile)
 
             for song in self.songs:
@@ -221,7 +222,8 @@ class SongsterrScraper:
                 or the one that doesn't have feature: "alternative" or maybe just needs
                 "feature": null,
                 """
-                if song['song_id'] in self.audio_video_scraped_song_ids_set and not start_from_start:
+                if int(song['song_id']) in self.audio_video_scraped_song_ids_set and not start_from_start:
+                    print(f"Skipping {song['name']} -- already scraped")    
                     continue
 
                 try:
