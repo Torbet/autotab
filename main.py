@@ -6,7 +6,7 @@ import base64
 import itertools
 from model import Model
 from audio import load_audio
-from tokenizer import create_tab_tokenizer
+from tokenizer import encoder
 
 MODEL_URLS = {
   'tiny.en': 'https://openaipublic.azureedge.net/main/whisper/models/d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03/tiny.en.pt',
@@ -126,7 +126,7 @@ LANGUAGES = {
 
 
 def load_model(model_name: str = 'tiny.en') -> Model:
-  # tokenizer = create_tab_tokenizer()
+  # tokenizer = encoder()
   tokenizer = get_encoding('gpt2')
   state = torch.hub.load_state_dict_from_url(MODEL_URLS[model_name])
   state['dims']['n_vocab'] = tokenizer.n_vocab
