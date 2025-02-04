@@ -6,7 +6,7 @@ def create_tab_tokenizer():
   tokens.extend([f'<S{i}>' for i in range(1, 7)])
   tokens.extend([f'<F{i}>' for i in range(1, 25)])
   tokens.extend([f'<T{2**i}>' for i in range(6)])
-  tokens.extend(['<H>', '<P>', '<S>', '<B>'])
+  tokens.extend(['<H>', '<P>', '<S>', '<B>']) # hammer on, pull off, slide, bend
   special = ['<|endoftext|>', '<|startoftab|>', '<|endoftab|>']
   special.extend([f'<U{i}>' for i in range(51861 - len(tokens))])
   ranks = {token.encode(): i for i, token in enumerate(tokens)}
