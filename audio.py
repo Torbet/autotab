@@ -31,39 +31,39 @@ def load_audio(path: str):
 
 
 def process_audio_waveform(waveform: np.ndarray, segment_time_stamps: list) -> list:
-    """
-    Process a waveform into mel spectrogram segments.
-    
-    Args:
-        waveform: The full audio waveform as a numpy array.
-        segment_time_stamps: List of timestamps (in seconds) indicating segment boundaries.
-        
-    Returns:
-        A list of torch.Tensor objects, each representing a mel spectrogram.
-    """
-    # Optionally pad waveform so its length is a multiple of SAMPLES_PER_SEGMENT
-    remainder = waveform.shape[-1] % SAMPLES_PER_SEGMENT
-    if remainder:
-        waveform = np.pad(waveform, (0, SAMPLES_PER_SEGMENT - remainder))
-    
-    sample_indices = [int(t * SAMPLE_RATE) for t in segment_time_stamps]
-    sample_indices.append(len(waveform))
-    
-    segments = [waveform[sample_indices[i]:sample_indices[i+1]] for i in range(len(sample_indices)-1)]
-    
-    window = torch.hann_window(N_FFT)
-    filters = torch.from_numpy(librosa.filters.mel(sr=SAMPLE_RATE, n_fft=N_FFT, n_mels=N_MELS)).float()
-    
-    log_specs = []
-    for segment in segments:
-        waveform_tensor = torch.from_numpy(segment).float()
-        stft = torch.stft(waveform_tensor, N_FFT, HOP_LENGTH, window=window, return_complex=True)
-        magnitudes = stft[..., :-1].abs() ** 2
-        mel_spec = filters @ magnitudes
-        # Convert to log scale safely
-        log_spec = torch.clamp(mel_spec, min=1e-10).log10()
-        log_spec = torch.maximum(log_spec, log_spec.max() - 8.0)
-        log_spec = (log_spec + 4.0) / 4.0
-        log_specs.append(log_spec)
-    
-    return log_specs
+  """
+  Process a waveform into mel spectrogram segments.
+
+  Args:
+      waveform: The full audio waveform as a numpy array.
+      segment_time_stamps: List of timestamps (in seconds) indicating segment boundaries.
+
+  Returns:
+      A list of torch.Tensor objects, each representing a mel spectrogram.
+  """
+  # Optionally pad waveform so its length is a multiple of SAMPLES_PER_SEGMENT
+  remainder = waveform.shape[-1] % SAMPLES_PER_SEGMENT
+  if remainder:
+    waveform = np.pad(waveform, (0, SAMPLES_PER_SEGMENT - remainder))
+
+  sample_indices = [int(t * SAMPLE_RATE) for t in segment_time_stamps]
+  sample_indices.append(len(waveform))
+
+  segments = [waveform[sample_indices[i] : sample_indices[i + 1]] for i in range(len(sample_indices) - 1)]
+
+  window = torch.hann_window(N_FFT)
+  filters = torch.from_numpy(librosa.filters.mel(sr=SAMPLE_RATE, n_fft=N_FFT, n_mels=N_MELS)).float()
+
+  log_specs = []
+  for segment in segments:
+    waveform_tensor = torch.from_numpy(segment).float()
+    stft = torch.stft(waveform_tensor, N_FFT, HOP_LENGTH, window=window, return_complex=True)
+    magnitudes = stft[..., :-1].abs() ** 2
+    mel_spec = filters @ magnitudes
+    # Convert to log scale safely
+    log_spec = torch.clamp(mel_spec, min=1e-10).log10()
+    log_spec = torch.maximum(log_spec, log_spec.max() - 8.0)
+    log_spec = (log_spec + 4.0) / 4.0
+    log_specs.append(log_spec)
+
+  return log_specs
