@@ -3,6 +3,9 @@ import json
 
 
 def tokenizer(track):
+  # with open(track, 'r') as file:
+  #   track = json.load(file)
+
   tokens = []
   bars = track['measures']
 
@@ -18,30 +21,36 @@ def tokenizer(track):
 
       else:
         note_tokens = []
-        for note in notes:
-          fret = note.get('fret', None)
-          string = note.get('string', None)
-          tie = note.get('tie', None)
-          bend = note.get('bend', None)
-          hp = note.get('hp', None)
+        for note in range(len(notes)):
+          fret = notes[note].get('fret', None)
+          string = notes[note].get('string', None)
+          tie = notes[note].get('tie', None)
+          bend = notes[note].get('bend', None)
+          hp = notes[note].get('hp', None)
           if fret is not None and string is not None and duration:
             fret_str = f'F{fret}'
-            str_str = f'S{string}'
+            str_str = f'S{string+1}'
+            note_tokens.append(f'<{str_str}><{fret_str}>')
             if tie is not None:
-              note_tokens.append(f'<{str_str}><{fret_str}><Ti>')
+              note_tokens.append('<TI>')
             if bend is not None:
               bendPoints = ''
               points = bend['points']
               for p in points:
                 pos = p.get('position', None)
                 tone = p.get('tone', None)
-                bendPoints += f'<P{pos}><Tn{tone}>'
-              note_tokens.append(f'<{str_str}><{fret_str}><B>' + bendPoints)
-              # if hp is not None:
-              # if hammer
-              # if pull
-            else:
-              note_tokens.append(f'<{str_str}><{fret_str}>')
+                bendPoints += f'<P{pos}><TN{tone}>'
+              note_tokens.append('<B>' + bendPoints)
+            if hp is not None:
+              if fret < bars[i+1]['voices'][0]['beats'][0]['notes'][note]['fret']:
+                note_tokens.append('<H>')
+              else:
+                note_tokens.append('<P>')
+              # if notes[note + 1] > notes[note]:
+              #     note_tokens.append('<H>') #hammer (low to high)
+              # else:
+              #     note_tokens.append('<P>') #pull (high to low)
+              #note_tokens.append('<HP>')
 
         if note_tokens and duration:
           dur = f'T{duration}'
@@ -52,7 +61,7 @@ def tokenizer(track):
           if beat.get('upStroke', False):
             combined_note_token += '<US>'
           if beat.get('slide', False):
-            combined_note_token += f'<Sl-{beat["slide"]}>'
+            combined_note_token += f'<SL{beat["slide"]}>'
 
           tokens.append((i + 1, combined_note_token))
 
@@ -64,7 +73,7 @@ def encoder():
   tokens.extend([f'<S{i}>' for i in range(1, 7)])
   tokens.extend([f'<F{i}>' for i in range(1, 25)])
   tokens.extend([f'<T{2**i}>' for i in range(6)])
-  tokens.extend(['<H>', '<P>', '<S>', '<B>'])  # hammer on, pull off, slide, bend
+  tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<US>', '<LR>', '<TI>', '<TN>'])  # hammer on, pull off, slide, bend
   special = ['<|endoftext|>', '<|startoftab|>', '<|endoftab|>']
   special.extend([f'<U{i}>' for i in range(51861 - len(tokens))])
   ranks = {token.encode(): i for i, token in enumerate(tokens)}
@@ -116,15 +125,21 @@ def validate_tokens_in_vocab(enc, tokens):
 
   return list(unknown_tokens)
 
+#path = 'data/tabs_jsons/1100_2.json'
 
-path = 'data/tabs_jsons/1100_2.json'
+path = 'data/tabs_jsons/Superman_1.json'
 
 with open(path, 'r') as file:
-  tab_dict = json.load(file)
+    tab_dict = json.load(file)
+
 tokens = tokenizer(tab_dict)
-tokens = [token for i, token in tokens]
-print(len(tokens))
-enc = encoder()
-validate_tokens_in_vocab(enc, tokens)
+for t in tokens:
+  print(t)
+
+# tokens = tokenizer(tab_dict)
+# tokens = [token for i, token, in tokens]
+# print(len(tokens))
+# enc = encoder()
+# validate_tokens_in_vocab(enc, tokens)
 # for t in token:
 #   print(t)
