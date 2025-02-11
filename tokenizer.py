@@ -21,6 +21,8 @@ def tokenizer(track):
 
       else:
         note_tokens = []
+        if len(notes) > 1:
+          note_tokens.append('<C')
         for note in range(len(notes)):
           fret = notes[note].get('fret', None)
           string = notes[note].get('string', None)
@@ -58,8 +60,10 @@ def tokenizer(track):
             combined_note_token += '<US>'
           if beat.get('slide', False):
             combined_note_token += f'<SL{beat["slide"]}>'
+          if len(notes) > 1:
+            combined_note_token += '>'
 
-          tokens.append((i + 1, combined_note_token))
+          tokens.append((i + 1, combined_note_token))          
 
   return tokens
 
@@ -125,15 +129,15 @@ def validate_tokens_in_vocab(enc, tokens):
 
 #path = 'data/tabs_jsons/1100_2.json'
 
-path = 'data/tabs_jsons/1100_2.json'
+path = 'data/tabs_jsons/Superman_1.json'
 
 with open(path, 'r') as file:
     tab_dict = json.load(file)
 
 tokens = tokenizer(tab_dict)
-tokens = [token for i, token, in tokens]
-print(len(tokens))
-enc = encoder()
-validate_tokens_in_vocab(enc, tokens)
-# for t in token:
-#   print(t)
+#tokens = [token for i, token, in tokens]
+#print(len(tokens))
+#enc = encoder()
+#validate_tokens_in_vocab(enc, tokens)
+for t in tokens:
+  print(t)
