@@ -1,7 +1,3 @@
-import math
-import tiktoken
-from typing import List, Set
-
 import os
 import requests
 from bs4 import BeautifulSoup
@@ -9,7 +5,6 @@ import json
 import re
 import csv
 import yt_dlp
-import tempfile
 import io
 import ffmpeg
 import soundfile as sf
@@ -63,16 +58,15 @@ class SongsterrScraper:
       self.scraped_song_ids_set = set()
 
     # make a file to store data on each track
-    self.done_ids_path = os.path.join(self.data_dir, 'done_songs.csv')
+    self.done_ids_path = os.path.join(self.data_dir, 'done_songs.txt')
     # If it doesn't exist write the header
     if not os.path.exists(self.done_ids_path):
       with open(self.done_ids_path, 'w') as file:
         pass
       self.done_ids = set()
     else:
-      with open(self.done_ids_path, 'r', newline='', encoding='utf-8') as csvfile:
-        reader = csv.reader(csvfile)
-        self.done_ids = set(row[0] for row in reader)
+      with open(self.done_ids_path, 'r') as file:
+        self.done_ids = set([int(line.strip()) for line in file])
 
     self.model_data_path = os.path.join(self.data_dir, 'model_data.npz')
 
@@ -177,45 +171,10 @@ class SongsterrScraper:
       return None
     return response.json()
 
-  def download_temp_audio(self, video_id):
-    """Download YouTube audio as an MP3 file."""
-    fd, tmp_path = tempfile.mkstemp(suffix='.mp3')
-    os.close(fd)  # Close the file descriptor; yt_dlp will create and write to this file.
-
-    ydl_opts = {
-      'format': 'bestaudio/best',
-      'outtmpl': tmp_path,
-      'postprocessors': [
-        {
-          'key': 'FFmpegExtractAudio',
-          'preferredcodec': 'mp3',
-          'preferredquality': '192',
-        }
-      ],
-      'quiet': True,
-      'no_warnings': True,
-    }
-
-    try:
-      with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        url = f'https://www.youtube.com/watch?v={video_id}'
-        ydl.download([url])
-      print(f'Downloaded mp3 from {url}')
-      return tmp_path
-    except Exception:
-      return None
-
   def download_audio_stream(self, video_id: str) -> np.ndarray:
-    """
-    Extracts the best audio URL from YouTube and uses ffmpeg to stream audio as PCM-wav.
-
-    Returns:
-        A numpy array containing the audio waveform.
-    """
     SAMPLE_RATE = 16000
     video_url = f'https://www.youtube.com/watch?v={video_id}'
 
-    # Configure yt-dlp to extract only audio formats
     ydl_opts = {
       'quiet': True,
       'format': 'bestaudio',  # Select best audio-only format
@@ -223,22 +182,15 @@ class SongsterrScraper:
       'format_sort': ['abr'],  # Sort by audio bitrate
     }
 
-    # Extract video info and find the best audio format
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
       info = ydl.extract_info(video_url, download=False)
-
-      # Get the URL from the selected format
       if 'url' in info:
         audio_url = info['url']
       elif 'formats' in info and len(info['formats']) > 0:
-        # If direct URL not available, get it from the best format
         audio_url = info['formats'][0]['url']
       else:
         raise ValueError('Could not extract audio URL from any available format')
-
-    # Use ffmpeg to read the audio URL and output raw PCM data in WAV format
     try:
-      # Add user_agent and headers to avoid potential 403 errors
       out, _ = (
         ffmpeg.input(
           audio_url,
@@ -304,18 +256,17 @@ class SongsterrScraper:
     return encoded_segments
 
   def get_model_data(self):
-    MAX_TOKEN_SEG_LEN = 100
+    MAX_TOKEN_SEG_LEN = 1000
     enc = encoder()
     # for each song
     i = 0
     tabs = []
     audio = []
     seg_lens = []
-    with open(self.done_ids_path, 'a', newline='') as file:
-      writer = csv.writer(file)
-
-      for song_id, track_hash, vid_api_url, tab_api_url in self.song_api_urls:
-        if song_id in self.done_ids:
+    for song_id, track_hash, vid_api_url, tab_api_url in self.song_api_urls:
+      try:
+        if int(song_id) in self.done_ids:
+          print("Skipping... already scraped")
           continue
         i += 1
         print(f'\nSong ID: {song_id}')
@@ -338,47 +289,38 @@ class SongsterrScraper:
         bar_tokens = [t for _, t in tokens]
 
         segment_bar_indexes, segment_audio_times = self.get_segment_points(points)
-        
         segment_bar_indexes = list(segment_bar_indexes) + [len(bar_tokens)-1]
-        try:
-          waveform = self.download_audio_stream(video_id)
-        except Exception as e:
-          print(f'Error downloading audio: {e}')
-          continue
-        else:
-          spectrogram_segments = process_audio_waveform(waveform, segment_audio_times)
+        waveform = self.download_audio_stream(video_id)
+        spectrogram_segments = process_audio_waveform(waveform, segment_audio_times)
 
         token_segments = [
           [bar_tokens[j] for j in range(segment_bar_indexes[i], segment_bar_indexes[i+1])]
           for i in range(len(segment_bar_indexes) - 1)
         ]
 
-        self.done_ids.add(song_id)
-        if len(token_segments) != len(spectrogram_segments):
-          print(f'Incompatible segments: token segments: {len(token_segments)}, audio_segments: {len(spectrogram_segments)}')
-          continue
-
         encoded_segments = self.encode_token_segments(enc, token_segments)
 
         seg_lens += [len(seg) for seg in encoded_segments]
         print("Cumulative mean token segment length:", np.mean(seg_lens))
 
-        print("Number of segments: ", len(token_segments))
+        print("Number of segments in song: ", len(token_segments))
+
         for tab, aud in zip(encoded_segments, spectrogram_segments):
           if len(tab)< MAX_TOKEN_SEG_LEN:
-            print(tab)
             tabs.append(np.pad(tab, (0, MAX_TOKEN_SEG_LEN - len(tab)), 'constant'))
             audio.append(aud)
         
-        print("tabs.shape: ", tabs.shape)
-        print("audio.shape: ", audio.shape)
-
+        print("tabs.shape: ", np.array(tabs).shape)
+        print("audio.shape: ", np.array(audio).shape)
 
         if i % 10 == 0:
           np.savez_compressed(self.model_data_path, tabs=tabs, audio=audio)
           print(f"Saved {len(tabs)} tabs and audio to file")
 
-        writer.writerow(song_id)
-      np.savez_compressed(self.model_data_path, tabs=tabs, audio=audio)
+      except Exception as e:
+        print(f"Failed: {e}")
+      with open(self.done_ids_path, 'a', encoding='utf-8') as file:
+        file.write(song_id + '\n')
+    np.savez_compressed(self.model_data_path, tabs=tabs, audio=audio)
 
   

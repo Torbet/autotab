@@ -71,7 +71,7 @@ def tokenizer(track):
             combined_note_token += '</C>'
 
           tokens.append((i + 1, combined_note_token))          
-          tokens.append((i + 1, '<|space|>'))          
+          # tokens.append((i + 1, '<|space|>'))          
           
   return tokens
 
