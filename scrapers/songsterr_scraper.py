@@ -1,3 +1,4 @@
+import math
 import tiktoken
 from typing import List, Set
 
@@ -279,43 +280,37 @@ class SongsterrScraper:
 
   def get_segment_points(self, points):
     points = [p for p in points if p >= 0]
-    segments = [(i, t) for i, t in enumerate(points) if t >= (t // 30) * 30 and (i == 0 or t >= ((points[i - 1] // 30) + 1) * 30)]
-    return zip(*segments)
+    segs = list(range(1, (int(points[-1]) // 30)+1))
+    segs.append(999999)
+    bar_indexes = []
+    timestamps = []
+    j = 0
+    for i, t in enumerate(points):
+      if t >= 30 * segs[j]:
+        bar_indexes.append(i-2)
+        timestamps.append(points[i-2])
+        j+=1
+    return bar_indexes, timestamps
 
   def encode_token_segments(self, enc, token_segments):
-    unknown_tokens = self.validate_tokens_in_vocab(enc, token_segments)
-
-    if unknown_tokens:
-      raise ValueError(
-        f'Found {len(unknown_tokens)} tokens not in vocabulary.\n'
-        f'First few unknown tokens: {unknown_tokens[:10]}\n'
-        'Please check your tokenization process.'
-      )
-    else:
-      print("No unknown tokens")
     encoded_segments = []
 
     for i, tokens in enumerate(token_segments):
-      # Validate input
-      if not tokens:
-        print(f'Warning: Empty token list at index {i}')
-        continue
-
-      # Join with space and encode
       encoded_tokens = []
       for t in tokens:
-        encoded_tokens.append(t)
+        encoded_tokens += enc.encode(t)
       encoded_segments.append(encoded_tokens)
 
     return encoded_segments
 
   def get_model_data(self):
+    MAX_TOKEN_SEG_LEN = 100
     enc = encoder()
-    max_seg_lengths = []
-    min_seg_lengths = []
     # for each song
     i = 0
-    data_pairs = []
+    tabs = []
+    audio = []
+    seg_lens = []
     with open(self.done_ids_path, 'a', newline='') as file:
       writer = csv.writer(file)
 
@@ -343,6 +338,7 @@ class SongsterrScraper:
         bar_tokens = [t for _, t in tokens]
 
         segment_bar_indexes, segment_audio_times = self.get_segment_points(points)
+        
         segment_bar_indexes = list(segment_bar_indexes) + [len(bar_tokens)-1]
         try:
           waveform = self.download_audio_stream(video_id)
@@ -364,60 +360,25 @@ class SongsterrScraper:
 
         encoded_segments = self.encode_token_segments(enc, token_segments)
 
-        print("Max encoded segemnt len: ", max(max_seg_lengths + [len(seg) for seg in encoded_segments]))
+        seg_lens += [len(seg) for seg in encoded_segments]
+        print("Cumulative mean token segment length:", np.mean(seg_lens))
+
         print("Number of segments: ", len(token_segments))
+        for tab, aud in zip(encoded_segments, spectrogram_segments):
+          if len(tab)< MAX_TOKEN_SEG_LEN:
+            print(tab)
+            tabs.append(np.pad(tab, (0, MAX_TOKEN_SEG_LEN - len(tab)), 'constant'))
+            audio.append(aud)
+        
+        print("tabs.shape: ", tabs.shape)
+        print("audio.shape: ", audio.shape)
 
 
-        # encoded_segments = [enc.encode(' '.join(tokens)) for tokens in token_segments]
-        data_pairs += zip(encoded_segments, spectrogram_segments)
-
-        if i % 1000 == 0:
-          np.savex(self.model_data_path, data_pairs)
+        if i % 10 == 0:
+          np.savez_compressed(self.model_data_path, tabs=tabs, audio=audio)
+          print(f"Saved {len(tabs)} tabs and audio to file")
 
         writer.writerow(song_id)
-      np.savex(self.model_data_path, data_pairs)
+      np.savez_compressed(self.model_data_path, tabs=tabs, audio=audio)
 
-  def validate_tokens_in_vocab(self, enc: tiktoken.Encoding, token_segments: List[List[str]]) -> List[str]:
-    unknown_tokens = set()
-    print("VALIDATING TOKENS")
-
-    # Get the full vocabulary for checking
-    try:
-      # Try to get the vocabulary directly if available
-      vocab = set(enc.decode(list(range(enc.n_vocab))).split())
-    except:
-      # Fallback: reconstruct vocabulary from the encoder's internal state
-      vocab = set()
-      for token_bytes, _ in enc._mergeable_ranks.items():
-        try:
-          vocab.add(token_bytes.decode())
-        except:
-          continue
-      vocab.update(enc._special_tokens.keys())
-
-    # Check each token
-    for i, tokens in enumerate(token_segments):
-      for token in tokens:
-        if not token:
-          continue
-
-        token_str = str(token).strip()
-        if not token_str:
-          continue
-
-        try:
-          # Try to encode the single token
-          encoded = enc.encode(token_str)
-          # Verify the token decodes back to itself
-          decoded = enc.decode(encoded)
-          if decoded.strip() != token_str:
-            unknown_tokens.add(token_str)
-        except:
-          unknown_tokens.add(token_str)
-
-    if unknown_tokens:
-      print(f'Found {len(unknown_tokens)} tokens not in vocabulary:')
-      for token in sorted(unknown_tokens):
-        print(f"  - '{token}'")
-
-    return list(unknown_tokens)
+  

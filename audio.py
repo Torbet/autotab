@@ -31,25 +31,13 @@ def load_audio(path: str):
 
 
 def process_audio_waveform(waveform: np.ndarray, segment_time_stamps: list) -> list:
-  """
-  Process a waveform into mel spectrogram segments.
+  sample_slice_indices = [int(t * SAMPLE_RATE) for t in segment_time_stamps]
+  sample_slice_indices.insert(0, 0)
+  segments = []
+  for i in range(0,len(segment_time_stamps)):
+    segments.append(waveform[sample_slice_indices[i]:sample_slice_indices[i] + (30 * SAMPLE_RATE)])
+  segments = [np.pad(seg, (0, SAMPLES_PER_SEGMENT - len(seg)), 'constant') for seg in segments]
 
-  Args:
-      waveform: The full audio waveform as a numpy array.
-      segment_time_stamps: List of timestamps (in seconds) indicating segment boundaries.
-
-  Returns:
-      A list of torch.Tensor objects, each representing a mel spectrogram.
-  """
-  # Optionally pad waveform so its length is a multiple of SAMPLES_PER_SEGMENT
-  remainder = waveform.shape[-1] % SAMPLES_PER_SEGMENT
-  if remainder:
-    waveform = np.pad(waveform, (0, SAMPLES_PER_SEGMENT - remainder))
-
-  sample_indices = [int(t * SAMPLE_RATE) for t in segment_time_stamps]
-  sample_indices.append(len(waveform))
-
-  segments = [waveform[sample_indices[i] : sample_indices[i + 1]] for i in range(len(sample_indices) - 1)]
 
   window = torch.hann_window(N_FFT)
   filters = torch.from_numpy(librosa.filters.mel(sr=SAMPLE_RATE, n_fft=N_FFT, n_mels=N_MELS)).float()
