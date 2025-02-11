@@ -283,17 +283,6 @@ class SongsterrScraper:
     return zip(*segments)
 
   def encode_token_segments(self, enc, token_segments):
-    """
-    Safely encode token segments with comprehensive error handling and validation.
-
-    Args:
-        enc: The encoder object
-        token_segments: List of token lists to encode
-
-    Returns:
-        List of encoded segments
-    """
-    print(token_segments[0])
     unknown_tokens = self.validate_tokens_in_vocab(enc, token_segments)
 
     if unknown_tokens:
@@ -302,62 +291,39 @@ class SongsterrScraper:
         f'First few unknown tokens: {unknown_tokens[:10]}\n'
         'Please check your tokenization process.'
       )
+    else:
+      print("No unknown tokens")
     encoded_segments = []
 
     for i, tokens in enumerate(token_segments):
-      try:
-        # Validate input
-        if not tokens:
-          print(f'Warning: Empty token list at index {i}')
-          continue
+      # Validate input
+      if not tokens:
+        print(f'Warning: Empty token list at index {i}')
+        continue
 
-        # Ensure all tokens are strings
-        tokens = [str(t) for t in tokens]
-
-        # Remove any empty or None tokens
-        tokens = [t for t in tokens if t and t.strip()]
-
-        if not tokens:
-          print(f'Warning: All tokens were empty at index {i}')
-          continue
-
-        # Join with space and encode
-        text = ' '.join(tokens)
-        print(text)
-
-        try:
-          encoded = enc.encode(text)
-          encoded_segments.append(encoded)
-        except Exception as e:
-          print(f'Encoding error at index {i}')
-          print(f'Text being encoded: {repr(text)}')
-          print(f'Tokens: {repr(tokens)}')
-          print(f'Error: {str(e)}')
-          raise
-
-      except Exception as e:
-        print(f'Unexpected error at index {i}')
-        print(f'Token segment: {repr(tokens)}')
-        print(f'Error type: {type(e).__name__}')
-        print(f'Error: {str(e)}')
-
-        # Re-raise with more context
-        raise type(e)(f'Error processing segment {i}: {str(e)}') from e
+      # Join with space and encode
+      encoded_tokens = []
+      for t in tokens:
+        encoded_tokens.append(t)
+      encoded_segments.append(encoded_tokens)
 
     return encoded_segments
 
   def get_model_data(self):
     enc = encoder()
+    max_seg_lengths = []
+    min_seg_lengths = []
     # for each song
     i = 0
     data_pairs = []
     with open(self.done_ids_path, 'a', newline='') as file:
       writer = csv.writer(file)
+
       for song_id, track_hash, vid_api_url, tab_api_url in self.song_api_urls:
         if song_id in self.done_ids:
           continue
         i += 1
-        print(f'\n{song_id}')
+        print(f'\nSong ID: {song_id}')
 
         video_dicts = self.get_json(vid_api_url)
 
@@ -374,10 +340,10 @@ class SongsterrScraper:
           continue
 
         tokens = tokenizer(tab_dict)
-        bar_tokens = {i: t for i, t in tokens}
+        bar_tokens = [t for _, t in tokens]
 
-        segment_tab_indexes, segment_audio_times = self.get_segment_points(points)
-
+        segment_bar_indexes, segment_audio_times = self.get_segment_points(points)
+        segment_bar_indexes = list(segment_bar_indexes) + [len(bar_tokens)-1]
         try:
           waveform = self.download_audio_stream(video_id)
         except Exception as e:
@@ -385,33 +351,22 @@ class SongsterrScraper:
           continue
         else:
           spectrogram_segments = process_audio_waveform(waveform, segment_audio_times)
-        print('Generated', len(spectrogram_segments), 'spectrogram segments')
 
-        segment_tab_indexes = list(segment_tab_indexes) + [len(bar_tokens)]
-        segment_tab_indexes[0] = 1
-        try:
-          token_segments = [
-            [bar_tokens[j + 1] for j in range(segment_tab_indexes[i], segment_tab_indexes[i + 1])] for i in range(len(segment_tab_indexes) - 1)
-          ]
-        except Exception as e:
-          print(f'Invalid tab index: {e}')
-          print(segment_tab_indexes)
-          print(bar_tokens.keys())
-          continue
+        token_segments = [
+          [bar_tokens[j] for j in range(segment_bar_indexes[i], segment_bar_indexes[i+1])]
+          for i in range(len(segment_bar_indexes) - 1)
+        ]
 
         self.done_ids.add(song_id)
-        writer.writerow(song_id)
         if len(token_segments) != len(spectrogram_segments):
           print(f'Incompatible segments: token segments: {len(token_segments)}, audio_segments: {len(spectrogram_segments)}')
           continue
 
-        # get the encoded tab data
-        try:
-          encoded_segments = self.encode_token_segments(enc, token_segments)
-        except Exception as e:
-          print('Failed to encode segments:')
-          print(f'Error type: {type(e).__name__}')
-          print(f'Error message: {str(e)}')
+        encoded_segments = self.encode_token_segments(enc, token_segments)
+
+        print("Max encoded segemnt len: ", max(max_seg_lengths + [len(seg) for seg in encoded_segments]))
+        print("Number of segments: ", len(token_segments))
+
 
         # encoded_segments = [enc.encode(' '.join(tokens)) for tokens in token_segments]
         data_pairs += zip(encoded_segments, spectrogram_segments)
@@ -419,21 +374,12 @@ class SongsterrScraper:
         if i % 1000 == 0:
           np.savex(self.model_data_path, data_pairs)
 
+        writer.writerow(song_id)
       np.savex(self.model_data_path, data_pairs)
 
   def validate_tokens_in_vocab(self, enc: tiktoken.Encoding, token_segments: List[List[str]]) -> List[str]:
-    """
-    Check if all tokens are in the encoder's vocabulary.
-    Returns a list of unknown tokens if any are found.
-
-    Args:
-        enc: The tiktoken encoder
-        token_segments: List of token lists to validate
-
-    Returns:
-        List of tokens not found in vocabulary
-    """
     unknown_tokens = set()
+    print("VALIDATING TOKENS")
 
     # Get the full vocabulary for checking
     try:

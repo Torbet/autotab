@@ -28,24 +28,20 @@ def tokenizer(track):
           bend = notes[note].get('bend', None)
           hp = notes[note].get('hp', None)
           if fret is not None and string is not None and duration:
-            fret_str = f'F{fret}'
+            fret_str = f'F{fret+1}'
             str_str = f'S{string+1}'
             note_tokens.append(f'<{str_str}><{fret_str}>')
             if tie is not None:
               note_tokens.append('<TI>')
             if bend is not None:
-              bendPoints = ''
-              points = bend['points']
-              for p in points:
-                pos = p.get('position', None)
-                tone = p.get('tone', None)
-                bendPoints += f'<PNT{pos}><TN{tone}>'
-              note_tokens.append('<B>' + bendPoints)
+              note_tokens.append('<B>')
             if hp is not None:
-              if fret < bars[i+1]['voices'][0]['beats'][0]['notes'][note]['fret']:
+              next_note = bars[i+1]['voices'][0]['beats'][0]['notes'][note]
+              if 'fret' in next_note and fret < next_note['fret']:
                 note_tokens.append('<H>')
               else:
                 note_tokens.append('<P>')
+                
               # if notes[note + 1] > notes[note]:
               #     note_tokens.append('<H>') #hammer (low to high)
               # else:
@@ -72,8 +68,10 @@ def encoder():
   tokens = []
   tokens.extend([f'<S{i}>' for i in range(1, 7)])
   tokens.extend([f'<F{i}>' for i in range(1, 25)])
-  tokens.extend([f'<T{2**i}>' for i in range(6)])
-  tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<US>', '<LR>', '<TI>', '<TN>', '<PNT>'])  # hammer on, pull off, slide, bend, upstroke, let ring, tie, tone, point
+  # tokens.extend([f'<P{i}>' for i in range(0, 100)]) # bend point position
+  # tokens.extend([f'<TN{i}>' for i in range(0, 100)]) # bend point tone
+  tokens.extend([f'<T[{i}, {j}]>' for i in range(1,65) for j in range(1,65) if i <= j])
+  tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<US>', '<LR>', '<TI>', '<TN>', '<R>'])  # hammer on, pull off, slide, bend
   special = ['<|endoftext|>', '<|startoftab|>', '<|endoftab|>']
   special.extend([f'<U{i}>' for i in range(51861 - len(tokens))])
   ranks = {token.encode(): i for i, token in enumerate(tokens)}
@@ -127,19 +125,15 @@ def validate_tokens_in_vocab(enc, tokens):
 
 #path = 'data/tabs_jsons/1100_2.json'
 
-path = 'data/tabs_jsons/Superman_1.json'
+path = 'data/tabs_jsons/1100_2.json'
 
 with open(path, 'r') as file:
     tab_dict = json.load(file)
 
 tokens = tokenizer(tab_dict)
-for t in tokens:
-  print(t)
-
-# tokens = tokenizer(tab_dict)
-# tokens = [token for i, token, in tokens]
-# print(len(tokens))
-# enc = encoder()
-# validate_tokens_in_vocab(enc, tokens)
+tokens = [token for i, token, in tokens]
+print(len(tokens))
+enc = encoder()
+validate_tokens_in_vocab(enc, tokens)
 # for t in token:
 #   print(t)
