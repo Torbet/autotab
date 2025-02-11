@@ -39,7 +39,7 @@ def tokenizer(track):
               for p in points:
                 pos = p.get('position', None)
                 tone = p.get('tone', None)
-                bendPoints += f'<P{pos}><TN{tone}>'
+                bendPoints += f'<PNT{pos}><TN{tone}>'
               note_tokens.append('<B>' + bendPoints)
             if hp is not None:
               if fret < bars[i+1]['voices'][0]['beats'][0]['notes'][note]['fret']:
@@ -73,7 +73,7 @@ def encoder():
   tokens.extend([f'<S{i}>' for i in range(1, 7)])
   tokens.extend([f'<F{i}>' for i in range(1, 25)])
   tokens.extend([f'<T{2**i}>' for i in range(6)])
-  tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<US>', '<LR>', '<TI>', '<TN>'])  # hammer on, pull off, slide, bend
+  tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<US>', '<LR>', '<TI>', '<TN>', '<PNT>'])  # hammer on, pull off, slide, bend, upstroke, let ring, tie, tone, point
   special = ['<|endoftext|>', '<|startoftab|>', '<|endoftab|>']
   special.extend([f'<U{i}>' for i in range(51861 - len(tokens))])
   ranks = {token.encode(): i for i, token in enumerate(tokens)}
