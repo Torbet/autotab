@@ -135,7 +135,7 @@ def validate_tokens_in_vocab(enc, tokens):
 
 #path = 'data/tabs_jsons/1100_2.json'
 
-path = 'data/tabs_jsons/Superman_1.json'
+path = 'data/songsterr-data/Superman_0.json'
 
 with open(path, 'r') as file:
     tab_dict = json.load(file)
