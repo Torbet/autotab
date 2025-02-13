@@ -9,15 +9,11 @@ import requests
 import yt_dlp
 import ffmpeg
 import soundfile as sf
-from audio import process_audio_waveform
+from audio import process_audio_waveform, SAMPLE_RATE
 from tokenizer import tokenizer, encoder
-from scrapers.utils import load_scraped_song_ids  # Assumes this returns a set of IDs
+
 
 def get_last_batch_number(model_data_path_prefix: str) -> int:
-    """
-    Check for existing batch files and return the highest batch number.
-    Assumes batch files are named like f"{model_data_path_prefix}_batch_{number}.npz".
-    """
     batch_files = glob.glob(f"{model_data_path_prefix}_batch_*.npz")
     batch_numbers = []
     for file in batch_files:
@@ -27,7 +23,6 @@ def get_last_batch_number(model_data_path_prefix: str) -> int:
     return max(batch_numbers) if batch_numbers else 0
 
 def get_json(url: str, session: requests.Session) -> dict:
-    """Download JSON data from a given URL."""
     response = session.get(url)
     response.raise_for_status()
     try:
@@ -36,11 +31,6 @@ def get_json(url: str, session: requests.Session) -> dict:
         raise RuntimeError(f"Error decoding JSON from {url}: {e}") from e
 
 def get_default_video(video_dicts: list, track_hash: str):
-    """
-    From a list of video dictionaries, return the default video (its ID and timing points).
-    First, choose the first video whose 'feature' is not 'alternative'. Then, if a track hash is provided,
-    search for a video that includes that track hash in its 'tracks'.
-    """
     default_video, default_points = next(
         ((video.get('videoId'), video.get('points')) 
          for video in video_dicts if video.get('feature') != 'alternative'),
@@ -56,22 +46,35 @@ def get_default_video(video_dicts: list, track_hash: str):
 
 def get_segment_points(points: list):
     """
-    Given a list of timing points, determine segmentation points.
+    Given a list of timing points, determine segmentation points such that each segment is <30s.
     Returns a tuple of (bar_indexes, timestamps) indicating token segmentation indices and corresponding audio timestamps.
     """
+    # Only keep non-negative timing points.
     points = [p for p in points if p >= 0]
-    segs = list(range(1, (int(points[-1]) // 30) + 1))
-    segs.append(999999)
-    bar_indexes = []
+    if not points:
+        return [], []
+    
     timestamps = []
-    j = 0
-    for i, t in enumerate(points):
-        if t >= 30 * segs[j]:
-            # Use the token two positions before the threshold
-            bar_indexes.append(i - 2)
-            timestamps.append(points[i - 2])
-            j += 1
+    bar_indexes = []
+    # Start the first segment with the first timing point.
+    seg_start = points[0]
+    seg_end = seg_start + 30  # The upper bound (non-inclusive) for the current segment.
+    
+    # Iterate through the remaining points.
+    for i, p in enumerate(points[1:]):
+        i+=1
+        # If the point is within the current segment duration, add it.
+        if p < seg_end:
+            continue
+        else:
+            # Otherwise, finish the current segment and start a new one with the current point.
+            timestamps.append(points[i-2]) 
+            bar_indexes.append(i-2)
+            seg_start = points[i-1]
+            seg_end = seg_start + 30
+    
     return bar_indexes, timestamps
+
 
 def encode_token_segments(enc, token_segments: list) -> list:
     """Encode each token segment using the given encoder."""
@@ -84,12 +87,6 @@ def encode_token_segments(enc, token_segments: list) -> list:
     return encoded_segments
 
 def download_audio_stream(video_id: str) -> np.ndarray:
-    """
-    Download and process the audio stream from a YouTube video into a waveform.
-    Uses yt_dlp to extract the audio URL, then ffmpeg to convert it to WAV format,
-    and finally soundfile to read it into a numpy array.
-    """
-    SAMPLE_RATE = 16000
     video_url = f'https://www.youtube.com/watch?v={video_id}'
     ydl_opts = {
         'quiet': True,
@@ -141,9 +138,8 @@ def raise_unknown_tokens(enc, bar_tokens, vocab):
     tokens_set = {t for token in bar_tokens for t in re.findall(pattern, str(token).strip())}
     unknown_tokens = tokens_set - vocab
     if unknown_tokens:
-        raise Exception(f"""Found {len(unknown_tokens)} tokens not in vocabulary:"
-        {"\n".join(f"  - {token}" for token in sorted(unknown_tokens))}
-        """)
+        raise Exception(f"Found {len(unknown_tokens)} tokens not in vocabulary:\n" + \
+"\n".join(f"  - {token}" for token in sorted(unknown_tokens)))
 
 def chunker(seq, size):
     """Yield successive chunks of size 'size' from the sequence 'seq'."""
@@ -161,6 +157,22 @@ def write_checkpoint(index, checkpoint_file):
     with open(checkpoint_file, 'w', encoding='utf-8') as f:
         f.write(str(index))
 
+def get_bar_dict(tokens):
+    """
+    Convert tokens of form [(bar, tokA),(bar, tokB)...] into dict {bar: [tokA, tokB]...a}
+    """
+    bar_dict = {}
+    for bar_num, bar_tokens in tokens:
+        # zero index bars
+        bar_num-=1
+        if bar_num in bar_dict:
+            bar_dict[bar_num].append(bar_tokens)
+        else:
+            bar_dict[bar_num] = [bar_tokens]
+    return bar_dict
+
+
+
 def get_model_data(
     song_meta_data: list,
     checkpoint_file: str,
@@ -169,17 +181,6 @@ def get_model_data(
     max_token_seg_len: int = 1000,
     batch_size: int = 10
 ) -> None:
-    """
-    Process and generate model data for each song (from a list of API endpoints),
-    batching results to keep memory usage low.
-
-    Each element in song_meta_data should be a list or tuple of:
-        [song_id, track_hash, vid_api_url, tab_api_url]
-
-    Processed data for each batch is saved as a compressed npz file with a filename
-    that includes the batch number. This function logs exceptions with full context and
-    skips songs that fail processing.
-    """
     enc = encoder()
     vocab = get_vocab(enc)
     checkpoint_index = read_checkpoint(checkpoint_file) 
@@ -225,36 +226,47 @@ def get_model_data(
                         raise RuntimeError(f"No tab data returned for song {song_id}")
 
                     tokens = tokenizer(tab_dict)
-                    bar_tokens = [t for _, t in tokens]
+                    tokens_list = [t for _, t in tokens]
 
                     # Check if tokens are in vocab
-                    raise_unknown_tokens(enc, bar_tokens, vocab)
+                    raise_unknown_tokens(enc, tokens_list, vocab)
 
-                    segment_bar_indexes, segment_audio_times = get_segment_points(points)
+                    bar_dict = get_bar_dict(tokens)
+
+                    bar_slice_indices, timestamps = get_segment_points(points)
+
                     # Append the final index for token segmentation
-                    segment_bar_indexes = list(segment_bar_indexes) + [len(bar_tokens) - 1]
+                    num_bars = len(points)
+                    bar_slice_indices.append(num_bars)
 
-                    waveform = download_audio_stream(video_id)
-                    spectrogram_segments = process_audio_waveform(waveform, segment_audio_times)
+                    # Build token segments based on bar slice indexes
+                    token_segments = []
+                    start_bar = 0
+                    for end_bar in bar_slice_indices:
+                        segment_tokens = [token for bar in range(start_bar, end_bar + 1) for token in bar_dict.get(bar, [])]
+                        token_segments.append(segment_tokens)
+                        start_bar = end_bar + 1
 
-                    # Build token segments based on bar indexes
-                    token_segments = [
-                        [bar_tokens[j] for j in range(segment_bar_indexes[k], segment_bar_indexes[k + 1])]
-                        for k in range(len(segment_bar_indexes) - 1)
-                    ]
                     encoded_segments = encode_token_segments(enc, token_segments)
                     seg_lens.extend(len(seg) for seg in encoded_segments)
                     batch_pbar.write("Cumulative mean token segment length: " + str(np.mean(seg_lens)))
                     batch_pbar.write("Number of segments in song: " + str(len(token_segments)))
 
-                    # Pad token segments if necessary and collect audio segments
-                    for tab_seg, aud_seg in zip(encoded_segments, spectrogram_segments):
-                        if len(tab_seg) < max_token_seg_len:
-                            num_valid_segments += 1
-                            padded = np.pad(tab_seg, (0, max_token_seg_len - len(tab_seg)), 'constant')
-                            batch_tabs.append(padded)
-                            batch_audio.append(aud_seg)
+                    waveform = download_audio_stream(video_id)
+                    spectrogram_segments = process_audio_waveform(waveform, timestamps)
+                    
+                    valid_segments = [
+                        (np.pad(tab_seg, (0, max_token_seg_len - len(tab_seg)), 'constant'), aud_seg)
+                        for tab_seg, aud_seg in zip(encoded_segments, spectrogram_segments)
+                        if len(tab_seg) < max_token_seg_len
+                    ]
 
+                    if valid_segments:
+                        batch_tabs, batch_audio = map(list, zip(*valid_segments))
+                    else:
+                        batch_tabs, batch_audio = [], []
+
+                    num_valid_segments = len(valid_segments)
                     batch_pbar.write("Number of valid segments: " + str(num_valid_segments))
 
                 except Exception as e:

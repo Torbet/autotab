@@ -30,14 +30,15 @@ def load_audio(path: str):
   return log_spec
 
 
-def process_audio_waveform(waveform: np.ndarray, segment_time_stamps: list) -> list:
-  sample_slice_indices = [int(t * SAMPLE_RATE) for t in segment_time_stamps]
-  sample_slice_indices.insert(0, 0)
+def process_audio_waveform(waveform: np.ndarray, segment_timestamps: list) -> list:
+  slice_indices = [int(t * SAMPLE_RATE) for t in segment_timestamps]
+  slice_indices.append(len(waveform)-1)
   segments = []
-  for i in range(0,len(segment_time_stamps)):
-    segments.append(waveform[sample_slice_indices[i]:sample_slice_indices[i] + (30 * SAMPLE_RATE)])
+  start_slice = 0
+  for end_slice in slice_indices:
+    segments.append(waveform[start_slice:end_slice])
+    start_slice = end_slice + SAMPLE_RATE
   segments = [np.pad(seg, (0, SAMPLES_PER_SEGMENT - len(seg)), 'constant') for seg in segments]
-
 
   window = torch.hann_window(N_FFT)
   filters = torch.from_numpy(librosa.filters.mel(sr=SAMPLE_RATE, n_fft=N_FFT, n_mels=N_MELS)).float()
