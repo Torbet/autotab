@@ -1,5 +1,7 @@
 import tiktoken
 import json
+import urllib.request
+import gzip
 
 
 def tokenizer(track):
@@ -132,15 +134,26 @@ def validate_tokens_in_vocab(enc, tokens):
 
 path = 'data/songsterr-data/Superman_0.json'
 
-with open(path, 'r') as file:
-    tab_dict = json.load(file)
+url = 'https://dqsljvtekg760.cloudfront.net/88/2577/z1ToXtd1PrjTAqlA6cKla/0.json'
+
+with urllib.request.urlopen(url) as response:
+        if response.info().get('Content-Encoding') == 'gzip':
+            with gzip.GzipFile(fileobj=response) as gz:
+                JSONdata = json.loads(gz.read().decode('utf-8'))
+        else:
+            JSONdata = json.loads(response.read().decode('utf-8'))
+
+# with open(path, 'r') as file:
+#     tab_dict = json.load(file)
     
-tokens = tokenizer(tab_dict)
+tokens = tokenizer(JSONdata)
+for t in tokens:
+  print(t)
 
 # # tokens = tokenizer(tab_dict)
 # # #tokens = [token for i, token, in tokens]
 # # #print(len(tokens))
-# # #enc = encoder()
-# # #validate_tokens_in_vocab(enc, tokens)
+enc = encoder()
+validate_tokens_in_vocab(enc, tokens)
 # for t in tokens:
 #   print(t)
