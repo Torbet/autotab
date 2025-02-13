@@ -20,6 +20,8 @@ def get_song_meta_data(
     if not song_urls:
         print('No song URLs found.')
         return []
+    
+    print(f"Beginning scraping, stopping after {num_songs}")
 
     scraped_song_ids_set = load_scraped_song_ids(song_meta_data_file)
     song_id_pattern = re.compile(r's(\d+)(?=t|\b)')
