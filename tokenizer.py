@@ -50,12 +50,6 @@ def tokenizer(track):
                 note_tokens.append('<H>')
               else:
                 note_tokens.append('<P>')
-                
-              # if notes[note + 1] > notes[note]:
-              #     note_tokens.append('<H>') #hammer (low to high)
-              # else:
-              #     note_tokens.append('<P>') #pull (high to low)
-              #note_tokens.append('<HP>')
 
         if note_tokens and duration:
           dur = f'T{duration}'
@@ -66,7 +60,8 @@ def tokenizer(track):
           if beat[x].get('upStroke', False):
             combined_note_token += '<US>'
           if beat[x].get('slide', False):
-            combined_note_token += f'<SL{beat[x]["slide"]}>'
+            # combined_note_token += f'<SL{beat[x]["slide"]}>'
+            combined_note_token += '<SL>'
           if len(notes) > 1:
             combined_note_token += '</C>'
 
