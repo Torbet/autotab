@@ -1,8 +1,7 @@
 import tiktoken
 import json
-import urllib.request
+import requests
 import gzip
-
 
 def tokenizer(track):
   # with open(track, 'r') as file:
@@ -76,7 +75,7 @@ def tokenizer(track):
 def encoder():
   tokens = []
   tokens.extend([f'<S{i}>' for i in range(1, 7)])
-  tokens.extend([f'<F{i}>' for i in range(0, 25)])
+  tokens.extend([f'<F{i}>' for i in range(-1, 25)])
   tokens.extend([f'<T[{i}, {j}]>' for i in range(1,65) for j in range(1,65) if i <= j])
   tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<US>', '<LR>', '<TI>', '<TN>', '<R>', '<C>', '</C>'])  # hammer on, pull off, slide, bend
   special = ['<|endoftext|>', '<|startoftab|>', '<|endoftab|>', '<|space|>']
@@ -90,19 +89,13 @@ def encoder():
 def validate_tokens_in_vocab(enc, tokens):
   unknown_tokens = set()
 
-  # Get the full vocabulary for checking
-  try:
-    # Try to get the vocabulary directly if available
-    vocab = set(enc.decode(list(range(enc.n_vocab))).split())
-  except:
-    # Fallback: reconstruct vocabulary from the encoder's internal state
-    vocab = set()
-    for token_bytes, _ in enc._mergeable_ranks.items():
-      try:
-        vocab.add(token_bytes.decode())
-      except:
-        continue
-    vocab.update(enc._special_tokens.keys())
+  vocab = set()
+  for token_bytes, _ in enc._mergeable_ranks.items():
+    try:
+      vocab.add(token_bytes.decode())
+    except:
+      continue
+  vocab.update(enc._special_tokens.keys())
 
   # Check each token
   for token in tokens:
@@ -134,26 +127,19 @@ def validate_tokens_in_vocab(enc, tokens):
 
 path = 'data/songsterr-data/Superman_0.json'
 
-url = 'https://dqsljvtekg760.cloudfront.net/88/2577/z1ToXtd1PrjTAqlA6cKla/0.json'
+url = "https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json"
 
-with urllib.request.urlopen(url) as response:
-        if response.info().get('Content-Encoding') == 'gzip':
-            with gzip.GzipFile(fileobj=response) as gz:
-                JSONdata = json.loads(gz.read().decode('utf-8'))
-        else:
-            JSONdata = json.loads(response.read().decode('utf-8'))
-
-# with open(path, 'r') as file:
-#     tab_dict = json.load(file)
+# tab_dict = requests.get(url).json()
+# # with open(path, 'r') as file:
+# #     tab_dict = json.load(file)
     
-tokens = tokenizer(JSONdata)
-for t in tokens:
-  print(t)
+# tokens = tokenizer(tab_dict)
+# tokens = [t for _, t in tokens]
 
-# # tokens = tokenizer(tab_dict)
-# # #tokens = [token for i, token, in tokens]
-# # #print(len(tokens))
-enc = encoder()
-validate_tokens_in_vocab(enc, tokens)
+# # # tokens = tokenizer(tab_dict)
+# # # #tokens = [token for i, token, in tokens]
+# # # #print(len(tokens))
+# enc = encoder()
+# validate_tokens_in_vocab(enc, tokens)
 # for t in tokens:
 #   print(t)

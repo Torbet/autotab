@@ -1,4 +1,5 @@
 import io
+from tqdm import tqdm
 import glob
 import re
 import csv
@@ -97,13 +98,16 @@ def download_audio_stream(video_id: str) -> np.ndarray:
         'format_sort': ['abr'],
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        info = ydl.extract_info(video_url, download=False)
-        if 'url' in info:
-            audio_url = info['url']
-        elif 'formats' in info and len(info['formats']) > 0:
-            audio_url = info['formats'][0]['url']
-        else:
-            raise ValueError(f"Could not extract audio URL for video {video_id} from any available format")
+        try:
+            info = ydl.extract_info(video_url, download=False)
+            if 'url' in info:
+                audio_url = info['url']
+            elif 'formats' in info and len(info['formats']) > 0:
+                audio_url = info['formats'][0]['url']
+            else:
+                raise ValueError(f"Could not extract audio URL for video {video_id} from any available format")
+        except Exception as e:
+            raise e
 
     try:
         out, _ = (
@@ -124,9 +128,42 @@ def download_audio_stream(video_id: str) -> np.ndarray:
         print(f'Warning: sample rate mismatch (expected {SAMPLE_RATE}, got {sr})')
     return waveform
 
+def get_vocab(enc):
+  vocab = set()
+  for token_bytes, _ in enc._mergeable_ranks.items():
+    vocab.add(token_bytes.decode())
+  vocab.update(enc._special_tokens.keys())
+  return vocab
+
+def raise_unknown_tokens(enc, bar_tokens, vocab):
+    unknown_tokens = set()
+    pattern = r'<[^>]+>|[^\s<]+|\s+'
+    tokens_set = {t for token in bar_tokens for t in re.findall(pattern, str(token).strip())}
+    unknown_tokens = tokens_set - vocab
+    if unknown_tokens:
+        raise Exception(f"""Found {len(unknown_tokens)} tokens not in vocabulary:"
+        {"\n".join(f"  - {token}" for token in sorted(unknown_tokens))}
+        """)
+
+def chunker(seq, size):
+    """Yield successive chunks of size 'size' from the sequence 'seq'."""
+    for pos in range(0, len(seq), size):
+        yield seq[pos:pos + size]
+
+def read_checkpoint(checkpoint_file):
+    try:
+        with open(checkpoint_file, 'r', encoding='utf-8') as f:
+            return int(f.read().strip())
+    except FileNotFoundError:
+        return 0  # Start at the beginning if no checkpoint is found
+
+def write_checkpoint(index, checkpoint_file):
+    with open(checkpoint_file, 'w', encoding='utf-8') as f:
+        f.write(str(index))
+
 def get_model_data(
     song_meta_data: list,
-    scraped_ids_file: str,
+    checkpoint_file: str,
     model_data_path_prefix: str,
     session: requests.Session,
     max_token_seg_len: int = 1000,
@@ -144,7 +181,8 @@ def get_model_data(
     skips songs that fail processing.
     """
     enc = encoder()
-    done_ids = load_scraped_song_ids(scraped_ids_file)
+    vocab = get_vocab(enc)
+    checkpoint_index = read_checkpoint(checkpoint_file) 
     batch_tabs = []
     batch_audio = []
     seg_lens = []
@@ -154,89 +192,92 @@ def get_model_data(
 
      # Initialise the batch counter from existing files
     batch_counter = get_last_batch_number(model_data_path_prefix)
-    print(f"Resuming from batch number: {batch_counter}")
     print(f"Batch size: {batch_size}")
+    print(f"""Resuming from 
+          song index: {checkpoint_index}
+          song ID: {song_meta_data[checkpoint_index][0]}
+          batch number: {batch_counter}
+          """)
+    print(f"Total number of songs {len(song_meta_data)}")
+    song_meta_data = song_meta_data[checkpoint_index+1:]
+    print(f"Number of unproccessed songs {len(song_meta_data)}")
+    # Assuming song_meta_data is a list and batch_size is defined
+    for batch in chunker(song_meta_data, batch_size):
+        # Create a new progress bar for this batch
+        with tqdm(total=len(batch), desc=f"Processing Batch {batch_counter + 1}", unit="song") as batch_pbar:
+            for song_id, track_hash, vid_api_url, tab_api_url in batch:
+                num_valid_segments = 0
+                try:
+                    total_processed += 1
+                    batch_pbar.write(f"\nProcessing Song ID: {song_id}")
 
-    # Open the scraped IDs file for appending (to mark songs as processed)
-    with open(scraped_ids_file, 'a', newline='', encoding='utf-8') as done_file:
-        writer = csv.writer(done_file)
-        for song_id, track_hash, vid_api_url, tab_api_url in song_meta_data:
-            num_valid_segments = 0
-            try:
-                if song_id in done_ids:
-                    print(f"Skipping song {song_id}... already scraped")
-                    continue
+                    # Retrieve video data
+                    video_dicts = get_json(vid_api_url, session)
+                    if not video_dicts:
+                        raise RuntimeError(f"No video data returned for song {song_id}")
+                    video_id, points = get_default_video(video_dicts, track_hash)
+                    if not video_id or not points:
+                        raise RuntimeError(f"No valid video found for song {song_id}")
 
-                total_processed += 1
-                print(f'\nProcessing Song ID: {song_id}')
+                    # Retrieve tab data
+                    tab_dict = get_json(tab_api_url, session)
+                    if not tab_dict:
+                        raise RuntimeError(f"No tab data returned for song {song_id}")
 
-                # Retrieve video data
-                video_dicts = get_json(vid_api_url, session)
-                if not video_dicts:
-                    raise RuntimeError(f"No video data returned for song {song_id}")
-                video_id, points = get_default_video(video_dicts, track_hash)
-                if not video_id or not points:
-                    raise RuntimeError(f"No valid video found for song {song_id}")
+                    tokens = tokenizer(tab_dict)
+                    bar_tokens = [t for _, t in tokens]
 
-                # Retrieve tab data
-                tab_dict = get_json(tab_api_url, session)
-                if not tab_dict:
-                    raise RuntimeError(f"No tab data returned for song {song_id}")
+                    # Check if tokens are in vocab
+                    raise_unknown_tokens(enc, bar_tokens, vocab)
 
-                tokens = tokenizer(tab_dict)
-                bar_tokens = [t for _, t in tokens]
+                    segment_bar_indexes, segment_audio_times = get_segment_points(points)
+                    # Append the final index for token segmentation
+                    segment_bar_indexes = list(segment_bar_indexes) + [len(bar_tokens) - 1]
 
-                segment_bar_indexes, segment_audio_times = get_segment_points(points)
-                # Append the final index for token segmentation
-                segment_bar_indexes = list(segment_bar_indexes) + [len(bar_tokens) - 1]
+                    waveform = download_audio_stream(video_id)
+                    spectrogram_segments = process_audio_waveform(waveform, segment_audio_times)
 
-                waveform = download_audio_stream(video_id)
-                spectrogram_segments = process_audio_waveform(waveform, segment_audio_times)
+                    # Build token segments based on bar indexes
+                    token_segments = [
+                        [bar_tokens[j] for j in range(segment_bar_indexes[k], segment_bar_indexes[k + 1])]
+                        for k in range(len(segment_bar_indexes) - 1)
+                    ]
+                    encoded_segments = encode_token_segments(enc, token_segments)
+                    seg_lens.extend(len(seg) for seg in encoded_segments)
+                    batch_pbar.write("Cumulative mean token segment length: " + str(np.mean(seg_lens)))
+                    batch_pbar.write("Number of segments in song: " + str(len(token_segments)))
 
-                # Build token segments based on bar indexes
-                token_segments = [
-                    [bar_tokens[j] for j in range(segment_bar_indexes[k], segment_bar_indexes[k + 1])]
-                    for k in range(len(segment_bar_indexes) - 1)
-                ]
-                encoded_segments = encode_token_segments(enc, token_segments)
-                seg_lens.extend(len(seg) for seg in encoded_segments)
-                print("Cumulative mean token segment length:", np.mean(seg_lens))
-                print("Number of segments in song:", len(token_segments))
+                    # Pad token segments if necessary and collect audio segments
+                    for tab_seg, aud_seg in zip(encoded_segments, spectrogram_segments):
+                        if len(tab_seg) < max_token_seg_len:
+                            num_valid_segments += 1
+                            padded = np.pad(tab_seg, (0, max_token_seg_len - len(tab_seg)), 'constant')
+                            batch_tabs.append(padded)
+                            batch_audio.append(aud_seg)
 
-                # Pad token segments if necessary and collect audio segments
-                for tab_seg, aud_seg in zip(encoded_segments, spectrogram_segments):
-                    if len(tab_seg) < max_token_seg_len:
-                        num_valid_segments +=1
-                        padded = np.pad(tab_seg, (0, max_token_seg_len - len(tab_seg)), 'constant')
-                        batch_tabs.append(padded)
-                        batch_audio.append(aud_seg)
+                    batch_pbar.write("Number of valid segments: " + str(num_valid_segments))
+
+                except Exception as e:
+                    batch_pbar.write(f"Failed processing song {song_id}: {e}")
+                finally:
+                    # Mark this song as processed regardless of success or failure.
+                    batch_ids.append(song_id)
+
+                batch_pbar.update(1)
+
+            # End of batch: save and clear batch data
+            batch_counter += 1
+            batch_filename = f"{model_data_path_prefix}_batch_{batch_counter}.npz"
+            np.savez_compressed(batch_filename, tabs=np.array(batch_tabs), audio=np.array(batch_audio))
+            tqdm.write(f"Saved batch {batch_counter}: {len(batch_tabs)} tabs and {len(batch_audio)} audio segments to {batch_filename}")
             
-                print("Number of valid segments:", num_valid_segments)
+            write_checkpoint(total_processed, checkpoint_file)            
 
-            except Exception as e:
-                print(f"Failed processing song {song_id}: {e}")
-            finally:
-                # Mark this song as processed regardless of success or failure.
-                batch_ids.append(song_id)
-                done_file.flush()
+            batch_tabs.clear()
+            batch_audio.clear()
+            seg_lens.clear()
+            gc.collect()    # Final save for any leftover data in the last batch
 
-            # If batch is full, flush to disk and clear memory
-            if total_processed % batch_size == 0:
-                batch_counter += 1
-                batch_filename = f"{model_data_path_prefix}_batch_{batch_counter}.npz"
-                np.savez_compressed(batch_filename, tabs=np.array(batch_tabs), audio=np.array(batch_audio))
-                print(f"Saved batch {batch_counter}: {len(batch_tabs)} tabs and {len(batch_audio)} audio segments to {batch_filename}")
-                with open(scraped_ids_file, 'a', newline='', encoding='utf-8') as file:
-                  writer = csv.writer(file)
-                  for song_id in batch_ids:
-                    writer.writerow([song_id])
-                # Clear batch data and collect garbage
-                batch_tabs.clear()
-                batch_audio.clear()
-                seg_lens.clear()
-                gc.collect()
-
-    # Final save for any leftover data in the last batch
     if batch_tabs and batch_audio:
         batch_counter += 1
         batch_filename = f"{model_data_path_prefix}_batch_{batch_counter}.npz"
