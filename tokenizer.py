@@ -3,6 +3,7 @@ import json
 import requests
 import gzip
 
+
 def tokenizer(track):
   # with open(track, 'r') as file:
   #   track = json.load(file)
@@ -33,20 +34,20 @@ def tokenizer(track):
           hp = notes[note].get('hp', None)
           if fret is not None and string is not None and duration:
             fret_str = f'F{fret}'
-            str_str = f'S{string+1}'
+            str_str = f'S{string + 1}'
             note_tokens.append(f'<{str_str}><{fret_str}>')
             if tie is not None:
               note_tokens.append('<TI>')
             if bend is not None:
               note_tokens.append('<B>')
             if hp is not None:
-              if x < len(beat)-1:
+              if x < len(beat) - 1:
                 next_note = beat[x + 1]
-              elif i < len(bars)-1:
-                next_note = bars[i+1]['voices'][0]['beats'][0]['notes'][0]
+              elif i < len(bars) - 1:
+                next_note = bars[i + 1]['voices'][0]['beats'][0]['notes'][0]
               else:
                 next_note = beat[x]
-              
+
               if 'string' in next_note and string < next_note['string']:
                 note_tokens.append('<H>')
               else:
@@ -66,9 +67,9 @@ def tokenizer(track):
           if len(notes) > 1:
             combined_note_token += '</C>'
 
-          tokens.append((i + 1, combined_note_token))          
-          # tokens.append((i + 1, '<|space|>'))          
-          
+          tokens.append((i + 1, combined_note_token))
+          # tokens.append((i + 1, '<|space|>'))
+
   return tokens
 
 
@@ -76,7 +77,7 @@ def encoder():
   tokens = []
   tokens.extend([f'<S{i}>' for i in range(1, 7)])
   tokens.extend([f'<F{i}>' for i in range(-1, 25)])
-  tokens.extend([f'<T[{i}, {j}]>' for i in range(1,65) for j in range(1,65) if i <= j])
+  tokens.extend([f'<T[{i}, {j}]>' for i in range(1, 65) for j in range(1, 65) if i <= j])
   tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<US>', '<LR>', '<TI>', '<TN>', '<R>', '<C>', '</C>'])  # hammer on, pull off, slide, bend
   special = ['<|endoftext|>', '<|startoftab|>', '<|endoftab|>', '<|space|>']
   special.extend([f'<U{i}>' for i in range(51861 - len(tokens))])
@@ -123,16 +124,17 @@ def validate_tokens_in_vocab(enc, tokens):
 
   return list(unknown_tokens)
 
-#path = 'data/tabs_jsons/1100_2.json'
+
+# path = 'data/tabs_jsons/1100_2.json'
 
 path = 'data/songsterr-data/Superman_0.json'
 
-url = "https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json"
+url = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
 
 # tab_dict = requests.get(url).json()
 # # with open(path, 'r') as file:
 # #     tab_dict = json.load(file)
-    
+
 # tokens = tokenizer(tab_dict)
 # tokens = [t for _, t in tokens]
 
