@@ -6,6 +6,8 @@ import csv
 import gc
 import numpy as np
 import requests
+import aiohttp
+import asyncio
 import yt_dlp
 import ffmpeg
 import soundfile as sf
@@ -23,13 +25,14 @@ def get_last_batch_number(model_data_path_prefix: str) -> int:
   return max(batch_numbers) if batch_numbers else 0
 
 
-def get_json(url: str, session: requests.Session) -> dict:
-  response = session.get(url)
-  response.raise_for_status()
-  try:
-    return response.json()
-  except Exception as e:
-    raise RuntimeError(f'Error decoding JSON from {url}: {e}') from e
+async def get_json(url: str, session: aiohttp.ClientSession) -> dict:
+  async with session.get(url) as response:
+    if response.status != 200:
+      raise RuntimeError(f'Failed to fetch {url}, status: {response.status}')
+    try:
+      return await response.json()
+    except Exception as e:
+      raise RuntimeError(f'Error decoding JSON from {url}: {e}') from e
 
 
 def get_default_video(video_dicts: list, track_hash: str):
@@ -44,8 +47,16 @@ def get_default_video(video_dicts: list, track_hash: str):
 
 def get_segment_points(points: list):
   """
-  Given a list of timing points, determine segmentation points such that each segment is <30s.
-  Returns a tuple of (bar_indexes, timestamps) indicating token segmentation indices and corresponding audio timestamps.
+  Given a list of timing points, each representing the start point of a bar,
+  determine segmentation points such that each segment is <30s.
+  timestamps to be used for audio segmentation as `waveform[timestamp[i] : timestamp[i+1] - 1]`
+  eg:         [2, 3, 28, 30, 39, 59, 60]
+  bar_indexes: ________  __________
+  timestamps:  ^^^^^^^^^^^^  ^^^^^^^^^^
+  bar indexes are one behind timestamps because timestamps indicate the start of the bar.
+  i.e. bars[3:5] includes tabs from the start of bar 3 to the start of bar 6
+      timestamps[3:6] includes audio from the start of bar 3 to the start of bar 6
+
   """
   # Only keep non-negative timing points.
   points = [p for p in points if p >= 0]
@@ -54,14 +65,15 @@ def get_segment_points(points: list):
 
   bars, timestamps = [], []
 
-  start = points[0]
-  for i, p in enumerate(points[1:]):
-    if p < start + 30:
+  begin = points[0]
+  timestamps.append(begin)
+  for i, p in enumerate(points):
+    if p <= begin + 30:
       continue
     else:
-      timestamps.append((start, points[i - 2]))
+      timestamps.append(points[i - 1])
       bars.append(i - 2)
-      start = points[i - 1]
+      begin = points[i - 1]
 
   return bars, timestamps
 
@@ -168,11 +180,62 @@ def get_bar_dict(tokens):
   return bar_dict
 
 
-def get_model_data(
+async def process_song(song, enc, vocab, session, max_token_seg_len, batch_pbar):
+  song_id, track_hash, vid_api_url, tab_api_url = song
+  batch_pbar.write(f'\nProcessing Song ID: {song_id}')
+
+  # Retrieve video and tab data concurrently.
+  video_task = get_json(vid_api_url, session)
+  tab_task = get_json(tab_api_url, session)
+  video_dicts, tab_dict = await asyncio.gather(video_task, tab_task)
+
+  if not video_dicts:
+    raise RuntimeError(f'No video data returned for song {song_id}')
+  video_id, points = get_default_video(video_dicts, track_hash)
+  if not video_id or not points:
+    raise RuntimeError(f'No valid video found for song {song_id}')
+  if not tab_dict:
+    raise RuntimeError(f'No tab data returned for song {song_id}')
+
+  tokens = tokenizer(tab_dict)
+  tokens_list = [t for _, t in tokens]
+  raise_unknown_tokens(enc, tokens_list, vocab)
+  bar_dict = get_bar_dict(tokens)
+  bar_slice_indices, timestamps = get_segment_points(points)
+  num_bars = len(points)
+  bar_slice_indices.append(num_bars)
+
+  # Build token segments.
+  token_segments = []
+  start_bar = 0
+  for end_bar in bar_slice_indices:
+    segment_tokens = [token for bar in range(start_bar, end_bar + 1) for token in bar_dict.get(bar, [])]
+    token_segments.append(segment_tokens)
+    start_bar = end_bar + 1
+
+  encoded_segments = encode_token_segments(enc, token_segments)
+  seg_lens = [len(seg) for seg in encoded_segments]
+
+  # run in a thread so that the event loop isn’t blocked.
+  waveform = await asyncio.to_thread(download_audio_stream, video_id)
+  spectrogram_segments = await asyncio.to_thread(process_audio_waveform, waveform, timestamps)
+
+  valid_segments = [
+    (np.pad(tab_seg, (0, max_token_seg_len - len(tab_seg)), 'constant'), aud_seg)
+    for tab_seg, aud_seg in zip(encoded_segments, spectrogram_segments)
+    if len(tab_seg) < max_token_seg_len
+  ]
+
+  batch_pbar.write(f'Processed {len(valid_segments)} valid segments')
+
+  return song_id, valid_segments, seg_lens
+
+
+async def get_model_data(
   song_meta_data: list,
   checkpoint_file: str,
   model_data_path_prefix: str,
-  session: requests.Session,
+  session,  # This should be an aiohttp.ClientSession
   max_token_seg_len: int = 1000,
   batch_size: int = 10,
 ) -> None:
@@ -181,13 +244,11 @@ def get_model_data(
   checkpoint_index = read_checkpoint(checkpoint_file)
   batch_tabs = []
   batch_audio = []
-  seg_lens = []
-  batch_counter = 0
+  batch_seg_lens = []
+  batch_counter = get_last_batch_number(model_data_path_prefix)
   total_processed = 0
   batch_ids = []
 
-  # Initialise the batch counter from existing files
-  batch_counter = get_last_batch_number(model_data_path_prefix)
   print(f'Batch size: {batch_size}')
   print(f"""Resuming from 
           song index: {checkpoint_index}
@@ -197,98 +258,45 @@ def get_model_data(
   print(f'Total number of songs {len(song_meta_data)}')
   song_meta_data = song_meta_data[checkpoint_index + 1 :]
   print(f'Number of unproccessed songs {len(song_meta_data)}')
-  # Assuming song_meta_data is a list and batch_size is defined
+  gc.collect()
+
   for batch in chunker(song_meta_data, batch_size):
-    # Create a new progress bar for this batch
+    batch_seg_lens = []
     with tqdm(total=len(batch), desc=f'Processing Batch {batch_counter + 1}', unit='song') as batch_pbar:
-      for song_id, track_hash, vid_api_url, tab_api_url in batch:
-        num_valid_segments = 0
+      for song in batch:
+        song_id = song[0]
         try:
-          total_processed += 1
-          batch_pbar.write(f'\nProcessing Song ID: {song_id}')
-
-          # Retrieve video data
-          video_dicts = get_json(vid_api_url, session)
-          if not video_dicts:
-            raise RuntimeError(f'No video data returned for song {song_id}')
-          video_id, points = get_default_video(video_dicts, track_hash)
-          if not video_id or not points:
-            raise RuntimeError(f'No valid video found for song {song_id}')
-
-          # Retrieve tab data
-          tab_dict = get_json(tab_api_url, session)
-          if not tab_dict:
-            raise RuntimeError(f'No tab data returned for song {song_id}')
-
-          tokens = tokenizer(tab_dict)
-          tokens_list = [t for _, t in tokens]
-
-          # Check if tokens are in vocab
-          raise_unknown_tokens(enc, tokens_list, vocab)
-
-          bar_dict = get_bar_dict(tokens)
-
-          bar_slice_indices, timestamps = get_segment_points(points)
-
-          # Append the final index for token segmentation
-          num_bars = len(points)
-          bar_slice_indices.append(num_bars)
-
-          # Build token segments based on bar slice indexes
-          token_segments = []
-          start_bar = 0
-          for end_bar in bar_slice_indices:
-            segment_tokens = [token for bar in range(start_bar, end_bar + 1) for token in bar_dict.get(bar, [])]
-            token_segments.append(segment_tokens)
-            start_bar = end_bar + 1
-
-          encoded_segments = encode_token_segments(enc, token_segments)
-          seg_lens.extend(len(seg) for seg in encoded_segments)
-          batch_pbar.write('Cumulative mean token segment length: ' + str(np.mean(seg_lens)))
-          batch_pbar.write('Number of segments in song: ' + str(len(token_segments)))
-
-          waveform = download_audio_stream(video_id)
-          spectrogram_segments = process_audio_waveform(waveform, timestamps)
-
-          valid_segments = [
-            (np.pad(tab_seg, (0, max_token_seg_len - len(tab_seg)), 'constant'), aud_seg)
-            for tab_seg, aud_seg in zip(encoded_segments, spectrogram_segments)
-            if len(tab_seg) < max_token_seg_len
-          ]
+          processed_song = await asyncio.wait_for(process_song(song, enc, vocab, session, max_token_seg_len, batch_pbar), timeout=20)
+          song_id, valid_segments, seg_lens = processed_song
 
           if valid_segments:
-            tabs, audio = map(list, zip(*valid_segments))
-            batch_tabs += tabs
-            batch_audio += audio
-          else:
-            tabs, audio = [], []
+            tabs, audio = zip(*valid_segments)
+            batch_tabs.extend(tabs)
+            batch_audio.extend(audio)
+          total_processed += 1
 
-          num_valid_segments = len(valid_segments)
-          batch_pbar.write('Number of valid segments: ' + str(num_valid_segments))
-          batch_pbar.write(f'batch_tabs.shape: {np.array(batch_tabs).shape}')
+          batch_seg_lens += seg_lens
+          batch_pbar.write('avg seg len: ' + str(np.mean(batch_seg_lens)))
+          batch_pbar.write('std seg len: ' + str(np.std(batch_seg_lens)))
 
-          batch_pbar.write(f'batch_audio.shape: {np.array(batch_audio).shape}')
-
+        except asyncio.TimeoutError:
+          batch_pbar.write(f'Skipping song {song_id} due to timeout.')
         except Exception as e:
           batch_pbar.write(f'Failed processing song {song_id}: {e}')
         finally:
-          # Mark this song as processed regardless of success or failure.
           batch_ids.append(song_id)
+          batch_pbar.update(1)
 
-        batch_pbar.update(1)
-
-      # End of batch: save and clear batch data
+      # End of batch: save and clear batch data.
       batch_counter += 1
       batch_filename = f'{model_data_path_prefix}_batch_{batch_counter}.npz'
       np.savez_compressed(batch_filename, tabs=np.array(batch_tabs), audio=np.array(batch_audio))
       tqdm.write(f'Saved batch {batch_counter}: {len(batch_tabs)} tabs and {len(batch_audio)} audio segments to {batch_filename}')
-
       write_checkpoint(total_processed, checkpoint_file)
-
       batch_tabs.clear()
       batch_audio.clear()
       seg_lens.clear()
-      gc.collect()  # Final save for any leftover data in the last batch
+      gc.collect()
 
   if batch_tabs and batch_audio:
     batch_counter += 1

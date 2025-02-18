@@ -1,12 +1,14 @@
 import requests
 import csv
+import aiohttp
+import asyncio
 
 from scrapers.get_song_urls import get_urls
 from scrapers.get_song_meta_data import get_song_meta_data
 from scrapers.get_model_data import get_model_data
 
 
-def main():
+async def main():
   url_file = 'data/songsterr-data/song_urls.txt'
   song_meta_data_file = 'data/songsterr-data/song_meta_data.csv'
 
@@ -24,14 +26,15 @@ def main():
   with open(song_meta_data_file, newline='', encoding='utf-8') as csvfile:
     song_meta_data = list(csv.reader(csvfile))
 
-  get_model_data(
-    song_meta_data=song_meta_data,
-    checkpoint_file='data/songsterr-data/checkpoint.csv',
-    model_data_path_prefix='data/model_data/audio_tabs',
-    session=session,
-    batch_size=40,
-  )
+  async with aiohttp.ClientSession() as session:
+    await get_model_data(
+      song_meta_data=song_meta_data,
+      checkpoint_file='data/songsterr-data/checkpoint.csv',
+      model_data_path_prefix='data/model_data/audio_tabs',
+      session=session,
+      batch_size=200,
+    )
 
 
 if __name__ == '__main__':
-  main()
+  asyncio.run(main())

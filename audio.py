@@ -30,11 +30,11 @@ def load_audio(waveform: np.ndarray):
 
 
 def process_audio_waveform(waveform: np.ndarray, segment_timestamps: list) -> list:
-  slice_indices = [(int(s * SAMPLE_RATE), int(f * SAMPLE_RATE)) for s, f in segment_timestamps]
+  slices = [int(i * SAMPLE_RATE) for i in segment_timestamps]
 
   log_specs = []
-  for s, f in slice_indices:
-    segment = waveform[s:f]
+  for i in range(len(slices) - 1):
+    segment = waveform[slices[i] : slices[i + 1] - 1]
     log_specs.append(load_audio(segment))
 
   return log_specs
