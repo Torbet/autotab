@@ -84,7 +84,7 @@ def encode_token_segments(enc, token_segments: list) -> list:
   for tokens in token_segments:
     encoded_tokens = []
     for t in tokens:
-      encoded_tokens += enc.encode(t)
+      encoded_tokens += enc.encode(t, allowed_special=enc.special_tokens_set)
     encoded_segments.append(encoded_tokens)
   return encoded_segments
 

@@ -11,7 +11,7 @@ def tokenizer(track):
 
   valid_denominators = [1, 2, 4, 8, 12, 16, 24, 32, 64]
 
-  tokens = []
+  tokens = [(1, '<|startoftab|>')]
   bars = track['measures']
 
   for i in range(len(bars)):
@@ -76,6 +76,7 @@ def tokenizer(track):
 
           tokens.append((i + 1, combined_note_token))
           # tokens.append((i + 1, '<|space|>'))
+  tokens.append((len(bars)-1, '<|endoftab|>'))
 
   return tokens
 
@@ -84,9 +85,9 @@ def encoder():
   tokens = ['<PAD>']
   tokens.extend([f'<S{i}>' for i in range(1, 7)])
   tokens.extend([f'<F{i}>' for i in range(-1, 25)])
-  tokens.extend([f'<T[{i}]>' for i in range(1, 65)])
+  tokens.extend([f'<T{i}>' for i in range(1, 65)])
   tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<US>', '<LR>', '<TI>', '<TN>', '<R>', '<C>', '</C>'])  # hammer on, pull off, slide, bend
-  special = ['<|endoftext|>', '<|startoftab|>', '<|endoftab|>', '<|space|>']
+  special = ['<|startoftab|>', '<|endoftab|>']
   special.extend([f'<U{i}>' for i in range(51861 - len(tokens))])
   ranks = {token.encode(): i for i, token in enumerate(tokens)}
   special = {token: len(ranks) + i for i, token in enumerate(special)}
@@ -142,14 +143,14 @@ def round_time(x, y, valid_denominators):
 
 #path = 'data/songsterr-data/Superman_0.json'
 
-tokenurl = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
+# tokenurl = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
 
-r = requests.get(tokenurl)
+# r = requests.get(tokenurl)
 
-tokens = tokenizer(r.json())
+# tokens = tokenizer(r.json())
 
-for t in tokens:
-  print(t)
+# for t in tokens:
+#   print(t)
 
 # tokens = tokenizer(tab_dict)
 # tokens = [t for _, t in tokens]
