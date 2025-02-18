@@ -241,6 +241,7 @@ async def get_model_data(
   session,  # This should be an aiohttp.ClientSession
   max_token_seg_len: int = 1000,
   batch_size: int = 10,
+  num_batches: int = 1,
 ) -> None:
   enc = encoder()
   vocab = get_vocab(enc)
@@ -249,10 +250,12 @@ async def get_model_data(
   batch_audio = []
   batch_seg_lens = []
   batch_counter = get_last_batch_number(model_data_path_prefix)
+  session_completed_batches = 0
   total_processed = 0
   batch_ids = []
 
   print(f'Batch size: {batch_size}')
+  print(f'Num batches: {num_batches}')
   print(f"""Resuming from 
           song index: {checkpoint_index}
           song ID: {song_meta_data[checkpoint_index][0]}
@@ -292,6 +295,7 @@ async def get_model_data(
 
       # End of batch: save and clear batch data.
       batch_counter += 1
+      session_completed_batches += 1
       batch_filename = f'{model_data_path_prefix}_batch_{batch_counter}.npz'
       np.savez_compressed(batch_filename, tabs=np.array(batch_tabs), audio=np.array(batch_audio))
       tqdm.write(f'Saved batch {batch_counter}: {len(batch_tabs)} tabs and {len(batch_audio)} audio segments to {batch_filename}')
@@ -300,6 +304,8 @@ async def get_model_data(
       batch_audio.clear()
       seg_lens.clear()
       gc.collect()
+      if session_completed_batches >= num_batches:
+        break
 
   if batch_tabs and batch_audio:
     batch_counter += 1
