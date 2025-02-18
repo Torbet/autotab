@@ -2,11 +2,14 @@ import tiktoken
 import json
 import requests
 import gzip
+import urllib.request
 
 
 def tokenizer(track):
   # with open(track, 'r') as file:
   #   track = json.load(file)
+
+  valid_denominators = [1, 2, 4, 8, 12, 16, 24, 32, 64]
 
   tokens = []
   bars = track['measures']
@@ -19,8 +22,10 @@ def tokenizer(track):
 
       if beat[x].get('rest', False):
         if duration:
-          dur = f'T{duration}'
-          tokens.append((i + 1, f'<R><{dur}>'))
+          num = duration[0]
+          den = duration[1]
+          dur = round_time(num, den, valid_denominators)
+          tokens.append((i + 1, f'<R><T{dur}>'))
 
       else:
         note_tokens = []
@@ -54,8 +59,10 @@ def tokenizer(track):
                 note_tokens.append('<P>')
 
         if note_tokens and duration:
-          dur = f'T{duration}'
-          combined_note_token = ''.join(note_tokens) + f'<{dur}>'
+          num = duration[0]
+          den = duration[1]
+          dur = round_time(num, den, valid_denominators)
+          combined_note_token = ''.join(note_tokens) + f'<T{dur}>'
 
           if beat[x].get('letRing', False):
             combined_note_token += '<LR>'
@@ -77,7 +84,7 @@ def encoder():
   tokens = []
   tokens.extend([f'<S{i}>' for i in range(1, 7)])
   tokens.extend([f'<F{i}>' for i in range(-1, 25)])
-  tokens.extend([f'<T[{i}, {j}]>' for i in range(1, 65) for j in range(1, 65) if i <= j])
+  tokens.extend([f'<T[{i}]>' for i in range(1, 65)])
   tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<US>', '<LR>', '<TI>', '<TN>', '<R>', '<C>', '</C>'])  # hammer on, pull off, slide, bend
   special = ['<|endoftext|>', '<|startoftab|>', '<|endoftab|>', '<|space|>']
   special.extend([f'<U{i}>' for i in range(51861 - len(tokens))])
@@ -124,16 +131,25 @@ def validate_tokens_in_vocab(enc, tokens):
 
   return list(unknown_tokens)
 
+def round_time(x, y, valid_denominators):
+  value = x / y
+
+  best_match = min(valid_denominators, key=lambda d: abs(value - (1/d)))
+
+  return best_match
 
 # path = 'data/tabs_jsons/1100_2.json'
 
-path = 'data/songsterr-data/Superman_0.json'
+#path = 'data/songsterr-data/Superman_0.json'
 
-url = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
+tokenurl = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
 
-# tab_dict = requests.get(url).json()
-# # with open(path, 'r') as file:
-# #     tab_dict = json.load(file)
+r = requests.get(tokenurl)
+
+tokens = tokenizer(r.json())
+
+for t in tokens:
+  print(t)
 
 # tokens = tokenizer(tab_dict)
 # tokens = [t for _, t in tokens]
