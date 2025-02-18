@@ -81,7 +81,7 @@ def tokenizer(track):
 
 
 def encoder():
-  tokens = []
+  tokens = ['<PAD>']
   tokens.extend([f'<S{i}>' for i in range(1, 7)])
   tokens.extend([f'<F{i}>' for i in range(-1, 25)])
   tokens.extend([f'<T[{i}]>' for i in range(1, 65)])
