@@ -157,6 +157,9 @@ def read_checkpoint(checkpoint_file):
     with open(checkpoint_file, 'r', encoding='utf-8') as f:
       return int(f.read().strip())
   except FileNotFoundError:
+    # create the file if it doesn't exist
+    with open(checkpoint_file, 'w', encoding='utf-8') as f:
+      f.write('0')
     return 0  # Start at the beginning if no checkpoint is found
 
 
