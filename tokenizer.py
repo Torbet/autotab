@@ -76,7 +76,7 @@ def tokenizer(track):
 
           tokens.append((i + 1, combined_note_token))
           # tokens.append((i + 1, '<|space|>'))
-  tokens.append((len(bars)-1, '<|endoftab|>'))
+  tokens.append((len(bars) - 1, '<|endoftab|>'))
 
   return tokens
 
@@ -132,16 +132,18 @@ def validate_tokens_in_vocab(enc, tokens):
 
   return list(unknown_tokens)
 
+
 def round_time(x, y, valid_denominators):
   value = x / y
 
-  best_match = min(valid_denominators, key=lambda d: abs(value - (1/d)))
+  best_match = min(valid_denominators, key=lambda d: abs(value - (1 / d)))
 
   return best_match
 
+
 # path = 'data/tabs_jsons/1100_2.json'
 
-#path = 'data/songsterr-data/Superman_0.json'
+# path = 'data/songsterr-data/Superman_0.json'
 
 # tokenurl = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
 

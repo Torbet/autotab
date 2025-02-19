@@ -3,7 +3,7 @@ import torch
 from torch import Tensor
 import torch.nn as nn
 import torch.nn.functional as F
-from typing import Optional, Dict, Iterable, Tuple
+from typing import Optional, Tuple
 
 
 def sinusoids(length, channels, max_timescale=10000):
@@ -23,23 +23,10 @@ class MultiHeadAttention(nn.Module):
     self.value = nn.Linear(n_state, n_state)
     self.out = nn.Linear(n_state, n_state)
 
-  def forward(
-    self, x: torch.Tensor, xa: Optional[torch.Tensor] = None, mask: Optional[torch.Tensor] = None, kv_cache: Optional[Dict] = None
-  ) -> Tuple[torch.Tensor, torch.Tensor]:
+  def forward(self, x: torch.Tensor, xa: Optional[torch.Tensor] = None, mask: Optional[torch.Tensor] = None) -> Tuple[torch.Tensor, torch.Tensor]:
     q = self.query(x)
-
-    # Fix: Use string keys for kv_cache instead of the layer objects
-    if kv_cache is None or xa is None or 'k' not in kv_cache:
-      # Compute key and value if not cached
-      k = self.key(x if xa is None else xa)
-      v = self.value(x if xa is None else xa)
-      if kv_cache is not None:
-        kv_cache['k'] = k
-        kv_cache['v'] = v
-    else:
-      # Use cached key and value
-      k = kv_cache['k']
-      v = kv_cache['v']
+    k = self.key(x if xa is None else xa)
+    v = self.value(x if xa is None else xa)
 
     wv, qk = self.qkv_attention(q, k, v, mask)
     return self.out(wv), qk
@@ -77,11 +64,14 @@ class ResidualAttentionBlock(nn.Module):
     self.mlp_ln = nn.LayerNorm(n_state)
 
   def forward(
-    self, x: torch.Tensor, xa: Optional[torch.Tensor] = None, mask: Optional[torch.Tensor] = None, kv_cache: Optional[Dict] = None
+    self,
+    x: torch.Tensor,
+    xa: Optional[torch.Tensor] = None,
+    mask: Optional[torch.Tensor] = None,
   ) -> torch.Tensor:
-    x = x + self.attn(self.attn_ln(x), mask=mask, kv_cache=kv_cache)[0]
+    x = x + self.attn(self.attn_ln(x), mask=mask)[0]
     if self.cross_attn:
-      x = x + self.cross_attn(self.cross_attn_ln(x), xa, kv_cache=kv_cache)[0]
+      x = x + self.cross_attn(self.cross_attn_ln(x), xa)[0]
     x = x + self.mlp(self.mlp_ln(x))
     return x
 
@@ -121,29 +111,24 @@ class TextDecoder(nn.Module):
     mask = torch.empty(n_text_ctx, n_text_ctx).fill_(-np.inf).triu(1)
     self.register_buffer('mask', mask, persistent=False)
 
-  def forward(self, x: Tensor, xa: Tensor, kv_cache: Optional[Dict] = None):
-    # Ensure we don't exceed the maximum context length
+  def forward(self, x: Tensor, xa: Tensor):
     seq_len = min(x.shape[-1], self.n_text_ctx)
-    x = x[:, :seq_len]  # Truncate if necessary
+    x = x[:, :seq_len]
 
-    # Get embeddings
     token_emb = self.token_embedding(x)
     pos_emb = self.positional_embedding[:seq_len]
 
-    # Combine embeddings
     x = token_emb + pos_emb
 
-    # Process through transformer blocks
     for block in self.blocks:
-      x = block(x, xa, mask=self.mask[:seq_len, :seq_len], kv_cache=kv_cache)
+      x = block(x, xa, mask=self.mask[:seq_len, :seq_len])
 
     x = self.ln(x)
-    # Project back to vocabulary
     x = x @ self.token_embedding.weight.T
     return x
 
 
-class Model(nn.Module):
+class Transformer(nn.Module):
   def __init__(self, dims):
     super().__init__()
     self.encoder = AudioEncoder(**dims)

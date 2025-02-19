@@ -7,7 +7,6 @@ from scrapers.get_model_data import get_model_data
 
 
 async def main():
-
   session = requests.Session()
   session.headers.setdefault('User-Agent', 'Mediapartners-Google*')
 
