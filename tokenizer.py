@@ -5,11 +5,12 @@ import gzip
 import urllib.request
 
 
+valid_times = [1, 2, 4, 8, 12, 16, 24, 32, 64]
+
+
 def tokenizer(track):
   # with open(track, 'r') as file:
   #   track = json.load(file)
-
-  valid_denominators = [1, 2, 4, 8, 12, 16, 24, 32, 64]
 
   tokens = [(1, '<|startoftab|>')]
   bars = track['measures']
@@ -24,7 +25,7 @@ def tokenizer(track):
         if duration:
           num = duration[0]
           den = duration[1]
-          dur = round_time(num, den, valid_denominators)
+          dur = round_time(num, den)
           tokens.append((i + 1, f'<R><T{dur}>'))
 
       else:
@@ -61,7 +62,7 @@ def tokenizer(track):
         if note_tokens and duration:
           num = duration[0]
           den = duration[1]
-          dur = round_time(num, den, valid_denominators)
+          dur = round_time(num, den)
           combined_note_token = ''.join(note_tokens) + f'<T{dur}>'
 
           if beat[x].get('letRing', False):
@@ -85,7 +86,7 @@ def encoder():
   tokens = ['<PAD>']
   tokens.extend([f'<S{i}>' for i in range(1, 7)])
   tokens.extend([f'<F{i}>' for i in range(-1, 25)])
-  tokens.extend([f'<T{i}>' for i in range(1, 65)])
+  tokens.extend([f'<T{i}>' for i in valid_times])
   tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<US>', '<LR>', '<TI>', '<TN>', '<R>', '<C>', '</C>'])  # hammer on, pull off, slide, bend
   special = ['<|startoftab|>', '<|endoftab|>']
   special.extend([f'<U{i}>' for i in range(51861 - len(tokens))])
@@ -133,10 +134,10 @@ def validate_tokens_in_vocab(enc, tokens):
   return list(unknown_tokens)
 
 
-def round_time(x, y, valid_denominators):
+def round_time(x, y):
   value = x / y
 
-  best_match = min(valid_denominators, key=lambda d: abs(value - (1 / d)))
+  best_match = min(valid_times, key=lambda d: abs(value - (1 / d)))
 
   return best_match
 

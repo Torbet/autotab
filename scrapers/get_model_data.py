@@ -229,8 +229,6 @@ async def process_song(song, enc, vocab, session, max_token_seg_len, batch_pbar)
     if len(tab_seg) < max_token_seg_len
   ]
 
-  batch_pbar.write(f'Processed {len(valid_segments)} valid segments')
-
   return song_id, valid_segments, seg_lens
 
 
@@ -238,7 +236,6 @@ async def get_model_data(
   song_meta_data: list,
   checkpoint_file: str,
   model_data_path_prefix: str,
-  session,  # This should be an aiohttp.ClientSession
   max_token_seg_len: int = 1000,
   batch_size: int = 10,
   num_batches: int = 1,
@@ -246,13 +243,9 @@ async def get_model_data(
   enc = encoder()
   vocab = get_vocab(enc)
   checkpoint_index = read_checkpoint(checkpoint_file)
-  batch_tabs = []
-  batch_audio = []
-  batch_seg_lens = []
   batch_counter = get_last_batch_number(model_data_path_prefix)
-  session_completed_batches = 0
-  total_processed = 0
   batch_ids = []
+  song_id = None
 
   print(f'Batch size: {batch_size}')
   print(f'Num batches: {num_batches}')
@@ -263,49 +256,46 @@ async def get_model_data(
           """)
   print(f'Total number of songs {len(song_meta_data)}')
   song_meta_data = song_meta_data[checkpoint_index + 1 :]
-  print(f'Number of unproccessed songs {len(song_meta_data)}')
+  print(f'Number of unprocessed songs {len(song_meta_data)}')
   gc.collect()
 
   for batch in chunker(song_meta_data, batch_size):
-    batch_seg_lens = []
-    with tqdm(total=len(batch), desc=f'Processing Batch {batch_counter + 1}', unit='song') as batch_pbar:
-      for song in batch:
-        song_id = song[0]
-        try:
-          processed_song = await asyncio.wait_for(process_song(song, enc, vocab, session, max_token_seg_len, batch_pbar), timeout=20)
-          song_id, valid_segments, seg_lens = processed_song
+    batch_tabs = []
+    batch_audio = []
 
-          if valid_segments:
-            tabs, audio = zip(*valid_segments)
-            batch_tabs.extend(tabs)
-            batch_audio.extend(audio)
-          total_processed += 1
+    async with aiohttp.ClientSession() as session:  
+      with tqdm(total=len(batch), desc=f'Processing Batch {batch_counter + 1}', unit='song') as batch_pbar:
+        for song in batch:
+          song_id = song[0]
+          try:
+            processed_song = await asyncio.wait_for(process_song(song, enc, vocab, session, max_token_seg_len, batch_pbar), timeout=20)
+            song_id, valid_segments, seg_lens = processed_song
 
-          batch_seg_lens += seg_lens
-          batch_pbar.write('avg seg len: ' + str(np.mean(batch_seg_lens)))
-          batch_pbar.write('std seg len: ' + str(np.std(batch_seg_lens)))
+            if valid_segments:
+              tabs, audio = zip(*valid_segments)
+              batch_tabs.extend(tabs)
+              batch_audio.extend(audio)
+            batch_pbar.write(f'Valid segments: {len(valid_segments)}')
 
-        except asyncio.TimeoutError:
-          batch_pbar.write(f'Skipping song {song_id} due to timeout.')
-        except Exception as e:
-          batch_pbar.write(f'Failed processing song {song_id}: {e}')
-        finally:
-          batch_ids.append(song_id)
-          batch_pbar.update(1)
+          except asyncio.TimeoutError:
+            batch_pbar.write(f'Skipping song {song_id} due to timeout.')
+          except Exception as e:
+            batch_pbar.write(f'Failed processing song {song_id}: {e}')
+          finally:
+            batch_ids.append(song_id)
+            batch_pbar.update(1)
 
-      # End of batch: save and clear batch data.
-      batch_counter += 1
-      session_completed_batches += 1
-      batch_filename = f'{model_data_path_prefix}_batch_{batch_counter}.npz'
-      np.savez_compressed(batch_filename, tabs=np.array(batch_tabs), audio=np.array(batch_audio))
-      tqdm.write(f'Saved batch {batch_counter}: {len(batch_tabs)} tabs and {len(batch_audio)} audio segments to {batch_filename}')
-      write_checkpoint(total_processed, checkpoint_file)
-      batch_tabs.clear()
-      batch_audio.clear()
-      seg_lens.clear()
-      gc.collect()
-      if session_completed_batches >= num_batches:
-        break
+    # Save and clear batch data.
+    batch_counter += 1
+    batch_filename = f'{model_data_path_prefix}_batch_{batch_counter}.npz'
+    np.savez_compressed(batch_filename, tabs=np.array(batch_tabs, dtype=np.uint16), audio=np.array(batch_audio, dtype=np.float32))
+    tqdm.write(f'Saved batch {batch_counter}: {len(batch_tabs)} tabs and {len(batch_audio)} audio segments to {batch_filename}')
+    write_checkpoint(song_id, checkpoint_file)
+
+    gc.collect()
+
+    if batch_counter >= num_batches:
+      break
 
   if batch_tabs and batch_audio:
     batch_counter += 1
