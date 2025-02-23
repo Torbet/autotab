@@ -88,7 +88,7 @@ def encoder():
   tokens.extend([f'<F{i}>' for i in range(-1, 25)])
   tokens.extend([f'<T{i}>' for i in valid_times])
   tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<US>', '<LR>', '<TI>', '<TN>', '<R>', '<C>', '</C>'])  # hammer on, pull off, slide, bend
-  special = ['<|startoftab|>', '<|endoftab|>']
+  special = ['<|startoftab|>', '<|endoftab|>', '<|startofsegment|>', '<|endofsegment|>']
   special.extend([f'<U{i}>' for i in range(51861 - len(tokens))])
   ranks = {token.encode(): i for i, token in enumerate(tokens)}
   special = {token: len(ranks) + i for i, token in enumerate(special)}
