@@ -12,7 +12,7 @@ def tokenizer(track):
   # with open(track, 'r') as file:
   #   track = json.load(file)
 
-  tokens = [(1, '<|startoftab|>')]
+  tokens = []
   bars = track['measures']
 
   for i in range(len(bars)):
@@ -42,8 +42,8 @@ def tokenizer(track):
             fret_str = f'F{fret}'
             str_str = f'S{string + 1}'
             note_tokens.append(f'<{str_str}><{fret_str}>')
-            if tie is not None:
-              note_tokens.append('<TI>')
+            # if tie is not None:
+            #   note_tokens.append('<TI>')
             if bend is not None:
               note_tokens.append('<B>')
             if hp is not None:
@@ -65,10 +65,10 @@ def tokenizer(track):
           dur = round_time(num, den)
           combined_note_token = ''.join(note_tokens) + f'<T{dur}>'
 
-          if beat[x].get('letRing', False):
-            combined_note_token += '<LR>'
-          if beat[x].get('upStroke', False):
-            combined_note_token += '<US>'
+          # if beat[x].get('letRing', False):
+          #   combined_note_token += '<LR>'
+          # if beat[x].get('upStroke', False):
+          #   combined_note_token += '<US>'
           if beat[x].get('slide', False):
             # combined_note_token += f'<SL{beat[x]["slide"]}>'
             combined_note_token += '<SL>'
@@ -76,8 +76,6 @@ def tokenizer(track):
             combined_note_token += '</C>'
 
           tokens.append((i + 1, combined_note_token))
-          # tokens.append((i + 1, '<|space|>'))
-  tokens.append((len(bars) - 1, '<|endoftab|>'))
 
   return tokens
 
@@ -87,7 +85,7 @@ def encoder():
   tokens.extend([f'<S{i}>' for i in range(1, 7)])
   tokens.extend([f'<F{i}>' for i in range(-1, 25)])
   tokens.extend([f'<T{i}>' for i in valid_times])
-  tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<US>', '<LR>', '<TI>', '<TN>', '<R>', '<C>', '</C>'])  # hammer on, pull off, slide, bend
+  tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<R>', '<C>', '</C>'])  # hammer on, pull off, slide, bend
   special = ['<|startoftab|>', '<|endoftab|>', '<|startofsegment|>', '<|endofsegment|>']
   special.extend([f'<U{i}>' for i in range(51861 - len(tokens))])
   ranks = {token.encode(): i for i, token in enumerate(tokens)}

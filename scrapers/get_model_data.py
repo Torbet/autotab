@@ -83,7 +83,7 @@ def encode_token_segments(enc, token_segments: list) -> list:
   encoded_segments = []
   for tokens in token_segments:
     encoded_tokens = []
-    tokens = ['<|startofsegment|>'] + tokens + ['<|endofsegment|>']
+    tokens = ['<|startoftab|>'] + tokens + ['<|endoftab|>']
     for t in tokens:
       encoded_tokens += enc.encode(t, allowed_special=enc.special_tokens_set)
     encoded_segments.append(encoded_tokens)
@@ -97,6 +97,8 @@ def download_audio_stream(video_id: str) -> np.ndarray:
     'format': 'bestaudio',
     'extract_flat': False,
     'format_sort': ['abr'],
+    # 'cookiesfrombrowser': ('chrome', 'Default'),
+    # 'extractor_args': 'youtube:po_token=web.gvs+Mltvcq-0xNFZR29KT7OyxKbpCrGn8OHnFzzXnwOYz2VLw0XHxBYpZZYyLkQH10yUjZhqcpxQ6QUfr1h3Cr2_HnfCrny2EVE2W-dPmOoNRwZCQXglMH_c6-HO4JrN'
   }
   with yt_dlp.YoutubeDL(ydl_opts) as ydl:
     try:
@@ -269,7 +271,7 @@ async def get_model_data(
         for song in batch:
           song_id = song[0]
           try:
-            processed_song = await asyncio.wait_for(process_song(song, enc, vocab, session, max_token_seg_len, batch_pbar), timeout=20)
+            processed_song = await asyncio.wait_for(process_song(song, enc, vocab, session, max_token_seg_len, batch_pbar), timeout=30)
             song_id, valid_segments, seg_lens = processed_song
 
             if valid_segments:
