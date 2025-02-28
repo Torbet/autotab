@@ -48,13 +48,13 @@ def tokenizer(track):
               note_tokens.append('<B>')
             if hp is not None:
               if x < len(beat) - 1:
-                next_note = beat[x + 1]
+                next_note = beat[x + 1]['notes'][0]
               elif i < len(bars) - 1:
                 next_note = bars[i + 1]['voices'][0]['beats'][0]['notes'][0]
               else:
-                next_note = beat[x]
-
-              if 'string' in next_note and string < next_note['string']:
+                next_note = beat[x]['notes'][0]
+            
+              if 'fret' in next_note and fret < next_note['fret']:
                 note_tokens.append('<H>')
               else:
                 note_tokens.append('<P>')
@@ -144,14 +144,14 @@ def round_time(x, y):
 
 # path = 'data/songsterr-data/Superman_0.json'
 
-# tokenurl = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
+tokenurl = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
 
-# r = requests.get(tokenurl)
+r = requests.get(tokenurl)
 
-# tokens = tokenizer(r.json())
+tokens = tokenizer(r.json())
 
-# for t in tokens:
-#   print(t)
+for t in tokens:
+  print(t)
 
 # tokens = tokenizer(tab_dict)
 # tokens = [t for _, t in tokens]
