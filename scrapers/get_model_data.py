@@ -266,7 +266,7 @@ async def get_model_data(
     batch_tabs = []
     batch_audio = []
 
-    async with aiohttp.ClientSession() as session:  
+    async with aiohttp.ClientSession() as session:
       with tqdm(total=len(batch), desc=f'Processing Batch {batch_counter + 1}', unit='song') as batch_pbar:
         for song in batch:
           song_id = song[0]

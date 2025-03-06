@@ -53,7 +53,7 @@ def tokenizer(track):
                 next_note = bars[i + 1]['voices'][0]['beats'][0]['notes'][0]
               else:
                 next_note = beat[x]['notes'][0]
-            
+
               if 'fret' in next_note and fret < next_note['fret']:
                 note_tokens.append('<H>')
               else:
