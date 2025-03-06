@@ -75,9 +75,7 @@ def split(dataset: data.Dataset):
   return (data.DataLoader(ds, batch_size=batch_size, shuffle=True) for ds in (train, val, test))
 
 
-def train(
-  model: Transformer, loader: data.DataLoader, optimizer: optim.Optimizer, epoch: int, total_epochs: int, scheduled_sampling: bool = True
-) -> tuple[float, float]:
+def train(model: Transformer, loader: data.DataLoader, optimizer: optim.Optimizer) -> tuple[float, float]:
   model.train()
   for tab, audio in (t := tqdm(loader)):
     tab, audio = tab.to(device), audio.to(device)
