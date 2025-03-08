@@ -22,7 +22,7 @@ epochs = 20
 lr = 1e-4
 weight_decay = 1e-3
 grad_clip = 1.0
-batch_size = 32
+batch_size = 8
 n_vocab = 51
 text_ctx = 1000
 dims = {  # tiny.en whisper with tweaked context sizes
@@ -75,12 +75,17 @@ def split(dataset: data.Dataset):
   return (data.DataLoader(ds, batch_size=batch_size, shuffle=True) for ds in (train, val, test))
 
 
-def train(model: Transformer, loader: data.DataLoader, optimizer: optim.Optimizer) -> tuple[float, float]:
+def train(model: Transformer, loader: data.DataLoader, optimizer: optim.Optimizer, rate: float) -> tuple[float, float]:
   model.train()
   for tab, audio in (t := tqdm(loader)):
     tab, audio = tab.to(device), audio.to(device)
     optimizer.zero_grad()
     logits = model(audio, tab[:, :-1])
+    preds = logits.argmax(-1)
+    mask = torch.bernoulli(torch.full(preds.shape, rate)).bool().to(device)
+    rest = torch.where(mask, tab[:, 1:], preds)
+    mixed = torch.cat([tab[:, :1], rest], dim=1)
+    logits = model(audio, mixed[:, :-1])
     loss = F.cross_entropy(logits.view(-1, n_vocab), tab[:, 1:].flatten(), ignore_index=0)
     loss.backward()
     nn.utils.clip_grad_norm_(model.parameters(), grad_clip)
@@ -119,8 +124,9 @@ if __name__ == '__main__':
   }
 
   for epoch in range(epochs):
-    print(f'Epoch {epoch + 1}/{epochs} -- Teacher Forcing Rate: {1.0 - (epoch/epochs):.2f}')
-    train_loss, train_acc = train(model, train_loader, optimizer, epoch, epochs, scheduled_sampling=True)
+    rate = 1.0 - (epoch / epochs)
+    print(f'Epoch {epoch + 1}/{epochs} -- Teacher Forcing Rate: {rate:.2f}')
+    train_loss, train_acc = train(model, train_loader, optimizer, rate)
     scheduler.step()
     val_loss, val_acc = evaluate(model, val_loader)
     results['train_loss'].append(train_loss)

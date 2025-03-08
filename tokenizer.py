@@ -144,14 +144,16 @@ def round_time(x, y):
 
 # path = 'data/songsterr-data/Superman_0.json'
 
-tokenurl = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
+# tokenurl = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
 
-r = requests.get(tokenurl)
+# r = requests.get(tokenurl)
 
-tokens = tokenizer(r.json())
+# tokens = tokenizer(r.json())
 
-for t in tokens:
-  print(t)
+# for t in tokens:
+#   print(t)
+
+# print(type(tokens))
 
 # tokens = tokenizer(tab_dict)
 # tokens = [t for _, t in tokens]
