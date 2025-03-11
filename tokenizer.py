@@ -82,12 +82,9 @@ def tokenizer(track):
 
 def encoder():
   tokens = ['<PAD>']
-  tokens.extend([f'<S{i}>' for i in range(1, 7)])
-  tokens.extend([f'<F{i}>' for i in range(-1, 25)])
-  tokens.extend([f'<T{i}>' for i in valid_times])
-  tokens.extend(['<H>', '<P>', '<SL>', '<B>', '<R>', '<C>', '</C>'])  # hammer on, pull off, slide, bend
-  special = ['<|startoftab|>', '<|endoftab|>', '<|startofsegment|>', '<|endofsegment|>']
-  special.extend([f'<U{i}>' for i in range(51861 - len(tokens))])
+  tokens.extend([f'<S{s}><F{f}>' for s in range(1, 7) for f in range(-1, 20)])
+  tokens.extend(['<C>', '</C>'])  # hammer on, pull off, slide, bend
+  special = ['<|startoftab|>', '<|endoftab|>']
   ranks = {token.encode(): i for i, token in enumerate(tokens)}
   special = {token: len(ranks) + i for i, token in enumerate(special)}
   n_vocab = len(ranks) + len(special)
@@ -144,17 +141,11 @@ def round_time(x, y):
 
 # path = 'data/songsterr-data/Superman_0.json'
 
-# tokenurl = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
+tokenurl = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
 
-# r = requests.get(tokenurl)
+r = requests.get(tokenurl)
 
-# tokens = tokenizer(r.json())
-
-# for t in tokens:
-#   print(t)
-
-for t in tokens:
-  print(t)
+tokens = tokenizer(r.json())
 
 # tokens = tokenizer(tab_dict)
 # tokens = [t for _, t in tokens]
