@@ -153,7 +153,8 @@ def round_time(x, y):
 # for t in tokens:
 #   print(t)
 
-# print(type(tokens))
+for t in tokens:
+  print(t)
 
 # tokens = tokenizer(tab_dict)
 # tokens = [t for _, t in tokens]

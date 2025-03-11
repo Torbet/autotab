@@ -18,19 +18,23 @@ FRAMES_PER_SEGMENT = SAMPLES_PER_SEGMENT // HOP_LENGTH
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 weights = torch.load('model.pth', map_location=device, weights_only=True)
-model = nn.DataParallel(Transformer(dims)).to(device)
+# model = nn.DataParallel(Transformer(dims)).to(device)
+model = Transformer(dims).to(device)
 model.load_state_dict(weights)
 
 
-def transcribe(model: nn.DataParallel, tokenizer: tiktoken.Encoding, audio):
-  encoded_audio = model.module.encoder(audio.unsqueeze(0))
+def transcribe(model: Transformer, tokenizer: tiktoken.Encoding, audio):
+  temperature = 0.5
+  encoded_audio = model.encoder(audio.unsqueeze(0))
   tokens = torch.tensor([tokenizer._special_tokens['<|startoftab|>']]).to(device)
   max_tokens = dims['n_text_ctx']
   for _ in range(max_tokens):
-    logits = model.module.decoder(tokens.unsqueeze(0), encoded_audio)
-    logits = logits[0, -1]
-    token = torch.argmax(logits)
-    tokens = torch.cat([tokens, token.unsqueeze(0)])
+    logits = model.decoder(tokens.unsqueeze(0), encoded_audio)
+    logits = logits[0, -1, :] / temperature
+    probs = F.softmax(logits, dim=-1)
+    token = torch.multinomial(probs, num_samples=1)
+    # token = torch.argmax(probs).unsqueeze(0)
+    tokens = torch.cat([tokens, token])
     if token == tokenizer._special_tokens['<|endoftab|>']:
       break
   return tokenizer.decode(tokens.cpu().numpy()), tokens
@@ -41,7 +45,7 @@ if __name__ == '__main__':
   data = np.load('data/raw/audio_tabs_batch_10.npz')
   tabs = torch.from_numpy(data['tabs']).long()
   audios = torch.from_numpy(data['audio']).float()
-  idx = 2
+  idx = 8
   tab = tabs[idx]
   tab = tab[tab != 0].cpu().numpy()
   audio = audios[idx].to(device)
@@ -52,9 +56,12 @@ if __name__ == '__main__':
   text, tokens = transcribe(model, tokenizer, audio)
   print(text)
 
+  print(tab.shape, tokens.shape)
+
   # make tokens and tab same length
-  tokens = tokens[1:]
+  tab = tab[: len(tokens)]
+  tokens = tokens.cpu().numpy()
   tokens = tokens[: len(tab)]
 
-  accuracy = (tab == tokens.cpu().numpy()).sum() / len(tab)
+  accuracy = (tab == tokens).sum() / len(tab)
   print(f'Accuracy: {accuracy:.2f}')
