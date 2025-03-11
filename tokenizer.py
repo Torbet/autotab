@@ -39,7 +39,7 @@ def tokenizer(track):
           note_tokens.append(f'<{str_str}><{fret_str}>')
       if len(notes) > 1:
         note_tokens.append('</C>')
-      tokens.append(''.join(note_tokens))
+      tokens.append((i+1, ''.join(note_tokens)))
 
   return tokens
           # if tie is not None:
