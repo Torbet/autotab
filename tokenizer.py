@@ -82,7 +82,7 @@ def tokenizer(track):
 
 def encoder():
   tokens = ['<PAD>']
-  tokens.extend([f'<S{s}><F{f}>' for s in range(1, 7) for f in range(-1, 20)])
+  tokens.extend([f'<S{s}><F{f}>' for s in range(1, 7) for f in range(-1, 21)])
   tokens.extend(['<C>', '</C>'])  # hammer on, pull off, slide, bend
   special = ['<|startoftab|>', '<|endoftab|>']
   ranks = {token.encode(): i for i, token in enumerate(tokens)}
