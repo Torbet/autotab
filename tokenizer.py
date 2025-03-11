@@ -150,9 +150,6 @@ r = requests.get(tokenurl)
 
 tokens = tokenizer(r.json())
 
-for t in tokens:
-  print(t)
-
 # tokens = tokenizer(tab_dict)
 # tokens = [t for _, t in tokens]
 

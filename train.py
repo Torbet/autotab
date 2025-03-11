@@ -41,7 +41,6 @@ dims = {  # tiny.en whisper with tweaked context sizes
 
 class Dataset(data.Dataset):
   def __init__(self):
-    # Load all .npz files instead of just one.
     self.paths = sorted([os.path.join('data/raw', f) for f in os.listdir('data/raw') if f.endswith('.npz')])
     self.data = []
     for path in self.paths:
@@ -98,7 +97,7 @@ def evaluate(model: Transformer, loader: data.DataLoader) -> tuple[float, float]
   model.eval()
   loss, correct, total = 0, 0, 0
   with torch.no_grad():
-    for tab, audio in loader:
+    for tab, audio in tqdm(loader):
       tab, audio = tab.to(device), audio.to(device)
       logits = model(audio, tab[:, :-1])
       loss += F.cross_entropy(logits.view(-1, n_vocab), tab[:, 1:].flatten(), ignore_index=0).item()

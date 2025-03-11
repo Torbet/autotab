@@ -1,7 +1,9 @@
 .vscode
 .DS_Store
 .ruff_cache
-data/raw/*
+data/*
+!data/sample.wav
+!data/gpt2.tiktoken
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
