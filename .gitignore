@@ -4,6 +4,7 @@
 data/*
 !data/sample.wav
 !data/gpt2.tiktoken
+model.pth
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
