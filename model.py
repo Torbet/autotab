@@ -134,5 +134,17 @@ class Transformer(nn.Module):
     self.encoder = AudioEncoder(**dims)
     self.decoder = TextDecoder(**dims)
 
-  def forward(self, mel: Tensor, tokens: Tensor):
-    return self.decoder(tokens, self.encoder(mel))
+  def forward(self, mel: Tensor, tokens: Tensor, teacher_forcing: bool = False, teacher_forcing_rate: float = 1.0):
+    enc = self.encoder(mel)
+    if not teacher_forcing:
+      return self.decoder(tokens, enc)
+    else:
+      BS, T = tokens.shape
+      out = torch.full((BS, 1), 134, dtype=torch.long, device=tokens.device)
+      for i in range(T - 1):
+        if torch.rand(1) < teacher_forcing_rate:
+          next_token = tokens[:, i + 1].unsqueeze(1)
+        else:
+          next_token = self.decoder(out, enc)[:, -1].argmax(1).unsqueeze(1)
+        out = torch.cat([out, next_token], dim=1)
+      return self.decoder(out, enc)

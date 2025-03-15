@@ -39,42 +39,42 @@ def tokenizer(track):
           note_tokens.append(f'<{str_str}><{fret_str}>')
       if len(notes) > 1:
         note_tokens.append('</C>')
-      tokens.append((i+1, ''.join(note_tokens)))
+      tokens.append((i + 1, ''.join(note_tokens)))
 
   return tokens
-          # if tie is not None:
-          #   note_tokens.append('<TI>')
-          # if bend is not None:
-          #   note_tokens.append('<B>')
-          # if hp is not None:
-          #   if x < len(beat) - 1:
-          #     next_note = beat[x + 1]['notes'][0]
-          #   elif i < len(bars) - 1:
-          #     next_note = bars[i + 1]['voices'][0]['beats'][0]['notes'][0]
-          #   else:
-          #     next_note = beat[x]['notes'][0]
+  # if tie is not None:
+  #   note_tokens.append('<TI>')
+  # if bend is not None:
+  #   note_tokens.append('<B>')
+  # if hp is not None:
+  #   if x < len(beat) - 1:
+  #     next_note = beat[x + 1]['notes'][0]
+  #   elif i < len(bars) - 1:
+  #     next_note = bars[i + 1]['voices'][0]['beats'][0]['notes'][0]
+  #   else:
+  #     next_note = beat[x]['notes'][0]
 
-          #   if 'fret' in next_note and fret < next_note['fret']:
-          #     note_tokens.append('<H>')
-          #   else:
-          #     note_tokens.append('<P>')
+  #   if 'fret' in next_note and fret < next_note['fret']:
+  #     note_tokens.append('<H>')
+  #   else:
+  #     note_tokens.append('<P>')
 
-      # if note_tokens and duration:
-      #   num = duration[0]
-      #   den = duration[1]
-      #   dur = round_time(num, den)
-      #   combined_note_token = ''.join(note_tokens) + f'<T{dur}>'
+  # if note_tokens and duration:
+  #   num = duration[0]
+  #   den = duration[1]
+  #   dur = round_time(num, den)
+  #   combined_note_token = ''.join(note_tokens) + f'<T{dur}>'
 
-        # if beat[x].get('letRing', False):
-        #   combined_note_token += '<LR>'
-        # if beat[x].get('upStroke', False):
-        #   combined_note_token += '<US>'
-        # if beat[x].get('slide', False):
-        #   # combined_note_token += f'<SL{beat[x]["slide"]}>'
-        #   combined_note_token += '<SL>'
-        # if len(notes) > 1:
+  # if beat[x].get('letRing', False):
+  #   combined_note_token += '<LR>'
+  # if beat[x].get('upStroke', False):
+  #   combined_note_token += '<US>'
+  # if beat[x].get('slide', False):
+  #   # combined_note_token += f'<SL{beat[x]["slide"]}>'
+  #   combined_note_token += '<SL>'
+  # if len(notes) > 1:
 
-        # tokens.append((i + 1, combined_note_token))
+  # tokens.append((i + 1, combined_note_token))
 
 
 def encoder():
@@ -152,5 +152,3 @@ tokens = tokenizer(path)
 # # # #print(len(tokens))
 # enc = encoder()
 # validate_tokens_in_vocab(enc, tokens)
-for t in tokens:
-  print(t)

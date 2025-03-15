@@ -9,6 +9,7 @@ from tqdm import tqdm
 from model import Transformer
 import matplotlib.pyplot as plt
 import os
+from tokenizer import encoder
 
 torch.cuda.empty_cache()
 print(f'cuda memory allocated: {torch.cuda.memory_allocated()}')
@@ -17,13 +18,17 @@ print(f'cuda memory cached: {torch.cuda.memory_reserved()}')
 np.random.seed(0)
 torch.manual_seed(0)
 
+teacher_forcing = True
+fine_tune = False
+
+t = encoder()
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 epochs = 20
 lr = 1e-4
 weight_decay = 1e-3
 grad_clip = 1.0
-batch_size = 8
-n_vocab = 51
+batch_size = 16
+n_vocab = t.n_vocab
 text_ctx = 1000
 dims = {  # tiny.en whisper with tweaked context sizes
   'n_mels': 80,
@@ -37,6 +42,7 @@ dims = {  # tiny.en whisper with tweaked context sizes
   'n_text_head': 6,
   'n_text_layer': 4,
 }
+start_token = t._special_tokens['<|startoftab|>']
 
 
 class Dataset(data.Dataset):
@@ -79,12 +85,7 @@ def train(model: Transformer, loader: data.DataLoader, optimizer: optim.Optimize
   for tab, audio in (t := tqdm(loader)):
     tab, audio = tab.to(device), audio.to(device)
     optimizer.zero_grad()
-    logits = model(audio, tab[:, :-1])
-    preds = logits.argmax(-1)
-    mask = torch.bernoulli(torch.full(preds.shape, rate)).bool().to(device)
-    rest = torch.where(mask, tab[:, 1:], preds)
-    mixed = torch.cat([tab[:, :1], rest], dim=1)
-    logits = model(audio, mixed[:, :-1])
+    logits = model(audio, tab[:, :-1], teacher_forcing, rate)
     loss = F.cross_entropy(logits.view(-1, n_vocab), tab[:, 1:].flatten(), ignore_index=0)
     loss.backward()
     nn.utils.clip_grad_norm_(model.parameters(), grad_clip)
@@ -99,7 +100,7 @@ def evaluate(model: Transformer, loader: data.DataLoader) -> tuple[float, float]
   with torch.no_grad():
     for tab, audio in tqdm(loader):
       tab, audio = tab.to(device), audio.to(device)
-      logits = model(audio, tab[:, :-1])
+      logits = model(audio, tab[:, :-1], teacher_forcing=False)
       loss += F.cross_entropy(logits.view(-1, n_vocab), tab[:, 1:].flatten(), ignore_index=0).item()
       correct += (logits.argmax(-1) == tab[:, 1:]).sum().item()
       total += tab[:, 1:].numel()
@@ -137,11 +138,13 @@ if __name__ == '__main__':
   test_loss, test_acc = evaluate(model, test_loader)
   print(f'test_loss: {test_loss:.4f}, test_acc: {test_acc:.4f}')
 
-  torch.save(model.module.state_dict(), 'model.pth')
+  name = f'model{"_tf" if teacher_forcing else ""}{"_ft" if fine_tune else ""}'
+
+  torch.save(model.state_dict(), f'{name}.pth')
 
   plt.plot(results['train_loss'], label='train_loss')
   plt.plot(results['val_loss'], label='val_loss')
   plt.plot(results['train_acc'], label='train_acc')
   plt.plot(results['val_acc'], label='val_acc')
   plt.legend()
-  plt.savefig('results.png')
+  plt.savefig(f'{name}.png')
