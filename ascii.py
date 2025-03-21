@@ -14,9 +14,11 @@ def tokens_to_ascii(tokens):
 
     chord = []
     string = None
+    in_chord = False
     for match in matches:
         if match == 'C':
             chord = []
+            in_chord = True
         elif match == '/C':
             if len(chord) > 7:
                 chord = chord[:7]
@@ -24,17 +26,27 @@ def tokens_to_ascii(tokens):
                 if 1 <= string < 7:
                     if current_pos < len(tab_lines[string-1]):
                         tab_lines[string-1] = tab_lines[string-1][:current_pos] + str(fret) + tab_lines[string-1][current_pos + 1:]
-            current_pos += 1
+            current_pos += 2
             if current_pos % max_chords_per_line == 0:
                 lines.append('\n'.join(tab_lines))
                 tab_lines = ['-' * 32 for _ in range(6)]
                 current_pos = 0
+            in_chord = False
         elif match.startswith('S'):
             string = int(match[1])
         elif match.startswith('F'):
             fret = int(match[1])
             if string is not None and 1 <= string < 7:
-                chord.append((string, fret))
+                if in_chord:
+                    chord.append((string, fret))
+                else:
+                    if current_pos < len(tab_lines[string-1]):
+                        tab_lines[string-1] = tab_lines[string-1][:current_pos] + str(fret) + tab_lines[string-1][current_pos + 1:]
+                    current_pos += 2
+                    if current_pos % max_chords_per_line == 0:
+                        lines.append('\n'.join(tab_lines))
+                        tab_lines = ['-' * 32 for _ in range(6)]
+                        current_pos = 0
 
     # Add any remaining tab lines
     if current_pos > 0:
@@ -47,6 +59,8 @@ def tokens_to_ascii(tokens):
 # Example usage
 path = 'data/songsterr-data/Superman_0.json'
 tokens = tokenizer(path)
+
+# tokens = '<S2><F2><C><S1><F2><S2><F3><S3><F2><S4><F0></C><S4><F8><S1><F9><C><S1><F2><S2><F3><S3><F2><S4><F0></C><S2><F0>'
 
 # Convert tokens array to one long string of just tokens
 tokens = [t for _, t in tokens]
