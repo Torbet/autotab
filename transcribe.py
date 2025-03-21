@@ -4,7 +4,7 @@ import numpy as np
 
 
 def transcribe_beam_search(
-  model, tokenizer, audio: torch.Tensor, beam_size=5, max_length=1000, temp=0.5, no_repeat_ngram_size=3, repetition_penalty=0.9
+  model, tokenizer, audio: torch.Tensor, beam_size=5, max_length=1000, temp=0.8, no_repeat_ngram_size=4, repetition_penalty=1.0
 ):
   model.eval()
   device = audio.device
@@ -120,12 +120,12 @@ if __name__ == '__main__':
   print('Gold Tab', tokenizer.decode(tab), '\n\n')
 
   transcription, tokens = transcribe_beam_search(
-    model, tokenizer, audio, beam_size=5, max_length=1000, temp=0.5, no_repeat_ngram_size=3, repetition_penalty=1.0
+    model, tokenizer, audio, beam_size=5, max_length=1000, temp=0.8, no_repeat_ngram_size=3, repetition_penalty=1.0
   )
   print('Transcription (beam search):', transcription, '\n\n')
 
   transcription, tokens = transcribe_greedy(model, tokenizer, audio, max_length=1000)
   print('Transcription (greedy):', transcription, '\n\n')
 
-  transcription, tokens = transcribe_multinomial(model, tokenizer, audio, max_length=1000, temp=0.5)
+  transcription, tokens = transcribe_multinomial(model, tokenizer, audio, max_length=1000, temp=0.8)
   print('Transcription (multinomial):', transcription, '\n\n')

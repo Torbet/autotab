@@ -77,7 +77,7 @@ start_token = tokenizer._special_tokens['<|startoftab|>']
 
 class Dataset(data.Dataset):
   def __init__(self):
-    self.paths = sorted([os.path.join('data/raw', f) for f in os.listdir('data/raw') if f.endswith('.npz')])
+    self.paths = sorted([os.path.join('data/raw', f) for f in os.listdir('data/raw') if f.endswith('.npz')])[:1]
     self.data = []
     for path in self.paths:
       try:
@@ -129,23 +129,24 @@ def train(model: Transformer, loader: data.DataLoader, optimizer: optim.Optimize
 def evaluate(model: Transformer, loader: data.DataLoader) -> dict:
   model.eval()
   loss, correct, total = 0.0, 0, 0
+  labels, preds = [], []
   all_wer = []  # to collect WER for each sample
-  labels_flat, preds_flat = [], []
 
   with torch.no_grad():
     for tab, audio in tqdm(loader, desc='Evaluating'):
       tab, audio = tab.to(device), audio.to(device)
       logits = model(audio, tab[:, :-1])
+      predictions = logits.argmax(-1)
       loss += F.cross_entropy(logits.view(-1, tokenizer.n_vocab), tab[:, 1:].flatten(), ignore_index=0).item()
-      batch_preds = logits.argmax(-1)
-      labels_flat.extend(tab[:, 1:].flatten().cpu().tolist())
-      preds_flat.extend(batch_preds.flatten().cpu().tolist())
-      correct += (batch_preds == tab[:, 1:]).sum().item()
-      total += tab[:, 1:].numel()
+      mask = tab[:, 1:] != 0
+      correct += (predictions == tab[:, 1:]).float().masked_select(mask).sum().item()
+      total += mask.sum().item()
+      labels.extend(tab[:, 1:].flatten().cpu().tolist())
+      preds.extend(predictions.flatten().cpu().tolist())
 
       for i in range(tab.size(0)):
         ref_tokens = [t for t in tab[i, 1:].cpu().tolist() if t != 0]
-        pred_tokens = [t for t in batch_preds[i].cpu().tolist() if t != 0]
+        pred_tokens = [t for t in predictions[i].cpu().tolist() if t != 0]
         all_wer.append(editdistance.eval(ref_tokens, pred_tokens) / len(ref_tokens) if len(ref_tokens) > 0 else 0)
 
   avg_wer = np.mean(all_wer)
@@ -153,16 +154,16 @@ def evaluate(model: Transformer, loader: data.DataLoader) -> dict:
   return {
     'loss': loss / len(loader),
     'accuracy': correct / total,
-    'precision': metrics.precision_score(labels_flat, preds_flat, average='weighted', zero_division=0),
-    'recall': metrics.recall_score(labels_flat, preds_flat, average='weighted', zero_division=0),
-    'f1': metrics.f1_score(labels_flat, preds_flat, average='weighted', zero_division=0),
+    'precision': metrics.precision_score(labels, preds, average='weighted', zero_division=0),
+    'recall': metrics.recall_score(labels, preds, average='weighted', zero_division=0),
+    'f1': metrics.f1_score(labels, preds, average='weighted', zero_division=0),
     'wer': avg_wer,
-    'confusion': metrics.confusion_matrix(labels_flat, preds_flat).tolist(),
+    'confusion': metrics.confusion_matrix(labels, preds).tolist(),
   }
 
 
 if __name__ == '__main__':
-  print(f'Model: {model_name}, Scheduled Sampling: {scheduled_sampling}, Fine Tuning: {fine_tune}')
+  print(f'Model: {model_name}, Scheduled Sampling: {scheduled_sampling}, Fine Tuning: {fine_tune}, Freeze: {freeze}')
   print(f'Epochs: {epochs}, LR: {lr}, Weight Decay: {weight_decay}, Grad Clip: {grad_clip}, Batch Size: {batch_size}')
   print(f'Device: {device}')
 
@@ -174,10 +175,10 @@ if __name__ == '__main__':
   train_loader, val_loader, test_loader = split(dataset)
   results = {}
   for epoch in range(epochs):
-    # rate = 1.0 - (epoch / epochs)  # too fast
-    rate = 1.0 if epoch < 5 else 1.0 - (epoch - 5) / (epochs - 5)
+    rate = 1.0 - (epoch / epochs)
+    # rate = 1.0 if epoch < 5 else 1.0 - (epoch - 5) / (epochs - 5)
 
-    print(f'Epoch {epoch + 1}/{epochs} -- Teacher Forcing Rate: {rate:.2f}')
+    print(f'\nEpoch {epoch + 1}/{epochs} -- Teacher Forcing Rate: {rate:.2f}')
     train_results = train(model, train_loader, optimizer, rate)
     val_results = evaluate(model, val_loader)
     results[epoch] = {'train': train_results, 'val': val_results}
