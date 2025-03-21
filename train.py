@@ -1,4 +1,5 @@
 from __future__ import annotations
+import argparse
 import os
 import csv
 import numpy as np
@@ -12,6 +13,7 @@ import matplotlib.pyplot as plt
 from model import Transformer
 from tokenizer import encoder
 from sklearn import metrics
+import editdistance
 
 # Clear CUDA cache and print memory status.
 torch.cuda.empty_cache()
@@ -21,17 +23,24 @@ print(f'cuda memory cached: {torch.cuda.memory_reserved()}')
 np.random.seed(0)
 torch.manual_seed(0)
 
-# Flags and hyperparameters
-scheduled_sampling = False
-fine_tune = True
-model_name = 'tiny'
+parser = argparse.ArgumentParser()
+# boolean optional, default False
+parser.add_argument('--ss', action='store_true', help='Use scheduled sampling')
+parser.add_argument('--ft', action='store_true', help='Fine tune the encoder')
+parser.add_argument('--freeze', action='store_true', help='Freeze the encoder')
+parser.add_argument('--model', type=str, default='tiny', help='Model name')
+args = parser.parse_args()
+
+scheduled_sampling = args.ss
+fine_tune = args.ft
+freeze = args.freeze
+model_name = args.model
 epochs = 20
 lr = 1e-4
 weight_decay = 1e-3
 grad_clip = 1.0
 batch_size = 8
 
-# Model URLs dictionary.
 MODEL_URLS = {
   'tiny.en': 'https://openaipublic.azureedge.net/main/whisper/models/d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03/tiny.en.pt',
   'tiny': 'https://openaipublic.azureedge.net/main/whisper/models/65147644a518d12f04e32d6f3b26facc3f8dd46e5390956a9424a650c0ce22b9/tiny.pt',
@@ -55,9 +64,9 @@ def get_model(name):
   model = Transformer(state['dims'])
   if fine_tune:
     model.encoder.load_state_dict({k.replace('encoder.', ''): v for k, v in state['model_state_dict'].items() if 'encoder' in k})
-    for param in model.encoder.parameters():
-      param.requires_grad = False
-
+    if freeze:
+      for param in model.encoder.parameters():
+        param.requires_grad = False
   return model, tokenizer
 
 
@@ -101,13 +110,16 @@ def train(model: Transformer, loader: data.DataLoader, optimizer: optim.Optimize
     tab, audio = tab.to(device), audio.to(device)
     optimizer.zero_grad()
     logits = model(audio, tab[:, :-1])
+
     if scheduled_sampling:
       mask = torch.rand_like(tab[:, 1:].float()) < rate
       teacher = tab[:, 1:]
       student = logits.argmax(-1)
       mixed = torch.cat([tab[:, :1], torch.where(mask, teacher, student)], dim=1)
       logits = model(audio, mixed[:, :-1])
-    loss = F.cross_entropy(logits.view(-1, tokenizer.n_vocab), tab[:, 1:].flatten(), ignore_index=0)
+
+    loss = F.cross_entropy(logits.view(-1, tokenizer.n_vocab), tab[:, 1:].flatten(), ignore_index=0, label_smoothing=0 if rate == 1.0 else 0.1)
+
     loss.backward()
     nn.utils.clip_grad_norm_(model.parameters(), grad_clip)
     optimizer.step()
@@ -117,35 +129,35 @@ def train(model: Transformer, loader: data.DataLoader, optimizer: optim.Optimize
 def evaluate(model: Transformer, loader: data.DataLoader) -> dict:
   model.eval()
   loss, correct, total = 0.0, 0, 0
-  labels, preds = [], []
-  probs = None
+  all_wer = []  # to collect WER for each sample
+  labels_flat, preds_flat = [], []
 
   with torch.no_grad():
     for tab, audio in tqdm(loader, desc='Evaluating'):
       tab, audio = tab.to(device), audio.to(device)
       logits = model(audio, tab[:, :-1])
-
       loss += F.cross_entropy(logits.view(-1, tokenizer.n_vocab), tab[:, 1:].flatten(), ignore_index=0).item()
-
       batch_preds = logits.argmax(-1)
-      batch_labels = tab[:, 1:]
+      labels_flat.extend(tab[:, 1:].flatten().cpu().tolist())
+      preds_flat.extend(batch_preds.flatten().cpu().tolist())
+      correct += (batch_preds == tab[:, 1:]).sum().item()
+      total += tab[:, 1:].numel()
 
-      preds.extend(batch_preds.cpu().numpy().flatten().tolist())
-      labels.extend(batch_labels.cpu().numpy().flatten().tolist())
+      for i in range(tab.size(0)):
+        ref_tokens = [t for t in tab[i, 1:].cpu().tolist() if t != 0]
+        pred_tokens = [t for t in batch_preds[i].cpu().tolist() if t != 0]
+        all_wer.append(editdistance.eval(ref_tokens, pred_tokens) / len(ref_tokens) if len(ref_tokens) > 0 else 0)
 
-      if probs is not None:
-        probs.extend(F.softmax(logits, dim=-1).cpu().numpy().reshape(-1, tokenizer.n_vocab).tolist())
-
-      correct += (batch_preds == batch_labels).sum().item()
-      total += batch_labels.numel()
+  avg_wer = np.mean(all_wer)
 
   return {
     'loss': loss / len(loader),
     'accuracy': correct / total,
-    'precision': metrics.precision_score(labels, preds, average='weighted', zero_division=0),
-    'recall': metrics.recall_score(labels, preds, average='weighted', zero_division=0),
-    'f1': metrics.f1_score(labels, preds, average='weighted', zero_division=0),
-    'confusion': metrics.confusion_matrix(labels, preds).tolist(),
+    'precision': metrics.precision_score(labels_flat, preds_flat, average='weighted', zero_division=0),
+    'recall': metrics.recall_score(labels_flat, preds_flat, average='weighted', zero_division=0),
+    'f1': metrics.f1_score(labels_flat, preds_flat, average='weighted', zero_division=0),
+    'wer': avg_wer,
+    'confusion': metrics.confusion_matrix(labels_flat, preds_flat).tolist(),
   }
 
 
@@ -162,24 +174,24 @@ if __name__ == '__main__':
   train_loader, val_loader, test_loader = split(dataset)
   results = {}
   for epoch in range(epochs):
-    rate = 1.0 - (epoch / epochs)
+    # rate = 1.0 - (epoch / epochs)  # too fast
+    rate = 1.0 if epoch < 5 else 1.0 - (epoch - 5) / (epochs - 5)
+
     print(f'Epoch {epoch + 1}/{epochs} -- Teacher Forcing Rate: {rate:.2f}')
     train_results = train(model, train_loader, optimizer, rate)
     val_results = evaluate(model, val_loader)
     results[epoch] = {'train': train_results, 'val': val_results}
-    print(f'Train: Loss {train_results["loss"]:.4f}, Acc {train_results["accuracy"]:.4f}')
-    print(f'Val: Loss {val_results["loss"]:.4f}, Acc {val_results["accuracy"]:.4f}')
+    print(f'Train: Loss {train_results["loss"]:.4f}, Acc {train_results["accuracy"]:.4f}, WER {train_results["wer"]:.4f}')
+    print(f'Val: Loss {val_results["loss"]:.4f}, Acc {val_results["accuracy"]:.4f}, WER {val_results["wer"]:.4f}')
     scheduler.step()
   test_results = evaluate(model, test_loader)
-  print(f'Test: Loss {test_results["loss"]:.4f}, Acc {test_results["accuracy"]:.4f}')
+  print(f'Test: Loss {test_results["loss"]:.4f}, Acc {test_results["accuracy"]:.4f}, WER {test_results["wer"]:.4f}')
 
-  name = (
-    f'results/{model_name}{"_ss" if scheduled_sampling else ""}{"_ft" if fine_tune else ""}_{epochs}_{lr}_{weight_decay}_{grad_clip}_{batch_size}'
-  )
+  name = f'results/{model_name}{"_ss" if scheduled_sampling else ""}{"_ft" if fine_tune else ""}{f"_freeze" if freeze else ""}'
   torch.save(model.module.state_dict(), f'{name}.pth')
 
   # Save CSV results.
-  keys = ['loss', 'accuracy', 'precision', 'recall', 'f1']
+  keys = ['loss', 'accuracy', 'precision', 'recall', 'f1', 'wer']
   with open(f'{name}.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(['epoch', 'type'] + keys)
@@ -188,13 +200,13 @@ if __name__ == '__main__':
         writer.writerow([epoch, split_type] + [results[epoch][split_type][k] for k in keys])
     writer.writerow(['+', 'test'] + [test_results[k] for k in keys])
 
-  # save test confusion matrix
+  # Save test confusion matrix.
   with open(f'{name}_confusion.txt', 'w', newline='') as f:
     f.write(str(test_results['confusion']))
 
   # Plot training curves.
   plt.figure()
-  for key in keys[:4]:
+  for key in keys:
     plt.plot([results[e]['train'][key] for e in range(epochs)], label=f'train_{key}')
     plt.plot([results[e]['val'][key] for e in range(epochs)], label=f'val_{key}')
   plt.legend()

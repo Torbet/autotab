@@ -75,15 +75,3 @@ def tokens_to_ascii(tokens):
 # Example token set
 # tokens = [(1, '<S4><F7><H><T4>'), (1, '<S4><F10><T4>'), (1, '<S3><F7><H><T16>'), (1, '<S3><F10><P><T8>'), (1, '<S3><F10><P><T8>'),
 #   (2, '<S4><F7><H><T4>'), (2, '<S4><F10><T4>'), (2, '<S3><F7><H><T16>'), (2, '<S3><F10><P><T8>'), (2, '<S3><F10><P><T8>')]
-
-tokenurl = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
-
-r = requests.get(tokenurl)
-
-tokens = tokenizer(r.json())
-
-# print(tokens)
-
-# Convert tokens to ASCII tab
-ascii_tab = tokens_to_ascii(tokens)
-print(ascii_tab)
