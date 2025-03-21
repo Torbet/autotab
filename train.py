@@ -38,8 +38,9 @@ model_name = args.model
 epochs = 20
 lr = 1e-4
 weight_decay = 1e-3
+batch_size = 16
 grad_clip = 1.0
-batch_size = 8
+n_text_ctx = 800
 
 MODEL_URLS = {
   'tiny.en': 'https://openaipublic.azureedge.net/main/whisper/models/d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03/tiny.en.pt',
@@ -60,7 +61,7 @@ def get_model(name):
   tokenizer = encoder()
   state = torch.hub.load_state_dict_from_url(MODEL_URLS[name])
   state['dims']['n_vocab'] = tokenizer.n_vocab
-  state['dims']['n_text_ctx'] = 1000
+  state['dims']['n_text_ctx'] = n_text_ctx
   model = Transformer(state['dims'])
   if fine_tune:
     model.encoder.load_state_dict({k.replace('encoder.', ''): v for k, v in state['model_state_dict'].items() if 'encoder' in k})
@@ -77,13 +78,13 @@ start_token = tokenizer._special_tokens['<|startoftab|>']
 
 class Dataset(data.Dataset):
   def __init__(self):
-    self.paths = sorted([os.path.join('data/raw', f) for f in os.listdir('data/raw') if f.endswith('.npz')])[:1]
+    self.paths = sorted([os.path.join('data/raw', f) for f in os.listdir('data/raw') if f.endswith('.npz')])
     self.data = []
     for path in self.paths:
       try:
         print(f'Loading {path}')
         d = np.load(path)
-        self.data.append((d['tabs'], d['audio']))
+        self.data.append((d['tabs'][:, :n_text_ctx], d['audio']))
       except Exception as e:
         print(f'Error loading {path}: {e}')
     self.idx_map = [(i, j) for i, (tabs, _) in enumerate(self.data) for j in range(tabs.shape[0])]
@@ -104,7 +105,7 @@ def split(dataset: data.Dataset):
   return (data.DataLoader(ds, batch_size=batch_size, shuffle=True) for ds in (train, val, test))
 
 
-def train(model: Transformer, loader: data.DataLoader, optimizer: optim.Optimizer, rate: float) -> dict:
+def train(model: Transformer, loader: data.DataLoader, optimizer: optim.Optimizer, scheduler: optim.lr_scheduler, rate: float) -> dict:
   model.train()
   for tab, audio in tqdm(loader, desc='Training'):
     tab, audio = tab.to(device), audio.to(device)
@@ -118,11 +119,10 @@ def train(model: Transformer, loader: data.DataLoader, optimizer: optim.Optimize
       mixed = torch.cat([tab[:, :1], torch.where(mask, teacher, student)], dim=1)
       logits = model(audio, mixed[:, :-1])
 
-    loss = F.cross_entropy(logits.view(-1, tokenizer.n_vocab), tab[:, 1:].flatten(), ignore_index=0, label_smoothing=0 if rate == 1.0 else 0.1)
-
+    loss = F.cross_entropy(logits.view(-1, tokenizer.n_vocab), tab[:, 1:].flatten(), ignore_index=0)
     loss.backward()
-    nn.utils.clip_grad_norm_(model.parameters(), grad_clip)
     optimizer.step()
+    scheduler.step()
   return evaluate(model, loader)
 
 
@@ -130,7 +130,7 @@ def evaluate(model: Transformer, loader: data.DataLoader) -> dict:
   model.eval()
   loss, correct, total = 0.0, 0, 0
   labels, preds = [], []
-  all_wer = []  # to collect WER for each sample
+  wer = []
 
   with torch.no_grad():
     for tab, audio in tqdm(loader, desc='Evaluating'):
@@ -147,9 +147,7 @@ def evaluate(model: Transformer, loader: data.DataLoader) -> dict:
       for i in range(tab.size(0)):
         ref_tokens = [t for t in tab[i, 1:].cpu().tolist() if t != 0]
         pred_tokens = [t for t in predictions[i].cpu().tolist() if t != 0]
-        all_wer.append(editdistance.eval(ref_tokens, pred_tokens) / len(ref_tokens) if len(ref_tokens) > 0 else 0)
-
-  avg_wer = np.mean(all_wer)
+        wer.append(editdistance.eval(ref_tokens, pred_tokens) / len(ref_tokens) if len(ref_tokens) > 0 else 0)
 
   return {
     'loss': loss / len(loader),
@@ -157,7 +155,7 @@ def evaluate(model: Transformer, loader: data.DataLoader) -> dict:
     'precision': metrics.precision_score(labels, preds, average='weighted', zero_division=0),
     'recall': metrics.recall_score(labels, preds, average='weighted', zero_division=0),
     'f1': metrics.f1_score(labels, preds, average='weighted', zero_division=0),
-    'wer': avg_wer,
+    'wer': np.mean(wer),
     'confusion': metrics.confusion_matrix(labels, preds).tolist(),
   }
 
@@ -179,12 +177,11 @@ if __name__ == '__main__':
     # rate = 1.0 if epoch < 5 else 1.0 - (epoch - 5) / (epochs - 5)
 
     print(f'\nEpoch {epoch + 1}/{epochs} -- Teacher Forcing Rate: {rate:.2f}')
-    train_results = train(model, train_loader, optimizer, rate)
+    train_results = train(model, train_loader, optimizer, scheduler, rate)
     val_results = evaluate(model, val_loader)
     results[epoch] = {'train': train_results, 'val': val_results}
     print(f'Train: Loss {train_results["loss"]:.4f}, Acc {train_results["accuracy"]:.4f}, WER {train_results["wer"]:.4f}')
     print(f'Val: Loss {val_results["loss"]:.4f}, Acc {val_results["accuracy"]:.4f}, WER {val_results["wer"]:.4f}')
-    scheduler.step()
   test_results = evaluate(model, test_loader)
   print(f'Test: Loss {test_results["loss"]:.4f}, Acc {test_results["accuracy"]:.4f}, WER {test_results["wer"]:.4f}')
 
