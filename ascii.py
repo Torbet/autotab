@@ -21,9 +21,9 @@ def tokens_to_ascii(tokens):
             if len(chord) > 7:
                 chord = chord[:7]
             for string, fret in chord:
-                if 0 <= string < 6:
-                    if current_pos < len(tab_lines[string]):
-                        tab_lines[string] = tab_lines[string][:current_pos] + str(fret) + tab_lines[string][current_pos + 1:]
+                if 1 <= string < 7:
+                    if current_pos < len(tab_lines[string-1]):
+                        tab_lines[string-1] = tab_lines[string-1][:current_pos] + str(fret) + tab_lines[string-1][current_pos + 1:]
             current_pos += 1
             if current_pos % max_chords_per_line == 0:
                 lines.append('\n'.join(tab_lines))
@@ -33,7 +33,7 @@ def tokens_to_ascii(tokens):
             string = int(match[1])
         elif match.startswith('F'):
             fret = int(match[1])
-            if string is not None and 0 <= string < 6:
+            if string is not None and 1 <= string < 7:
                 chord.append((string, fret))
 
     # Add any remaining tab lines
@@ -55,4 +55,4 @@ print(tokens)
 
 # Convert tokens to ASCII tab
 ascii_tab = tokens_to_ascii(tokens)
-# print(ascii_tab)
+print(ascii_tab)
