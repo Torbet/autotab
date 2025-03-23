@@ -38,9 +38,9 @@ model_name = args.model
 epochs = 20
 lr = 1e-4
 weight_decay = 1e-3
-batch_size = 16
+batch_size = 8
 grad_clip = 1.0
-n_text_ctx = 800
+n_text_ctx = 1000
 
 MODEL_URLS = {
   'tiny.en': 'https://openaipublic.azureedge.net/main/whisper/models/d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03/tiny.en.pt',
@@ -84,7 +84,7 @@ class Dataset(data.Dataset):
       try:
         print(f'Loading {path}')
         d = np.load(path)
-        self.data.append((d['tabs'][:, :n_text_ctx], d['audio']))
+        self.data.append((d['tabs'], d['audio']))
       except Exception as e:
         print(f'Error loading {path}: {e}')
     self.idx_map = [(i, j) for i, (tabs, _) in enumerate(self.data) for j in range(tabs.shape[0])]
@@ -165,12 +165,12 @@ if __name__ == '__main__':
   print(f'Epochs: {epochs}, LR: {lr}, Weight Decay: {weight_decay}, Grad Clip: {grad_clip}, Batch Size: {batch_size}')
   print(f'Device: {device}')
 
-  model = nn.DataParallel(model).to(device)
-  optimizer = optim.AdamW(model.parameters(), lr=lr, weight_decay=weight_decay, betas=(0.9, 0.98), eps=1e-9)
-  scheduler = optim.lr_scheduler.OneCycleLR(optimizer, max_lr=lr, steps_per_epoch=100, epochs=epochs)
-
   dataset = Dataset()
   train_loader, val_loader, test_loader = split(dataset)
+  model = nn.DataParallel(model).to(device)
+  optimizer = optim.AdamW(model.parameters(), lr=lr, weight_decay=weight_decay, betas=(0.9, 0.98), eps=1e-9)
+  scheduler = optim.lr_scheduler.OneCycleLR(optimizer, max_lr=lr, total_steps=epochs * len(train_loader))
+
   results = {}
   for epoch in range(epochs):
     rate = 1.0 - (epoch / epochs)
