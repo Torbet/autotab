@@ -62,6 +62,7 @@ def get_model(name):
   state = torch.hub.load_state_dict_from_url(MODEL_URLS[name])
   state['dims']['n_vocab'] = tokenizer.n_vocab
   state['dims']['n_text_ctx'] = n_text_ctx
+  print(state['dims'])
   model = Transformer(state['dims'])
   if fine_tune:
     model.encoder.load_state_dict({k.replace('encoder.', ''): v for k, v in state['model_state_dict'].items() if 'encoder' in k})
