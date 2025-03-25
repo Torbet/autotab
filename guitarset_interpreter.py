@@ -2,12 +2,12 @@
 
 import numpy as np
 
-# import pretty_midi
+import pretty_midi
 from matplotlib import lines as mlines, pyplot as plt
 
-# import tempfile
-# import librosa
-# import sox
+import tempfile
+import librosa
+import sox
 import os
 import pandas as pd
 import jams
