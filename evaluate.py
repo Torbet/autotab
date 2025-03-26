@@ -8,6 +8,9 @@ from model import Transformer
 from train import evaluate
 import csv
 
+np.random.seed(0)
+torch.manual_seed(0)
+
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 dims = {
   'n_mels': 80,
@@ -42,15 +45,15 @@ class Dataset(data.Dataset):
 
 loader = data.DataLoader(Dataset(), batch_size=8, shuffle=True)
 
-models = ['tiny', 'tiny_ft', 'tiny_ss', 'tiny_ss_ft', 'tiny_ss_ft_freeze', 'tiny_ft_freeze']
+sizes = [round(0.2 * i, 1) for i in range(1, 6)]
 results = {}
 
-for name in models:
-  print(f'Evaluating {name}')
+for size in sizes:
+  print(f'Evaluating {size}')
   model = Transformer(dims)
-  model.load_state_dict(torch.load(f'results/{name}.pth'))
+  model.load_state_dict(torch.load(f'results/tiny_{size}.pth'))
   model.to(device)
-  results[name] = evaluate(model, loader)
+  results[size] = evaluate(model, loader)
 
 with open('results.csv', 'w') as f:
   writer = csv.writer(f)
@@ -58,3 +61,8 @@ with open('results.csv', 'w') as f:
   writer.writerow(['model'] + keys)
   for name, result in results.items():
     writer.writerow([name] + [result[k] for k in keys])
+
+# log confusion matrix
+for name, result in results.items():
+  with open(f'{name}_confusion.txt', 'w', newline='') as f:
+    f.write(str(result['confusion']))

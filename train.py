@@ -13,7 +13,8 @@ import matplotlib.pyplot as plt
 from model import Transformer
 from tokenizer import encoder
 from sklearn import metrics
-import editdistance
+import jiwer
+import re
 
 # Clear CUDA cache and print memory status.
 torch.cuda.empty_cache()
@@ -29,6 +30,7 @@ parser.add_argument('--ss', action='store_true', help='Use scheduled sampling')
 parser.add_argument('--ft', action='store_true', help='Fine tune the encoder')
 parser.add_argument('--freeze', action='store_true', help='Freeze the encoder')
 parser.add_argument('--model', type=str, default='tiny', help='Model name')
+parser.add_argument('--data', type=float, default=1.0, help='Data split')
 args = parser.parse_args()
 
 scheduled_sampling = args.ss
@@ -103,6 +105,11 @@ def split(dataset: data.Dataset):
   l = len(dataset)
   sizes = [int(l * 0.8), int(l * 0.1), l - int(l * 0.8) - int(l * 0.1)]
   train, val, test = data.random_split(dataset, sizes)
+  if args.data < 1.0:
+    subsample = int(len(train) * args.data)
+    generator = torch.Generator().manual_seed(0)
+    indices = torch.randperm(len(train), generator=generator)[:subsample]
+    train = data.Subset(train, indices)
   return (data.DataLoader(ds, batch_size=batch_size, shuffle=True) for ds in (train, val, test))
 
 
@@ -142,13 +149,32 @@ def evaluate(model: Transformer, loader: data.DataLoader) -> dict:
       mask = tab[:, 1:] != 0
       correct += (predictions == tab[:, 1:]).float().masked_select(mask).sum().item()
       total += mask.sum().item()
-      labels.extend(tab[:, 1:].flatten().cpu().tolist())
-      preds.extend(predictions.flatten().cpu().tolist())
 
       for i in range(tab.size(0)):
         ref_tokens = [t for t in tab[i, 1:].cpu().tolist() if t != 0]
         pred_tokens = [t for t in predictions[i].cpu().tolist() if t != 0]
-        wer.append(editdistance.eval(ref_tokens, pred_tokens) / len(ref_tokens) if len(ref_tokens) > 0 else 0)
+        ref = tokenizer.decode(ref_tokens)
+        pred = tokenizer.decode(pred_tokens)
+
+        ref = re.sub(r'><', '> <', ref)
+        pred = re.sub(r'><', '> <', pred)
+
+        ref = re.sub(r'<\|startoftab\|>', '', ref)
+        ref = re.sub(r'<\|endoftab\|>', '', ref)
+        pred = re.sub(r'<\|startoftab\|>', '', pred)
+        pred = re.sub(r'<\|endoftab\|>', '', pred)
+
+        ref = re.sub(r'[<>]', '', ref)
+        pred = re.sub(r'[<>]', '', pred)
+
+        if len(pred) == 0 or len(ref) == 0:
+          continue
+        wer.append(jiwer.wer(ref, pred))
+
+      labels.extend(tab[:, 1:][mask].flatten().cpu().tolist())
+      preds.extend(predictions[mask].flatten().cpu().tolist())
+
+  confusion = metrics.confusion_matrix(labels, preds, labels=list(range(1, tokenizer.n_vocab)))
 
   return {
     'loss': loss / len(loader),
@@ -157,12 +183,13 @@ def evaluate(model: Transformer, loader: data.DataLoader) -> dict:
     'recall': metrics.recall_score(labels, preds, average='weighted', zero_division=0),
     'f1': metrics.f1_score(labels, preds, average='weighted', zero_division=0),
     'wer': np.mean(wer),
-    'confusion': metrics.confusion_matrix(labels, preds).tolist(),
+    # 'confusion': metrics.confusion_matrix(labels, preds).tolist(),
+    'confusion': confusion,
   }
 
 
 if __name__ == '__main__':
-  print(f'Model: {model_name}, Scheduled Sampling: {scheduled_sampling}, Fine Tuning: {fine_tune}, Freeze: {freeze}')
+  print(f'Model: {model_name}, Scheduled Sampling: {scheduled_sampling}, Fine Tuning: {fine_tune}, Freeze: {freeze}, Data: {args.data}')
   print(f'Epochs: {epochs}, LR: {lr}, Weight Decay: {weight_decay}, Grad Clip: {grad_clip}, Batch Size: {batch_size}')
   print(f'Device: {device}')
 
@@ -186,7 +213,7 @@ if __name__ == '__main__':
   test_results = evaluate(model, test_loader)
   print(f'Test: Loss {test_results["loss"]:.4f}, Acc {test_results["accuracy"]:.4f}, WER {test_results["wer"]:.4f}')
 
-  name = f'results/{model_name}{"_ss" if scheduled_sampling else ""}{"_ft" if fine_tune else ""}{f"_freeze" if freeze else ""}'
+  name = f'results/{model_name}{"_ss" if scheduled_sampling else ""}{"_ft" if fine_tune else ""}{f"_freeze" if freeze else ""}_{args.data}'
   torch.save(model.module.state_dict(), f'{name}.pth')
 
   # Save CSV results.
