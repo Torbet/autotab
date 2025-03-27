@@ -36,7 +36,7 @@ def tokenizer(track):
         if fret is not None and string is not None:
           fret_str = f'F{fret}'
           str_str = f'S{string + 1}'
-          note_tokens.append(f'<{str_str}><{fret_str}>')
+          note_tokens.append(f'<{str_str}|{fret_str}>')
           if hp is not None:
             if x < len(beat) - 1:
               next_note = beat[x + 1]['notes'][0]
@@ -51,7 +51,7 @@ def tokenizer(track):
               note_tokens.append('<P>')
       if len(notes) > 1:
         note_tokens.append('</C>')
-      tokens.append((i + 1, ''.join(note_tokens)))
+      tokens.extend([(i + 1, t) for t in note_tokens])
 
   return tokens
   # if tie is not None:
@@ -91,8 +91,8 @@ def tokenizer(track):
 
 def encoder():
   tokens = ['<PAD>']
-  tokens.extend([f'<S{s}><F{f}>' for s in range(1, 7) for f in range(-1, 21)])
-  tokens.extend(['<C>', '</C>'])
+  tokens.extend([f'<S{s}|F{f}>' for s in range(1, 7) for f in range(-1, 21)])
+  tokens.extend(['<C>', '</C>', '<H>', '<P>'])
   special = ['<|startoftab|>', '<|endoftab|>']
   ranks = {token.encode(): i for i, token in enumerate(tokens)}
   special = {token: len(ranks) + i for i, token in enumerate(special)}
@@ -150,17 +150,16 @@ def validate_tokens_in_vocab(enc, tokens):
 
 # path = 'data/songsterr-data/Superman_0.json'
 
-tokenurl = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
+# tokenurl = 'https://dqsljvtekg760.cloudfront.net/103/1017529/v3-5-24-ipkd1DcEtxBtNp23/0.json'
 
-r = requests.get(tokenurl)
+# r = requests.get(tokenurl)
 
-tokens = tokenizer(r.json())
+# tokens = tokenizer(r.json())
 
-# tokens = tokenizer(path)
 # tokens = [t for _, t in tokens]
 
-for t in tokens:
-  print(t)
+# for t in tokens:
+#   print(t)
 
 # # # tokens = tokenizer(tab_dict)
 # # # #tokens = [token for i, token, in tokens]

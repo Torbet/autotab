@@ -13,7 +13,7 @@ async def main():
     song_meta_data=song_meta_data,
     checkpoint_file='data/songsterr-data/checkpoint.csv',
     model_data_path_prefix='data/model_data/audio_tabs',
-    batch_size=200,
+    batch_size=1000,
     num_batches=200,
   )
 
