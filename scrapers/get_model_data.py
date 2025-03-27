@@ -8,7 +8,6 @@ import numpy as np
 import requests
 import aiohttp
 import asyncio
-import yt_dlp
 import ffmpeg
 import soundfile as sf
 from audio import process_audio_waveform, SAMPLE_RATE
@@ -35,13 +34,13 @@ async def get_json(url: str, session: aiohttp.ClientSession) -> dict:
       raise RuntimeError(f'Error decoding JSON from {url}: {e}') from e
 
 
-def get_default_video(video_dicts: list, track_hash: str):
-  default_video, default_points = video_dicts[-1].get('videoId'), video_dicts[-1].get('points')
+def get_default_audio(audio_dicts: list, track_hash: str):
+  default_audio, default_points = audio_dicts[-1].get('audioId'), audio_dicts[-1].get('points')
   if not track_hash:
-    return default_video, default_points
+    return default_audio, default_points
   return next(
-    ((video.get('videoId'), video.get('points')) for video in video_dicts if video.get('tracks') and track_hash in video['tracks']),
-    (default_video, default_points),
+    ((audio.get('audioId'), audio.get('points')) for audio in audio_dicts if audio.get('tracks') and track_hash in audio['tracks']),
+    (default_audio, default_points),
   )
 
 
@@ -90,19 +89,8 @@ def encode_token_segments(enc, token_segments: list) -> list:
   return encoded_segments
 
 
-def download_audio_stream(video_id: str, ydl) -> np.ndarray:
-  video_url = f'https://www.youtube.com/watch?v={video_id}'
-
-  try:
-    info = ydl.extract_info(video_url, download=False)
-    if 'url' in info:
-      audio_url = info['url']
-    elif 'formats' in info and len(info['formats']) > 0:
-      audio_url = info['formats'][0]['url']
-    else:
-      raise ValueError(f'Could not extract audio URL for video {video_id} from any available format')
-  except Exception as e:
-    raise e
+def download_audio_stream(audio_id: str) -> np.ndarray:
+  audio_url = f'https://static2.songsterr.com/production-main/static2/media/{audio_id}.opus'
 
   try:
     out, _ = (
@@ -111,13 +99,13 @@ def download_audio_stream(video_id: str, ydl) -> np.ndarray:
       .run(capture_stdout=True, capture_stderr=True)
     )
   except Exception as e:
-    raise RuntimeError(f'Error during ffmpeg processing for video {video_id}: {e}') from e
+    raise RuntimeError(f'Error during ffmpeg processing for audio {audio_id}: {e}') from e
 
   audio_buffer = io.BytesIO(out)
   try:
     waveform, sr = sf.read(audio_buffer)
   except Exception as e:
-    raise RuntimeError(f'Error reading audio data for video {video_id}: {e}') from e
+    raise RuntimeError(f'Error reading audio data for audio {audio_id}: {e}') from e
 
   if sr != SAMPLE_RATE:
     print(f'Warning: sample rate mismatch (expected {SAMPLE_RATE}, got {sr})')
@@ -201,20 +189,20 @@ def get_bar_dict(tokens):
   return bar_dict
 
 
-async def process_song(song, enc, vocab, session, ydl, max_token_seg_len, batch_pbar):
+async def process_song(song, enc, vocab, session, max_token_seg_len, batch_pbar):
   song_id, track_hash, vid_api_url, tab_api_url = song
   batch_pbar.write(f'\nProcessing Song ID: {song_id}')
 
-  # Retrieve video and tab data concurrently.
-  video_task = get_json(vid_api_url, session)
+  # Retrieve audio and tab data concurrently.
+  audio_task = get_json(vid_api_url, session)
   tab_task = get_json(tab_api_url, session)
-  video_dicts, tab_dict = await asyncio.gather(video_task, tab_task)
+  audio_dicts, tab_dict = await asyncio.gather(audio_task, tab_task)
 
-  if not video_dicts:
-    raise RuntimeError(f'No video data returned for song {song_id}')
-  video_id, points = get_default_video(video_dicts, track_hash)
-  if not video_id or not points:
-    raise RuntimeError(f'No valid video found for song {song_id}')
+  if not audio_dicts:
+    raise RuntimeError(f'No audio data returned for song {song_id}')
+  audio_id, points = get_default_audio(audio_dicts, track_hash)
+  if not audio_id or not points:
+    raise RuntimeError(f'No valid audio found for song {song_id}')
   if not tab_dict:
     raise RuntimeError(f'No tab data returned for song {song_id}')
 
@@ -238,7 +226,7 @@ async def process_song(song, enc, vocab, session, ydl, max_token_seg_len, batch_
   seg_lens = [len(seg) for seg in encoded_segments]
 
   # run in a thread so that the event loop isn’t blocked.
-  waveform = await asyncio.to_thread(download_audio_stream, video_id, ydl)
+  waveform = await asyncio.to_thread(download_audio_stream, audio_id)
   spectrogram_segments = await asyncio.to_thread(process_audio_waveform, waveform, timestamps)
 
   valid_segments = [
@@ -277,15 +265,6 @@ async def get_model_data(
   print(f'Number of unprocessed songs {len(song_meta_data)}')
   gc.collect()
 
-  ydl_opts = {
-    'quiet': True,
-    'format': 'bestaudio',
-    'extract_flat': False,
-    'format_sort': ['abr'],
-    'cookiesfrombrowser': ('chrome', 'Default'),
-    'extractor_args': 'youtube:po_token=web.gvs+Mltvcq-0xNFZR29KT7OyxKbpCrGn8OHnFzzXnwOYz2VLw0XHxBYpZZYyLkQH10yUjZhqcpxQ6QUfr1h3Cr2_HnfCrny2EVE2W-dPmOoNRwZCQXglMH_c6-HO4JrN'
-  }
-
   num_valid_segemnts = 0
  
   for batch in chunker(song_meta_data, batch_size):
@@ -294,28 +273,27 @@ async def get_model_data(
 
     async with aiohttp.ClientSession() as session:
       with tqdm(total=len(batch), desc=f'Processing Batch {batch_counter + 1}', unit='song') as batch_pbar:
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-          for song in batch:
-            song_id = song[0]
-            batch_pbar.write(f'Total valid segments: {num_valid_segemnts}')
-            try:
-              processed_song = await asyncio.wait_for(process_song(song, enc, vocab, session, ydl, max_token_seg_len, batch_pbar), timeout=30)
-              song_id, valid_segments, seg_lens = processed_song
+        for song in batch:
+          song_id = song[0]
+          batch_pbar.write(f'Total valid segments: {num_valid_segemnts}')
+          try:
+            processed_song = await asyncio.wait_for(process_song(song, enc, vocab, session, max_token_seg_len, batch_pbar), timeout=30)
+            song_id, valid_segments, seg_lens = processed_song
 
-              if valid_segments:
-                tabs, audio = zip(*valid_segments)
-                batch_tabs.extend(tabs)
-                batch_audio.extend(audio)
-              batch_pbar.write(f'Valid segments: {len(valid_segments)}')
-              num_valid_segemnts += len(valid_segments)
+            if valid_segments:
+              tabs, audio = zip(*valid_segments)
+              batch_tabs.extend(tabs)
+              batch_audio.extend(audio)
+            batch_pbar.write(f'Valid segments: {len(valid_segments)}')
+            num_valid_segemnts += len(valid_segments)
 
-            except asyncio.TimeoutError:
-              batch_pbar.write(f'Skipping song {song_id} due to timeout.')
-            except Exception as e:
-              batch_pbar.write(f'Failed processing song {song_id}: {e}')
-            finally:
-              batch_ids.append(song_id)
-              batch_pbar.update(1)
+          except asyncio.TimeoutError:
+            batch_pbar.write(f'Skipping song {song_id} due to timeout.')
+          except Exception as e:
+            batch_pbar.write(f'Failed processing song {song_id}: {e}')
+          finally:
+            batch_ids.append(song_id)
+            batch_pbar.update(1)
 
     # Save and clear batch data.
     batch_counter += 1
