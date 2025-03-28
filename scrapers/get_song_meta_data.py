@@ -72,7 +72,6 @@ def get_song_meta_data(
 
       # Construct API URLs for video points and tab data.
       api_urls = [
-        f'https://www.songsterr.com/api/video-points/{song_id}/{revision_id}/list',
         f'https://dqsljvtekg760.cloudfront.net/{song_id}/{revision_id}/{image}/{default_part_id}.json',
       ]
       row = [song_id, default_hash] + api_urls
